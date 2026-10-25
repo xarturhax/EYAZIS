@@ -1,0 +1,171 @@
+[
+  {
+    "id": "ref1_phones",
+    "text": "Саша кушал кашу.",
+    "reference": "ref_1",
+    "status": "DRAFT_TRANSCRIPTION_REVIEW_REQUIRED",
+    "units": [
+      "ph_s",
+      "ph_a",
+      "ph_sh",
+      "ph_a",
+      "ph_k",
+      "ph_u",
+      "ph_sh",
+      "ph_a",
+      "ph_l",
+      "ph_k",
+      "ph_a",
+      "ph_sh",
+      "ph_u"
+    ]
+  },
+  {
+    "id": "ref1_syllables",
+    "text": "Саша кушал кашу.",
+    "reference": "ref_1",
+    "status": "DRAFT_TRANSCRIPTION_REVIEW_REQUIRED",
+    "units": [
+      "sy_sa",
+      "sy_sha",
+      "sy_ku",
+      "sy_shal",
+      "sy_ka",
+      "sy_shu"
+    ]
+  },
+  {
+    "id": "ref2_phones",
+    "text": "Саша кушал кашу?",
+    "reference": "ref_2",
+    "status": "DRAFT_TRANSCRIPTION_REVIEW_REQUIRED",
+    "units": [
+      "ph_s",
+      "ph_a",
+      "ph_sh",
+      "ph_a",
+      "ph_k",
+      "ph_u",
+      "ph_sh",
+      "ph_a",
+      "ph_l",
+      "ph_k",
+      "ph_a",
+      "ph_sh",
+      "ph_u"
+    ]
+  },
+  {
+    "id": "ref2_syllables",
+    "text": "Саша кушал кашу?",
+    "reference": "ref_2",
+    "status": "DRAFT_TRANSCRIPTION_REVIEW_REQUIRED",
+    "units": [
+      "sy_sa",
+      "sy_sha",
+      "sy_ku",
+      "sy_shal",
+      "sy_ka",
+      "sy_shu"
+    ]
+  },
+  {
+    "id": "ref3_phones",
+    "text": "Саша кушал кашу, а Маша пила сок.",
+    "reference": "ref_3",
+    "status": "DRAFT_TRANSCRIPTION_REVIEW_REQUIRED",
+    "units": [
+      "ph_s",
+      "ph_a",
+      "ph_sh",
+      "ph_a",
+      "ph_k",
+      "ph_u",
+      "ph_sh",
+      "ph_a",
+      "ph_l",
+      "ph_k",
+      "ph_a",
+      "ph_sh",
+      "ph_u",
+      "ph_a",
+      "ph_m",
+      "ph_a",
+      "ph_sh",
+      "ph_a",
+      "ph_p_soft",
+      "ph_i",
+      "ph_l",
+      "ph_a",
+      "ph_s",
+      "ph_o",
+      "ph_k"
+    ]
+  },
+  {
+    "id": "ref3_syllables",
+    "text": "Саша кушал кашу, а Маша пила сок.",
+    "reference": "ref_3",
+    "status": "DRAFT_TRANSCRIPTION_REVIEW_REQUIRED",
+    "units": [
+      "sy_sa",
+      "sy_sha",
+      "sy_ku",
+      "sy_shal",
+      "sy_ka",
+      "sy_shu",
+      "sy_a",
+      "sy_ma",
+      "sy_sha",
+      "sy_pi",
+      "sy_la",
+      "sy_sok"
+    ]
+  },
+  {
+    "id": "ref4_phones",
+    "text": "Мама, папа и Саша пили сок.",
+    "reference": "ref_4",
+    "status": "DRAFT_TRANSCRIPTION_REVIEW_REQUIRED",
+    "units": [
+      "ph_m",
+      "ph_a",
+      "ph_m",
+      "ph_a",
+      "ph_p",
+      "ph_a",
+      "ph_p",
+      "ph_a",
+      "ph_i",
+      "ph_s",
+      "ph_a",
+      "ph_sh",
+      "ph_a",
+      "ph_p_soft",
+      "ph_i",
+      "ph_l_soft",
+      "ph_i",
+      "ph_s",
+      "ph_o",
+      "ph_k"
+    ]
+  },
+  {
+    "id": "ref4_syllables",
+    "text": "Мама, папа и Саша пили сок.",
+    "reference": "ref_4",
+    "status": "DRAFT_TRANSCRIPTION_REVIEW_REQUIRED",
+    "units": [
+      "sy_ma",
+      "sy_ma",
+      "sy_pa",
+      "sy_pa",
+      "sy_i",
+      "sy_sa",
+      "sy_sha",
+      "sy_pi",
+      "sy_li",
+      "sy_sok"
+    ]
+  }
+]

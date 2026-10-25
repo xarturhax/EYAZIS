@@ -1,0 +1,18 @@
+﻿Лабораторная №4 · Вариант 12 · EN→FR
+
+Исходных слов: 30
+Переведённых исходных слов (покрытие словарём): 28
+Слов во французском тексте: 35
+
+ИСХОДНЫЙ ТЕКСТ
+
+The study evaluates the quality of life of patients with diabetes. Regular physical activity and appropriate treatment can improve health outcomes. The researchers discuss the limitations of the available evidence.
+
+ПЕРЕВОД
+
+L'étude évalue la qualité de vie des patients diabétiques. Une activité physique régulière et un traitement approprié peuvent améliorer les résultats sur le plan de la santé. Les chercheurs discutent des limites des preuves disponibles.
+
+ПРИМЕЧАНИЯ
+Автоматические словарные эквиваленты получены изолированно, требуют проверки и не являются выравниванием полного перевода.
+Число переведённых слов — число исходных словоупотреблений с эквивалентом в словаре; совпавшие с исходником автопереводы требуют ручного подтверждения и не входят в покрытие. Это не оценка качества.
+Длинные предложения делятся по 384 токена модели; возможна потеря контекста на границе. Исходный текст не обрезается.

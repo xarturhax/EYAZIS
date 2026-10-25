@@ -1,0 +1,242 @@
+[
+  {
+    "id": "hugo_siwis",
+    "text": "Dans Les Misérables, Victor Hugo oppose la rigueur de la loi à l’exigence de compassion. Le parcours de Jean Valjean montre qu’un personnage peut changer sans effacer son passé. Le roman invite ainsi le lecteur à réfléchir à la justice, à la responsabilité et à la dignité humaine.",
+    "settings": {
+      "voice": "siwis",
+      "speed": 1.0,
+      "volume": 0.8
+    },
+    "wav_path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab8\\reports\\demo\\hugo_siwis.wav",
+    "duration": 15.545759637188208,
+    "sample_rate": 22050,
+    "peak": 0.7839999794960022,
+    "rms": 0.1207594946026802,
+    "initialization_seconds": 4.123430800013011,
+    "synthesis_seconds": 0.5072747000085656,
+    "chunks": 1,
+    "versions": {
+      "piper-tts": "1.8.0",
+      "onnxruntime": "1.31.0",
+      "numpy": "2.5.3",
+      "model_revision": "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd",
+      "device": "CPU",
+      "voice": "siwis",
+      "normalization": "Piper per sentence; output peak factor 0.98",
+      "noise_scale": "0",
+      "noise_w_scale": "0"
+    },
+    "real_time_factor": 0.03263106543826103,
+    "auditory_evaluation": "PENDING_HUMAN_LISTENING"
+  },
+  {
+    "id": "fable_siwis",
+    "text": "Dans une fable, la simplicité du récit peut cacher une réflexion complexe. Les animaux parlent, discutent et se trompent comme les êtres humains. Le lecteur sourit d’abord, puis reconnaît ses propres habitudes dans celles des personnages. Cette distance rend la critique à la fois légère et précise.",
+    "settings": {
+      "voice": "siwis",
+      "speed": 1.0,
+      "volume": 0.8
+    },
+    "wav_path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab8\\reports\\demo\\fable_siwis.wav",
+    "duration": 16.27718820861678,
+    "sample_rate": 22050,
+    "peak": 0.7839999794960022,
+    "rms": 0.12076204270124435,
+    "initialization_seconds": 0.00212610000744462,
+    "synthesis_seconds": 0.5926369999942835,
+    "chunks": 1,
+    "versions": {
+      "piper-tts": "1.8.0",
+      "onnxruntime": "1.31.0",
+      "numpy": "2.5.3",
+      "model_revision": "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd",
+      "device": "CPU",
+      "voice": "siwis",
+      "normalization": "Piper per sentence; output peak factor 0.98",
+      "noise_scale": "0",
+      "noise_w_scale": "0"
+    },
+    "real_time_factor": 0.03640905249719695,
+    "auditory_evaluation": "PENDING_HUMAN_LISTENING"
+  },
+  {
+    "id": "hugo_tom",
+    "text": "Dans Les Misérables, Victor Hugo oppose la rigueur de la loi à l’exigence de compassion. Le parcours de Jean Valjean montre qu’un personnage peut changer sans effacer son passé. Le roman invite ainsi le lecteur à réfléchir à la justice, à la responsabilité et à la dignité humaine.",
+    "settings": {
+      "voice": "tom",
+      "speed": 1.0,
+      "volume": 0.8
+    },
+    "wav_path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab8\\reports\\demo\\hugo_tom.wav",
+    "duration": 16.253968253968253,
+    "sample_rate": 44100,
+    "peak": 0.7839999794960022,
+    "rms": 0.08308520913124084,
+    "initialization_seconds": 4.094834399991669,
+    "synthesis_seconds": 1.0262839999923017,
+    "chunks": 1,
+    "versions": {
+      "piper-tts": "1.8.0",
+      "onnxruntime": "1.31.0",
+      "numpy": "2.5.3",
+      "model_revision": "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd",
+      "device": "CPU",
+      "voice": "tom",
+      "normalization": "Piper per sentence; output peak factor 0.98",
+      "noise_scale": "0",
+      "noise_w_scale": "0"
+    },
+    "real_time_factor": 0.06314051953077637,
+    "auditory_evaluation": "PENDING_HUMAN_LISTENING"
+  },
+  {
+    "id": "fable_tom",
+    "text": "Dans une fable, la simplicité du récit peut cacher une réflexion complexe. Les animaux parlent, discutent et se trompent comme les êtres humains. Le lecteur sourit d’abord, puis reconnaît ses propres habitudes dans celles des personnages. Cette distance rend la critique à la fois légère et précise.",
+    "settings": {
+      "voice": "tom",
+      "speed": 1.0,
+      "volume": 0.8
+    },
+    "wav_path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab8\\reports\\demo\\fable_tom.wav",
+    "duration": 18.04190476190476,
+    "sample_rate": 44100,
+    "peak": 0.7839999794960022,
+    "rms": 0.07962550222873688,
+    "initialization_seconds": 0.0026172999932896346,
+    "synthesis_seconds": 1.1155871000082698,
+    "chunks": 1,
+    "versions": {
+      "piper-tts": "1.8.0",
+      "onnxruntime": "1.31.0",
+      "numpy": "2.5.3",
+      "model_revision": "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd",
+      "device": "CPU",
+      "voice": "tom",
+      "normalization": "Piper per sentence; output peak factor 0.98",
+      "noise_scale": "0",
+      "noise_w_scale": "0"
+    },
+    "real_time_factor": 0.0618331110118604,
+    "auditory_evaluation": "PENDING_HUMAN_LISTENING"
+  },
+  {
+    "id": "hugo_slow",
+    "text": "Dans Les Misérables, Victor Hugo oppose la rigueur de la loi à l’exigence de compassion. Le parcours de Jean Valjean montre qu’un personnage peut changer sans effacer son passé. Le roman invite ainsi le lecteur à réfléchir à la justice, à la responsabilité et à la dignité humaine.",
+    "settings": {
+      "voice": "siwis",
+      "speed": 0.75,
+      "volume": 0.8
+    },
+    "wav_path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab8\\reports\\demo\\hugo_slow.wav",
+    "duration": 18.92426303854875,
+    "sample_rate": 22050,
+    "peak": 0.7839999794960022,
+    "rms": 0.11943884938955307,
+    "initialization_seconds": 0.002827400021487847,
+    "synthesis_seconds": 0.6152604999952018,
+    "chunks": 1,
+    "versions": {
+      "piper-tts": "1.8.0",
+      "onnxruntime": "1.31.0",
+      "numpy": "2.5.3",
+      "model_revision": "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd",
+      "device": "CPU",
+      "voice": "siwis",
+      "normalization": "Piper per sentence; output peak factor 0.98",
+      "noise_scale": "0",
+      "noise_w_scale": "0"
+    },
+    "real_time_factor": 0.032511728395547834,
+    "auditory_evaluation": "PENDING_HUMAN_LISTENING"
+  },
+  {
+    "id": "hugo_fast",
+    "text": "Dans Les Misérables, Victor Hugo oppose la rigueur de la loi à l’exigence de compassion. Le parcours de Jean Valjean montre qu’un personnage peut changer sans effacer son passé. Le roman invite ainsi le lecteur à réfléchir à la justice, à la responsabilité et à la dignité humaine.",
+    "settings": {
+      "voice": "siwis",
+      "speed": 1.5,
+      "volume": 0.8
+    },
+    "wav_path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab8\\reports\\demo\\hugo_fast.wav",
+    "duration": 11.087528344671203,
+    "sample_rate": 22050,
+    "peak": 0.7839999794960022,
+    "rms": 0.1341126561164856,
+    "initialization_seconds": 0.0026837999757844955,
+    "synthesis_seconds": 0.39680060002137907,
+    "chunks": 1,
+    "versions": {
+      "piper-tts": "1.8.0",
+      "onnxruntime": "1.31.0",
+      "numpy": "2.5.3",
+      "model_revision": "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd",
+      "device": "CPU",
+      "voice": "siwis",
+      "normalization": "Piper per sentence; output peak factor 0.98",
+      "noise_scale": "0",
+      "noise_w_scale": "0"
+    },
+    "real_time_factor": 0.035788012231967474,
+    "auditory_evaluation": "PENDING_HUMAN_LISTENING"
+  },
+  {
+    "id": "hugo_quiet",
+    "text": "Dans Les Misérables, Victor Hugo oppose la rigueur de la loi à l’exigence de compassion. Le parcours de Jean Valjean montre qu’un personnage peut changer sans effacer son passé. Le roman invite ainsi le lecteur à réfléchir à la justice, à la responsabilité et à la dignité humaine.",
+    "settings": {
+      "voice": "siwis",
+      "speed": 1.0,
+      "volume": 0.4
+    },
+    "wav_path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab8\\reports\\demo\\hugo_quiet.wav",
+    "duration": 15.545759637188208,
+    "sample_rate": 22050,
+    "peak": 0.3919999897480011,
+    "rms": 0.0603797473013401,
+    "initialization_seconds": 0.0027187000086996704,
+    "synthesis_seconds": 0.5306180999905337,
+    "chunks": 1,
+    "versions": {
+      "piper-tts": "1.8.0",
+      "onnxruntime": "1.31.0",
+      "numpy": "2.5.3",
+      "model_revision": "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd",
+      "device": "CPU",
+      "voice": "siwis",
+      "normalization": "Piper per sentence; output peak factor 0.98",
+      "noise_scale": "0",
+      "noise_w_scale": "0"
+    },
+    "real_time_factor": 0.034132658189388265,
+    "auditory_evaluation": "PENDING_HUMAN_LISTENING"
+  },
+  {
+    "id": "hugo_muted",
+    "text": "Dans Les Misérables, Victor Hugo oppose la rigueur de la loi à l’exigence de compassion. Le parcours de Jean Valjean montre qu’un personnage peut changer sans effacer son passé. Le roman invite ainsi le lecteur à réfléchir à la justice, à la responsabilité et à la dignité humaine.",
+    "settings": {
+      "voice": "siwis",
+      "speed": 1.0,
+      "volume": 0.0
+    },
+    "wav_path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab8\\reports\\demo\\hugo_muted.wav",
+    "duration": 15.545759637188208,
+    "sample_rate": 22050,
+    "peak": 0.0,
+    "rms": 0.0,
+    "initialization_seconds": 0.003414500009967014,
+    "synthesis_seconds": 0.5510862000228371,
+    "chunks": 1,
+    "versions": {
+      "piper-tts": "1.8.0",
+      "onnxruntime": "1.31.0",
+      "numpy": "2.5.3",
+      "model_revision": "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd",
+      "device": "CPU",
+      "voice": "siwis",
+      "normalization": "Piper per sentence; output peak factor 0.98",
+      "noise_scale": "0",
+      "noise_w_scale": "0"
+    },
+    "real_time_factor": 0.035449293754969774,
+    "auditory_evaluation": "PENDING_HUMAN_LISTENING"
+  }
+]

@@ -1,0 +1,24 @@
+﻿Лабораторная №4 · Вариант 12 · EN→FR
+
+Исходных слов: 112
+Переведённых исходных слов (покрытие словарём): 103
+Слов во французском тексте: 115
+
+ИСХОДНЫЙ ТЕКСТ
+
+THOSE people who go out into the highways of art crying, Haro! Haro! in the name of realism, would certainly gain their cause could numbers give them a verdict. They have always been in evidence; they have always made themselves heard. There never was a time when the mob was not hungry for realities, when artists were not harping upon “truth to nature,” when critics were not concerned about “the realistic tendencies of the age.” The interest in things as things and the art that hinges upon facts as facts were from the beginning. For did not Apelles paint horses so realistically that other horses neighed at the sight of the picture?
+
+ПЕРЕВОД
+
+Les gens qui sortent dans les routes de l'art pleurent, Haro ! au nom du réalisme, gagnerait certainement leur cause pourrait nombres leur donner un verdict. Ils ont toujours été en preuve, ils se sont toujours fait entendre. Il n'y a jamais eu un temps où la foule n'avait pas faim des réalités, où les artistes ne harcelaient pas sur la vérité à la nature, quand les critiques ne s'inquiétaient pas des tendances réalistes de l'âge. L'intérêt pour les choses comme les choses et l'art qui dépend des faits comme les faits étaient dès le début. Car Apelles n'a-t-elle pas peint les chevaux de façon si réaliste que d'autres chevaux pesaient à la vue de l'image ?
+
+ПРИМЕЧАНИЯ
+Автоматические словарные эквиваленты получены изолированно, требуют проверки и не являются выравниванием полного перевода.
+Число переведённых слов — число исходных словоупотреблений с эквивалентом в словаре; совпавшие с исходником автопереводы требуют ручного подтверждения и не входят в покрытие. Это не оценка качества.
+Длинные предложения делятся по 384 токена модели; возможна потеря контекста на границе. Исходный текст не обрезается.
+
+SOURCE
+The Meaning of Pictures: Truth in Painting — excerpt
+https://www.gutenberg.org/ebooks/72598
+John C. Van Dyke, The Meaning of Pictures, Charles Scribner's Sons, 1911 edition; Project Gutenberg #72598
+Public domain in USA; Gutenberg source snapshot contains its redistribution terms

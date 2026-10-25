@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>Оценка поиска — РОМИП’2004</title>
+<style>
+body{font:16px/1.6 system-ui,sans-serif;color:#172b4d;background:#f4f7fb;margin:0}
+main{max-width:1120px;margin:auto;padding:32px 24px}
+h1,h2{line-height:1.3} h2{margin-top:36px} .muted,small,figcaption{color:#52657d}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:16px}
+.card,figure,.info{background:white;border:1px solid #dce4ef;border-radius:12px;padding:20px}
+.card span,.card strong,.card small{display:block} .card strong{font-size:32px;color:#2563eb}
+.scroll{overflow:auto}table{border-collapse:collapse;width:100%;background:white}
+td,th{padding:10px;border-bottom:1px solid #dce4ef;text-align:right;white-space:nowrap}
+td:first-child,th:first-child{text-align:left} th{background:#eaf0f9}
+figure{margin:24px 0}img{display:block;width:100%;height:auto}figcaption{margin-top:12px}
+dt{font-weight:600}dd{margin:0 0 12px}a{color:#2563eb}
+</style></head><body><main>
+<h1>Качество информационного поиска</h1>
+<p class="muted">Вариант 36 · РОМИП’2004, дорожка поиска · BM25:
+k1=1.5, b=0.75 ·
+Документов: 12 · Оценено запросов: 5 ·
+Исключено: 0</p>
+<div class="info"><b>Как читать результаты.</b>
+Все шесть метрик лежат в диапазоне 0–1; большее значение означает лучшее качество по этому критерию.
+Средние ниже дают каждому допустимому запросу одинаковый вес. MAP — среднее AP.
+P@5 и P@10 делятся на фиксированные 5 и 10, даже если результатов меньше.
+Например, два релевантных результата без ошибок дают Precision=1, P@5=0.4 и P@10=0.2.</div>
+<h2>Средние по запросам</h2><div class="cards"><div class="card"><span>Precision</span><strong>85.0%</strong><small>Доля релевантных среди всех найденных документов</small></div><div class="card"><span>Recall</span><strong>95.0%</strong><small>Доля найденных среди всех релевантных документов коллекции</small></div><div class="card"><span>MAP</span><strong>93.8%</strong><small>Арифметическое среднее AP по допустимым запросам</small></div><div class="card"><span>P@5</span><strong>48.0%</strong><small>Число релевантных в первых 5 результатах / 5</small></div><div class="card"><span>P@10</span><strong>24.0%</strong><small>Число релевантных в первых 10 результатах / 10</small></div><div class="card"><span>R-precision</span><strong>95.0%</strong><small>Точность первых R результатов; R — число релевантных в коллекции</small></div></div>
+<h2>Метрики каждого запроса</h2><div class="scroll"><table><thead><tr><th>query</th><th>Precision</th><th>Recall</th><th>AP</th><th>P@5</th><th>P@10</th><th>R-precision</th></tr></thead><tbody><tr><td>python programming</td><td>0.7500</td><td>0.7500</td><td>0.6875</td><td>0.6000</td><td>0.3000</td><td>0.7500</td></tr><tr><td>database SQL</td><td>1.0000</td><td>1.0000</td><td>1.0000</td><td>0.4000</td><td>0.2000</td><td>1.0000</td></tr><tr><td>probabilistic search ranking</td><td>1.0000</td><td>1.0000</td><td>1.0000</td><td>0.6000</td><td>0.3000</td><td>1.0000</td></tr><tr><td>web HTTP requests</td><td>1.0000</td><td>1.0000</td><td>1.0000</td><td>0.4000</td><td>0.2000</td><td>1.0000</td></tr><tr><td>search precision recall</td><td>0.5000</td><td>1.0000</td><td>1.0000</td><td>0.4000</td><td>0.2000</td><td>1.0000</td></tr></tbody></table></div>
+<h2>Исключённые запросы</h2>
+<p>По РОМИП запросы без релевантных документов (R=0) не входят в метрики и среднюю кривую.</p>
+<p>Исключённых запросов нет.</p>
+<h2>Графики</h2>
+<p>Столбцы показывают отдельные метрики. Цветовая таблица сравнивает запросы.
+На кривых горизонтальная ось — полнота, вертикальная — точность.
+Синяя линия показывает 11 значений TREC; оранжевая — фактические значения на префиксах выдачи
+для одного запроса. Это разные представления, поэтому их значения могут отличаться.</p>
+<figure><img src="metrics.svg" alt="Арифметическое среднее шести метрик по допустимым запросам"><figcaption>Арифметическое среднее шести метрик по допустимым запросам. <a href="metrics.png">Скачать PNG</a></figcaption></figure><figure><img src="mean_pr.svg" alt="Средняя 11-точечная кривая полнота–точность TREC"><figcaption>Средняя 11-точечная кривая полнота–точность TREC. <a href="mean_pr.png">Скачать PNG</a></figcaption></figure><figure><img src="query_metrics.svg" alt="Сравнение всех шести метрик для каждого запроса"><figcaption>Сравнение всех шести метрик для каждого запроса. <a href="query_metrics.png">Скачать PNG</a></figcaption></figure><figure><img src="query_1_pr.svg" alt="Полнота–точность для запроса «python programming»"><figcaption>Полнота–точность для запроса «python programming». <a href="query_1_pr.png">Скачать PNG</a></figcaption></figure><figure><img src="query_2_pr.svg" alt="Полнота–точность для запроса «database SQL»"><figcaption>Полнота–точность для запроса «database SQL». <a href="query_2_pr.png">Скачать PNG</a></figcaption></figure><figure><img src="query_3_pr.svg" alt="Полнота–точность для запроса «probabilistic search ranking»"><figcaption>Полнота–точность для запроса «probabilistic search ranking». <a href="query_3_pr.png">Скачать PNG</a></figcaption></figure><figure><img src="query_4_pr.svg" alt="Полнота–точность для запроса «web HTTP requests»"><figcaption>Полнота–точность для запроса «web HTTP requests». <a href="query_4_pr.png">Скачать PNG</a></figcaption></figure><figure><img src="query_5_pr.svg" alt="Полнота–точность для запроса «search precision recall»"><figcaption>Полнота–точность для запроса «search precision recall». <a href="query_5_pr.png">Скачать PNG</a></figcaption></figure>
+<h2>Что означают метрики</h2><dl><dt>Precision</dt><dd>Доля релевантных среди всех найденных документов</dd><dt>Recall</dt><dd>Доля найденных среди всех релевантных документов коллекции</dd><dt>AP</dt><dd>Среднее точностей на релевантных позициях; пропуски дают нулевой вклад</dd><dt>MAP</dt><dd>Арифметическое среднее AP по допустимым запросам</dd><dt>P@5</dt><dd>Число релевантных в первых 5 результатах / 5</dd><dt>P@10</dt><dd>Число релевантных в первых 10 результатах / 10</dd><dt>R-precision</dt><dd>Точность первых R результатов; R — число релевантных в коллекции</dd></dl>
+<h2>Диагностические количества</h2><div class="scroll"><table><thead><tr><th>query</th><th>retrieved</th><th>relevant</th><th>TP</th><th>FP</th><th>FN</th><th>TN</th></tr></thead><tbody><tr><td>python programming</td><td>4</td><td>4</td><td>3</td><td>1</td><td>1</td><td>7</td></tr><tr><td>database SQL</td><td>2</td><td>2</td><td>2</td><td>0</td><td>0</td><td>10</td></tr><tr><td>probabilistic search ranking</td><td>3</td><td>3</td><td>3</td><td>0</td><td>0</td><td>9</td></tr><tr><td>web HTTP requests</td><td>2</td><td>2</td><td>2</td><td>0</td><td>0</td><td>10</td></tr><tr><td>search precision recall</td><td>4</td><td>2</td><td>2</td><td>2</td><td>0</td><td>8</td></tr></tbody></table></div>
+<p>retrieved — найдено документов; relevant — релевантных в коллекции;
+TP — найдено релевантных; FP — найдено нерелевантных; FN — пропущено релевантных;
+TN — не найдено нерелевантных.</p>
+<h2>Методика и данные</h2>
+<p>Источник: локальный файл 2004_romip_metrix.pdf, стр. 1–3, 5–9.
+Экспертная разметка независима от ранга BM25: 0 — нерелевантно, 1 и 2 — релевантно.
+AP и Recall используют всю выдачу и всю размеченную коллекцию.
+В TREC берётся максимум точности при полноте не ниже каждого порога от 0 до 1 с шагом 0.1;
+недостигнутые пороги дают 0. Средняя кривая — среднее этих 11 значений.</p>
+<p>RIRES упоминается на стр. 1, но её определение в предоставленном PDF отсутствует:
+кривая RIRES не рассчитывается. В документе арифметическое среднее по запросам названо
+«микроусреднением» (стр. 5); здесь оно обозначено словами, чтобы избежать путаницы терминов.</p>
+<p class="muted">Результаты характеризуют выбранную коллекцию и экспертную разметку.
+Ранг BM25 не является вероятностью или метрикой качества.
+Машиночитаемые данные: <a href="metrics.json">JSON (версия 2)</a>,
+<a href="metrics.csv">CSV по запросам</a>, <a href="averages.csv">средние CSV</a>,
+<a href="excluded_queries.csv">исключения CSV</a>.</p>
+</main></body></html>

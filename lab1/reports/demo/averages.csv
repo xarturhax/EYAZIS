@@ -1,0 +1,7 @@
+﻿metric,value
+Precision,0.85
+Recall,0.95
+MAP,0.9375
+P@5,0.48
+P@10,0.24
+R-precision,0.95

@@ -1,0 +1,257 @@
+[
+  {
+    "id": "quality",
+    "labs": [
+      5
+    ],
+    "prompt": "Саша кушал кашу, а Маша пила сок. Повторить два раза одинаковым спокойным голосом.",
+    "suggested_seconds": 18,
+    "required": true,
+    "note": ""
+  },
+  {
+    "id": "vowels",
+    "labs": [
+      5,
+      7
+    ],
+    "prompt": "а — о — у — э — ы — и; два круга, звук около 2 с, пауза около 1 с.",
+    "suggested_seconds": 40,
+    "required": true,
+    "note": ""
+  },
+  {
+    "id": "iotated",
+    "labs": [
+      5
+    ],
+    "prompt": "я — ё — ю — е; два круга, произносить как отдельные звуки в начале слова.",
+    "suggested_seconds": 30,
+    "required": true,
+    "note": ""
+  },
+  {
+    "id": "fricatives",
+    "labs": [
+      5,
+      7
+    ],
+    "prompt": "ф — с — ш — х; без названий букв, тянуть около 2 с, два круга.",
+    "suggested_seconds": 30,
+    "required": true,
+    "note": ""
+  },
+  {
+    "id": "fricative_syllables",
+    "labs": [
+      5
+    ],
+    "prompt": "фа — са — ша — ха; два круга с паузами.",
+    "suggested_seconds": 22,
+    "required": true,
+    "note": ""
+  },
+  {
+    "id": "consonants",
+    "labs": [
+      5
+    ],
+    "prompt": "б — д — м — н; не «бэ/дэ/эм/эн». Взрывные коротко, носовые можно протянуть; два круга.",
+    "suggested_seconds": 22,
+    "required": true,
+    "note": ""
+  },
+  {
+    "id": "hard_syllables",
+    "labs": [
+      5,
+      7
+    ],
+    "prompt": "ба — ва — га — да — жа — за — ка — ла — ма — на — па — ра — са — та — фа — ха — ца — ча — ша — ща; два круга.",
+    "suggested_seconds": 75,
+    "required": true,
+    "note": ""
+  },
+  {
+    "id": "soft_syllables",
+    "labs": [
+      5,
+      7
+    ],
+    "prompt": "би — ви — ги — ди — зи — ки — ли — ми — ни — пи — ри — си — ти — фи — хи; два круга.",
+    "suggested_seconds": 65,
+    "required": true,
+    "note": ""
+  },
+  {
+    "id": "words",
+    "labs": [
+      6
+    ],
+    "prompt": "Отдельно: Саша [пауза 2 с] кушал [пауза 2 с] кашу. Повторить.",
+    "suggested_seconds": 22,
+    "required": true,
+    "note": ""
+  },
+  {
+    "id": "stress",
+    "labs": [
+      6
+    ],
+    "prompt": "САША кушал кашу; Саша КУШАЛ кашу; Саша кушал КАШУ. По два раза, паузы 2–3 с.",
+    "suggested_seconds": 35,
+    "required": true,
+    "note": ""
+  },
+  {
+    "id": "intonation",
+    "labs": [
+      6
+    ],
+    "prompt": "Саша кушал кашу. / Саша кушал кашу, сегодня на обед. / Саша кушал кашу? / Саша кушал кашу! По два раза.",
+    "suggested_seconds": 50,
+    "required": true,
+    "note": ""
+  },
+  {
+    "id": "emotion",
+    "labs": [
+      6
+    ],
+    "prompt": "Саша кушал кашу: нейтрально, радостно, с огорчением, с гордостью. По два раза.",
+    "suggested_seconds": 50,
+    "required": true,
+    "note": ""
+  },
+  {
+    "id": "student",
+    "labs": [
+      6
+    ],
+    "prompt": "Студент писал реферат. Монотонно, без намеренного выделения слова; три повтора с паузами.",
+    "suggested_seconds": 25,
+    "required": true,
+    "note": ""
+  },
+  {
+    "id": "references",
+    "labs": [
+      6,
+      7
+    ],
+    "prompt": "1) Саша кушал кашу. 2) Саша кушал кашу? 3) Саша кушал кашу, а Маша пила сок. 4) Мама, папа и Саша пили сок. Между фразами 3 с.",
+    "suggested_seconds": 40,
+    "required": true,
+    "note": ""
+  },
+  {
+    "id": "syllable_bank",
+    "labs": [
+      7
+    ],
+    "prompt": "са — ша — ку — шал — ка — шу — а — ма — пи — ла — сок — па — и — ли. По два раза с паузами.",
+    "suggested_seconds": 60,
+    "required": true,
+    "note": ""
+  },
+  {
+    "id": "other_vowels",
+    "labs": [
+      5
+    ],
+    "prompt": "ВТОРОЙ ДИКТОР: а — о — у — э — ы — и; те же условия и два круга.",
+    "suggested_seconds": 40,
+    "required": true,
+    "note": "Нужно для пункта 1.5; при отсутствии второго диктора сравнение остаётся отложенным."
+  },
+  {
+    "id": "other_fricatives",
+    "labs": [
+      5
+    ],
+    "prompt": "ВТОРОЙ ДИКТОР: ф — с — ш — х; два круга.",
+    "suggested_seconds": 30,
+    "required": true,
+    "note": "Нужно для сравнения дикторов; исходный микрофон и настройки желательно сохранить."
+  },
+  {
+    "id": "native_4000_8",
+    "labs": [
+      5
+    ],
+    "prompt": "Саша кушал кашу, а Маша пила сок.",
+    "suggested_seconds": 10,
+    "required": true,
+    "note": "Separate capture requested at 4000 Hz; stored WAV PCM 8 bit. Driver ADC rate not verified. If unsupported: mark unavailable, do not substitute a generated file as a capture."
+  },
+  {
+    "id": "native_4000_16",
+    "labs": [
+      5
+    ],
+    "prompt": "Саша кушал кашу, а Маша пила сок.",
+    "suggested_seconds": 10,
+    "required": true,
+    "note": "Separate capture requested at 4000 Hz; stored WAV PCM 16 bit. Driver ADC rate not verified. If unsupported: mark unavailable, do not substitute a generated file as a capture."
+  },
+  {
+    "id": "native_8000_8",
+    "labs": [
+      5
+    ],
+    "prompt": "Саша кушал кашу, а Маша пила сок.",
+    "suggested_seconds": 10,
+    "required": true,
+    "note": "Separate capture requested at 8000 Hz; stored WAV PCM 8 bit. Driver ADC rate not verified. If unsupported: mark unavailable, do not substitute a generated file as a capture."
+  },
+  {
+    "id": "native_8000_16",
+    "labs": [
+      5
+    ],
+    "prompt": "Саша кушал кашу, а Маша пила сок.",
+    "suggested_seconds": 10,
+    "required": true,
+    "note": "Separate capture requested at 8000 Hz; stored WAV PCM 16 bit. Driver ADC rate not verified. If unsupported: mark unavailable, do not substitute a generated file as a capture."
+  },
+  {
+    "id": "native_16000_8",
+    "labs": [
+      5
+    ],
+    "prompt": "Саша кушал кашу, а Маша пила сок.",
+    "suggested_seconds": 10,
+    "required": true,
+    "note": "Separate capture requested at 16000 Hz; stored WAV PCM 8 bit. Driver ADC rate not verified. If unsupported: mark unavailable, do not substitute a generated file as a capture."
+  },
+  {
+    "id": "native_16000_16",
+    "labs": [
+      5
+    ],
+    "prompt": "Саша кушал кашу, а Маша пила сок.",
+    "suggested_seconds": 10,
+    "required": true,
+    "note": "Separate capture requested at 16000 Hz; stored WAV PCM 16 bit. Driver ADC rate not verified. If unsupported: mark unavailable, do not substitute a generated file as a capture."
+  },
+  {
+    "id": "native_32000_8",
+    "labs": [
+      5
+    ],
+    "prompt": "Саша кушал кашу, а Маша пила сок.",
+    "suggested_seconds": 10,
+    "required": true,
+    "note": "Separate capture requested at 32000 Hz; stored WAV PCM 8 bit. Driver ADC rate not verified. If unsupported: mark unavailable, do not substitute a generated file as a capture."
+  },
+  {
+    "id": "native_32000_16",
+    "labs": [
+      5
+    ],
+    "prompt": "Саша кушал кашу, а Маша пила сок.",
+    "suggested_seconds": 10,
+    "required": true,
+    "note": "Separate capture requested at 32000 Hz; stored WAV PCM 16 bit. Driver ADC rate not verified. If unsupported: mark unavailable, do not substitute a generated file as a capture."
+  }
+]

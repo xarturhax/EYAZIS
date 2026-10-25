@@ -1,0 +1,3054 @@
+{
+  "analysis": {
+    "text": "THOSE people who go out into the highways of art crying, Haro! Haro! in the name of realism, would certainly gain their cause could numbers give them a verdict. They have always been in evidence; they have always made themselves heard. There never was a time when the mob was not hungry for realities, when artists were not harping upon “truth to nature,” when critics were not concerned about “the realistic tendencies of the age.” The interest in things as things and the art that hinges upon facts as facts were from the beginning. For did not Apelles paint horses so realistically that other horses neighed at the sight of the picture?",
+    "sentences": [
+      {
+        "index": 0,
+        "paragraph": 0,
+        "text": "THOSE people who go out into the highways of art crying, Haro! Haro!",
+        "tokens": [
+          {
+            "index": 0,
+            "text": "THOSE",
+            "lemma": "those",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Number=Plur|PronType=Dem",
+            "dependency": "det",
+            "head": 1,
+            "start": 0,
+            "end": 5
+          },
+          {
+            "index": 1,
+            "text": "people",
+            "lemma": "people",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "ROOT",
+            "head": 1,
+            "start": 6,
+            "end": 12
+          },
+          {
+            "index": 2,
+            "text": "who",
+            "lemma": "who",
+            "pos": "PRON",
+            "tag": "WP",
+            "morphology": "",
+            "dependency": "nsubj",
+            "head": 3,
+            "start": 13,
+            "end": 16
+          },
+          {
+            "index": 3,
+            "text": "go",
+            "lemma": "go",
+            "pos": "VERB",
+            "tag": "VBP",
+            "morphology": "Tense=Pres|VerbForm=Fin",
+            "dependency": "relcl",
+            "head": 1,
+            "start": 17,
+            "end": 19
+          },
+          {
+            "index": 4,
+            "text": "out",
+            "lemma": "out",
+            "pos": "ADP",
+            "tag": "RP",
+            "morphology": "",
+            "dependency": "prt",
+            "head": 3,
+            "start": 20,
+            "end": 23
+          },
+          {
+            "index": 5,
+            "text": "into",
+            "lemma": "into",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 3,
+            "start": 24,
+            "end": 28
+          },
+          {
+            "index": 6,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 7,
+            "start": 29,
+            "end": 32
+          },
+          {
+            "index": 7,
+            "text": "highways",
+            "lemma": "highway",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "pobj",
+            "head": 5,
+            "start": 33,
+            "end": 41
+          },
+          {
+            "index": 8,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 7,
+            "start": 42,
+            "end": 44
+          },
+          {
+            "index": 9,
+            "text": "art",
+            "lemma": "art",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "compound",
+            "head": 10,
+            "start": 45,
+            "end": 48
+          },
+          {
+            "index": 10,
+            "text": "crying",
+            "lemma": "crying",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "pobj",
+            "head": 8,
+            "start": 49,
+            "end": 55
+          },
+          {
+            "index": 11,
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "tag": ",",
+            "morphology": "PunctType=Comm",
+            "dependency": "punct",
+            "head": 10,
+            "start": 55,
+            "end": 56
+          },
+          {
+            "index": 12,
+            "text": "Haro",
+            "lemma": "haro",
+            "pos": "PROPN",
+            "tag": "NNP",
+            "morphology": "Number=Sing",
+            "dependency": "conj",
+            "head": 10,
+            "start": 57,
+            "end": 61
+          },
+          {
+            "index": 13,
+            "text": "!",
+            "lemma": "!",
+            "pos": "PUNCT",
+            "tag": ".",
+            "morphology": "PunctType=Peri",
+            "dependency": "punct",
+            "head": 1,
+            "start": 61,
+            "end": 62
+          },
+          {
+            "index": 14,
+            "text": "Haro",
+            "lemma": "haro",
+            "pos": "PROPN",
+            "tag": "NNP",
+            "morphology": "Number=Sing",
+            "dependency": "appos",
+            "head": 1,
+            "start": 63,
+            "end": 67
+          },
+          {
+            "index": 15,
+            "text": "!",
+            "lemma": "!",
+            "pos": "PUNCT",
+            "tag": ".",
+            "morphology": "PunctType=Peri",
+            "dependency": "punct",
+            "head": 1,
+            "start": 67,
+            "end": 68
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "paragraph": 0,
+        "text": "in the name of realism, would certainly gain their cause could numbers give them a verdict.",
+        "tokens": [
+          {
+            "index": 0,
+            "text": "in",
+            "lemma": "in",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 8,
+            "start": 69,
+            "end": 71
+          },
+          {
+            "index": 1,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 2,
+            "start": 72,
+            "end": 75
+          },
+          {
+            "index": 2,
+            "text": "name",
+            "lemma": "name",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "pobj",
+            "head": 0,
+            "start": 76,
+            "end": 80
+          },
+          {
+            "index": 3,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 2,
+            "start": 81,
+            "end": 83
+          },
+          {
+            "index": 4,
+            "text": "realism",
+            "lemma": "realism",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "pobj",
+            "head": 3,
+            "start": 84,
+            "end": 91
+          },
+          {
+            "index": 5,
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "tag": ",",
+            "morphology": "PunctType=Comm",
+            "dependency": "punct",
+            "head": 8,
+            "start": 91,
+            "end": 92
+          },
+          {
+            "index": 6,
+            "text": "would",
+            "lemma": "would",
+            "pos": "AUX",
+            "tag": "MD",
+            "morphology": "VerbForm=Fin",
+            "dependency": "aux",
+            "head": 8,
+            "start": 93,
+            "end": 98
+          },
+          {
+            "index": 7,
+            "text": "certainly",
+            "lemma": "certainly",
+            "pos": "ADV",
+            "tag": "RB",
+            "morphology": "",
+            "dependency": "advmod",
+            "head": 8,
+            "start": 99,
+            "end": 108
+          },
+          {
+            "index": 8,
+            "text": "gain",
+            "lemma": "gain",
+            "pos": "VERB",
+            "tag": "VB",
+            "morphology": "VerbForm=Inf",
+            "dependency": "ROOT",
+            "head": 8,
+            "start": 109,
+            "end": 113
+          },
+          {
+            "index": 9,
+            "text": "their",
+            "lemma": "their",
+            "pos": "PRON",
+            "tag": "PRP$",
+            "morphology": "Number=Plur|Person=3|Poss=Yes|PronType=Prs",
+            "dependency": "poss",
+            "head": 10,
+            "start": 114,
+            "end": 119
+          },
+          {
+            "index": 10,
+            "text": "cause",
+            "lemma": "cause",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "dobj",
+            "head": 8,
+            "start": 120,
+            "end": 125
+          },
+          {
+            "index": 11,
+            "text": "could",
+            "lemma": "could",
+            "pos": "AUX",
+            "tag": "MD",
+            "morphology": "VerbForm=Fin",
+            "dependency": "aux",
+            "head": 13,
+            "start": 126,
+            "end": 131
+          },
+          {
+            "index": 12,
+            "text": "numbers",
+            "lemma": "number",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "nsubj",
+            "head": 13,
+            "start": 132,
+            "end": 139
+          },
+          {
+            "index": 13,
+            "text": "give",
+            "lemma": "give",
+            "pos": "VERB",
+            "tag": "VB",
+            "morphology": "VerbForm=Inf",
+            "dependency": "ccomp",
+            "head": 8,
+            "start": 140,
+            "end": 144
+          },
+          {
+            "index": 14,
+            "text": "them",
+            "lemma": "they",
+            "pos": "PRON",
+            "tag": "PRP",
+            "morphology": "Case=Acc|Number=Plur|Person=3|PronType=Prs",
+            "dependency": "dative",
+            "head": 13,
+            "start": 145,
+            "end": 149
+          },
+          {
+            "index": 15,
+            "text": "a",
+            "lemma": "a",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Ind|PronType=Art",
+            "dependency": "det",
+            "head": 16,
+            "start": 150,
+            "end": 151
+          },
+          {
+            "index": 16,
+            "text": "verdict",
+            "lemma": "verdict",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "dobj",
+            "head": 13,
+            "start": 152,
+            "end": 159
+          },
+          {
+            "index": 17,
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "tag": ".",
+            "morphology": "PunctType=Peri",
+            "dependency": "punct",
+            "head": 8,
+            "start": 159,
+            "end": 160
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "paragraph": 0,
+        "text": "They have always been in evidence; they have always made themselves heard.",
+        "tokens": [
+          {
+            "index": 0,
+            "text": "They",
+            "lemma": "they",
+            "pos": "PRON",
+            "tag": "PRP",
+            "morphology": "Case=Nom|Number=Plur|Person=3|PronType=Prs",
+            "dependency": "nsubj",
+            "head": 3,
+            "start": 161,
+            "end": 165
+          },
+          {
+            "index": 1,
+            "text": "have",
+            "lemma": "have",
+            "pos": "AUX",
+            "tag": "VBP",
+            "morphology": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+            "dependency": "aux",
+            "head": 3,
+            "start": 166,
+            "end": 170
+          },
+          {
+            "index": 2,
+            "text": "always",
+            "lemma": "always",
+            "pos": "ADV",
+            "tag": "RB",
+            "morphology": "",
+            "dependency": "advmod",
+            "head": 3,
+            "start": 171,
+            "end": 177
+          },
+          {
+            "index": 3,
+            "text": "been",
+            "lemma": "be",
+            "pos": "AUX",
+            "tag": "VBN",
+            "morphology": "Tense=Past|VerbForm=Part",
+            "dependency": "ccomp",
+            "head": 10,
+            "start": 178,
+            "end": 182
+          },
+          {
+            "index": 4,
+            "text": "in",
+            "lemma": "in",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 3,
+            "start": 183,
+            "end": 185
+          },
+          {
+            "index": 5,
+            "text": "evidence",
+            "lemma": "evidence",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "pobj",
+            "head": 4,
+            "start": 186,
+            "end": 194
+          },
+          {
+            "index": 6,
+            "text": ";",
+            "lemma": ";",
+            "pos": "PUNCT",
+            "tag": ":",
+            "morphology": "",
+            "dependency": "punct",
+            "head": 10,
+            "start": 194,
+            "end": 195
+          },
+          {
+            "index": 7,
+            "text": "they",
+            "lemma": "they",
+            "pos": "PRON",
+            "tag": "PRP",
+            "morphology": "Case=Nom|Number=Plur|Person=3|PronType=Prs",
+            "dependency": "nsubj",
+            "head": 10,
+            "start": 196,
+            "end": 200
+          },
+          {
+            "index": 8,
+            "text": "have",
+            "lemma": "have",
+            "pos": "AUX",
+            "tag": "VBP",
+            "morphology": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+            "dependency": "aux",
+            "head": 10,
+            "start": 201,
+            "end": 205
+          },
+          {
+            "index": 9,
+            "text": "always",
+            "lemma": "always",
+            "pos": "ADV",
+            "tag": "RB",
+            "morphology": "",
+            "dependency": "advmod",
+            "head": 10,
+            "start": 206,
+            "end": 212
+          },
+          {
+            "index": 10,
+            "text": "made",
+            "lemma": "make",
+            "pos": "VERB",
+            "tag": "VBN",
+            "morphology": "Aspect=Perf|Tense=Past|VerbForm=Part",
+            "dependency": "ROOT",
+            "head": 10,
+            "start": 213,
+            "end": 217
+          },
+          {
+            "index": 11,
+            "text": "themselves",
+            "lemma": "themselves",
+            "pos": "PRON",
+            "tag": "PRP",
+            "morphology": "Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes",
+            "dependency": "nsubj",
+            "head": 12,
+            "start": 218,
+            "end": 228
+          },
+          {
+            "index": 12,
+            "text": "heard",
+            "lemma": "hear",
+            "pos": "VERB",
+            "tag": "VBN",
+            "morphology": "Aspect=Perf|Tense=Past|VerbForm=Part",
+            "dependency": "ccomp",
+            "head": 10,
+            "start": 229,
+            "end": 234
+          },
+          {
+            "index": 13,
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "tag": ".",
+            "morphology": "PunctType=Peri",
+            "dependency": "punct",
+            "head": 10,
+            "start": 234,
+            "end": 235
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "paragraph": 0,
+        "text": "There never was a time when the mob was not hungry for realities, when artists were not harping upon “truth to nature,” when critics were not concerned about “the realistic tendencies of the age.”",
+        "tokens": [
+          {
+            "index": 0,
+            "text": "There",
+            "lemma": "there",
+            "pos": "PRON",
+            "tag": "EX",
+            "morphology": "",
+            "dependency": "expl",
+            "head": 2,
+            "start": 236,
+            "end": 241
+          },
+          {
+            "index": 1,
+            "text": "never",
+            "lemma": "never",
+            "pos": "ADV",
+            "tag": "RB",
+            "morphology": "",
+            "dependency": "neg",
+            "head": 2,
+            "start": 242,
+            "end": 247
+          },
+          {
+            "index": 2,
+            "text": "was",
+            "lemma": "be",
+            "pos": "AUX",
+            "tag": "VBD",
+            "morphology": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
+            "dependency": "ROOT",
+            "head": 2,
+            "start": 248,
+            "end": 251
+          },
+          {
+            "index": 3,
+            "text": "a",
+            "lemma": "a",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Ind|PronType=Art",
+            "dependency": "det",
+            "head": 4,
+            "start": 252,
+            "end": 253
+          },
+          {
+            "index": 4,
+            "text": "time",
+            "lemma": "time",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "attr",
+            "head": 2,
+            "start": 254,
+            "end": 258
+          },
+          {
+            "index": 5,
+            "text": "when",
+            "lemma": "when",
+            "pos": "SCONJ",
+            "tag": "WRB",
+            "morphology": "",
+            "dependency": "advmod",
+            "head": 8,
+            "start": 259,
+            "end": 263
+          },
+          {
+            "index": 6,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 7,
+            "start": 264,
+            "end": 267
+          },
+          {
+            "index": 7,
+            "text": "mob",
+            "lemma": "mob",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "nsubj",
+            "head": 8,
+            "start": 268,
+            "end": 271
+          },
+          {
+            "index": 8,
+            "text": "was",
+            "lemma": "be",
+            "pos": "AUX",
+            "tag": "VBD",
+            "morphology": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
+            "dependency": "relcl",
+            "head": 4,
+            "start": 272,
+            "end": 275
+          },
+          {
+            "index": 9,
+            "text": "not",
+            "lemma": "not",
+            "pos": "PART",
+            "tag": "RB",
+            "morphology": "Polarity=Neg",
+            "dependency": "neg",
+            "head": 8,
+            "start": 276,
+            "end": 279
+          },
+          {
+            "index": 10,
+            "text": "hungry",
+            "lemma": "hungry",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "acomp",
+            "head": 8,
+            "start": 280,
+            "end": 286
+          },
+          {
+            "index": 11,
+            "text": "for",
+            "lemma": "for",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 10,
+            "start": 287,
+            "end": 290
+          },
+          {
+            "index": 12,
+            "text": "realities",
+            "lemma": "reality",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "pobj",
+            "head": 11,
+            "start": 291,
+            "end": 300
+          },
+          {
+            "index": 13,
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "tag": ",",
+            "morphology": "PunctType=Comm",
+            "dependency": "punct",
+            "head": 12,
+            "start": 300,
+            "end": 301
+          },
+          {
+            "index": 14,
+            "text": "when",
+            "lemma": "when",
+            "pos": "SCONJ",
+            "tag": "WRB",
+            "morphology": "",
+            "dependency": "advmod",
+            "head": 18,
+            "start": 302,
+            "end": 306
+          },
+          {
+            "index": 15,
+            "text": "artists",
+            "lemma": "artist",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "nsubj",
+            "head": 18,
+            "start": 307,
+            "end": 314
+          },
+          {
+            "index": 16,
+            "text": "were",
+            "lemma": "be",
+            "pos": "AUX",
+            "tag": "VBD",
+            "morphology": "Mood=Ind|Tense=Past|VerbForm=Fin",
+            "dependency": "aux",
+            "head": 18,
+            "start": 315,
+            "end": 319
+          },
+          {
+            "index": 17,
+            "text": "not",
+            "lemma": "not",
+            "pos": "PART",
+            "tag": "RB",
+            "morphology": "Polarity=Neg",
+            "dependency": "neg",
+            "head": 18,
+            "start": 320,
+            "end": 323
+          },
+          {
+            "index": 18,
+            "text": "harping",
+            "lemma": "harp",
+            "pos": "VERB",
+            "tag": "VBG",
+            "morphology": "Aspect=Prog|Tense=Pres|VerbForm=Part",
+            "dependency": "relcl",
+            "head": 12,
+            "start": 324,
+            "end": 331
+          },
+          {
+            "index": 19,
+            "text": "upon",
+            "lemma": "upon",
+            "pos": "SCONJ",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 18,
+            "start": 332,
+            "end": 336
+          },
+          {
+            "index": 20,
+            "text": "“",
+            "lemma": "\"",
+            "pos": "PUNCT",
+            "tag": "``",
+            "morphology": "PunctSide=Ini|PunctType=Quot",
+            "dependency": "punct",
+            "head": 19,
+            "start": 337,
+            "end": 338
+          },
+          {
+            "index": 21,
+            "text": "truth",
+            "lemma": "truth",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "pobj",
+            "head": 19,
+            "start": 338,
+            "end": 343
+          },
+          {
+            "index": 22,
+            "text": "to",
+            "lemma": "to",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 21,
+            "start": 344,
+            "end": 346
+          },
+          {
+            "index": 23,
+            "text": "nature",
+            "lemma": "nature",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "pobj",
+            "head": 22,
+            "start": 347,
+            "end": 353
+          },
+          {
+            "index": 24,
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "tag": ",",
+            "morphology": "PunctType=Comm",
+            "dependency": "punct",
+            "head": 2,
+            "start": 353,
+            "end": 354
+          },
+          {
+            "index": 25,
+            "text": "”",
+            "lemma": "\"",
+            "pos": "PUNCT",
+            "tag": "''",
+            "morphology": "PunctSide=Fin|PunctType=Quot",
+            "dependency": "punct",
+            "head": 2,
+            "start": 354,
+            "end": 355
+          },
+          {
+            "index": 26,
+            "text": "when",
+            "lemma": "when",
+            "pos": "SCONJ",
+            "tag": "WRB",
+            "morphology": "",
+            "dependency": "advmod",
+            "head": 28,
+            "start": 356,
+            "end": 360
+          },
+          {
+            "index": 27,
+            "text": "critics",
+            "lemma": "critic",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "nsubj",
+            "head": 28,
+            "start": 361,
+            "end": 368
+          },
+          {
+            "index": 28,
+            "text": "were",
+            "lemma": "be",
+            "pos": "AUX",
+            "tag": "VBD",
+            "morphology": "Mood=Ind|Tense=Past|VerbForm=Fin",
+            "dependency": "advcl",
+            "head": 2,
+            "start": 369,
+            "end": 373
+          },
+          {
+            "index": 29,
+            "text": "not",
+            "lemma": "not",
+            "pos": "PART",
+            "tag": "RB",
+            "morphology": "Polarity=Neg",
+            "dependency": "neg",
+            "head": 28,
+            "start": 374,
+            "end": 377
+          },
+          {
+            "index": 30,
+            "text": "concerned",
+            "lemma": "concerned",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "acomp",
+            "head": 28,
+            "start": 378,
+            "end": 387
+          },
+          {
+            "index": 31,
+            "text": "about",
+            "lemma": "about",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 30,
+            "start": 388,
+            "end": 393
+          },
+          {
+            "index": 32,
+            "text": "“",
+            "lemma": "\"",
+            "pos": "PUNCT",
+            "tag": "``",
+            "morphology": "PunctSide=Ini|PunctType=Quot",
+            "dependency": "punct",
+            "head": 31,
+            "start": 394,
+            "end": 395
+          },
+          {
+            "index": 33,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 35,
+            "start": 395,
+            "end": 398
+          },
+          {
+            "index": 34,
+            "text": "realistic",
+            "lemma": "realistic",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "amod",
+            "head": 35,
+            "start": 399,
+            "end": 408
+          },
+          {
+            "index": 35,
+            "text": "tendencies",
+            "lemma": "tendency",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "pobj",
+            "head": 31,
+            "start": 409,
+            "end": 419
+          },
+          {
+            "index": 36,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 35,
+            "start": 420,
+            "end": 422
+          },
+          {
+            "index": 37,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 38,
+            "start": 423,
+            "end": 426
+          },
+          {
+            "index": 38,
+            "text": "age",
+            "lemma": "age",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "pobj",
+            "head": 36,
+            "start": 427,
+            "end": 430
+          },
+          {
+            "index": 39,
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "tag": ".",
+            "morphology": "PunctType=Peri",
+            "dependency": "punct",
+            "head": 2,
+            "start": 430,
+            "end": 431
+          },
+          {
+            "index": 40,
+            "text": "”",
+            "lemma": "\"",
+            "pos": "PUNCT",
+            "tag": "''",
+            "morphology": "PunctSide=Fin|PunctType=Quot",
+            "dependency": "punct",
+            "head": 2,
+            "start": 431,
+            "end": 432
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "paragraph": 0,
+        "text": "The interest in things as things and the art that hinges upon facts as facts were from the beginning.",
+        "tokens": [
+          {
+            "index": 0,
+            "text": "The",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 1,
+            "start": 433,
+            "end": 436
+          },
+          {
+            "index": 1,
+            "text": "interest",
+            "lemma": "interest",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "ROOT",
+            "head": 1,
+            "start": 437,
+            "end": 445
+          },
+          {
+            "index": 2,
+            "text": "in",
+            "lemma": "in",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 1,
+            "start": 446,
+            "end": 448
+          },
+          {
+            "index": 3,
+            "text": "things",
+            "lemma": "thing",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "pobj",
+            "head": 2,
+            "start": 449,
+            "end": 455
+          },
+          {
+            "index": 4,
+            "text": "as",
+            "lemma": "as",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 3,
+            "start": 456,
+            "end": 458
+          },
+          {
+            "index": 5,
+            "text": "things",
+            "lemma": "thing",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "pobj",
+            "head": 4,
+            "start": 459,
+            "end": 465
+          },
+          {
+            "index": 6,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "tag": "CC",
+            "morphology": "ConjType=Cmp",
+            "dependency": "cc",
+            "head": 5,
+            "start": 466,
+            "end": 469
+          },
+          {
+            "index": 7,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 8,
+            "start": 470,
+            "end": 473
+          },
+          {
+            "index": 8,
+            "text": "art",
+            "lemma": "art",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "conj",
+            "head": 5,
+            "start": 474,
+            "end": 477
+          },
+          {
+            "index": 9,
+            "text": "that",
+            "lemma": "that",
+            "pos": "PRON",
+            "tag": "WDT",
+            "morphology": "PronType=Rel",
+            "dependency": "nsubj",
+            "head": 10,
+            "start": 478,
+            "end": 482
+          },
+          {
+            "index": 10,
+            "text": "hinges",
+            "lemma": "hinge",
+            "pos": "VERB",
+            "tag": "VBZ",
+            "morphology": "Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+            "dependency": "relcl",
+            "head": 8,
+            "start": 483,
+            "end": 489
+          },
+          {
+            "index": 11,
+            "text": "upon",
+            "lemma": "upon",
+            "pos": "SCONJ",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 10,
+            "start": 490,
+            "end": 494
+          },
+          {
+            "index": 12,
+            "text": "facts",
+            "lemma": "fact",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "dobj",
+            "head": 10,
+            "start": 495,
+            "end": 500
+          },
+          {
+            "index": 13,
+            "text": "as",
+            "lemma": "as",
+            "pos": "SCONJ",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "mark",
+            "head": 15,
+            "start": 501,
+            "end": 503
+          },
+          {
+            "index": 14,
+            "text": "facts",
+            "lemma": "fact",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "nsubj",
+            "head": 15,
+            "start": 504,
+            "end": 509
+          },
+          {
+            "index": 15,
+            "text": "were",
+            "lemma": "be",
+            "pos": "AUX",
+            "tag": "VBD",
+            "morphology": "Mood=Ind|Tense=Past|VerbForm=Fin",
+            "dependency": "advcl",
+            "head": 10,
+            "start": 510,
+            "end": 514
+          },
+          {
+            "index": 16,
+            "text": "from",
+            "lemma": "from",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 15,
+            "start": 515,
+            "end": 519
+          },
+          {
+            "index": 17,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 18,
+            "start": 520,
+            "end": 523
+          },
+          {
+            "index": 18,
+            "text": "beginning",
+            "lemma": "beginning",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "pobj",
+            "head": 16,
+            "start": 524,
+            "end": 533
+          },
+          {
+            "index": 19,
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "tag": ".",
+            "morphology": "PunctType=Peri",
+            "dependency": "punct",
+            "head": 1,
+            "start": 533,
+            "end": 534
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "paragraph": 0,
+        "text": "For did not Apelles paint horses so realistically that other horses neighed at the sight of the picture?",
+        "tokens": [
+          {
+            "index": 0,
+            "text": "For",
+            "lemma": "for",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 3,
+            "start": 535,
+            "end": 538
+          },
+          {
+            "index": 1,
+            "text": "did",
+            "lemma": "do",
+            "pos": "AUX",
+            "tag": "VBD",
+            "morphology": "Tense=Past|VerbForm=Fin",
+            "dependency": "aux",
+            "head": 3,
+            "start": 539,
+            "end": 542
+          },
+          {
+            "index": 2,
+            "text": "not",
+            "lemma": "not",
+            "pos": "PART",
+            "tag": "RB",
+            "morphology": "Polarity=Neg",
+            "dependency": "neg",
+            "head": 3,
+            "start": 543,
+            "end": 546
+          },
+          {
+            "index": 3,
+            "text": "Apelles",
+            "lemma": "apelles",
+            "pos": "VERB",
+            "tag": "VB",
+            "morphology": "VerbForm=Inf",
+            "dependency": "ROOT",
+            "head": 3,
+            "start": 547,
+            "end": 554
+          },
+          {
+            "index": 4,
+            "text": "paint",
+            "lemma": "paint",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "compound",
+            "head": 5,
+            "start": 555,
+            "end": 560
+          },
+          {
+            "index": 5,
+            "text": "horses",
+            "lemma": "horse",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "dobj",
+            "head": 3,
+            "start": 561,
+            "end": 567
+          },
+          {
+            "index": 6,
+            "text": "so",
+            "lemma": "so",
+            "pos": "ADV",
+            "tag": "RB",
+            "morphology": "",
+            "dependency": "advmod",
+            "head": 7,
+            "start": 568,
+            "end": 570
+          },
+          {
+            "index": 7,
+            "text": "realistically",
+            "lemma": "realistically",
+            "pos": "ADV",
+            "tag": "RB",
+            "morphology": "",
+            "dependency": "advmod",
+            "head": 3,
+            "start": 571,
+            "end": 584
+          },
+          {
+            "index": 8,
+            "text": "that",
+            "lemma": "that",
+            "pos": "SCONJ",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "mark",
+            "head": 11,
+            "start": 585,
+            "end": 589
+          },
+          {
+            "index": 9,
+            "text": "other",
+            "lemma": "other",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "amod",
+            "head": 10,
+            "start": 590,
+            "end": 595
+          },
+          {
+            "index": 10,
+            "text": "horses",
+            "lemma": "horse",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "nsubj",
+            "head": 11,
+            "start": 596,
+            "end": 602
+          },
+          {
+            "index": 11,
+            "text": "neighed",
+            "lemma": "neigh",
+            "pos": "VERB",
+            "tag": "VBD",
+            "morphology": "Tense=Past|VerbForm=Fin",
+            "dependency": "ccomp",
+            "head": 7,
+            "start": 603,
+            "end": 610
+          },
+          {
+            "index": 12,
+            "text": "at",
+            "lemma": "at",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 11,
+            "start": 611,
+            "end": 613
+          },
+          {
+            "index": 13,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 14,
+            "start": 614,
+            "end": 617
+          },
+          {
+            "index": 14,
+            "text": "sight",
+            "lemma": "sight",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "pobj",
+            "head": 12,
+            "start": 618,
+            "end": 623
+          },
+          {
+            "index": 15,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 14,
+            "start": 624,
+            "end": 626
+          },
+          {
+            "index": 16,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 17,
+            "start": 627,
+            "end": 630
+          },
+          {
+            "index": 17,
+            "text": "picture",
+            "lemma": "picture",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "pobj",
+            "head": 15,
+            "start": 631,
+            "end": 638
+          },
+          {
+            "index": 18,
+            "text": "?",
+            "lemma": "?",
+            "pos": "PUNCT",
+            "tag": ".",
+            "morphology": "PunctType=Peri",
+            "dependency": "punct",
+            "head": 3,
+            "start": 638,
+            "end": 639
+          }
+        ]
+      }
+    ]
+  },
+  "translated_sentences": [
+    "Les gens qui sortent dans les routes de l'art pleurent, Haro !",
+    "au nom du réalisme, gagnerait certainement leur cause pourrait nombres leur donner un verdict.",
+    "Ils ont toujours été en preuve, ils se sont toujours fait entendre.",
+    "Il n'y a jamais eu un temps où la foule n'avait pas faim des réalités, où les artistes ne harcelaient pas sur la vérité à la nature, quand les critiques ne s'inquiétaient pas des tendances réalistes de l'âge.",
+    "L'intérêt pour les choses comme les choses et l'art qui dépend des faits comme les faits étaient dès le début.",
+    "Car Apelles n'a-t-elle pas peint les chevaux de façon si réaliste que d'autres chevaux pesaient à la vue de l'image ?"
+  ],
+  "translation": "Les gens qui sortent dans les routes de l'art pleurent, Haro ! au nom du réalisme, gagnerait certainement leur cause pourrait nombres leur donner un verdict. Ils ont toujours été en preuve, ils se sont toujours fait entendre. Il n'y a jamais eu un temps où la foule n'avait pas faim des réalités, où les artistes ne harcelaient pas sur la vérité à la nature, quand les critiques ne s'inquiétaient pas des tendances réalistes de l'âge. L'intérêt pour les choses comme les choses et l'art qui dépend des faits comme les faits étaient dès le début. Car Apelles n'a-t-elle pas peint les chevaux de façon si réaliste que d'autres chevaux pesaient à la vue de l'image ?",
+  "entries": [
+    {
+      "lemma": "the",
+      "pos": "DET",
+      "frequency": 10,
+      "forms": [
+        [
+          "The",
+          1
+        ],
+        [
+          "the",
+          9
+        ]
+      ],
+      "tags": [
+        "DT"
+      ],
+      "morphology": [
+        "Definite=Def|PronType=Art"
+      ],
+      "translation": "des",
+      "origin": "auto"
+    },
+    {
+      "lemma": "be",
+      "pos": "AUX",
+      "frequency": 6,
+      "forms": [
+        [
+          "been",
+          1
+        ],
+        [
+          "was",
+          2
+        ],
+        [
+          "were",
+          3
+        ]
+      ],
+      "tags": [
+        "VBD",
+        "VBN"
+      ],
+      "morphology": [
+        "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
+        "Mood=Ind|Tense=Past|VerbForm=Fin",
+        "Tense=Past|VerbForm=Part"
+      ],
+      "translation": "être",
+      "origin": "auto"
+    },
+    {
+      "lemma": "not",
+      "pos": "PART",
+      "frequency": 4,
+      "forms": [
+        [
+          "not",
+          4
+        ]
+      ],
+      "tags": [
+        "RB"
+      ],
+      "morphology": [
+        "Polarity=Neg"
+      ],
+      "translation": "pas",
+      "origin": "auto"
+    },
+    {
+      "lemma": "of",
+      "pos": "ADP",
+      "frequency": 4,
+      "forms": [
+        [
+          "of",
+          4
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "des",
+      "origin": "auto"
+    },
+    {
+      "lemma": "in",
+      "pos": "ADP",
+      "frequency": 3,
+      "forms": [
+        [
+          "in",
+          3
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "dans",
+      "origin": "auto"
+    },
+    {
+      "lemma": "they",
+      "pos": "PRON",
+      "frequency": 3,
+      "forms": [
+        [
+          "They",
+          1
+        ],
+        [
+          "them",
+          1
+        ],
+        [
+          "they",
+          1
+        ]
+      ],
+      "tags": [
+        "PRP"
+      ],
+      "morphology": [
+        "Case=Acc|Number=Plur|Person=3|PronType=Prs",
+        "Case=Nom|Number=Plur|Person=3|PronType=Prs"
+      ],
+      "translation": "ils",
+      "origin": "auto"
+    },
+    {
+      "lemma": "when",
+      "pos": "SCONJ",
+      "frequency": 3,
+      "forms": [
+        [
+          "when",
+          3
+        ]
+      ],
+      "tags": [
+        "WRB"
+      ],
+      "morphology": [],
+      "translation": "lorsque",
+      "origin": "auto"
+    },
+    {
+      "lemma": "a",
+      "pos": "DET",
+      "frequency": 2,
+      "forms": [
+        [
+          "a",
+          2
+        ]
+      ],
+      "tags": [
+        "DT"
+      ],
+      "morphology": [
+        "Definite=Ind|PronType=Art"
+      ],
+      "translation": "a",
+      "origin": "auto"
+    },
+    {
+      "lemma": "always",
+      "pos": "ADV",
+      "frequency": 2,
+      "forms": [
+        [
+          "always",
+          2
+        ]
+      ],
+      "tags": [
+        "RB"
+      ],
+      "morphology": [],
+      "translation": "toujours",
+      "origin": "auto"
+    },
+    {
+      "lemma": "art",
+      "pos": "NOUN",
+      "frequency": 2,
+      "forms": [
+        [
+          "art",
+          2
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "et de l ' art",
+      "origin": "auto"
+    },
+    {
+      "lemma": "fact",
+      "pos": "NOUN",
+      "frequency": 2,
+      "forms": [
+        [
+          "facts",
+          2
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "fait",
+      "origin": "auto"
+    },
+    {
+      "lemma": "for",
+      "pos": "ADP",
+      "frequency": 2,
+      "forms": [
+        [
+          "For",
+          1
+        ],
+        [
+          "for",
+          1
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "pour",
+      "origin": "auto"
+    },
+    {
+      "lemma": "haro",
+      "pos": "PROPN",
+      "frequency": 2,
+      "forms": [
+        [
+          "Haro",
+          2
+        ]
+      ],
+      "tags": [
+        "NNP"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "Haro",
+      "origin": "auto"
+    },
+    {
+      "lemma": "have",
+      "pos": "AUX",
+      "frequency": 2,
+      "forms": [
+        [
+          "have",
+          2
+        ]
+      ],
+      "tags": [
+        "VBP"
+      ],
+      "morphology": [
+        "Mood=Ind|Tense=Pres|VerbForm=Fin"
+      ],
+      "translation": "ont",
+      "origin": "auto"
+    },
+    {
+      "lemma": "horse",
+      "pos": "NOUN",
+      "frequency": 2,
+      "forms": [
+        [
+          "horses",
+          2
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "cheval",
+      "origin": "auto"
+    },
+    {
+      "lemma": "thing",
+      "pos": "NOUN",
+      "frequency": 2,
+      "forms": [
+        [
+          "things",
+          2
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "- C'est un truc.",
+      "origin": "auto"
+    },
+    {
+      "lemma": "upon",
+      "pos": "SCONJ",
+      "frequency": 2,
+      "forms": [
+        [
+          "upon",
+          2
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "à",
+      "origin": "auto"
+    },
+    {
+      "lemma": "about",
+      "pos": "ADP",
+      "frequency": 1,
+      "forms": [
+        [
+          "about",
+          1
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "à propos de",
+      "origin": "auto"
+    },
+    {
+      "lemma": "age",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "age",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "âge",
+      "origin": "auto"
+    },
+    {
+      "lemma": "and",
+      "pos": "CCONJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "and",
+          1
+        ]
+      ],
+      "tags": [
+        "CC"
+      ],
+      "morphology": [
+        "ConjType=Cmp"
+      ],
+      "translation": "et",
+      "origin": "auto"
+    },
+    {
+      "lemma": "apelles",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "Apelles",
+          1
+        ]
+      ],
+      "tags": [
+        "VB"
+      ],
+      "morphology": [
+        "VerbForm=Inf"
+      ],
+      "translation": "des apelles",
+      "origin": "auto"
+    },
+    {
+      "lemma": "artist",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "artists",
+          1
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "artiste",
+      "origin": "auto"
+    },
+    {
+      "lemma": "as",
+      "pos": "ADP",
+      "frequency": 1,
+      "forms": [
+        [
+          "as",
+          1
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "comme",
+      "origin": "auto"
+    },
+    {
+      "lemma": "as",
+      "pos": "SCONJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "as",
+          1
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "comme",
+      "origin": "auto"
+    },
+    {
+      "lemma": "at",
+      "pos": "ADP",
+      "frequency": 1,
+      "forms": [
+        [
+          "at",
+          1
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "à",
+      "origin": "auto"
+    },
+    {
+      "lemma": "beginning",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "beginning",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "début",
+      "origin": "auto"
+    },
+    {
+      "lemma": "cause",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "cause",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "cause",
+      "origin": "auto"
+    },
+    {
+      "lemma": "certainly",
+      "pos": "ADV",
+      "frequency": 1,
+      "forms": [
+        [
+          "certainly",
+          1
+        ]
+      ],
+      "tags": [
+        "RB"
+      ],
+      "morphology": [],
+      "translation": "Certainement.",
+      "origin": "auto"
+    },
+    {
+      "lemma": "concerned",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "concerned",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "concernés",
+      "origin": "auto"
+    },
+    {
+      "lemma": "could",
+      "pos": "AUX",
+      "frequency": 1,
+      "forms": [
+        [
+          "could",
+          1
+        ]
+      ],
+      "tags": [
+        "MD"
+      ],
+      "morphology": [
+        "VerbForm=Fin"
+      ],
+      "translation": "pourrait",
+      "origin": "auto"
+    },
+    {
+      "lemma": "critic",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "critics",
+          1
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "critique",
+      "origin": "auto"
+    },
+    {
+      "lemma": "crying",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "crying",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "pleurant",
+      "origin": "auto"
+    },
+    {
+      "lemma": "do",
+      "pos": "AUX",
+      "frequency": 1,
+      "forms": [
+        [
+          "did",
+          1
+        ]
+      ],
+      "tags": [
+        "VBD"
+      ],
+      "morphology": [
+        "Tense=Past|VerbForm=Fin"
+      ],
+      "translation": "Faites",
+      "origin": "auto"
+    },
+    {
+      "lemma": "evidence",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "evidence",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "éléments de preuve",
+      "origin": "auto"
+    },
+    {
+      "lemma": "from",
+      "pos": "ADP",
+      "frequency": 1,
+      "forms": [
+        [
+          "from",
+          1
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "à partir de",
+      "origin": "auto"
+    },
+    {
+      "lemma": "gain",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "gain",
+          1
+        ]
+      ],
+      "tags": [
+        "VB"
+      ],
+      "morphology": [
+        "VerbForm=Inf"
+      ],
+      "translation": "gain",
+      "origin": "auto"
+    },
+    {
+      "lemma": "give",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "give",
+          1
+        ]
+      ],
+      "tags": [
+        "VB"
+      ],
+      "morphology": [
+        "VerbForm=Inf"
+      ],
+      "translation": "donner",
+      "origin": "auto"
+    },
+    {
+      "lemma": "go",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "go",
+          1
+        ]
+      ],
+      "tags": [
+        "VBP"
+      ],
+      "morphology": [
+        "Tense=Pres|VerbForm=Fin"
+      ],
+      "translation": "Allez-y.",
+      "origin": "auto"
+    },
+    {
+      "lemma": "harp",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "harping",
+          1
+        ]
+      ],
+      "tags": [
+        "VBG"
+      ],
+      "morphology": [
+        "Aspect=Prog|Tense=Pres|VerbForm=Part"
+      ],
+      "translation": "harpe",
+      "origin": "auto"
+    },
+    {
+      "lemma": "hear",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "heard",
+          1
+        ]
+      ],
+      "tags": [
+        "VBN"
+      ],
+      "morphology": [
+        "Aspect=Perf|Tense=Past|VerbForm=Part"
+      ],
+      "translation": "entendre",
+      "origin": "auto"
+    },
+    {
+      "lemma": "highway",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "highways",
+          1
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "autoroute",
+      "origin": "auto"
+    },
+    {
+      "lemma": "hinge",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "hinges",
+          1
+        ]
+      ],
+      "tags": [
+        "VBZ"
+      ],
+      "morphology": [
+        "Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+      ],
+      "translation": "charnière",
+      "origin": "auto"
+    },
+    {
+      "lemma": "hungry",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "hungry",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "faim",
+      "origin": "auto"
+    },
+    {
+      "lemma": "interest",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "interest",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "Intérêts",
+      "origin": "auto"
+    },
+    {
+      "lemma": "into",
+      "pos": "ADP",
+      "frequency": 1,
+      "forms": [
+        [
+          "into",
+          1
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "dans",
+      "origin": "auto"
+    },
+    {
+      "lemma": "make",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "made",
+          1
+        ]
+      ],
+      "tags": [
+        "VBN"
+      ],
+      "morphology": [
+        "Aspect=Perf|Tense=Past|VerbForm=Part"
+      ],
+      "translation": "faire",
+      "origin": "auto"
+    },
+    {
+      "lemma": "mob",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "mob",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "La mafia",
+      "origin": "auto"
+    },
+    {
+      "lemma": "name",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "name",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "Dénomination",
+      "origin": "auto"
+    },
+    {
+      "lemma": "nature",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "nature",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "nature",
+      "origin": "auto"
+    },
+    {
+      "lemma": "neigh",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "neighed",
+          1
+        ]
+      ],
+      "tags": [
+        "VBD"
+      ],
+      "morphology": [
+        "Tense=Past|VerbForm=Fin"
+      ],
+      "translation": "Neigh",
+      "origin": "auto"
+    },
+    {
+      "lemma": "never",
+      "pos": "ADV",
+      "frequency": 1,
+      "forms": [
+        [
+          "never",
+          1
+        ]
+      ],
+      "tags": [
+        "RB"
+      ],
+      "morphology": [],
+      "translation": "jamais",
+      "origin": "auto"
+    },
+    {
+      "lemma": "number",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "numbers",
+          1
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "Numéro",
+      "origin": "auto"
+    },
+    {
+      "lemma": "other",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "other",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "autres",
+      "origin": "auto"
+    },
+    {
+      "lemma": "out",
+      "pos": "ADP",
+      "frequency": 1,
+      "forms": [
+        [
+          "out",
+          1
+        ]
+      ],
+      "tags": [
+        "RP"
+      ],
+      "morphology": [],
+      "translation": "dehors",
+      "origin": "auto"
+    },
+    {
+      "lemma": "paint",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "paint",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "peinture",
+      "origin": "auto"
+    },
+    {
+      "lemma": "people",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "people",
+          1
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "et de la population",
+      "origin": "auto"
+    },
+    {
+      "lemma": "picture",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "picture",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "photo",
+      "origin": "auto"
+    },
+    {
+      "lemma": "realism",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "realism",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "réalisme",
+      "origin": "auto"
+    },
+    {
+      "lemma": "realistic",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "realistic",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "réaliste",
+      "origin": "auto"
+    },
+    {
+      "lemma": "realistically",
+      "pos": "ADV",
+      "frequency": 1,
+      "forms": [
+        [
+          "realistically",
+          1
+        ]
+      ],
+      "tags": [
+        "RB"
+      ],
+      "morphology": [],
+      "translation": "réalistement",
+      "origin": "auto"
+    },
+    {
+      "lemma": "reality",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "realities",
+          1
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "réalité",
+      "origin": "auto"
+    },
+    {
+      "lemma": "sight",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "sight",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "vue",
+      "origin": "auto"
+    },
+    {
+      "lemma": "so",
+      "pos": "ADV",
+      "frequency": 1,
+      "forms": [
+        [
+          "so",
+          1
+        ]
+      ],
+      "tags": [
+        "RB"
+      ],
+      "morphology": [],
+      "translation": "donc",
+      "origin": "auto"
+    },
+    {
+      "lemma": "tendency",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "tendencies",
+          1
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "tendance",
+      "origin": "auto"
+    },
+    {
+      "lemma": "that",
+      "pos": "PRON",
+      "frequency": 1,
+      "forms": [
+        [
+          "that",
+          1
+        ]
+      ],
+      "tags": [
+        "WDT"
+      ],
+      "morphology": [
+        "PronType=Rel"
+      ],
+      "translation": "C'est-à-dire",
+      "origin": "auto"
+    },
+    {
+      "lemma": "that",
+      "pos": "SCONJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "that",
+          1
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "C'est-à-dire",
+      "origin": "auto"
+    },
+    {
+      "lemma": "their",
+      "pos": "PRON",
+      "frequency": 1,
+      "forms": [
+        [
+          "their",
+          1
+        ]
+      ],
+      "tags": [
+        "PRP$"
+      ],
+      "morphology": [
+        "Number=Plur|Person=3|Poss=Yes|PronType=Prs"
+      ],
+      "translation": "leurs",
+      "origin": "auto"
+    },
+    {
+      "lemma": "themselves",
+      "pos": "PRON",
+      "frequency": 1,
+      "forms": [
+        [
+          "themselves",
+          1
+        ]
+      ],
+      "tags": [
+        "PRP"
+      ],
+      "morphology": [
+        "Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes"
+      ],
+      "translation": "eux-mêmes",
+      "origin": "auto"
+    },
+    {
+      "lemma": "there",
+      "pos": "PRON",
+      "frequency": 1,
+      "forms": [
+        [
+          "There",
+          1
+        ]
+      ],
+      "tags": [
+        "EX"
+      ],
+      "morphology": [],
+      "translation": "Voilà.",
+      "origin": "auto"
+    },
+    {
+      "lemma": "those",
+      "pos": "DET",
+      "frequency": 1,
+      "forms": [
+        [
+          "THOSE",
+          1
+        ]
+      ],
+      "tags": [
+        "DT"
+      ],
+      "morphology": [
+        "Number=Plur|PronType=Dem"
+      ],
+      "translation": "les",
+      "origin": "auto"
+    },
+    {
+      "lemma": "time",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "time",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "heure",
+      "origin": "auto"
+    },
+    {
+      "lemma": "to",
+      "pos": "ADP",
+      "frequency": 1,
+      "forms": [
+        [
+          "to",
+          1
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "à l ' Assemblée générale",
+      "origin": "auto"
+    },
+    {
+      "lemma": "truth",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "truth",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "vérité",
+      "origin": "auto"
+    },
+    {
+      "lemma": "verdict",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "verdict",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "verdict",
+      "origin": "auto"
+    },
+    {
+      "lemma": "who",
+      "pos": "PRON",
+      "frequency": 1,
+      "forms": [
+        [
+          "who",
+          1
+        ]
+      ],
+      "tags": [
+        "WP"
+      ],
+      "morphology": [],
+      "translation": "qui",
+      "origin": "auto"
+    },
+    {
+      "lemma": "would",
+      "pos": "AUX",
+      "frequency": 1,
+      "forms": [
+        [
+          "would",
+          1
+        ]
+      ],
+      "tags": [
+        "MD"
+      ],
+      "morphology": [
+        "VerbForm=Fin"
+      ],
+      "translation": "serait",
+      "origin": "auto"
+    }
+  ],
+  "source_words": 112,
+  "translated_source_words": 103,
+  "target_words": 115,
+  "timings": {
+    "initialization": 0.00047149998135864735,
+    "analysis": 0.022483800014015287,
+    "translation": 6.664105199975893,
+    "dictionary": 11.288028000009945
+  },
+  "versions": {
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0",
+    "model": "Helsinki-NLP/opus-mt-en-fr",
+    "revision": "dd7f6540a7a48a7f4db59e5c0b9c42c8eea67f18",
+    "torch": "2.14.1+cpu",
+    "transformers": "5.20.2",
+    "device": "cpu",
+    "beams": "4",
+    "source_title": "The Meaning of Pictures: Truth in Painting — excerpt",
+    "source_url": "https://www.gutenberg.org/ebooks/72598",
+    "source_attribution": "John C. Van Dyke, The Meaning of Pictures, Charles Scribner's Sons, 1911 edition; Project Gutenberg #72598",
+    "source_license": "Public domain in USA; Gutenberg source snapshot contains its redistribution terms"
+  },
+  "warnings": [
+    "Автоматические словарные эквиваленты получены изолированно, требуют проверки и не являются выравниванием полного перевода.",
+    "Число переведённых слов — число исходных словоупотреблений с эквивалентом в словаре; совпавшие с исходником автопереводы требуют ручного подтверждения и не входят в покрытие. Это не оценка качества.",
+    "Длинные предложения делятся по 384 токена модели; возможна потеря контекста на границе. Исходный текст не обрезается."
+  ]
+}

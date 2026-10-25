@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]
+asyncpg
+pydantic-settings
+python-multipart
+spacy
+benepar
+beautifulsoup4
+lxml
+striprtf
+pdfplumber
+pypdf
+python-docx
+docx2txt

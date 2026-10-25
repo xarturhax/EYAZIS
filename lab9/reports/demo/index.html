@@ -1,0 +1,102 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><title>Лабораторная 9</title><style>body{font:15px system-ui;margin:25px}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ccd;padding:6px}audio{width:190px}pre{white-space:pre-wrap}@media print{audio,button{display:none}}</style><button onclick="window.print()">Печать</button><h1>Французское распознавание и команды · вариант 8</h1><p>Только синтетический тест Piper и технические сигналы. Действия/динамики/микрофон не включались. Человеческая речь и реальный акустический тракт ещё не оценивались.</p><pre>{
+  &quot;command_cases&quot;: 14,
+  &quot;correct_commands&quot;: 7,
+  &quot;command_accuracy&quot;: 0.5,
+  &quot;negative_cases&quot;: 9,
+  &quot;false_activations&quot;: 0,
+  &quot;normalized_wer&quot;: 0.0546875,
+  &quot;word_errors&quot;: 7,
+  &quot;reference_words&quot;: 128,
+  &quot;source_kind&quot;: &quot;SYNTHETIC_ONLY&quot;,
+  &quot;human_microphone_evaluation&quot;: &quot;PENDING&quot;,
+  &quot;policy&quot;: {
+    &quot;commands&quot;: [
+      {
+        &quot;language&quot;: &quot;fr&quot;,
+        &quot;phrase&quot;: &quot;lecteur commence&quot;,
+        &quot;action&quot;: &quot;read&quot;,
+        &quot;enabled&quot;: true
+      },
+      {
+        &quot;language&quot;: &quot;fr&quot;,
+        &quot;phrase&quot;: &quot;lecteur stop&quot;,
+        &quot;action&quot;: &quot;stop&quot;,
+        &quot;enabled&quot;: true
+      },
+      {
+        &quot;language&quot;: &quot;fr&quot;,
+        &quot;phrase&quot;: &quot;lecteur suivant&quot;,
+        &quot;action&quot;: &quot;next&quot;,
+        &quot;enabled&quot;: true
+      },
+      {
+        &quot;language&quot;: &quot;fr&quot;,
+        &quot;phrase&quot;: &quot;lecteur précédent&quot;,
+        &quot;action&quot;: &quot;previous&quot;,
+        &quot;enabled&quot;: true
+      },
+      {
+        &quot;language&quot;: &quot;fr&quot;,
+        &quot;phrase&quot;: &quot;lecteur répète&quot;,
+        &quot;action&quot;: &quot;repeat&quot;,
+        &quot;enabled&quot;: true
+      },
+      {
+        &quot;language&quot;: &quot;fr&quot;,
+        &quot;phrase&quot;: &quot;lecteur plus vite&quot;,
+        &quot;action&quot;: &quot;faster&quot;,
+        &quot;enabled&quot;: true
+      },
+      {
+        &quot;language&quot;: &quot;fr&quot;,
+        &quot;phrase&quot;: &quot;lecteur plus lentement&quot;,
+        &quot;action&quot;: &quot;slower&quot;,
+        &quot;enabled&quot;: true
+      },
+      {
+        &quot;language&quot;: &quot;en&quot;,
+        &quot;phrase&quot;: &quot;reader read&quot;,
+        &quot;action&quot;: &quot;read&quot;,
+        &quot;enabled&quot;: true
+      },
+      {
+        &quot;language&quot;: &quot;en&quot;,
+        &quot;phrase&quot;: &quot;reader stop&quot;,
+        &quot;action&quot;: &quot;stop&quot;,
+        &quot;enabled&quot;: true
+      },
+      {
+        &quot;language&quot;: &quot;en&quot;,
+        &quot;phrase&quot;: &quot;reader next&quot;,
+        &quot;action&quot;: &quot;next&quot;,
+        &quot;enabled&quot;: true
+      },
+      {
+        &quot;language&quot;: &quot;en&quot;,
+        &quot;phrase&quot;: &quot;reader previous&quot;,
+        &quot;action&quot;: &quot;previous&quot;,
+        &quot;enabled&quot;: true
+      },
+      {
+        &quot;language&quot;: &quot;en&quot;,
+        &quot;phrase&quot;: &quot;reader repeat&quot;,
+        &quot;action&quot;: &quot;repeat&quot;,
+        &quot;enabled&quot;: true
+      },
+      {
+        &quot;language&quot;: &quot;en&quot;,
+        &quot;phrase&quot;: &quot;reader faster&quot;,
+        &quot;action&quot;: &quot;faster&quot;,
+        &quot;enabled&quot;: true
+      },
+      {
+        &quot;language&quot;: &quot;en&quot;,
+        &quot;phrase&quot;: &quot;reader slower&quot;,
+        &quot;action&quot;: &quot;slower&quot;,
+        &quot;enabled&quot;: true
+      }
+    ],
+    &quot;threshold&quot;: 0.75,
+    &quot;cooldown_seconds&quot;: 1.2
+  }
+}</pre><table><tr><th>ID</th><th>Эталон</th><th>Распознано</th><th>Ожидалось</th><th>Принято</th><th>Совпало</th><th>Аудио</th></tr><tr><td>siwis_read</td><td>lecteur commence</td><td>lecteur commence</td><td>read</td><td>[]</td><td>False</td><td><audio controls preload='none' src='audio/siwis_read.wav'></audio></td></tr><tr><td>siwis_stop</td><td>lecteur stop</td><td>lecteur staps</td><td>stop</td><td>[]</td><td>False</td><td><audio controls preload='none' src='audio/siwis_stop.wav'></audio></td></tr><tr><td>siwis_next</td><td>lecteur suivant</td><td>l&#x27;été suivant</td><td>next</td><td>[]</td><td>False</td><td><audio controls preload='none' src='audio/siwis_next.wav'></audio></td></tr><tr><td>siwis_previous</td><td>lecteur précédent</td><td>lecteur précédent</td><td>previous</td><td>[]</td><td>False</td><td><audio controls preload='none' src='audio/siwis_previous.wav'></audio></td></tr><tr><td>siwis_repeat</td><td>lecteur répète</td><td>l&#x27;etat répète</td><td>repeat</td><td>[]</td><td>False</td><td><audio controls preload='none' src='audio/siwis_repeat.wav'></audio></td></tr><tr><td>siwis_faster</td><td>lecteur plus vite</td><td>lecteur plus vite</td><td>faster</td><td>[&#x27;faster&#x27;]</td><td>True</td><td><audio controls preload='none' src='audio/siwis_faster.wav'></audio></td></tr><tr><td>siwis_slower</td><td>lecteur plus lentement</td><td>lecteur plus lentement</td><td>slower</td><td>[&#x27;slower&#x27;]</td><td>True</td><td><audio controls preload='none' src='audio/siwis_slower.wav'></audio></td></tr><tr><td>siwis_negative1</td><td>Le roman invite le lecteur à réfléchir à la justice.</td><td>le roman invite le lecteur à réfléchir à la justice</td><td>None</td><td>[]</td><td>True</td><td><audio controls preload='none' src='audio/siwis_negative1.wav'></audio></td></tr><tr><td>siwis_negative2</td><td>Lecteur commence le récit de ce personnage.</td><td>lecteur commence le récit de ce personnage</td><td>None</td><td>[]</td><td>True</td><td><audio controls preload='none' src='audio/siwis_negative2.wav'></audio></td></tr><tr><td>siwis_negative3</td><td>Ce livre décrit la vie quotidienne.</td><td>ce livre décrit la vie quotidienne</td><td>None</td><td>[]</td><td>True</td><td><audio controls preload='none' src='audio/siwis_negative3.wav'></audio></td></tr><tr><td>tom_read</td><td>lecteur commence</td><td>lecteur commence</td><td>read</td><td>[&#x27;read&#x27;]</td><td>True</td><td><audio controls preload='none' src='audio/tom_read.wav'></audio></td></tr><tr><td>tom_stop</td><td>lecteur stop</td><td>lecteur stop</td><td>stop</td><td>[&#x27;stop&#x27;]</td><td>True</td><td><audio controls preload='none' src='audio/tom_stop.wav'></audio></td></tr><tr><td>tom_next</td><td>lecteur suivant</td><td>lecteur suivant</td><td>next</td><td>[]</td><td>False</td><td><audio controls preload='none' src='audio/tom_next.wav'></audio></td></tr><tr><td>tom_previous</td><td>lecteur précédent</td><td>lecteur précédent</td><td>previous</td><td>[]</td><td>False</td><td><audio controls preload='none' src='audio/tom_previous.wav'></audio></td></tr><tr><td>tom_repeat</td><td>lecteur répète</td><td>lecteur répète</td><td>repeat</td><td>[&#x27;repeat&#x27;]</td><td>True</td><td><audio controls preload='none' src='audio/tom_repeat.wav'></audio></td></tr><tr><td>tom_faster</td><td>lecteur plus vite</td><td>lecteur plus vite</td><td>faster</td><td>[&#x27;faster&#x27;]</td><td>True</td><td><audio controls preload='none' src='audio/tom_faster.wav'></audio></td></tr><tr><td>tom_slower</td><td>lecteur plus lentement</td><td>lecteur plus lentement</td><td>slower</td><td>[&#x27;slower&#x27;]</td><td>True</td><td><audio controls preload='none' src='audio/tom_slower.wav'></audio></td></tr><tr><td>tom_negative1</td><td>Le roman invite le lecteur à réfléchir à la justice.</td><td>le roman invite le lecteur à réfléchir à la justice</td><td>None</td><td>[]</td><td>True</td><td><audio controls preload='none' src='audio/tom_negative1.wav'></audio></td></tr><tr><td>tom_negative2</td><td>Lecteur commence le récit de ce personnage.</td><td>lecteur commence le récit de ce personnage</td><td>None</td><td>[]</td><td>True</td><td><audio controls preload='none' src='audio/tom_negative2.wav'></audio></td></tr><tr><td>tom_negative3</td><td>Ce livre décrit la vie quotidienne.</td><td>ce livre décrit la vie quotidienne</td><td>None</td><td>[]</td><td>True</td><td><audio controls preload='none' src='audio/tom_negative3.wav'></audio></td></tr><tr><td>dictation_hugo</td><td>Dans Les Misérables, Victor Hugo oppose la rigueur de la loi à l’exigence de compassion. Le parcours de Jean Valjean montre qu’un personnage peut changer sans effacer son passé. Le roman invite ainsi le lecteur à réfléchir à la justice, à la responsabilité et à la dignité humaine.</td><td>dans les misérables victor hugo oppose la rigueur de la loire l&#x27;exigence de compassion le parcours de jean valjean montre qu&#x27;un personnage peut changer sans effacer son passé le roman invite ainsi le lecteur à réfléchir à la justice a la responsabilité et à la dignité humaine</td><td>None</td><td>[]</td><td>True</td><td><audio controls preload='none' src='audio/dictation_hugo.wav'></audio></td></tr><tr><td>silence</td><td></td><td></td><td>None</td><td>[]</td><td>True</td><td><audio controls preload='none' src='audio/silence.wav'></audio></td></tr><tr><td>noise</td><td></td><td></td><td>None</td><td>[]</td><td>True</td><td><audio controls preload='none' src='audio/noise.wav'></audio></td></tr></table></html>

@@ -1,0 +1,89 @@
+{
+  "source": {
+    "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab5_7\\work\\technical\\harmonic_200Hz.wav",
+    "sha256": "99503b5d807a4545317fb6c5dfe0fd4077ba2e1f62c07e9cf7e396b9fd62e0fc",
+    "rate": 48000,
+    "channels": 1,
+    "subtype": "PCM_16",
+    "analysis_channel": 1,
+    "duration": 2.0,
+    "channel_note": ""
+  },
+  "source_kind": "synthetic",
+  "method": "Digital resampling with anti-aliasing, then WAV PCM quantization; NOT native ADC recordings.",
+  "results": [
+    {
+      "file": "4000Hz_8bit.wav",
+      "rate": 4000,
+      "bits": 8,
+      "actual_subtype": "PCM_U8",
+      "bytes": 8044,
+      "quantization_mse": 2.4093987904536487e-05,
+      "quantization_snr_db": 33.18108824546953
+    },
+    {
+      "file": "4000Hz_16bit.wav",
+      "rate": 4000,
+      "bits": 16,
+      "actual_subtype": "PCM_16",
+      "bytes": 16044,
+      "quantization_mse": 2.8977135372235224e-10,
+      "quantization_snr_db": 82.37962062850274
+    },
+    {
+      "file": "8000Hz_8bit.wav",
+      "rate": 8000,
+      "bits": 8,
+      "actual_subtype": "PCM_U8",
+      "bytes": 16044,
+      "quantization_mse": 2.4355928109706726e-05,
+      "quantization_snr_db": 33.13016088975187
+    },
+    {
+      "file": "8000Hz_16bit.wav",
+      "rate": 8000,
+      "bits": 16,
+      "actual_subtype": "PCM_16",
+      "bytes": 32044,
+      "quantization_mse": 3.147397627141776e-10,
+      "quantization_snr_db": 82.01669159408048
+    },
+    {
+      "file": "16000Hz_8bit.wav",
+      "rate": 16000,
+      "bits": 8,
+      "actual_subtype": "PCM_U8",
+      "bytes": 32044,
+      "quantization_mse": 2.245237831650279e-05,
+      "quantization_snr_db": 33.47908556941755
+    },
+    {
+      "file": "16000Hz_16bit.wav",
+      "rate": 16000,
+      "bits": 16,
+      "actual_subtype": "PCM_16",
+      "bytes": 64044,
+      "quantization_mse": 2.98788042445895e-10,
+      "quantization_snr_db": 82.2380769535198
+    },
+    {
+      "file": "32000Hz_8bit.wav",
+      "rate": 32000,
+      "bits": 8,
+      "actual_subtype": "PCM_U8",
+      "bytes": 64044,
+      "quantization_mse": 2.0149265543918813e-05,
+      "quantization_snr_db": 33.94764144196752
+    },
+    {
+      "file": "32000Hz_16bit.wav",
+      "rate": 32000,
+      "bits": 16,
+      "actual_subtype": "PCM_16",
+      "bytes": 128044,
+      "quantization_mse": 3.1393570171581736e-10,
+      "quantization_snr_db": 82.0218265680934
+    }
+  ],
+  "listening_assessment": "PENDING"
+}

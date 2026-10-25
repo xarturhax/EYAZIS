@@ -1,0 +1,1001 @@
+{
+  "analysis": {
+    "text": "The painting contrasts a bright foreground with a dark background. The artist uses colour and perspective to direct the viewer's attention. This contrast gives the composition a sense of depth and movement.",
+    "sentences": [
+      {
+        "index": 0,
+        "paragraph": 0,
+        "text": "The painting contrasts a bright foreground with a dark background.",
+        "tokens": [
+          {
+            "index": 0,
+            "text": "The",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 1,
+            "start": 0,
+            "end": 3
+          },
+          {
+            "index": 1,
+            "text": "painting",
+            "lemma": "painting",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "nsubj",
+            "head": 2,
+            "start": 4,
+            "end": 12
+          },
+          {
+            "index": 2,
+            "text": "contrasts",
+            "lemma": "contrast",
+            "pos": "VERB",
+            "tag": "VBZ",
+            "morphology": "Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+            "dependency": "ROOT",
+            "head": 2,
+            "start": 13,
+            "end": 22
+          },
+          {
+            "index": 3,
+            "text": "a",
+            "lemma": "a",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Ind|PronType=Art",
+            "dependency": "det",
+            "head": 5,
+            "start": 23,
+            "end": 24
+          },
+          {
+            "index": 4,
+            "text": "bright",
+            "lemma": "bright",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "amod",
+            "head": 5,
+            "start": 25,
+            "end": 31
+          },
+          {
+            "index": 5,
+            "text": "foreground",
+            "lemma": "foreground",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "dobj",
+            "head": 2,
+            "start": 32,
+            "end": 42
+          },
+          {
+            "index": 6,
+            "text": "with",
+            "lemma": "with",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 2,
+            "start": 43,
+            "end": 47
+          },
+          {
+            "index": 7,
+            "text": "a",
+            "lemma": "a",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Ind|PronType=Art",
+            "dependency": "det",
+            "head": 9,
+            "start": 48,
+            "end": 49
+          },
+          {
+            "index": 8,
+            "text": "dark",
+            "lemma": "dark",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "amod",
+            "head": 9,
+            "start": 50,
+            "end": 54
+          },
+          {
+            "index": 9,
+            "text": "background",
+            "lemma": "background",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "pobj",
+            "head": 6,
+            "start": 55,
+            "end": 65
+          },
+          {
+            "index": 10,
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "tag": ".",
+            "morphology": "PunctType=Peri",
+            "dependency": "punct",
+            "head": 2,
+            "start": 65,
+            "end": 66
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "paragraph": 0,
+        "text": "The artist uses colour and perspective to direct the viewer's attention.",
+        "tokens": [
+          {
+            "index": 0,
+            "text": "The",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 1,
+            "start": 67,
+            "end": 70
+          },
+          {
+            "index": 1,
+            "text": "artist",
+            "lemma": "artist",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "nsubj",
+            "head": 2,
+            "start": 71,
+            "end": 77
+          },
+          {
+            "index": 2,
+            "text": "uses",
+            "lemma": "use",
+            "pos": "VERB",
+            "tag": "VBZ",
+            "morphology": "Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+            "dependency": "ROOT",
+            "head": 2,
+            "start": 78,
+            "end": 82
+          },
+          {
+            "index": 3,
+            "text": "colour",
+            "lemma": "colour",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "dobj",
+            "head": 2,
+            "start": 83,
+            "end": 89
+          },
+          {
+            "index": 4,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "tag": "CC",
+            "morphology": "ConjType=Cmp",
+            "dependency": "cc",
+            "head": 3,
+            "start": 90,
+            "end": 93
+          },
+          {
+            "index": 5,
+            "text": "perspective",
+            "lemma": "perspective",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "conj",
+            "head": 3,
+            "start": 94,
+            "end": 105
+          },
+          {
+            "index": 6,
+            "text": "to",
+            "lemma": "to",
+            "pos": "PART",
+            "tag": "TO",
+            "morphology": "",
+            "dependency": "aux",
+            "head": 7,
+            "start": 106,
+            "end": 108
+          },
+          {
+            "index": 7,
+            "text": "direct",
+            "lemma": "direct",
+            "pos": "VERB",
+            "tag": "VB",
+            "morphology": "VerbForm=Inf",
+            "dependency": "xcomp",
+            "head": 2,
+            "start": 109,
+            "end": 115
+          },
+          {
+            "index": 8,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 9,
+            "start": 116,
+            "end": 119
+          },
+          {
+            "index": 9,
+            "text": "viewer",
+            "lemma": "viewer",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "poss",
+            "head": 11,
+            "start": 120,
+            "end": 126
+          },
+          {
+            "index": 10,
+            "text": "'s",
+            "lemma": "'s",
+            "pos": "PART",
+            "tag": "POS",
+            "morphology": "",
+            "dependency": "case",
+            "head": 9,
+            "start": 126,
+            "end": 128
+          },
+          {
+            "index": 11,
+            "text": "attention",
+            "lemma": "attention",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "dobj",
+            "head": 7,
+            "start": 129,
+            "end": 138
+          },
+          {
+            "index": 12,
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "tag": ".",
+            "morphology": "PunctType=Peri",
+            "dependency": "punct",
+            "head": 2,
+            "start": 138,
+            "end": 139
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "paragraph": 0,
+        "text": "This contrast gives the composition a sense of depth and movement.",
+        "tokens": [
+          {
+            "index": 0,
+            "text": "This",
+            "lemma": "this",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Number=Sing|PronType=Dem",
+            "dependency": "det",
+            "head": 1,
+            "start": 140,
+            "end": 144
+          },
+          {
+            "index": 1,
+            "text": "contrast",
+            "lemma": "contrast",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "nsubj",
+            "head": 2,
+            "start": 145,
+            "end": 153
+          },
+          {
+            "index": 2,
+            "text": "gives",
+            "lemma": "give",
+            "pos": "VERB",
+            "tag": "VBZ",
+            "morphology": "Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+            "dependency": "ROOT",
+            "head": 2,
+            "start": 154,
+            "end": 159
+          },
+          {
+            "index": 3,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 4,
+            "start": 160,
+            "end": 163
+          },
+          {
+            "index": 4,
+            "text": "composition",
+            "lemma": "composition",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "dative",
+            "head": 2,
+            "start": 164,
+            "end": 175
+          },
+          {
+            "index": 5,
+            "text": "a",
+            "lemma": "a",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Ind|PronType=Art",
+            "dependency": "det",
+            "head": 6,
+            "start": 176,
+            "end": 177
+          },
+          {
+            "index": 6,
+            "text": "sense",
+            "lemma": "sense",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "dobj",
+            "head": 2,
+            "start": 178,
+            "end": 183
+          },
+          {
+            "index": 7,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 6,
+            "start": 184,
+            "end": 186
+          },
+          {
+            "index": 8,
+            "text": "depth",
+            "lemma": "depth",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "pobj",
+            "head": 7,
+            "start": 187,
+            "end": 192
+          },
+          {
+            "index": 9,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "tag": "CC",
+            "morphology": "ConjType=Cmp",
+            "dependency": "cc",
+            "head": 8,
+            "start": 193,
+            "end": 196
+          },
+          {
+            "index": 10,
+            "text": "movement",
+            "lemma": "movement",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "conj",
+            "head": 8,
+            "start": 197,
+            "end": 205
+          },
+          {
+            "index": 11,
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "tag": ".",
+            "morphology": "PunctType=Peri",
+            "dependency": "punct",
+            "head": 2,
+            "start": 205,
+            "end": 206
+          }
+        ]
+      }
+    ]
+  },
+  "translated_sentences": [
+    "La peinture contraste avec un premier plan lumineux avec un fond sombre.",
+    "L'artiste utilise la couleur et la perspective pour orienter l'attention du spectateur.",
+    "Ce contraste donne à la composition un sens de profondeur et de mouvement."
+  ],
+  "translation": "La peinture contraste avec un premier plan lumineux avec un fond sombre. L'artiste utilise la couleur et la perspective pour orienter l'attention du spectateur. Ce contraste donne à la composition un sens de profondeur et de mouvement.",
+  "entries": [
+    {
+      "lemma": "the",
+      "pos": "DET",
+      "frequency": 4,
+      "forms": [
+        [
+          "The",
+          2
+        ],
+        [
+          "the",
+          2
+        ]
+      ],
+      "tags": [
+        "DT"
+      ],
+      "morphology": [
+        "Definite=Def|PronType=Art"
+      ],
+      "translation": "des",
+      "origin": "auto"
+    },
+    {
+      "lemma": "a",
+      "pos": "DET",
+      "frequency": 3,
+      "forms": [
+        [
+          "a",
+          3
+        ]
+      ],
+      "tags": [
+        "DT"
+      ],
+      "morphology": [
+        "Definite=Ind|PronType=Art"
+      ],
+      "translation": "a",
+      "origin": "auto"
+    },
+    {
+      "lemma": "and",
+      "pos": "CCONJ",
+      "frequency": 2,
+      "forms": [
+        [
+          "and",
+          2
+        ]
+      ],
+      "tags": [
+        "CC"
+      ],
+      "morphology": [
+        "ConjType=Cmp"
+      ],
+      "translation": "et",
+      "origin": "auto"
+    },
+    {
+      "lemma": "'s",
+      "pos": "PART",
+      "frequency": 1,
+      "forms": [
+        [
+          "'s",
+          1
+        ]
+      ],
+      "tags": [
+        "POS"
+      ],
+      "morphology": [],
+      "translation": "'s",
+      "origin": "auto"
+    },
+    {
+      "lemma": "artist",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "artist",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "artiste",
+      "origin": "auto"
+    },
+    {
+      "lemma": "attention",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "attention",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "à l ' attention du public",
+      "origin": "auto"
+    },
+    {
+      "lemma": "background",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "background",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "Historique",
+      "origin": "auto"
+    },
+    {
+      "lemma": "bright",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "bright",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "lumineux",
+      "origin": "auto"
+    },
+    {
+      "lemma": "colour",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "colour",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "couleur",
+      "origin": "auto"
+    },
+    {
+      "lemma": "composition",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "composition",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "composition",
+      "origin": "auto"
+    },
+    {
+      "lemma": "contrast",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "contrast",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "contraste",
+      "origin": "auto"
+    },
+    {
+      "lemma": "contrast",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "contrasts",
+          1
+        ]
+      ],
+      "tags": [
+        "VBZ"
+      ],
+      "morphology": [
+        "Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+      ],
+      "translation": "contraste",
+      "origin": "auto"
+    },
+    {
+      "lemma": "dark",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "dark",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "sombre",
+      "origin": "auto"
+    },
+    {
+      "lemma": "depth",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "depth",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "profondeur",
+      "origin": "auto"
+    },
+    {
+      "lemma": "direct",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "direct",
+          1
+        ]
+      ],
+      "tags": [
+        "VB"
+      ],
+      "morphology": [
+        "VerbForm=Inf"
+      ],
+      "translation": "directe",
+      "origin": "auto"
+    },
+    {
+      "lemma": "foreground",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "foreground",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "au premier plan",
+      "origin": "auto"
+    },
+    {
+      "lemma": "give",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "gives",
+          1
+        ]
+      ],
+      "tags": [
+        "VBZ"
+      ],
+      "morphology": [
+        "Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+      ],
+      "translation": "donner",
+      "origin": "auto"
+    },
+    {
+      "lemma": "movement",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "movement",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "mouvement",
+      "origin": "auto"
+    },
+    {
+      "lemma": "of",
+      "pos": "ADP",
+      "frequency": 1,
+      "forms": [
+        [
+          "of",
+          1
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "des",
+      "origin": "auto"
+    },
+    {
+      "lemma": "painting",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "painting",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "peinture",
+      "origin": "auto"
+    },
+    {
+      "lemma": "perspective",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "perspective",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "perspectives",
+      "origin": "auto"
+    },
+    {
+      "lemma": "sense",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "sense",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "sens",
+      "origin": "auto"
+    },
+    {
+      "lemma": "this",
+      "pos": "DET",
+      "frequency": 1,
+      "forms": [
+        [
+          "This",
+          1
+        ]
+      ],
+      "tags": [
+        "DT"
+      ],
+      "morphology": [
+        "Number=Sing|PronType=Dem"
+      ],
+      "translation": "Voici",
+      "origin": "auto"
+    },
+    {
+      "lemma": "to",
+      "pos": "PART",
+      "frequency": 1,
+      "forms": [
+        [
+          "to",
+          1
+        ]
+      ],
+      "tags": [
+        "TO"
+      ],
+      "morphology": [],
+      "translation": "à l ' Assemblée générale",
+      "origin": "auto"
+    },
+    {
+      "lemma": "use",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "uses",
+          1
+        ]
+      ],
+      "tags": [
+        "VBZ"
+      ],
+      "morphology": [
+        "Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+      ],
+      "translation": "Utilisation",
+      "origin": "auto"
+    },
+    {
+      "lemma": "viewer",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "viewer",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "visualiseur",
+      "origin": "auto"
+    },
+    {
+      "lemma": "with",
+      "pos": "ADP",
+      "frequency": 1,
+      "forms": [
+        [
+          "with",
+          1
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "avec",
+      "origin": "auto"
+    }
+  ],
+  "source_words": 33,
+  "translated_source_words": 28,
+  "target_words": 37,
+  "timings": {
+    "initialization": 0.0003974999999627471,
+    "analysis": 0.006716900010360405,
+    "translation": 1.8738483999914024,
+    "dictionary": 4.122435500001302
+  },
+  "versions": {
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0",
+    "model": "Helsinki-NLP/opus-mt-en-fr",
+    "revision": "dd7f6540a7a48a7f4db59e5c0b9c42c8eea67f18",
+    "torch": "2.14.1+cpu",
+    "transformers": "5.20.2",
+    "device": "cpu",
+    "beams": "4"
+  },
+  "warnings": [
+    "Автоматические словарные эквиваленты получены изолированно, требуют проверки и не являются выравниванием полного перевода.",
+    "Число переведённых слов — число исходных словоупотреблений с эквивалентом в словаре; совпавшие с исходником автопереводы требуют ручного подтверждения и не входят в покрытие. Это не оценка качества.",
+    "Длинные предложения делятся по 384 токена модели; возможна потеря контекста на границе. Исходный текст не обрезается."
+  ]
+}

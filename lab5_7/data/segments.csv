@@ -1,0 +1,77 @@
+﻿id,file,start,end,kind,reviewed,note
+ph_a,vowels.wav,,,phone,,phoneme a
+ph_o,vowels.wav,,,phone,,phoneme o
+ph_u,vowels.wav,,,phone,,phoneme u
+ph_e,vowels.wav,,,phone,,phoneme e
+ph_y,vowels.wav,,,phone,,phoneme y
+ph_i,vowels.wav,,,phone,,phoneme i
+ph_j,iotated.wav,,,phone,,phoneme j
+ph_l,hard_syllables.wav,,,phone,,phoneme l
+ph_l_soft,soft_syllables.wav,,,phone,,phoneme l_soft
+ph_m,consonants.wav,,,phone,,phoneme m
+ph_m_soft,soft_syllables.wav,,,phone,,phoneme m_soft
+ph_n,consonants.wav,,,phone,,phoneme n
+ph_n_soft,soft_syllables.wav,,,phone,,phoneme n_soft
+ph_r,hard_syllables.wav,,,phone,,phoneme r
+ph_r_soft,soft_syllables.wav,,,phone,,phoneme r_soft
+ph_p,hard_syllables.wav,,,phone,,phoneme p
+ph_p_soft,soft_syllables.wav,,,phone,,phoneme p_soft
+ph_k,hard_syllables.wav,,,phone,,phoneme k
+ph_k_soft,soft_syllables.wav,,,phone,,phoneme k_soft
+ph_t,hard_syllables.wav,,,phone,,phoneme t
+ph_t_soft,soft_syllables.wav,,,phone,,phoneme t_soft
+ph_v,hard_syllables.wav,,,phone,,phoneme v
+ph_v_soft,soft_syllables.wav,,,phone,,phoneme v_soft
+ph_z,hard_syllables.wav,,,phone,,phoneme z
+ph_z_soft,soft_syllables.wav,,,phone,,phoneme z_soft
+ph_zh,hard_syllables.wav,,,phone,,phoneme zh
+ph_b,consonants.wav,,,phone,,phoneme b
+ph_b_soft,soft_syllables.wav,,,phone,,phoneme b_soft
+ph_d,consonants.wav,,,phone,,phoneme d
+ph_d_soft,soft_syllables.wav,,,phone,,phoneme d_soft
+ph_g,hard_syllables.wav,,,phone,,phoneme g
+ph_g_soft,soft_syllables.wav,,,phone,,phoneme g_soft
+ph_f,fricatives.wav,,,phone,,phoneme f
+ph_f_soft,soft_syllables.wav,,,phone,,phoneme f_soft
+ph_s,fricatives.wav,,,phone,,phoneme s
+ph_s_soft,soft_syllables.wav,,,phone,,phoneme s_soft
+ph_sh,fricatives.wav,,,phone,,phoneme sh
+ph_shch,hard_syllables.wav,,,phone,,phoneme shch
+ph_h,fricatives.wav,,,phone,,phoneme h
+ph_h_soft,soft_syllables.wav,,,phone,,phoneme h_soft
+ph_ts,hard_syllables.wav,,,phone,,phoneme ts
+ph_ch,hard_syllables.wav,,,phone,,phoneme ch
+sy_sa,syllable_bank.wav,,,syllable,,sa
+sy_sha,syllable_bank.wav,,,syllable,,sha
+sy_ku,syllable_bank.wav,,,syllable,,ku
+sy_shal,syllable_bank.wav,,,syllable,,shal
+sy_ka,syllable_bank.wav,,,syllable,,ka
+sy_shu,syllable_bank.wav,,,syllable,,shu
+sy_a,syllable_bank.wav,,,syllable,,a
+sy_ma,syllable_bank.wav,,,syllable,,ma
+sy_pi,syllable_bank.wav,,,syllable,,pi
+sy_la,syllable_bank.wav,,,syllable,,la
+sy_sok,syllable_bank.wav,,,syllable,,sok
+sy_pa,syllable_bank.wav,,,syllable,,pa
+sy_i,syllable_bank.wav,,,syllable,,i
+sy_li,syllable_bank.wav,,,syllable,,li
+word_sasha,words.wav,,,word,,sasha
+word_kushal,words.wav,,,word,,kushal
+word_kashu,words.wav,,,word,,kashu
+ref_1,references.wav,,,reference,,Reference 1
+ref_2,references.wav,,,reference,,Reference 2
+ref_3,references.wav,,,reference,,Reference 3
+ref_4,references.wav,,,reference,,Reference 4
+student_student,student.wav,,,word,,student
+student_pisal,student.wav,,,word,,pisal
+student_referat,student.wav,,,word,,referat
+stress1_sasha,stress.wav,,,word,,Whole phrase stress condition
+stress1_kushal,stress.wav,,,word,,Whole phrase stress condition
+stress1_kashu,stress.wav,,,word,,Whole phrase stress condition
+stress2_sasha,stress.wav,,,word,,Whole phrase stress condition
+stress2_kushal,stress.wav,,,word,,Whole phrase stress condition
+stress2_kashu,stress.wav,,,word,,Whole phrase stress condition
+stress3_sasha,stress.wav,,,word,,Whole phrase stress condition
+stress3_kushal,stress.wav,,,word,,Whole phrase stress condition
+stress3_kashu,stress.wav,,,word,,Whole phrase stress condition
+student_phrase,student.wav,,,reference,,One complete monotone reference

@@ -1,0 +1,28 @@
+[
+  {
+    "path": "source_medicine.txt",
+    "language": "en",
+    "domain": "medicine",
+    "title": "Reduced insulin use and diabetes complications — excerpt",
+    "url": "https://doi.org/10.1371/journal.pmed.1004559",
+    "attribution": "Global Health & Population Project on Access to Care for Cardiometabolic Diseases (HPACC), PLOS Medicine 22(4), 2025",
+    "license": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
+    "selection": "First 3 complete sentences",
+    "original_path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab3\\data\\demo\\texts\\medical_en.txt",
+    "original_sha256": "fe0a6f05fca1b24eae57c47feb334bef561b44bda1b58c4ffc431498c74b88d1",
+    "sha256": "27d494c3a4fe05f47d3cacdf44f12d5b573f21d5521f9668c83a6c82d639d71f"
+  },
+  {
+    "path": "source_art.txt",
+    "language": "en",
+    "domain": "art",
+    "title": "The Meaning of Pictures: Truth in Painting — excerpt",
+    "url": "https://www.gutenberg.org/ebooks/72598",
+    "attribution": "John C. Van Dyke, The Meaning of Pictures, Charles Scribner's Sons, 1911 edition; Project Gutenberg #72598",
+    "license": "Public domain in USA; Gutenberg source snapshot contains its redistribution terms",
+    "selection": "First 6 complete sentences",
+    "original_path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab3\\data\\demo\\texts\\art_en.txt",
+    "original_sha256": "2458822a1c07e977daa86cc566c1a4306c2c80f583728501a8527a3a7ee8e5a5",
+    "sha256": "b08f2d2942d755d8a1e16051b53ff17a276c56ea87717fe310910b7760e4d431"
+  }
+]

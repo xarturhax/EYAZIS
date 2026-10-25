@@ -1,0 +1,62 @@
+[
+  {
+    "ebook": 11,
+    "title": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "language": "en",
+    "split": "train",
+    "url": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+    "page": "https://www.gutenberg.org/ebooks/11",
+    "sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e"
+  },
+  {
+    "ebook": 1342,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "language": "en",
+    "split": "train",
+    "url": "https://www.gutenberg.org/cache/epub/1342/pg1342.txt",
+    "page": "https://www.gutenberg.org/ebooks/1342",
+    "sha256": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75"
+  },
+  {
+    "ebook": 2000,
+    "title": "Don Quijote",
+    "author": "Miguel de Cervantes",
+    "language": "es",
+    "split": "train",
+    "url": "https://www.gutenberg.org/cache/epub/2000/pg2000.txt",
+    "page": "https://www.gutenberg.org/ebooks/2000",
+    "sha256": "534f41d59f7142163fa0964076ac6351845c006ea6433778be637fac6d5b04d7"
+  },
+  {
+    "ebook": 17340,
+    "title": "Marianela",
+    "author": "Benito Perez Galdos",
+    "language": "es",
+    "split": "train",
+    "url": "https://www.gutenberg.org/cache/epub/17340/pg17340.txt",
+    "page": "https://www.gutenberg.org/ebooks/17340",
+    "sha256": "ec6e5dbd4260583360ab7bd29738505ad5f0dfdf58db3dcbbc401c5ce4fea03f"
+  },
+  {
+    "ebook": 1661,
+    "title": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "language": "en",
+    "split": "test",
+    "url": "https://www.gutenberg.org/cache/epub/1661/pg1661.txt",
+    "page": "https://www.gutenberg.org/ebooks/1661",
+    "sha256": "922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0"
+  },
+  {
+    "ebook": 29506,
+    "title": "El sombrero de tres picos",
+    "author": "Pedro Antonio de Alarcon",
+    "language": "es",
+    "split": "test",
+    "url": "https://www.gutenberg.org/cache/epub/29506/pg29506.txt",
+    "page": "https://www.gutenberg.org/ebooks/29506",
+    "sha256": "b7ea9c05944d9939cfbda8b76c8be626d552514686b9efe903ccace2e549efea"
+  }
+]

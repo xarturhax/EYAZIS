@@ -1,0 +1,10 @@
+{
+  "status": "TEMPLATE_REPLACE_TIMES_AND_VALUES_AFTER_RECORDING",
+  "method": "psola",
+  "floor": 60,
+  "ceiling": 500,
+  "pitch_points": [],
+  "duration_points": [],
+  "gain": [],
+  "note": "pitch_points=[[time_seconds,F0_Hz],...]; duration_points=[[time_seconds,relative_duration],...]; gain=[[start_seconds,end_seconds,dB],...]. Gain uses OUTPUT timeline."
+}

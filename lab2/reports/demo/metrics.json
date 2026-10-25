@@ -1,0 +1,1646 @@
+{
+  "created_at": "2026-10-24T16:02:40.441639+00:00",
+  "settings": {
+    "max_word_length": 5,
+    "min_word_frequency": 4,
+    "smoothing": 0.5,
+    "seed": 36,
+    "repetitions": 5,
+    "neural_features": 3000,
+    "neural_hidden": 32,
+    "neural_iterations": 300,
+    "chunk_words": 80
+  },
+  "training": [
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc001.pdf",
+      "language": "en",
+      "source_id": "gutenberg:11",
+      "source_url": "https://www.gutenberg.org/ebooks/11",
+      "sha256": "c3491181aa604c3d35d6ede85a2976c29757f2583e7a10560f3859dfbd860d84",
+      "utf8_bytes": 2487,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc002.pdf",
+      "language": "en",
+      "source_id": "gutenberg:11",
+      "source_url": "https://www.gutenberg.org/ebooks/11",
+      "sha256": "11a7e6fb0ab024e68fe0e347bc203e58e91be94a0b5286eb82d32cd50cf752bc",
+      "utf8_bytes": 2548,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc003.pdf",
+      "language": "en",
+      "source_id": "gutenberg:11",
+      "source_url": "https://www.gutenberg.org/ebooks/11",
+      "sha256": "9824b624d60d37d4c5c0ac06c85a9899afa806150ec2fcfc103ce96c4d635fb4",
+      "utf8_bytes": 2425,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc004.pdf",
+      "language": "en",
+      "source_id": "gutenberg:11",
+      "source_url": "https://www.gutenberg.org/ebooks/11",
+      "sha256": "642ae5fa4e82413678f27c5c6e7bd88f8e969b23826ce07c3ad28972eb6111c5",
+      "utf8_bytes": 2452,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc005.pdf",
+      "language": "en",
+      "source_id": "gutenberg:11",
+      "source_url": "https://www.gutenberg.org/ebooks/11",
+      "sha256": "69042eb9184e4bafda7e14f003ef06c0a4edc259b9ef60d45b7de35c1a5152b4",
+      "utf8_bytes": 2568,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc006.pdf",
+      "language": "en",
+      "source_id": "gutenberg:11",
+      "source_url": "https://www.gutenberg.org/ebooks/11",
+      "sha256": "064e0226416280b59e07ce4d33ba62ee90c2688e8d624df6683ddc9c1370c751",
+      "utf8_bytes": 2460,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc007.pdf",
+      "language": "en",
+      "source_id": "gutenberg:11",
+      "source_url": "https://www.gutenberg.org/ebooks/11",
+      "sha256": "9640633f7a225287cd77c05265a7d2cc26b10d3868ab97afc0161f2d157e8d3c",
+      "utf8_bytes": 2574,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc008.pdf",
+      "language": "en",
+      "source_id": "gutenberg:11",
+      "source_url": "https://www.gutenberg.org/ebooks/11",
+      "sha256": "8dbf2e2cb66e8ece78b00cd2f2d148768bbeab6da85190437a558d20bac37a48",
+      "utf8_bytes": 2589,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc009.pdf",
+      "language": "en",
+      "source_id": "gutenberg:1342",
+      "source_url": "https://www.gutenberg.org/ebooks/1342",
+      "sha256": "af3d0c4d2178245776903bacf193708e93c3b800e764a38c04befbdbf41bc48f",
+      "utf8_bytes": 2425,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc010.pdf",
+      "language": "en",
+      "source_id": "gutenberg:1342",
+      "source_url": "https://www.gutenberg.org/ebooks/1342",
+      "sha256": "f48a4b1b2683f0e0f2a303d0c094241d99d5ea39b671f847772680be48b9b594",
+      "utf8_bytes": 2407,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc011.pdf",
+      "language": "en",
+      "source_id": "gutenberg:1342",
+      "source_url": "https://www.gutenberg.org/ebooks/1342",
+      "sha256": "2babb00a140c577167e48bd56df3600055566cdb71f22290936836432c9e758d",
+      "utf8_bytes": 2430,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc012.pdf",
+      "language": "en",
+      "source_id": "gutenberg:1342",
+      "source_url": "https://www.gutenberg.org/ebooks/1342",
+      "sha256": "4c6daae1f86d13fb82ffe86c4c8c0b9410c25ff020ed3450b0400443dd6761d0",
+      "utf8_bytes": 2422,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc013.pdf",
+      "language": "en",
+      "source_id": "gutenberg:1342",
+      "source_url": "https://www.gutenberg.org/ebooks/1342",
+      "sha256": "618221ae15c09f08e0deb709f5bf03f8f89a94e0829c1b58949c9c68ef9728d0",
+      "utf8_bytes": 2410,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc014.pdf",
+      "language": "en",
+      "source_id": "gutenberg:1342",
+      "source_url": "https://www.gutenberg.org/ebooks/1342",
+      "sha256": "5452c11bfec114485092255d25f1904f89def2bd681e2090918253d32adc8243",
+      "utf8_bytes": 2452,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc015.pdf",
+      "language": "en",
+      "source_id": "gutenberg:1342",
+      "source_url": "https://www.gutenberg.org/ebooks/1342",
+      "sha256": "cf403875231fa604a343c996b929258682ef2be5c285dcdb80a25e6d526c9b3c",
+      "utf8_bytes": 2411,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc016.pdf",
+      "language": "en",
+      "source_id": "gutenberg:1342",
+      "source_url": "https://www.gutenberg.org/ebooks/1342",
+      "sha256": "750649966414c501a5320386326a916f421416979a5ad018f5fba778c126b0af",
+      "utf8_bytes": 2406,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc017.pdf",
+      "language": "es",
+      "source_id": "gutenberg:2000",
+      "source_url": "https://www.gutenberg.org/ebooks/2000",
+      "sha256": "23a144bccb6a73c97d3aeb4156e52d2310d55cf42e36c1a0f4509396292d434a",
+      "utf8_bytes": 2446,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc018.pdf",
+      "language": "es",
+      "source_id": "gutenberg:2000",
+      "source_url": "https://www.gutenberg.org/ebooks/2000",
+      "sha256": "fef397c1569e2e496edb4b7b0a3fb0639432ab0492b3dc760a66d24ba7dfea6e",
+      "utf8_bytes": 2472,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc019.pdf",
+      "language": "es",
+      "source_id": "gutenberg:2000",
+      "source_url": "https://www.gutenberg.org/ebooks/2000",
+      "sha256": "9ef993a51e3e02f82cad0b18ebbb7377220a5c246b564e9f14c0404397dbc0e6",
+      "utf8_bytes": 2430,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc020.pdf",
+      "language": "es",
+      "source_id": "gutenberg:2000",
+      "source_url": "https://www.gutenberg.org/ebooks/2000",
+      "sha256": "cd1b3b2e9d5193c9fc7b8efd28c901b94ebe6d5efa9590c7215a6f9042d08dfe",
+      "utf8_bytes": 2442,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc021.pdf",
+      "language": "es",
+      "source_id": "gutenberg:2000",
+      "source_url": "https://www.gutenberg.org/ebooks/2000",
+      "sha256": "9ef9662bc33c7059b851e25a11c9d1cb895dc97835e42fef0c4c37897d0553c9",
+      "utf8_bytes": 2508,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc022.pdf",
+      "language": "es",
+      "source_id": "gutenberg:2000",
+      "source_url": "https://www.gutenberg.org/ebooks/2000",
+      "sha256": "7c70939d43c28425a407d6ed507d11cac9e642a931237e4e604e7d9a24563ec4",
+      "utf8_bytes": 2472,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc023.pdf",
+      "language": "es",
+      "source_id": "gutenberg:2000",
+      "source_url": "https://www.gutenberg.org/ebooks/2000",
+      "sha256": "d441584429a7f8471bef98715e576133aa1ed32dfc7f02cbc9428ab8a57c8a98",
+      "utf8_bytes": 2481,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc024.pdf",
+      "language": "es",
+      "source_id": "gutenberg:2000",
+      "source_url": "https://www.gutenberg.org/ebooks/2000",
+      "sha256": "f416d427cced22f4b77ad858e36eb63f442fb868a5c9325382c8e70c4e750b2b",
+      "utf8_bytes": 2448,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc025.pdf",
+      "language": "es",
+      "source_id": "gutenberg:17340",
+      "source_url": "https://www.gutenberg.org/ebooks/17340",
+      "sha256": "f4e397a960a5257b3cc5dd888d1ba89647ca9a2dbd4a2e0e8dac5eac90dd3df0",
+      "utf8_bytes": 2461,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc026.pdf",
+      "language": "es",
+      "source_id": "gutenberg:17340",
+      "source_url": "https://www.gutenberg.org/ebooks/17340",
+      "sha256": "ecd6c2116ed7ed5f2a85ae4e9cdf29361dfa948bd54fc8a2a596057ae35b1334",
+      "utf8_bytes": 2440,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc027.pdf",
+      "language": "es",
+      "source_id": "gutenberg:17340",
+      "source_url": "https://www.gutenberg.org/ebooks/17340",
+      "sha256": "23e4a20fd735f2e8e5bc320c8017741c6e98d3f9bb8229b91c2113f82a5ea1eb",
+      "utf8_bytes": 2461,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc028.pdf",
+      "language": "es",
+      "source_id": "gutenberg:17340",
+      "source_url": "https://www.gutenberg.org/ebooks/17340",
+      "sha256": "489a2892788204b600064fccb7ed5e2e8b0dfb5cdd5c824b004ab3d3052a2c9f",
+      "utf8_bytes": 2452,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc029.pdf",
+      "language": "es",
+      "source_id": "gutenberg:17340",
+      "source_url": "https://www.gutenberg.org/ebooks/17340",
+      "sha256": "f2a1030bd06a33bf919caf0cc6f11f818b44ce47d2195c9bed0564b56aa5e7e1",
+      "utf8_bytes": 2457,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc030.pdf",
+      "language": "es",
+      "source_id": "gutenberg:17340",
+      "source_url": "https://www.gutenberg.org/ebooks/17340",
+      "sha256": "0d79569deb56b95eb235bcccdb9ec4e9f0cf79b371f4f74abfca515af7bdb0fa",
+      "utf8_bytes": 2460,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc031.pdf",
+      "language": "es",
+      "source_id": "gutenberg:17340",
+      "source_url": "https://www.gutenberg.org/ebooks/17340",
+      "sha256": "f95695df78290db2c6cc4b30e96e0832af4973a0f5600e03ab83cbd741e041bb",
+      "utf8_bytes": 2466,
+      "pages": 1,
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc032.pdf",
+      "language": "es",
+      "source_id": "gutenberg:17340",
+      "source_url": "https://www.gutenberg.org/ebooks/17340",
+      "sha256": "d2e429c976a1ffdf99c551d8af57e9b2c60f50b6df5f704030308ba122e85624",
+      "utf8_bytes": 2459,
+      "pages": 1,
+      "warnings": []
+    }
+  ],
+  "training_bytes": {
+    "en": 39466,
+    "es": 39355
+  },
+  "training_seconds": {
+    "short_words": 0.005930699990130961,
+    "alphabet": 0.006068500020774081,
+    "neural": 0.29556509997928515
+  },
+  "parsing_seconds": 0.3102980999974534,
+  "rows": [
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc033.pdf",
+      "title": "The Adventures of Sherlock Holmes [1]",
+      "source_url": "https://www.gutenberg.org/ebooks/1661",
+      "expected": "en",
+      "characters": 2398,
+      "pages": 1,
+      "predictions": {
+        "short_words": {
+          "language": "en",
+          "scores": {
+            "en": 5.490303515735019,
+            "es": 8.739023912943152
+          },
+          "score_kind": "средняя отрицательная log-вероятность; меньше лучше",
+          "explanation": "Коротких слов: 385; известных: 312. Сглаживание учитывает неизвестные слова; оценки не являются уверенностью."
+        },
+        "alphabet": {
+          "language": "en",
+          "scores": {
+            "en": 0.10840937299875135,
+            "es": 0.39133438117272684
+          },
+          "score_kind": "L1-расстояние частот букв; меньше лучше",
+          "explanation": "Сравниваются частоты отдельных букв. Общая латиница не различает языки по одному только наличию букв; короткие тексты ненадёжны."
+        },
+        "neural": {
+          "language": "en",
+          "scores": {
+            "en": 0.99999316919356,
+            "es": 6.830806440086101e-06
+          },
+          "score_kind": "оценка MLP; больше лучше",
+          "explanation": "Вероятности модели не калиброваны. Выбор только между EN и ES; другие языки на латинице могут быть ошибочно отнесены к одному из них."
+        }
+      },
+      "milliseconds": {
+        "short_words": 0.517400010721758,
+        "alphabet": 0.36949999048374593,
+        "neural": 5.766999995103106
+      },
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc034.pdf",
+      "title": "The Adventures of Sherlock Holmes [2]",
+      "source_url": "https://www.gutenberg.org/ebooks/1661",
+      "expected": "en",
+      "characters": 2396,
+      "pages": 1,
+      "predictions": {
+        "short_words": {
+          "language": "en",
+          "scores": {
+            "en": 5.391945447847261,
+            "es": 8.721436550071088
+          },
+          "score_kind": "средняя отрицательная log-вероятность; меньше лучше",
+          "explanation": "Коротких слов: 363; известных: 310. Сглаживание учитывает неизвестные слова; оценки не являются уверенностью."
+        },
+        "alphabet": {
+          "language": "en",
+          "scores": {
+            "en": 0.10455474429082617,
+            "es": 0.36413298046876474
+          },
+          "score_kind": "L1-расстояние частот букв; меньше лучше",
+          "explanation": "Сравниваются частоты отдельных букв. Общая латиница не различает языки по одному только наличию букв; короткие тексты ненадёжны."
+        },
+        "neural": {
+          "language": "en",
+          "scores": {
+            "en": 0.9999898650938202,
+            "es": 1.013490617983244e-05
+          },
+          "score_kind": "оценка MLP; больше лучше",
+          "explanation": "Вероятности модели не калиброваны. Выбор только между EN и ES; другие языки на латинице могут быть ошибочно отнесены к одному из них."
+        }
+      },
+      "milliseconds": {
+        "short_words": 0.5091999773867428,
+        "alphabet": 0.3759999817702919,
+        "neural": 5.361199990147725
+      },
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc035.pdf",
+      "title": "The Adventures of Sherlock Holmes [3]",
+      "source_url": "https://www.gutenberg.org/ebooks/1661",
+      "expected": "en",
+      "characters": 2396,
+      "pages": 1,
+      "predictions": {
+        "short_words": {
+          "language": "en",
+          "scores": {
+            "en": 5.66637355311847,
+            "es": 8.646188778520111
+          },
+          "score_kind": "средняя отрицательная log-вероятность; меньше лучше",
+          "explanation": "Коротких слов: 382; известных: 301. Сглаживание учитывает неизвестные слова; оценки не являются уверенностью."
+        },
+        "alphabet": {
+          "language": "en",
+          "scores": {
+            "en": 0.11190122044771361,
+            "es": 0.4353675961493856
+          },
+          "score_kind": "L1-расстояние частот букв; меньше лучше",
+          "explanation": "Сравниваются частоты отдельных букв. Общая латиница не различает языки по одному только наличию букв; короткие тексты ненадёжны."
+        },
+        "neural": {
+          "language": "en",
+          "scores": {
+            "en": 0.9999825009718727,
+            "es": 1.7499028127264836e-05
+          },
+          "score_kind": "оценка MLP; больше лучше",
+          "explanation": "Вероятности модели не калиброваны. Выбор только между EN и ES; другие языки на латинице могут быть ошибочно отнесены к одному из них."
+        }
+      },
+      "milliseconds": {
+        "short_words": 0.5818000063300133,
+        "alphabet": 0.37709999014623463,
+        "neural": 5.645099998218939
+      },
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc036.pdf",
+      "title": "The Adventures of Sherlock Holmes [4]",
+      "source_url": "https://www.gutenberg.org/ebooks/1661",
+      "expected": "en",
+      "characters": 2397,
+      "pages": 1,
+      "predictions": {
+        "short_words": {
+          "language": "en",
+          "scores": {
+            "en": 5.677537855912379,
+            "es": 8.695515201023769
+          },
+          "score_kind": "средняя отрицательная log-вероятность; меньше лучше",
+          "explanation": "Коротких слов: 399; известных: 307. Сглаживание учитывает неизвестные слова; оценки не являются уверенностью."
+        },
+        "alphabet": {
+          "language": "en",
+          "scores": {
+            "en": 0.11682360472638544,
+            "es": 0.3718954854725929
+          },
+          "score_kind": "L1-расстояние частот букв; меньше лучше",
+          "explanation": "Сравниваются частоты отдельных букв. Общая латиница не различает языки по одному только наличию букв; короткие тексты ненадёжны."
+        },
+        "neural": {
+          "language": "en",
+          "scores": {
+            "en": 0.99998578408726,
+            "es": 1.4215912739975037e-05
+          },
+          "score_kind": "оценка MLP; больше лучше",
+          "explanation": "Вероятности модели не калиброваны. Выбор только между EN и ES; другие языки на латинице могут быть ошибочно отнесены к одному из них."
+        }
+      },
+      "milliseconds": {
+        "short_words": 0.5446999857667834,
+        "alphabet": 0.3708000003825873,
+        "neural": 5.3730999934487045
+      },
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc037.pdf",
+      "title": "The Adventures of Sherlock Holmes [5]",
+      "source_url": "https://www.gutenberg.org/ebooks/1661",
+      "expected": "en",
+      "characters": 2399,
+      "pages": 1,
+      "predictions": {
+        "short_words": {
+          "language": "en",
+          "scores": {
+            "en": 5.662115201180501,
+            "es": 8.575146370548866
+          },
+          "score_kind": "средняя отрицательная log-вероятность; меньше лучше",
+          "explanation": "Коротких слов: 355; известных: 285. Сглаживание учитывает неизвестные слова; оценки не являются уверенностью."
+        },
+        "alphabet": {
+          "language": "en",
+          "scores": {
+            "en": 0.1083281283969935,
+            "es": 0.41699744092454877
+          },
+          "score_kind": "L1-расстояние частот букв; меньше лучше",
+          "explanation": "Сравниваются частоты отдельных букв. Общая латиница не различает языки по одному только наличию букв; короткие тексты ненадёжны."
+        },
+        "neural": {
+          "language": "en",
+          "scores": {
+            "en": 0.9999802745219669,
+            "es": 1.972547803307457e-05
+          },
+          "score_kind": "оценка MLP; больше лучше",
+          "explanation": "Вероятности модели не калиброваны. Выбор только между EN и ES; другие языки на латинице могут быть ошибочно отнесены к одному из них."
+        }
+      },
+      "milliseconds": {
+        "short_words": 0.5011000030208379,
+        "alphabet": 0.371300004189834,
+        "neural": 5.60039997799322
+      },
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc038.pdf",
+      "title": "The Adventures of Sherlock Holmes [6]",
+      "source_url": "https://www.gutenberg.org/ebooks/1661",
+      "expected": "en",
+      "characters": 2396,
+      "pages": 1,
+      "predictions": {
+        "short_words": {
+          "language": "en",
+          "scores": {
+            "en": 5.426173659890645,
+            "es": 8.80111964978909
+          },
+          "score_kind": "средняя отрицательная log-вероятность; меньше лучше",
+          "explanation": "Коротких слов: 342; известных: 276. Сглаживание учитывает неизвестные слова; оценки не являются уверенностью."
+        },
+        "alphabet": {
+          "language": "en",
+          "scores": {
+            "en": 0.08847149348976517,
+            "es": 0.4103057611284089
+          },
+          "score_kind": "L1-расстояние частот букв; меньше лучше",
+          "explanation": "Сравниваются частоты отдельных букв. Общая латиница не различает языки по одному только наличию букв; короткие тексты ненадёжны."
+        },
+        "neural": {
+          "language": "en",
+          "scores": {
+            "en": 0.9999874095554528,
+            "es": 1.2590444547181572e-05
+          },
+          "score_kind": "оценка MLP; больше лучше",
+          "explanation": "Вероятности модели не калиброваны. Выбор только между EN и ES; другие языки на латинице могут быть ошибочно отнесены к одному из них."
+        }
+      },
+      "milliseconds": {
+        "short_words": 0.5043999990448356,
+        "alphabet": 0.38499999209307134,
+        "neural": 7.096399989677593
+      },
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc039.pdf",
+      "title": "The Adventures of Sherlock Holmes [7]",
+      "source_url": "https://www.gutenberg.org/ebooks/1661",
+      "expected": "en",
+      "characters": 2399,
+      "pages": 1,
+      "predictions": {
+        "short_words": {
+          "language": "en",
+          "scores": {
+            "en": 5.229339872948092,
+            "es": 8.754811316519246
+          },
+          "score_kind": "средняя отрицательная log-вероятность; меньше лучше",
+          "explanation": "Коротких слов: 341; известных: 286. Сглаживание учитывает неизвестные слова; оценки не являются уверенностью."
+        },
+        "alphabet": {
+          "language": "en",
+          "scores": {
+            "en": 0.09683156045173848,
+            "es": 0.3983505486041319
+          },
+          "score_kind": "L1-расстояние частот букв; меньше лучше",
+          "explanation": "Сравниваются частоты отдельных букв. Общая латиница не различает языки по одному только наличию букв; короткие тексты ненадёжны."
+        },
+        "neural": {
+          "language": "en",
+          "scores": {
+            "en": 0.9999909836575964,
+            "es": 9.016342403602255e-06
+          },
+          "score_kind": "оценка MLP; больше лучше",
+          "explanation": "Вероятности модели не калиброваны. Выбор только между EN и ES; другие языки на латинице могут быть ошибочно отнесены к одному из них."
+        }
+      },
+      "milliseconds": {
+        "short_words": 0.49489998491480947,
+        "alphabet": 0.3761000116355717,
+        "neural": 5.723600013880059
+      },
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc040.pdf",
+      "title": "The Adventures of Sherlock Holmes [8]",
+      "source_url": "https://www.gutenberg.org/ebooks/1661",
+      "expected": "en",
+      "characters": 2399,
+      "pages": 1,
+      "predictions": {
+        "short_words": {
+          "language": "en",
+          "scores": {
+            "en": 5.290247037806847,
+            "es": 8.657009580832206
+          },
+          "score_kind": "средняя отрицательная log-вероятность; меньше лучше",
+          "explanation": "Коротких слов: 409; известных: 347. Сглаживание учитывает неизвестные слова; оценки не являются уверенностью."
+        },
+        "alphabet": {
+          "language": "en",
+          "scores": {
+            "en": 0.1727253719799135,
+            "es": 0.42894646847641177
+          },
+          "score_kind": "L1-расстояние частот букв; меньше лучше",
+          "explanation": "Сравниваются частоты отдельных букв. Общая латиница не различает языки по одному только наличию букв; короткие тексты ненадёжны."
+        },
+        "neural": {
+          "language": "en",
+          "scores": {
+            "en": 0.9999865586368503,
+            "es": 1.3441363149743694e-05
+          },
+          "score_kind": "оценка MLP; больше лучше",
+          "explanation": "Вероятности модели не калиброваны. Выбор только между EN и ES; другие языки на латинице могут быть ошибочно отнесены к одному из них."
+        }
+      },
+      "milliseconds": {
+        "short_words": 0.540599983651191,
+        "alphabet": 0.370699999621138,
+        "neural": 5.387199984397739
+      },
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc041.pdf",
+      "title": "El sombrero de tres picos [1]",
+      "source_url": "https://www.gutenberg.org/ebooks/29506",
+      "expected": "es",
+      "characters": 2398,
+      "pages": 1,
+      "predictions": {
+        "short_words": {
+          "language": "es",
+          "scores": {
+            "en": 8.812542185272793,
+            "es": 5.076212348509537
+          },
+          "score_kind": "средняя отрицательная log-вероятность; меньше лучше",
+          "explanation": "Коротких слов: 265; известных: 212. Сглаживание учитывает неизвестные слова; оценки не являются уверенностью."
+        },
+        "alphabet": {
+          "language": "es",
+          "scores": {
+            "en": 0.406826600334084,
+            "es": 0.09042074928438078
+          },
+          "score_kind": "L1-расстояние частот букв; меньше лучше",
+          "explanation": "Сравниваются частоты отдельных букв. Общая латиница не различает языки по одному только наличию букв; короткие тексты ненадёжны."
+        },
+        "neural": {
+          "language": "es",
+          "scores": {
+            "en": 1.5934587223487284e-05,
+            "es": 0.9999840654127765
+          },
+          "score_kind": "оценка MLP; больше лучше",
+          "explanation": "Вероятности модели не калиброваны. Выбор только между EN и ES; другие языки на латинице могут быть ошибочно отнесены к одному из них."
+        }
+      },
+      "milliseconds": {
+        "short_words": 0.5028999876230955,
+        "alphabet": 0.3790999762713909,
+        "neural": 6.0640999872703105
+      },
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc042.pdf",
+      "title": "El sombrero de tres picos [2]",
+      "source_url": "https://www.gutenberg.org/ebooks/29506",
+      "expected": "es",
+      "characters": 2391,
+      "pages": 1,
+      "predictions": {
+        "short_words": {
+          "language": "es",
+          "scores": {
+            "en": 8.780311319352059,
+            "es": 5.381628850388687
+          },
+          "score_kind": "средняя отрицательная log-вероятность; меньше лучше",
+          "explanation": "Коротких слов: 330; известных: 263. Сглаживание учитывает неизвестные слова; оценки не являются уверенностью."
+        },
+        "alphabet": {
+          "language": "es",
+          "scores": {
+            "en": 0.4224980383545353,
+            "es": 0.16716779072947832
+          },
+          "score_kind": "L1-расстояние частот букв; меньше лучше",
+          "explanation": "Сравниваются частоты отдельных букв. Общая латиница не различает языки по одному только наличию букв; короткие тексты ненадёжны."
+        },
+        "neural": {
+          "language": "es",
+          "scores": {
+            "en": 1.0021703621965194e-05,
+            "es": 0.999989978296378
+          },
+          "score_kind": "оценка MLP; больше лучше",
+          "explanation": "Вероятности модели не калиброваны. Выбор только между EN и ES; другие языки на латинице могут быть ошибочно отнесены к одному из них."
+        }
+      },
+      "milliseconds": {
+        "short_words": 0.4766999918501824,
+        "alphabet": 0.3617999900598079,
+        "neural": 6.016400002408773
+      },
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc043.pdf",
+      "title": "El sombrero de tres picos [3]",
+      "source_url": "https://www.gutenberg.org/ebooks/29506",
+      "expected": "es",
+      "characters": 2398,
+      "pages": 1,
+      "predictions": {
+        "short_words": {
+          "language": "es",
+          "scores": {
+            "en": 8.798428313488083,
+            "es": 5.098824350340961
+          },
+          "score_kind": "средняя отрицательная log-вероятность; меньше лучше",
+          "explanation": "Коротких слов: 251; известных: 197. Сглаживание учитывает неизвестные слова; оценки не являются уверенностью."
+        },
+        "alphabet": {
+          "language": "es",
+          "scores": {
+            "en": 0.406547602810064,
+            "es": 0.1183846442322961
+          },
+          "score_kind": "L1-расстояние частот букв; меньше лучше",
+          "explanation": "Сравниваются частоты отдельных букв. Общая латиница не различает языки по одному только наличию букв; короткие тексты ненадёжны."
+        },
+        "neural": {
+          "language": "es",
+          "scores": {
+            "en": 1.5535757998841326e-05,
+            "es": 0.9999844642420012
+          },
+          "score_kind": "оценка MLP; больше лучше",
+          "explanation": "Вероятности модели не калиброваны. Выбор только между EN и ES; другие языки на латинице могут быть ошибочно отнесены к одному из них."
+        }
+      },
+      "milliseconds": {
+        "short_words": 0.4386999935377389,
+        "alphabet": 0.36639999598264694,
+        "neural": 5.710899975383654
+      },
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc044.pdf",
+      "title": "El sombrero de tres picos [4]",
+      "source_url": "https://www.gutenberg.org/ebooks/29506",
+      "expected": "es",
+      "characters": 2399,
+      "pages": 1,
+      "predictions": {
+        "short_words": {
+          "language": "es",
+          "scores": {
+            "en": 8.873728145107458,
+            "es": 5.396149995320366
+          },
+          "score_kind": "средняя отрицательная log-вероятность; меньше лучше",
+          "explanation": "Коротких слов: 290; известных: 219. Сглаживание учитывает неизвестные слова; оценки не являются уверенностью."
+        },
+        "alphabet": {
+          "language": "es",
+          "scores": {
+            "en": 0.4131100401723547,
+            "es": 0.08961169247828565
+          },
+          "score_kind": "L1-расстояние частот букв; меньше лучше",
+          "explanation": "Сравниваются частоты отдельных букв. Общая латиница не различает языки по одному только наличию букв; короткие тексты ненадёжны."
+        },
+        "neural": {
+          "language": "es",
+          "scores": {
+            "en": 1.0936472933820163e-05,
+            "es": 0.9999890635270662
+          },
+          "score_kind": "оценка MLP; больше лучше",
+          "explanation": "Вероятности модели не калиброваны. Выбор только между EN и ES; другие языки на латинице могут быть ошибочно отнесены к одному из них."
+        }
+      },
+      "milliseconds": {
+        "short_words": 0.475099979666993,
+        "alphabet": 0.3662999952211976,
+        "neural": 6.739500007824972
+      },
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc045.pdf",
+      "title": "El sombrero de tres picos [5]",
+      "source_url": "https://www.gutenberg.org/ebooks/29506",
+      "expected": "es",
+      "characters": 2396,
+      "pages": 1,
+      "predictions": {
+        "short_words": {
+          "language": "es",
+          "scores": {
+            "en": 8.899354219748922,
+            "es": 5.376413324628617
+          },
+          "score_kind": "средняя отрицательная log-вероятность; меньше лучше",
+          "explanation": "Коротких слов: 279; известных: 212. Сглаживание учитывает неизвестные слова; оценки не являются уверенностью."
+        },
+        "alphabet": {
+          "language": "es",
+          "scores": {
+            "en": 0.39679872514758463,
+            "es": 0.08679768979186975
+          },
+          "score_kind": "L1-расстояние частот букв; меньше лучше",
+          "explanation": "Сравниваются частоты отдельных букв. Общая латиница не различает языки по одному только наличию букв; короткие тексты ненадёжны."
+        },
+        "neural": {
+          "language": "es",
+          "scores": {
+            "en": 2.53766344344708e-05,
+            "es": 0.9999746233655655
+          },
+          "score_kind": "оценка MLP; больше лучше",
+          "explanation": "Вероятности модели не калиброваны. Выбор только между EN и ES; другие языки на латинице могут быть ошибочно отнесены к одному из них."
+        }
+      },
+      "milliseconds": {
+        "short_words": 0.4710000066552311,
+        "alphabet": 0.38189999759197235,
+        "neural": 6.018399988533929
+      },
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc046.pdf",
+      "title": "El sombrero de tres picos [6]",
+      "source_url": "https://www.gutenberg.org/ebooks/29506",
+      "expected": "es",
+      "characters": 2396,
+      "pages": 1,
+      "predictions": {
+        "short_words": {
+          "language": "es",
+          "scores": {
+            "en": 8.75596451786018,
+            "es": 5.442629353885485
+          },
+          "score_kind": "средняя отрицательная log-вероятность; меньше лучше",
+          "explanation": "Коротких слов: 306; известных: 231. Сглаживание учитывает неизвестные слова; оценки не являются уверенностью."
+        },
+        "alphabet": {
+          "language": "es",
+          "scores": {
+            "en": 0.4063712608067433,
+            "es": 0.1028237173985699
+          },
+          "score_kind": "L1-расстояние частот букв; меньше лучше",
+          "explanation": "Сравниваются частоты отдельных букв. Общая латиница не различает языки по одному только наличию букв; короткие тексты ненадёжны."
+        },
+        "neural": {
+          "language": "es",
+          "scores": {
+            "en": 1.5704351266965233e-05,
+            "es": 0.999984295648733
+          },
+          "score_kind": "оценка MLP; больше лучше",
+          "explanation": "Вероятности модели не калиброваны. Выбор только между EN и ES; другие языки на латинице могут быть ошибочно отнесены к одному из них."
+        }
+      },
+      "milliseconds": {
+        "short_words": 0.5004999984521419,
+        "alphabet": 0.660100020468235,
+        "neural": 6.625200010603294
+      },
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc047.pdf",
+      "title": "El sombrero de tres picos [7]",
+      "source_url": "https://www.gutenberg.org/ebooks/29506",
+      "expected": "es",
+      "characters": 2396,
+      "pages": 1,
+      "predictions": {
+        "short_words": {
+          "language": "es",
+          "scores": {
+            "en": 8.831111739594542,
+            "es": 5.105984585426967
+          },
+          "score_kind": "средняя отрицательная log-вероятность; меньше лучше",
+          "explanation": "Коротких слов: 276; известных: 224. Сглаживание учитывает неизвестные слова; оценки не являются уверенностью."
+        },
+        "alphabet": {
+          "language": "es",
+          "scores": {
+            "en": 0.4158561252314905,
+            "es": 0.09502305022725141
+          },
+          "score_kind": "L1-расстояние частот букв; меньше лучше",
+          "explanation": "Сравниваются частоты отдельных букв. Общая латиница не различает языки по одному только наличию букв; короткие тексты ненадёжны."
+        },
+        "neural": {
+          "language": "es",
+          "scores": {
+            "en": 1.0471983493687276e-05,
+            "es": 0.9999895280165063
+          },
+          "score_kind": "оценка MLP; больше лучше",
+          "explanation": "Вероятности модели не калиброваны. Выбор только между EN и ES; другие языки на латинице могут быть ошибочно отнесены к одному из них."
+        }
+      },
+      "milliseconds": {
+        "short_words": 0.45590000809170306,
+        "alphabet": 0.3640000068116933,
+        "neural": 6.393500021658838
+      },
+      "warnings": []
+    },
+    {
+      "path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab2\\data\\demo\\pdf\\doc048.pdf",
+      "title": "El sombrero de tres picos [8]",
+      "source_url": "https://www.gutenberg.org/ebooks/29506",
+      "expected": "es",
+      "characters": 2398,
+      "pages": 1,
+      "predictions": {
+        "short_words": {
+          "language": "es",
+          "scores": {
+            "en": 8.890541239006428,
+            "es": 5.087277998735639
+          },
+          "score_kind": "средняя отрицательная log-вероятность; меньше лучше",
+          "explanation": "Коротких слов: 271; известных: 215. Сглаживание учитывает неизвестные слова; оценки не являются уверенностью."
+        },
+        "alphabet": {
+          "language": "es",
+          "scores": {
+            "en": 0.40194435308084053,
+            "es": 0.08912935444266183
+          },
+          "score_kind": "L1-расстояние частот букв; меньше лучше",
+          "explanation": "Сравниваются частоты отдельных букв. Общая латиница не различает языки по одному только наличию букв; короткие тексты ненадёжны."
+        },
+        "neural": {
+          "language": "es",
+          "scores": {
+            "en": 1.2354972063866043e-05,
+            "es": 0.9999876450279361
+          },
+          "score_kind": "оценка MLP; больше лучше",
+          "explanation": "Вероятности модели не калиброваны. Выбор только между EN и ES; другие языки на латинице могут быть ошибочно отнесены к одному из них."
+        }
+      },
+      "milliseconds": {
+        "short_words": 0.4645000153686851,
+        "alphabet": 0.4631000047083944,
+        "neural": 6.097000004956499
+      },
+      "warnings": []
+    }
+  ],
+  "metrics": {
+    "short_words": {
+      "labeled": 16,
+      "correct": 16,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "abstentions": 0,
+      "mean_ms": 0.4987124957551714,
+      "confusion": {
+        "en": {
+          "en": 8,
+          "es": 0,
+          "?": 0
+        },
+        "es": {
+          "en": 0,
+          "es": 8,
+          "?": 0
+        }
+      },
+      "per_class": {
+        "en": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "es": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    },
+    "alphabet": {
+      "labeled": 16,
+      "correct": 16,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "abstentions": 0,
+      "mean_ms": 0.39619999733986333,
+      "confusion": {
+        "en": {
+          "en": 8,
+          "es": 0,
+          "?": 0
+        },
+        "es": {
+          "en": 0,
+          "es": 8,
+          "?": 0
+        }
+      },
+      "per_class": {
+        "en": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "es": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    },
+    "neural": {
+      "labeled": 16,
+      "correct": 16,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "abstentions": 0,
+      "mean_ms": 5.97618749634421,
+      "confusion": {
+        "en": {
+          "en": 8,
+          "es": 0,
+          "?": 0
+        },
+        "es": {
+          "en": 0,
+          "es": 8,
+          "?": 0
+        }
+      },
+      "per_class": {
+        "en": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "es": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    }
+  },
+  "profiles": {
+    "short_words": {
+      "vocabulary_size": 394,
+      "profiles": {
+        "en": {
+          "the": 333,
+          "and": 232,
+          "to": 207,
+          "of": 175,
+          "a": 157,
+          "i": 147,
+          "her": 105,
+          "in": 103,
+          "was": 98,
+          "she": 97,
+          "it": 96,
+          "that": 87,
+          "said": 80,
+          "you": 67,
+          "not": 66,
+          "alice": 62,
+          "as": 58,
+          "but": 57,
+          "for": 55,
+          "be": 53,
+          "is": 52,
+          "with": 49,
+          "all": 48,
+          "at": 47,
+          "their": 46,
+          "had": 42,
+          "on": 39,
+          "he": 38,
+          "were": 37,
+          "they": 37,
+          "have": 36,
+          "no": 36,
+          "his": 36,
+          "very": 35,
+          "what": 35,
+          "my": 33,
+          "if": 32,
+          "so": 32,
+          "me": 31,
+          "this": 31,
+          "could": 30,
+          "do": 26,
+          "your": 26,
+          "them": 25,
+          "been": 24,
+          "when": 24,
+          "would": 24,
+          "mr": 21,
+          "him": 20,
+          "am": 19,
+          "are": 19,
+          "by": 19,
+          "after": 18,
+          "about": 18,
+          "an": 18,
+          "one": 18,
+          "up": 17,
+          "again": 17,
+          "like": 17,
+          "or": 17,
+          "out": 17,
+          "which": 17,
+          "there": 17,
+          "who": 16,
+          "great": 16,
+          "see": 16,
+          "know": 16,
+          "shall": 16,
+          "might": 16,
+          "from": 16,
+          "how": 15,
+          "think": 15,
+          "such": 15,
+          "say": 15,
+          "did": 15,
+          "same": 14,
+          "down": 14,
+          "only": 14,
+          "then": 14,
+          "never": 13,
+          "now": 13,
+          "i'm": 12,
+          "come": 12,
+          "will": 12,
+          "more": 12,
+          "dear": 11,
+          "began": 11,
+          "over": 11,
+          "any": 11,
+          "long": 11,
+          "house": 11,
+          "its": 11,
+          "head": 11,
+          "some": 11,
+          "than": 11,
+          "miss": 11,
+          "go": 10,
+          "went": 10,
+          "oh": 10,
+          "right": 10,
+          "made": 10,
+          "why": 10,
+          "young": 10,
+          "good": 10,
+          "much": 10,
+          "came": 10,
+          "queen": 10,
+          "mrs": 10,
+          "into": 9,
+          "time": 9,
+          "next": 9,
+          "mouse": 9,
+          "mean": 9,
+          "tone": 9,
+          "two": 9,
+          "it's": 9,
+          "well": 9,
+          "own": 9,
+          "away": 8,
+          "just": 8,
+          "let": 8,
+          "can": 8,
+          "sure": 8,
+          "i'll": 8,
+          "table": 8,
+          "every": 8,
+          "eyes": 8,
+          "first": 8,
+          "being": 8,
+          "added": 8,
+          "thing": 8,
+          "way": 8,
+          "three": 8,
+          "darcy": 8,
+          "get": 7,
+          "must": 7,
+          "here": 7,
+          "make": 7,
+          "back": 7,
+          "soon": 7,
+          "large": 7,
+          "round": 7,
+          "off": 7,
+          "last": 7,
+          "upon": 7,
+          "march": 7,
+          "hare": 7,
+          "day": 6,
+          "i've": 6,
+          "got": 6,
+          "mine": 6,
+          "try": 6,
+          "four": 6,
+          "ever": 6,
+          "tell": 6,
+          "while": 6,
+          "we": 6,
+          "cried": 6,
+          "quite": 6,
+          "talk": 6,
+          "puppy": 6,
+          "other": 6,
+          "till": 6,
+          "felt": 6,
+          "going": 6,
+          "room": 6,
+          "don't": 6,
+          "these": 6,
+          "mock": 6,
+          "lydia": 6,
+          "visit": 6,
+          "words": 5,
+          "look": 5,
+          "both": 5,
+          "eat": 5,
+          "under": 5,
+          "fish": 5,
+          "door": 5,
+          "most": 5,
+          "saw": 5,
+          "still": 5,
+          "aunt": 5,
+          "usual": 4,
+          "mabel": 4,
+          "times": 4,
+          "voice": 4,
+          "those": 4,
+          "play": 4,
+          "many": 4,
+          "learn": 4,
+          "stay": 4,
+          "use": 4,
+          "idea": 4,
+          "us": 4,
+          "ready": 4,
+          "wish": 4,
+          "set": 4,
+          "stick": 4,
+          "feet": 4,
+          "sat": 4,
+          "i'd": 4,
+          "size": 4,
+          "done": 4,
+          "high": 4,
+          "face": 4,
+          "sense": 4,
+          "sleep": 4,
+          "ten": 4,
+          "moral": 4,
+          "word": 4,
+          "sea": 4,
+          "shoes": 4,
+          "gave": 4,
+          "hope": 4,
+          "town": 4,
+          "often": 4,
+          "part": 4,
+          "may": 4,
+          "since": 4,
+          "jane": 4
+        },
+        "es": {
+          "que": 323,
+          "de": 318,
+          "y": 253,
+          "la": 237,
+          "a": 168,
+          "el": 154,
+          "en": 133,
+          "no": 120,
+          "los": 78,
+          "con": 76,
+          "por": 75,
+          "las": 75,
+          "se": 74,
+          "su": 64,
+          "lo": 57,
+          "es": 55,
+          "del": 55,
+          "me": 52,
+          "como": 51,
+          "le": 47,
+          "yo": 44,
+          "te": 41,
+          "al": 37,
+          "más": 33,
+          "un": 32,
+          "nela": 31,
+          "ni": 30,
+          "una": 30,
+          "mi": 29,
+          "dijo": 29,
+          "qué": 28,
+          "o": 28,
+          "si": 27,
+          "pero": 21,
+          "había": 20,
+          "ella": 19,
+          "todos": 18,
+          "para": 18,
+          "sin": 18,
+          "era": 18,
+          "ya": 18,
+          "dios": 17,
+          "todo": 17,
+          "ser": 16,
+          "sus": 16,
+          "don": 16,
+          "señor": 16,
+          "ha": 15,
+          "muy": 15,
+          "tan": 15,
+          "aquí": 14,
+          "tu": 14,
+          "tú": 14,
+          "bien": 13,
+          "gran": 13,
+          "está": 13,
+          "decir": 12,
+          "fue": 12,
+          "esto": 11,
+          "mujer": 11,
+          "hay": 11,
+          "ti": 11,
+          "mano": 11,
+          "dicen": 11,
+          "todas": 10,
+          "he": 10,
+          "él": 10,
+          "pues": 10,
+          "digo": 10,
+          "puede": 10,
+          "buena": 10,
+          "sino": 10,
+          "donde": 10,
+          "allí": 10,
+          "nos": 10,
+          "tal": 9,
+          "fuera": 9,
+          "tiene": 9,
+          "son": 9,
+          "sí": 9,
+          "entre": 9,
+          "padre": 9,
+          "así": 8,
+          "cual": 8,
+          "mis": 8,
+          "sé": 8,
+          "soy": 8,
+          "ahora": 8,
+          "has": 8,
+          "eran": 8,
+          "ese": 8,
+          "río": 8,
+          "eres": 8,
+          "madre": 8,
+          "mucho": 7,
+          "otra": 7,
+          "cosa": 7,
+          "eso": 7,
+          "vez": 7,
+          "mí": 7,
+          "vamos": 7,
+          "otro": 7,
+          "esta": 7,
+          "hasta": 7,
+          "dicho": 7,
+          "oh": 7,
+          "ver": 7,
+          "cura": 7,
+          "día": 7,
+          "cosas": 7,
+          "cielo": 6,
+          "dado": 6,
+          "quien": 6,
+          "mal": 6,
+          "sea": 6,
+          "tengo": 6,
+          "dio": 6,
+          "alma": 6,
+          "debe": 6,
+          "aquel": 6,
+          "otras": 6,
+          "nada": 6,
+          "mundo": 6,
+          "estas": 6,
+          "esa": 6,
+          "visto": 6,
+          "dar": 6,
+          "ojos": 6,
+          "luz": 6,
+          "será": 5,
+          "mas": 5,
+          "han": 5,
+          "sólo": 5,
+          "sido": 5,
+          "va": 5,
+          "quién": 5,
+          "vida": 5,
+          "hecho": 5,
+          "hacer": 5,
+          "claro": 5,
+          "desde": 5,
+          "algo": 5,
+          "toda": 5,
+          "cada": 5,
+          "tanto": 5,
+          "medio": 5,
+          "este": 5,
+          "mía": 5,
+          "casi": 5,
+          "hace": 5,
+          "estoy": 5,
+          "ciego": 5,
+          "d": 5,
+          "según": 4,
+          "aun": 4,
+          "caso": 4,
+          "vista": 4,
+          "fea": 4,
+          "fuego": 4,
+          "gusto": 4,
+          "allá": 4,
+          "amigo": 4,
+          "panza": 4,
+          "unos": 4,
+          "toca": 4,
+          "tener": 4,
+          "poco": 4,
+          "hecha": 4,
+          "hijo": 4,
+          "días": 4,
+          "viene": 4,
+          "veces": 4,
+          "agua": 4,
+          "nuevo": 4,
+          "boca": 4,
+          "niña": 4,
+          "maría": 4,
+          "sabes": 4,
+          "lili": 4,
+          "sofía": 4
+        }
+      },
+      "formula": "-mean(log((count(w,L)+alpha)/(N_L+alpha*(|V|+1))))"
+    },
+    "alphabet": {
+      "alphabet": "abcdefghijklmnopqrstuvwxyzáéíóúüñ",
+      "profiles": {
+        "en": {
+          "a": 0.07998381440517939,
+          "b": 0.014870515241435123,
+          "c": 0.02303075263015916,
+          "d": 0.043330186134340434,
+          "e": 0.12742783922309145,
+          "f": 0.02040059347181009,
+          "g": 0.021074993256002157,
+          "h": 0.06393309954140815,
+          "i": 0.07303749662800108,
+          "j": 0.0013150795791745348,
+          "k": 0.0074858376045319665,
+          "l": 0.0429592662530348,
+          "m": 0.024244672241704884,
+          "n": 0.06915969786889668,
+          "o": 0.07448745616401403,
+          "p": 0.014465875370919881,
+          "q": 0.001416239546803345,
+          "r": 0.05752630159158349,
+          "s": 0.06143782033989749,
+          "t": 0.09212301052063664,
+          "u": 0.02967359050445104,
+          "v": 0.009778796870785,
+          "w": 0.02218775289991907,
+          "x": 0.0013825195575937416,
+          "y": 0.022120312921499866,
+          "z": 0.0011464796331265173,
+          "á": 0.0,
+          "é": 0.0,
+          "í": 0.0,
+          "ó": 0.0,
+          "ú": 0.0,
+          "ü": 0.0,
+          "ñ": 0.0
+        },
+        "es": {
+          "a": 0.11994253449600749,
+          "b": 0.013831813170291671,
+          "c": 0.036650963883598946,
+          "d": 0.05101733988172798,
+          "e": 0.13186996759212857,
+          "f": 0.005846780929471117,
+          "g": 0.011359460091543884,
+          "h": 0.012495406100698273,
+          "i": 0.05225351642110187,
+          "j": 0.005245397748154088,
+          "k": 0.0,
+          "l": 0.05546089338812602,
+          "m": 0.030069159065851458,
+          "n": 0.06555076676355617,
+          "o": 0.09308075239718018,
+          "p": 0.02278574053656744,
+          "q": 0.017239651197754835,
+          "r": 0.06177541679195483,
+          "s": 0.07497243660418963,
+          "t": 0.03875580501820854,
+          "u": 0.044769636831378835,
+          "v": 0.010624436203267515,
+          "w": 0.0,
+          "x": 0.000668203534796699,
+          "y": 0.013163609635494972,
+          "z": 0.004410143329658214,
+          "á": 0.005145167217934583,
+          "é": 0.003975811032040359,
+          "í": 0.00781798135712138,
+          "ó": 0.005345628278373592,
+          "ú": 0.0011359460091543885,
+          "ü": 0.0,
+          "ñ": 0.002739634492666466
+        }
+      },
+      "formula": "sum(abs(f_document(c)-f_language(c)))"
+    },
+    "neural": {
+      "features": 3000,
+      "samples": 190,
+      "hidden_layers": [
+        32
+      ],
+      "solver": "lbfgs",
+      "iterations": 19,
+      "loss": 0.0017340853821419088,
+      "warnings": [],
+      "ngrams": [
+        2,
+        4
+      ]
+    }
+  },
+  "versions": {
+    "pypdf": "6.19.0",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "python": "3.12.6",
+    "platform": "Windows-11-10.0.22631-SP0"
+  },
+  "warnings": []
+}

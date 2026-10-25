@@ -1,0 +1,487 @@
+{
+  "schema": 1,
+  "description": "Public-domain literary excerpts; 32 train / 16 test; one A4 page each.",
+  "selection": "8 excerpts/book, about 2400 characters, main-text positions 10%..80%.",
+  "documents": [
+    {
+      "path": "pdf/doc001.pdf",
+      "language": "en",
+      "split": "train",
+      "source_id": "gutenberg:11",
+      "source_url": "https://www.gutenberg.org/ebooks/11",
+      "title": "Alice's Adventures in Wonderland [1]",
+      "offset": 14215,
+      "characters": 2399
+    },
+    {
+      "path": "pdf/doc002.pdf",
+      "language": "en",
+      "split": "train",
+      "source_id": "gutenberg:11",
+      "source_url": "https://www.gutenberg.org/ebooks/11",
+      "title": "Alice's Adventures in Wonderland [2]",
+      "offset": 28428,
+      "characters": 2394
+    },
+    {
+      "path": "pdf/doc003.pdf",
+      "language": "en",
+      "split": "train",
+      "source_id": "gutenberg:11",
+      "source_url": "https://www.gutenberg.org/ebooks/11",
+      "title": "Alice's Adventures in Wonderland [3]",
+      "offset": 42641,
+      "characters": 2399
+    },
+    {
+      "path": "pdf/doc004.pdf",
+      "language": "en",
+      "split": "train",
+      "source_id": "gutenberg:11",
+      "source_url": "https://www.gutenberg.org/ebooks/11",
+      "title": "Alice's Adventures in Wonderland [4]",
+      "offset": 56852,
+      "characters": 2398
+    },
+    {
+      "path": "pdf/doc005.pdf",
+      "language": "en",
+      "split": "train",
+      "source_id": "gutenberg:11",
+      "source_url": "https://www.gutenberg.org/ebooks/11",
+      "title": "Alice's Adventures in Wonderland [5]",
+      "offset": 71072,
+      "characters": 2396
+    },
+    {
+      "path": "pdf/doc006.pdf",
+      "language": "en",
+      "split": "train",
+      "source_id": "gutenberg:11",
+      "source_url": "https://www.gutenberg.org/ebooks/11",
+      "title": "Alice's Adventures in Wonderland [6]",
+      "offset": 85280,
+      "characters": 2398
+    },
+    {
+      "path": "pdf/doc007.pdf",
+      "language": "en",
+      "split": "train",
+      "source_id": "gutenberg:11",
+      "source_url": "https://www.gutenberg.org/ebooks/11",
+      "title": "Alice's Adventures in Wonderland [7]",
+      "offset": 99493,
+      "characters": 2396
+    },
+    {
+      "path": "pdf/doc008.pdf",
+      "language": "en",
+      "split": "train",
+      "source_id": "gutenberg:11",
+      "source_url": "https://www.gutenberg.org/ebooks/11",
+      "title": "Alice's Adventures in Wonderland [8]",
+      "offset": 113703,
+      "characters": 2399
+    },
+    {
+      "path": "pdf/doc009.pdf",
+      "language": "en",
+      "split": "train",
+      "source_id": "gutenberg:1342",
+      "source_url": "https://www.gutenberg.org/ebooks/1342",
+      "title": "Pride and Prejudice [1]",
+      "offset": 71145,
+      "characters": 2397
+    },
+    {
+      "path": "pdf/doc010.pdf",
+      "language": "en",
+      "split": "train",
+      "source_id": "gutenberg:1342",
+      "source_url": "https://www.gutenberg.org/ebooks/1342",
+      "title": "Pride and Prejudice [2]",
+      "offset": 142278,
+      "characters": 2397
+    },
+    {
+      "path": "pdf/doc011.pdf",
+      "language": "en",
+      "split": "train",
+      "source_id": "gutenberg:1342",
+      "source_url": "https://www.gutenberg.org/ebooks/1342",
+      "title": "Pride and Prejudice [3]",
+      "offset": 213414,
+      "characters": 2396
+    },
+    {
+      "path": "pdf/doc012.pdf",
+      "language": "en",
+      "split": "train",
+      "source_id": "gutenberg:1342",
+      "source_url": "https://www.gutenberg.org/ebooks/1342",
+      "title": "Pride and Prejudice [4]",
+      "offset": 284552,
+      "characters": 2398
+    },
+    {
+      "path": "pdf/doc013.pdf",
+      "language": "en",
+      "split": "train",
+      "source_id": "gutenberg:1342",
+      "source_url": "https://www.gutenberg.org/ebooks/1342",
+      "title": "Pride and Prejudice [5]",
+      "offset": 355688,
+      "characters": 2398
+    },
+    {
+      "path": "pdf/doc014.pdf",
+      "language": "en",
+      "split": "train",
+      "source_id": "gutenberg:1342",
+      "source_url": "https://www.gutenberg.org/ebooks/1342",
+      "title": "Pride and Prejudice [6]",
+      "offset": 426827,
+      "characters": 2398
+    },
+    {
+      "path": "pdf/doc015.pdf",
+      "language": "en",
+      "split": "train",
+      "source_id": "gutenberg:1342",
+      "source_url": "https://www.gutenberg.org/ebooks/1342",
+      "title": "Pride and Prejudice [7]",
+      "offset": 497963,
+      "characters": 2389
+    },
+    {
+      "path": "pdf/doc016.pdf",
+      "language": "en",
+      "split": "train",
+      "source_id": "gutenberg:1342",
+      "source_url": "https://www.gutenberg.org/ebooks/1342",
+      "title": "Pride and Prejudice [8]",
+      "offset": 569100,
+      "characters": 2394
+    },
+    {
+      "path": "pdf/doc017.pdf",
+      "language": "es",
+      "split": "train",
+      "source_id": "gutenberg:2000",
+      "source_url": "https://www.gutenberg.org/ebooks/2000",
+      "title": "Don Quijote [1]",
+      "offset": 210495,
+      "characters": 2398
+    },
+    {
+      "path": "pdf/doc018.pdf",
+      "language": "es",
+      "split": "train",
+      "source_id": "gutenberg:2000",
+      "source_url": "https://www.gutenberg.org/ebooks/2000",
+      "title": "Don Quijote [2]",
+      "offset": 420990,
+      "characters": 2393
+    },
+    {
+      "path": "pdf/doc019.pdf",
+      "language": "es",
+      "split": "train",
+      "source_id": "gutenberg:2000",
+      "source_url": "https://www.gutenberg.org/ebooks/2000",
+      "title": "Don Quijote [3]",
+      "offset": 631472,
+      "characters": 2398
+    },
+    {
+      "path": "pdf/doc020.pdf",
+      "language": "es",
+      "split": "train",
+      "source_id": "gutenberg:2000",
+      "source_url": "https://www.gutenberg.org/ebooks/2000",
+      "title": "Don Quijote [4]",
+      "offset": 841971,
+      "characters": 2394
+    },
+    {
+      "path": "pdf/doc021.pdf",
+      "language": "es",
+      "split": "train",
+      "source_id": "gutenberg:2000",
+      "source_url": "https://www.gutenberg.org/ebooks/2000",
+      "title": "Don Quijote [5]",
+      "offset": 1052456,
+      "characters": 2398
+    },
+    {
+      "path": "pdf/doc022.pdf",
+      "language": "es",
+      "split": "train",
+      "source_id": "gutenberg:2000",
+      "source_url": "https://www.gutenberg.org/ebooks/2000",
+      "title": "Don Quijote [6]",
+      "offset": 1262947,
+      "characters": 2399
+    },
+    {
+      "path": "pdf/doc023.pdf",
+      "language": "es",
+      "split": "train",
+      "source_id": "gutenberg:2000",
+      "source_url": "https://www.gutenberg.org/ebooks/2000",
+      "title": "Don Quijote [7]",
+      "offset": 1473434,
+      "characters": 2397
+    },
+    {
+      "path": "pdf/doc024.pdf",
+      "language": "es",
+      "split": "train",
+      "source_id": "gutenberg:2000",
+      "source_url": "https://www.gutenberg.org/ebooks/2000",
+      "title": "Don Quijote [8]",
+      "offset": 1683926,
+      "characters": 2399
+    },
+    {
+      "path": "pdf/doc025.pdf",
+      "language": "es",
+      "split": "train",
+      "source_id": "gutenberg:17340",
+      "source_url": "https://www.gutenberg.org/ebooks/17340",
+      "title": "Marianela [1]",
+      "offset": 29258,
+      "characters": 2398
+    },
+    {
+      "path": "pdf/doc026.pdf",
+      "language": "es",
+      "split": "train",
+      "source_id": "gutenberg:17340",
+      "source_url": "https://www.gutenberg.org/ebooks/17340",
+      "title": "Marianela [2]",
+      "offset": 58511,
+      "characters": 2398
+    },
+    {
+      "path": "pdf/doc027.pdf",
+      "language": "es",
+      "split": "train",
+      "source_id": "gutenberg:17340",
+      "source_url": "https://www.gutenberg.org/ebooks/17340",
+      "title": "Marianela [3]",
+      "offset": 87760,
+      "characters": 2396
+    },
+    {
+      "path": "pdf/doc028.pdf",
+      "language": "es",
+      "split": "train",
+      "source_id": "gutenberg:17340",
+      "source_url": "https://www.gutenberg.org/ebooks/17340",
+      "title": "Marianela [4]",
+      "offset": 117007,
+      "characters": 2390
+    },
+    {
+      "path": "pdf/doc029.pdf",
+      "language": "es",
+      "split": "train",
+      "source_id": "gutenberg:17340",
+      "source_url": "https://www.gutenberg.org/ebooks/17340",
+      "title": "Marianela [5]",
+      "offset": 146254,
+      "characters": 2398
+    },
+    {
+      "path": "pdf/doc030.pdf",
+      "language": "es",
+      "split": "train",
+      "source_id": "gutenberg:17340",
+      "source_url": "https://www.gutenberg.org/ebooks/17340",
+      "title": "Marianela [6]",
+      "offset": 175516,
+      "characters": 2398
+    },
+    {
+      "path": "pdf/doc031.pdf",
+      "language": "es",
+      "split": "train",
+      "source_id": "gutenberg:17340",
+      "source_url": "https://www.gutenberg.org/ebooks/17340",
+      "title": "Marianela [7]",
+      "offset": 204763,
+      "characters": 2397
+    },
+    {
+      "path": "pdf/doc032.pdf",
+      "language": "es",
+      "split": "train",
+      "source_id": "gutenberg:17340",
+      "source_url": "https://www.gutenberg.org/ebooks/17340",
+      "title": "Marianela [8]",
+      "offset": 234006,
+      "characters": 2395
+    },
+    {
+      "path": "pdf/doc033.pdf",
+      "language": "en",
+      "split": "test",
+      "source_id": "gutenberg:1661",
+      "source_url": "https://www.gutenberg.org/ebooks/1661",
+      "title": "The Adventures of Sherlock Holmes [1]",
+      "offset": 55908,
+      "characters": 2398
+    },
+    {
+      "path": "pdf/doc034.pdf",
+      "language": "en",
+      "split": "test",
+      "source_id": "gutenberg:1661",
+      "source_url": "https://www.gutenberg.org/ebooks/1661",
+      "title": "The Adventures of Sherlock Holmes [2]",
+      "offset": 111820,
+      "characters": 2396
+    },
+    {
+      "path": "pdf/doc035.pdf",
+      "language": "en",
+      "split": "test",
+      "source_id": "gutenberg:1661",
+      "source_url": "https://www.gutenberg.org/ebooks/1661",
+      "title": "The Adventures of Sherlock Holmes [3]",
+      "offset": 167724,
+      "characters": 2396
+    },
+    {
+      "path": "pdf/doc036.pdf",
+      "language": "en",
+      "split": "test",
+      "source_id": "gutenberg:1661",
+      "source_url": "https://www.gutenberg.org/ebooks/1661",
+      "title": "The Adventures of Sherlock Holmes [4]",
+      "offset": 223631,
+      "characters": 2397
+    },
+    {
+      "path": "pdf/doc037.pdf",
+      "language": "en",
+      "split": "test",
+      "source_id": "gutenberg:1661",
+      "source_url": "https://www.gutenberg.org/ebooks/1661",
+      "title": "The Adventures of Sherlock Holmes [5]",
+      "offset": 279537,
+      "characters": 2399
+    },
+    {
+      "path": "pdf/doc038.pdf",
+      "language": "en",
+      "split": "test",
+      "source_id": "gutenberg:1661",
+      "source_url": "https://www.gutenberg.org/ebooks/1661",
+      "title": "The Adventures of Sherlock Holmes [6]",
+      "offset": 335443,
+      "characters": 2396
+    },
+    {
+      "path": "pdf/doc039.pdf",
+      "language": "en",
+      "split": "test",
+      "source_id": "gutenberg:1661",
+      "source_url": "https://www.gutenberg.org/ebooks/1661",
+      "title": "The Adventures of Sherlock Holmes [7]",
+      "offset": 391352,
+      "characters": 2399
+    },
+    {
+      "path": "pdf/doc040.pdf",
+      "language": "en",
+      "split": "test",
+      "source_id": "gutenberg:1661",
+      "source_url": "https://www.gutenberg.org/ebooks/1661",
+      "title": "The Adventures of Sherlock Holmes [8]",
+      "offset": 447260,
+      "characters": 2399
+    },
+    {
+      "path": "pdf/doc041.pdf",
+      "language": "es",
+      "split": "test",
+      "source_id": "gutenberg:29506",
+      "source_url": "https://www.gutenberg.org/ebooks/29506",
+      "title": "El sombrero de tres picos [1]",
+      "offset": 14350,
+      "characters": 2398
+    },
+    {
+      "path": "pdf/doc042.pdf",
+      "language": "es",
+      "split": "test",
+      "source_id": "gutenberg:29506",
+      "source_url": "https://www.gutenberg.org/ebooks/29506",
+      "title": "El sombrero de tres picos [2]",
+      "offset": 28689,
+      "characters": 2391
+    },
+    {
+      "path": "pdf/doc043.pdf",
+      "language": "es",
+      "split": "test",
+      "source_id": "gutenberg:29506",
+      "source_url": "https://www.gutenberg.org/ebooks/29506",
+      "title": "El sombrero de tres picos [3]",
+      "offset": 43037,
+      "characters": 2398
+    },
+    {
+      "path": "pdf/doc044.pdf",
+      "language": "es",
+      "split": "test",
+      "source_id": "gutenberg:29506",
+      "source_url": "https://www.gutenberg.org/ebooks/29506",
+      "title": "El sombrero de tres picos [4]",
+      "offset": 57375,
+      "characters": 2399
+    },
+    {
+      "path": "pdf/doc045.pdf",
+      "language": "es",
+      "split": "test",
+      "source_id": "gutenberg:29506",
+      "source_url": "https://www.gutenberg.org/ebooks/29506",
+      "title": "El sombrero de tres picos [5]",
+      "offset": 71730,
+      "characters": 2396
+    },
+    {
+      "path": "pdf/doc046.pdf",
+      "language": "es",
+      "split": "test",
+      "source_id": "gutenberg:29506",
+      "source_url": "https://www.gutenberg.org/ebooks/29506",
+      "title": "El sombrero de tres picos [6]",
+      "offset": 86064,
+      "characters": 2396
+    },
+    {
+      "path": "pdf/doc047.pdf",
+      "language": "es",
+      "split": "test",
+      "source_id": "gutenberg:29506",
+      "source_url": "https://www.gutenberg.org/ebooks/29506",
+      "title": "El sombrero de tres picos [7]",
+      "offset": 100412,
+      "characters": 2396
+    },
+    {
+      "path": "pdf/doc048.pdf",
+      "language": "es",
+      "split": "test",
+      "source_id": "gutenberg:29506",
+      "source_url": "https://www.gutenberg.org/ebooks/29506",
+      "title": "El sombrero de tres picos [8]",
+      "offset": 114749,
+      "characters": 2398
+    }
+  ]
+}

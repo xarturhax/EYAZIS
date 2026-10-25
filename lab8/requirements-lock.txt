@@ -1,0 +1,9 @@
+# Verified Windows / Python 3.12.6 runtime closure
+flatbuffers==25.12.19
+numpy==2.5.3
+onnxruntime==1.31.0
+packaging==26.3
+pathvalidate==3.3.1
+piper-tts==1.8.0
+protobuf==7.36.2
+truststore==0.10.5

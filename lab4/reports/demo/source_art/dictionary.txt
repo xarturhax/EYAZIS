@@ -1,0 +1,77 @@
+﻿lemma	translation	frequency	pos	pos_description	tags	tag_descriptions	wordforms	morphology	origin	status
+the	des	10	DET	определитель	DT	DT: determiner	The: 1; the: 9	Definite=Def|PronType=Art	auto	covered
+be	être	6	AUX	вспомогательный глагол	VBD, VBN	VBD: verb, past tense; VBN: verb, past participle	been: 1; was: 2; were: 3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin; Mood=Ind|Tense=Past|VerbForm=Fin; Tense=Past|VerbForm=Part	auto	covered
+not	pas	4	PART	частица	RB	RB: adverb	not: 4	Polarity=Neg	auto	covered
+of	des	4	ADP	предлог/послелог	IN	IN: conjunction, subordinating or preposition	of: 4		auto	covered
+in	dans	3	ADP	предлог/послелог	IN	IN: conjunction, subordinating or preposition	in: 3		auto	covered
+they	ils	3	PRON	местоимение	PRP	PRP: pronoun, personal	They: 1; them: 1; they: 1	Case=Acc|Number=Plur|Person=3|PronType=Prs; Case=Nom|Number=Plur|Person=3|PronType=Prs	auto	covered
+when	lorsque	3	SCONJ	подчинительный союз	WRB	WRB: wh-adverb	when: 3		auto	covered
+a	a	2	DET	определитель	DT	DT: determiner	a: 2	Definite=Ind|PronType=Art	auto	review
+always	toujours	2	ADV	наречие	RB	RB: adverb	always: 2		auto	covered
+art	et de l ' art	2	NOUN	существительное	NN	NN: noun, singular or mass	art: 2	Number=Sing	auto	covered
+fact	fait	2	NOUN	существительное	NNS	NNS: noun, plural	facts: 2	Number=Plur	auto	covered
+for	pour	2	ADP	предлог/послелог	IN	IN: conjunction, subordinating or preposition	For: 1; for: 1		auto	covered
+haro	Haro	2	PROPN	имя собственное	NNP	NNP: noun, proper singular	Haro: 2	Number=Sing	auto	review
+have	ont	2	AUX	вспомогательный глагол	VBP	VBP: verb, non-3rd person singular present	have: 2	Mood=Ind|Tense=Pres|VerbForm=Fin	auto	covered
+horse	cheval	2	NOUN	существительное	NNS	NNS: noun, plural	horses: 2	Number=Plur	auto	covered
+thing	- C'est un truc.	2	NOUN	существительное	NNS	NNS: noun, plural	things: 2	Number=Plur	auto	covered
+upon	à	2	SCONJ	подчинительный союз	IN	IN: conjunction, subordinating or preposition	upon: 2		auto	covered
+about	à propos de	1	ADP	предлог/послелог	IN	IN: conjunction, subordinating or preposition	about: 1		auto	covered
+age	âge	1	NOUN	существительное	NN	NN: noun, singular or mass	age: 1	Number=Sing	auto	covered
+and	et	1	CCONJ	сочинительный союз	CC	CC: conjunction, coordinating	and: 1	ConjType=Cmp	auto	covered
+apelles	des apelles	1	VERB	глагол	VB	VB: verb, base form	Apelles: 1	VerbForm=Inf	auto	covered
+artist	artiste	1	NOUN	существительное	NNS	NNS: noun, plural	artists: 1	Number=Plur	auto	covered
+as	comme	1	ADP	предлог/послелог	IN	IN: conjunction, subordinating or preposition	as: 1		auto	covered
+as	comme	1	SCONJ	подчинительный союз	IN	IN: conjunction, subordinating or preposition	as: 1		auto	covered
+at	à	1	ADP	предлог/послелог	IN	IN: conjunction, subordinating or preposition	at: 1		auto	covered
+beginning	début	1	NOUN	существительное	NN	NN: noun, singular or mass	beginning: 1	Number=Sing	auto	covered
+cause	cause	1	NOUN	существительное	NN	NN: noun, singular or mass	cause: 1	Number=Sing	auto	review
+certainly	Certainement.	1	ADV	наречие	RB	RB: adverb	certainly: 1		auto	covered
+concerned	concernés	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	concerned: 1	Degree=Pos	auto	covered
+could	pourrait	1	AUX	вспомогательный глагол	MD	MD: verb, modal auxiliary	could: 1	VerbForm=Fin	auto	covered
+critic	critique	1	NOUN	существительное	NNS	NNS: noun, plural	critics: 1	Number=Plur	auto	covered
+crying	pleurant	1	NOUN	существительное	NN	NN: noun, singular or mass	crying: 1	Number=Sing	auto	covered
+do	Faites	1	AUX	вспомогательный глагол	VBD	VBD: verb, past tense	did: 1	Tense=Past|VerbForm=Fin	auto	covered
+evidence	éléments de preuve	1	NOUN	существительное	NN	NN: noun, singular or mass	evidence: 1	Number=Sing	auto	covered
+from	à partir de	1	ADP	предлог/послелог	IN	IN: conjunction, subordinating or preposition	from: 1		auto	covered
+gain	gain	1	VERB	глагол	VB	VB: verb, base form	gain: 1	VerbForm=Inf	auto	review
+give	donner	1	VERB	глагол	VB	VB: verb, base form	give: 1	VerbForm=Inf	auto	covered
+go	Allez-y.	1	VERB	глагол	VBP	VBP: verb, non-3rd person singular present	go: 1	Tense=Pres|VerbForm=Fin	auto	covered
+harp	harpe	1	VERB	глагол	VBG	VBG: verb, gerund or present participle	harping: 1	Aspect=Prog|Tense=Pres|VerbForm=Part	auto	covered
+hear	entendre	1	VERB	глагол	VBN	VBN: verb, past participle	heard: 1	Aspect=Perf|Tense=Past|VerbForm=Part	auto	covered
+highway	autoroute	1	NOUN	существительное	NNS	NNS: noun, plural	highways: 1	Number=Plur	auto	covered
+hinge	charnière	1	VERB	глагол	VBZ	VBZ: verb, 3rd person singular present	hinges: 1	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	auto	covered
+hungry	faim	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	hungry: 1	Degree=Pos	auto	covered
+interest	Intérêts	1	NOUN	существительное	NN	NN: noun, singular or mass	interest: 1	Number=Sing	auto	covered
+into	dans	1	ADP	предлог/послелог	IN	IN: conjunction, subordinating or preposition	into: 1		auto	covered
+make	faire	1	VERB	глагол	VBN	VBN: verb, past participle	made: 1	Aspect=Perf|Tense=Past|VerbForm=Part	auto	covered
+mob	La mafia	1	NOUN	существительное	NN	NN: noun, singular or mass	mob: 1	Number=Sing	auto	covered
+name	Dénomination	1	NOUN	существительное	NN	NN: noun, singular or mass	name: 1	Number=Sing	auto	covered
+nature	nature	1	NOUN	существительное	NN	NN: noun, singular or mass	nature: 1	Number=Sing	auto	review
+neigh	Neigh	1	VERB	глагол	VBD	VBD: verb, past tense	neighed: 1	Tense=Past|VerbForm=Fin	auto	review
+never	jamais	1	ADV	наречие	RB	RB: adverb	never: 1		auto	covered
+number	Numéro	1	NOUN	существительное	NNS	NNS: noun, plural	numbers: 1	Number=Plur	auto	covered
+other	autres	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	other: 1	Degree=Pos	auto	covered
+out	dehors	1	ADP	предлог/послелог	RP	RP: adverb, particle	out: 1		auto	covered
+paint	peinture	1	NOUN	существительное	NN	NN: noun, singular or mass	paint: 1	Number=Sing	auto	covered
+people	et de la population	1	NOUN	существительное	NNS	NNS: noun, plural	people: 1	Number=Plur	auto	covered
+picture	photo	1	NOUN	существительное	NN	NN: noun, singular or mass	picture: 1	Number=Sing	auto	covered
+realism	réalisme	1	NOUN	существительное	NN	NN: noun, singular or mass	realism: 1	Number=Sing	auto	covered
+realistic	réaliste	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	realistic: 1	Degree=Pos	auto	covered
+realistically	réalistement	1	ADV	наречие	RB	RB: adverb	realistically: 1		auto	covered
+reality	réalité	1	NOUN	существительное	NNS	NNS: noun, plural	realities: 1	Number=Plur	auto	covered
+sight	vue	1	NOUN	существительное	NN	NN: noun, singular or mass	sight: 1	Number=Sing	auto	covered
+so	donc	1	ADV	наречие	RB	RB: adverb	so: 1		auto	covered
+tendency	tendance	1	NOUN	существительное	NNS	NNS: noun, plural	tendencies: 1	Number=Plur	auto	covered
+that	C'est-à-dire	1	PRON	местоимение	WDT	WDT: wh-determiner	that: 1	PronType=Rel	auto	covered
+that	C'est-à-dire	1	SCONJ	подчинительный союз	IN	IN: conjunction, subordinating or preposition	that: 1		auto	covered
+their	leurs	1	PRON	местоимение	PRP$	PRP$: pronoun, possessive	their: 1	Number=Plur|Person=3|Poss=Yes|PronType=Prs	auto	covered
+themselves	eux-mêmes	1	PRON	местоимение	PRP	PRP: pronoun, personal	themselves: 1	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	auto	covered
+there	Voilà.	1	PRON	местоимение	EX	EX: existential there	There: 1		auto	covered
+those	les	1	DET	определитель	DT	DT: determiner	THOSE: 1	Number=Plur|PronType=Dem	auto	covered
+time	heure	1	NOUN	существительное	NN	NN: noun, singular or mass	time: 1	Number=Sing	auto	covered
+to	à l ' Assemblée générale	1	ADP	предлог/послелог	IN	IN: conjunction, subordinating or preposition	to: 1		auto	covered
+truth	vérité	1	NOUN	существительное	NN	NN: noun, singular or mass	truth: 1	Number=Sing	auto	covered
+verdict	verdict	1	NOUN	существительное	NN	NN: noun, singular or mass	verdict: 1	Number=Sing	auto	review
+who	qui	1	PRON	местоимение	WP	WP: wh-pronoun, personal	who: 1		auto	covered
+would	serait	1	AUX	вспомогательный глагол	MD	MD: verb, modal auxiliary	would: 1	VerbForm=Fin	auto	covered

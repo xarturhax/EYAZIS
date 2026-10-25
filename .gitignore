@@ -1,0 +1,53 @@
+# Python environments, caches and local IDE settings
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.idea/
+.vscode/
+
+# Frontend dependencies and build products
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+
+# Runtime data (keep reproducible demo reports)
+logs/
+work/
+*.log
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.tmp
+**/reports/local/
+**/reports/custom/
+**/reports/print/
+**/reports/manual*/
+**/reports/verification/
+**/reports/probe/
+**/reports/cli_check/
+
+# Downloaded model weights/tools are excluded by each lab's .gitignore.
+# Personal recordings stay local.
+/lab5_7/data/raw/*.wav
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini

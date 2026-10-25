@@ -1,0 +1,24 @@
+﻿id,expected,recognized,actions,correct,recognition_seconds,duration
+siwis_read,read,lecteur commence,,False,0.9701202000142075,1.4164375
+siwis_stop,stop,lecteur staps,,False,0.8520736999926157,1.1494375
+siwis_next,next,l'été suivant,,False,1.1072318000078667,1.2075
+siwis_previous,previous,lecteur précédent,,False,0.8885422000021208,1.39325
+siwis_repeat,repeat,l'etat répète,,False,0.8367720999813173,1.2075
+siwis_faster,faster,lecteur plus vite,faster,True,0.996015599987004,1.3351875
+siwis_slower,slower,lecteur plus lentement,slower,True,1.0716014000063296,1.5325625
+siwis_negative1,,le roman invite le lecteur à réfléchir à la justice,,True,1.2689192999969237,3.19275
+siwis_negative2,,lecteur commence le récit de ce personnage,,True,1.2446739999868441,2.5078125
+siwis_negative3,,ce livre décrit la vie quotidienne,,True,1.1272877999872435,1.86925
+tom_read,read,lecteur commence,read,True,0.8941430000122637,1.462875
+tom_stop,stop,lecteur stop,stop,True,0.9444853999884799,1.21325
+tom_next,next,lecteur suivant,,False,1.057715199975064,1.195875
+tom_previous,previous,lecteur précédent,,False,0.9060305999882985,1.39325
+tom_repeat,repeat,lecteur répète,repeat,True,1.0231389999971725,1.5035
+tom_faster,faster,lecteur plus vite,faster,True,0.9487596999970265,1.2829375
+tom_slower,slower,lecteur plus lentement,slower,True,1.013642100006109,1.579
+tom_negative1,,le roman invite le lecteur à réfléchir à la justice,,True,1.2917370999930426,3.6861875
+tom_negative2,,lecteur commence le récit de ce personnage,,True,1.2717452000069898,2.8793125
+tom_negative3,,ce livre décrit la vie quotidienne,,True,1.2425435000041034,2.3975
+dictation_hugo,,dans les misérables victor hugo oppose la rigueur de la loire l'exigence de compassion le parcours de jean valjean montre qu'un personnage peut changer sans effacer son passé le roman invite ainsi le lecteur à réfléchir à la justice a la responsabilité et à la dignité humaine,,True,2.9233362000086345,15.5458125
+silence,,,,True,0.8405574999924283,2.0
+noise,,,,True,0.8087857999780681,2.0

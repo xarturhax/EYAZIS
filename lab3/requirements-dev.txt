@@ -1,0 +1,5 @@
+-r requirements.txt
+ruff>=0.16
+mypy>=2.4
+beautifulsoup4>=4.12,<5
+truststore>=0.10,<1

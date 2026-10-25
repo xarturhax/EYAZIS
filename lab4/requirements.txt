@@ -1,0 +1,7 @@
+spacy>=3.8,<3.9
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+torch>=2.6,<3
+transformers>=5.20,<6
+sentencepiece>=0.2,<0.3
+sacremoses>=0.2,<0.3
+truststore>=0.10,<1

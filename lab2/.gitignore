@@ -1,0 +1,7 @@
+__pycache__/
+.mypy_cache/
+.ruff_cache/
+logs/
+reports/local/
+reports/custom/
+reports/print/

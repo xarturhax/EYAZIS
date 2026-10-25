@@ -1,0 +1,6 @@
+﻿query,Precision,Recall,AP,P@5,P@10,R-precision,retrieved,relevant,TP,FP,FN,TN
+python programming,0.75,0.75,0.6875,0.6,0.3,0.75,4,4,3,1,1,7
+database SQL,1.0,1.0,1.0,0.4,0.2,1.0,2,2,2,0,0,10
+probabilistic search ranking,1.0,1.0,1.0,0.6,0.3,1.0,3,3,3,0,0,9
+web HTTP requests,1.0,1.0,1.0,0.4,0.2,1.0,2,2,2,0,0,10
+search precision recall,0.5,1.0,1.0,0.4,0.2,1.0,4,2,2,2,0,8

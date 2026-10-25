@@ -1,0 +1,9 @@
+﻿signature,document,language,domain,method,informativeness_1_5,coherence_1_5,nonredundancy_1_5,reviewer,comment
+9a1b7ed63e700b901ea2ec922c4a06363f61b215b361eb0307d0798c34bd7895,1,en,medicine,position,,,,,
+9a1b7ed63e700b901ea2ec922c4a06363f61b215b361eb0307d0798c34bd7895,1,en,medicine,textrank,,,,,
+c758b63e756306788314140ddfa8c2e0c68d428f4f6c69222415ddfae994149e,2,es,medicine,position,,,,,
+c758b63e756306788314140ddfa8c2e0c68d428f4f6c69222415ddfae994149e,2,es,medicine,textrank,,,,,
+b5fd1e81b11cc64b89f99d4b1f8e4ab0608ce45e1bab6422aac4bca8279a8890,3,en,art,position,,,,,
+b5fd1e81b11cc64b89f99d4b1f8e4ab0608ce45e1bab6422aac4bca8279a8890,3,en,art,textrank,,,,,
+630b735cc241c3324500f4827b835d8e83fd35ee4689da5fdfdc99d40d61dc38,4,es,art,position,,,,,
+630b735cc241c3324500f4827b835d8e83fd35ee4689da5fdfdc99d40d61dc38,4,es,art,textrank,,,,,

@@ -1,0 +1,28 @@
+﻿lemma	translation	frequency	pos	pos_description	tags	tag_descriptions	wordforms	morphology	origin	status
+the	des	4	DET	определитель	DT	DT: determiner	The: 2; the: 2	Definite=Def|PronType=Art	auto	covered
+a	a	3	DET	определитель	DT	DT: determiner	a: 3	Definite=Ind|PronType=Art	auto	review
+and	et	2	CCONJ	сочинительный союз	CC	CC: conjunction, coordinating	and: 2	ConjType=Cmp	auto	covered
+'s	's	1	PART	частица	POS	POS: possessive ending	's: 1		auto	review
+artist	artiste	1	NOUN	существительное	NN	NN: noun, singular or mass	artist: 1	Number=Sing	auto	covered
+attention	à l ' attention du public	1	NOUN	существительное	NN	NN: noun, singular or mass	attention: 1	Number=Sing	auto	covered
+background	Historique	1	NOUN	существительное	NN	NN: noun, singular or mass	background: 1	Number=Sing	auto	covered
+bright	lumineux	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	bright: 1	Degree=Pos	auto	covered
+colour	couleur	1	NOUN	существительное	NN	NN: noun, singular or mass	colour: 1	Number=Sing	auto	covered
+composition	composition	1	NOUN	существительное	NN	NN: noun, singular or mass	composition: 1	Number=Sing	auto	review
+contrast	contraste	1	NOUN	существительное	NN	NN: noun, singular or mass	contrast: 1	Number=Sing	auto	covered
+contrast	contraste	1	VERB	глагол	VBZ	VBZ: verb, 3rd person singular present	contrasts: 1	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	auto	covered
+dark	sombre	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	dark: 1	Degree=Pos	auto	covered
+depth	profondeur	1	NOUN	существительное	NN	NN: noun, singular or mass	depth: 1	Number=Sing	auto	covered
+direct	directe	1	VERB	глагол	VB	VB: verb, base form	direct: 1	VerbForm=Inf	auto	covered
+foreground	au premier plan	1	NOUN	существительное	NN	NN: noun, singular or mass	foreground: 1	Number=Sing	auto	covered
+give	donner	1	VERB	глагол	VBZ	VBZ: verb, 3rd person singular present	gives: 1	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	auto	covered
+movement	mouvement	1	NOUN	существительное	NN	NN: noun, singular or mass	movement: 1	Number=Sing	auto	covered
+of	des	1	ADP	предлог/послелог	IN	IN: conjunction, subordinating or preposition	of: 1		auto	covered
+painting	peinture	1	NOUN	существительное	NN	NN: noun, singular or mass	painting: 1	Number=Sing	auto	covered
+perspective	perspectives	1	NOUN	существительное	NN	NN: noun, singular or mass	perspective: 1	Number=Sing	auto	covered
+sense	sens	1	NOUN	существительное	NN	NN: noun, singular or mass	sense: 1	Number=Sing	auto	covered
+this	Voici	1	DET	определитель	DT	DT: determiner	This: 1	Number=Sing|PronType=Dem	auto	covered
+to	à l ' Assemblée générale	1	PART	частица	TO	TO: infinitival "to"	to: 1		auto	covered
+use	Utilisation	1	VERB	глагол	VBZ	VBZ: verb, 3rd person singular present	uses: 1	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	auto	covered
+viewer	visualiseur	1	NOUN	существительное	NN	NN: noun, singular or mass	viewer: 1	Number=Sing	auto	covered
+with	avec	1	ADP	предлог/послелог	IN	IN: conjunction, subordinating or preposition	with: 1		auto	covered

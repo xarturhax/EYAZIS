@@ -1,0 +1,912 @@
+{
+  "analysis": {
+    "text": "The study evaluates the quality of life of patients with diabetes. Regular physical activity and appropriate treatment can improve health outcomes. The researchers discuss the limitations of the available evidence.",
+    "sentences": [
+      {
+        "index": 0,
+        "paragraph": 0,
+        "text": "The study evaluates the quality of life of patients with diabetes.",
+        "tokens": [
+          {
+            "index": 0,
+            "text": "The",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 1,
+            "start": 0,
+            "end": 3
+          },
+          {
+            "index": 1,
+            "text": "study",
+            "lemma": "study",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "nsubj",
+            "head": 2,
+            "start": 4,
+            "end": 9
+          },
+          {
+            "index": 2,
+            "text": "evaluates",
+            "lemma": "evaluate",
+            "pos": "VERB",
+            "tag": "VBZ",
+            "morphology": "Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+            "dependency": "ROOT",
+            "head": 2,
+            "start": 10,
+            "end": 19
+          },
+          {
+            "index": 3,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 4,
+            "start": 20,
+            "end": 23
+          },
+          {
+            "index": 4,
+            "text": "quality",
+            "lemma": "quality",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "dobj",
+            "head": 2,
+            "start": 24,
+            "end": 31
+          },
+          {
+            "index": 5,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 4,
+            "start": 32,
+            "end": 34
+          },
+          {
+            "index": 6,
+            "text": "life",
+            "lemma": "life",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "pobj",
+            "head": 5,
+            "start": 35,
+            "end": 39
+          },
+          {
+            "index": 7,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 6,
+            "start": 40,
+            "end": 42
+          },
+          {
+            "index": 8,
+            "text": "patients",
+            "lemma": "patient",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "pobj",
+            "head": 7,
+            "start": 43,
+            "end": 51
+          },
+          {
+            "index": 9,
+            "text": "with",
+            "lemma": "with",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 8,
+            "start": 52,
+            "end": 56
+          },
+          {
+            "index": 10,
+            "text": "diabetes",
+            "lemma": "diabetes",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "pobj",
+            "head": 9,
+            "start": 57,
+            "end": 65
+          },
+          {
+            "index": 11,
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "tag": ".",
+            "morphology": "PunctType=Peri",
+            "dependency": "punct",
+            "head": 2,
+            "start": 65,
+            "end": 66
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "paragraph": 0,
+        "text": "Regular physical activity and appropriate treatment can improve health outcomes.",
+        "tokens": [
+          {
+            "index": 0,
+            "text": "Regular",
+            "lemma": "regular",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "amod",
+            "head": 2,
+            "start": 67,
+            "end": 74
+          },
+          {
+            "index": 1,
+            "text": "physical",
+            "lemma": "physical",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "amod",
+            "head": 2,
+            "start": 75,
+            "end": 83
+          },
+          {
+            "index": 2,
+            "text": "activity",
+            "lemma": "activity",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "nsubj",
+            "head": 7,
+            "start": 84,
+            "end": 92
+          },
+          {
+            "index": 3,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "tag": "CC",
+            "morphology": "ConjType=Cmp",
+            "dependency": "cc",
+            "head": 2,
+            "start": 93,
+            "end": 96
+          },
+          {
+            "index": 4,
+            "text": "appropriate",
+            "lemma": "appropriate",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "amod",
+            "head": 5,
+            "start": 97,
+            "end": 108
+          },
+          {
+            "index": 5,
+            "text": "treatment",
+            "lemma": "treatment",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "conj",
+            "head": 2,
+            "start": 109,
+            "end": 118
+          },
+          {
+            "index": 6,
+            "text": "can",
+            "lemma": "can",
+            "pos": "AUX",
+            "tag": "MD",
+            "morphology": "VerbForm=Fin",
+            "dependency": "aux",
+            "head": 7,
+            "start": 119,
+            "end": 122
+          },
+          {
+            "index": 7,
+            "text": "improve",
+            "lemma": "improve",
+            "pos": "VERB",
+            "tag": "VB",
+            "morphology": "VerbForm=Inf",
+            "dependency": "ROOT",
+            "head": 7,
+            "start": 123,
+            "end": 130
+          },
+          {
+            "index": 8,
+            "text": "health",
+            "lemma": "health",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "compound",
+            "head": 9,
+            "start": 131,
+            "end": 137
+          },
+          {
+            "index": 9,
+            "text": "outcomes",
+            "lemma": "outcome",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "dobj",
+            "head": 7,
+            "start": 138,
+            "end": 146
+          },
+          {
+            "index": 10,
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "tag": ".",
+            "morphology": "PunctType=Peri",
+            "dependency": "punct",
+            "head": 7,
+            "start": 146,
+            "end": 147
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "paragraph": 0,
+        "text": "The researchers discuss the limitations of the available evidence.",
+        "tokens": [
+          {
+            "index": 0,
+            "text": "The",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 1,
+            "start": 148,
+            "end": 151
+          },
+          {
+            "index": 1,
+            "text": "researchers",
+            "lemma": "researcher",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "nsubj",
+            "head": 2,
+            "start": 152,
+            "end": 163
+          },
+          {
+            "index": 2,
+            "text": "discuss",
+            "lemma": "discuss",
+            "pos": "VERB",
+            "tag": "VBP",
+            "morphology": "Tense=Pres|VerbForm=Fin",
+            "dependency": "ROOT",
+            "head": 2,
+            "start": 164,
+            "end": 171
+          },
+          {
+            "index": 3,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 4,
+            "start": 172,
+            "end": 175
+          },
+          {
+            "index": 4,
+            "text": "limitations",
+            "lemma": "limitation",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "dobj",
+            "head": 2,
+            "start": 176,
+            "end": 187
+          },
+          {
+            "index": 5,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 4,
+            "start": 188,
+            "end": 190
+          },
+          {
+            "index": 6,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 8,
+            "start": 191,
+            "end": 194
+          },
+          {
+            "index": 7,
+            "text": "available",
+            "lemma": "available",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "amod",
+            "head": 8,
+            "start": 195,
+            "end": 204
+          },
+          {
+            "index": 8,
+            "text": "evidence",
+            "lemma": "evidence",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "pobj",
+            "head": 5,
+            "start": 205,
+            "end": 213
+          },
+          {
+            "index": 9,
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "tag": ".",
+            "morphology": "PunctType=Peri",
+            "dependency": "punct",
+            "head": 2,
+            "start": 213,
+            "end": 214
+          }
+        ]
+      }
+    ]
+  },
+  "translated_sentences": [
+    "L'étude évalue la qualité de vie des patients diabétiques.",
+    "Une activité physique régulière et un traitement approprié peuvent améliorer les résultats sur le plan de la santé.",
+    "Les chercheurs discutent des limites des preuves disponibles."
+  ],
+  "translation": "L'étude évalue la qualité de vie des patients diabétiques. Une activité physique régulière et un traitement approprié peuvent améliorer les résultats sur le plan de la santé. Les chercheurs discutent des limites des preuves disponibles.",
+  "entries": [
+    {
+      "lemma": "the",
+      "pos": "DET",
+      "frequency": 5,
+      "forms": [
+        [
+          "The",
+          2
+        ],
+        [
+          "the",
+          3
+        ]
+      ],
+      "tags": [
+        "DT"
+      ],
+      "morphology": [
+        "Definite=Def|PronType=Art"
+      ],
+      "translation": "des",
+      "origin": "auto"
+    },
+    {
+      "lemma": "of",
+      "pos": "ADP",
+      "frequency": 3,
+      "forms": [
+        [
+          "of",
+          3
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "des",
+      "origin": "auto"
+    },
+    {
+      "lemma": "activity",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "activity",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "activité",
+      "origin": "auto"
+    },
+    {
+      "lemma": "and",
+      "pos": "CCONJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "and",
+          1
+        ]
+      ],
+      "tags": [
+        "CC"
+      ],
+      "morphology": [
+        "ConjType=Cmp"
+      ],
+      "translation": "et",
+      "origin": "auto"
+    },
+    {
+      "lemma": "appropriate",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "appropriate",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "approprié",
+      "origin": "auto"
+    },
+    {
+      "lemma": "available",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "available",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "Montant disponible",
+      "origin": "auto"
+    },
+    {
+      "lemma": "can",
+      "pos": "AUX",
+      "frequency": 1,
+      "forms": [
+        [
+          "can",
+          1
+        ]
+      ],
+      "tags": [
+        "MD"
+      ],
+      "morphology": [
+        "VerbForm=Fin"
+      ],
+      "translation": "peut",
+      "origin": "auto"
+    },
+    {
+      "lemma": "diabetes",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "diabetes",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "diabète",
+      "origin": "auto"
+    },
+    {
+      "lemma": "discuss",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "discuss",
+          1
+        ]
+      ],
+      "tags": [
+        "VBP"
+      ],
+      "morphology": [
+        "Tense=Pres|VerbForm=Fin"
+      ],
+      "translation": "discuter",
+      "origin": "auto"
+    },
+    {
+      "lemma": "evaluate",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "evaluates",
+          1
+        ]
+      ],
+      "tags": [
+        "VBZ"
+      ],
+      "morphology": [
+        "Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+      ],
+      "translation": "évaluer",
+      "origin": "auto"
+    },
+    {
+      "lemma": "evidence",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "evidence",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "éléments de preuve",
+      "origin": "auto"
+    },
+    {
+      "lemma": "health",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "health",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "santé",
+      "origin": "auto"
+    },
+    {
+      "lemma": "improve",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "improve",
+          1
+        ]
+      ],
+      "tags": [
+        "VB"
+      ],
+      "morphology": [
+        "VerbForm=Inf"
+      ],
+      "translation": "améliorer",
+      "origin": "auto"
+    },
+    {
+      "lemma": "life",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "life",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "vie",
+      "origin": "auto"
+    },
+    {
+      "lemma": "limitation",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "limitations",
+          1
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "limitation",
+      "origin": "auto"
+    },
+    {
+      "lemma": "outcome",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "outcomes",
+          1
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "Résultat",
+      "origin": "auto"
+    },
+    {
+      "lemma": "patient",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "patients",
+          1
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "patient",
+      "origin": "auto"
+    },
+    {
+      "lemma": "physical",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "physical",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "physique",
+      "origin": "auto"
+    },
+    {
+      "lemma": "quality",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "quality",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "qualité",
+      "origin": "auto"
+    },
+    {
+      "lemma": "regular",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "Regular",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "régulier",
+      "origin": "auto"
+    },
+    {
+      "lemma": "researcher",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "researchers",
+          1
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "chercheur",
+      "origin": "auto"
+    },
+    {
+      "lemma": "study",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "study",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "étude",
+      "origin": "auto"
+    },
+    {
+      "lemma": "treatment",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "treatment",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "traitement",
+      "origin": "auto"
+    },
+    {
+      "lemma": "with",
+      "pos": "ADP",
+      "frequency": 1,
+      "forms": [
+        [
+          "with",
+          1
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "avec",
+      "origin": "auto"
+    }
+  ],
+  "source_words": 30,
+  "translated_source_words": 28,
+  "target_words": 35,
+  "timings": {
+    "initialization": 9.676785299991025,
+    "analysis": 0.011585400003241375,
+    "translation": 1.8226079999876674,
+    "dictionary": 2.836582099989755
+  },
+  "versions": {
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0",
+    "model": "Helsinki-NLP/opus-mt-en-fr",
+    "revision": "dd7f6540a7a48a7f4db59e5c0b9c42c8eea67f18",
+    "torch": "2.14.1+cpu",
+    "transformers": "5.20.2",
+    "device": "cpu",
+    "beams": "4"
+  },
+  "warnings": [
+    "Автоматические словарные эквиваленты получены изолированно, требуют проверки и не являются выравниванием полного перевода.",
+    "Число переведённых слов — число исходных словоупотреблений с эквивалентом в словаре; совпавшие с исходником автопереводы требуют ручного подтверждения и не входят в покрытие. Это не оценка качества.",
+    "Длинные предложения делятся по 384 токена модели; возможна потеря контекста на границе. Исходный текст не обрезается."
+  ]
+}

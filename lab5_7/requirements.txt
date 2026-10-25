@@ -1,0 +1,7 @@
+numpy>=2,<3
+scipy>=1.14,<2
+matplotlib>=3.10,<4
+soundfile>=0.14,<1
+sounddevice>=0.5,<1
+praat-parselmouth>=0.4.7,<0.5
+truststore>=0.10,<1

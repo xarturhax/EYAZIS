@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+vendor/
+data/raw/*.wav
+work/
+.mypy_cache/
+.ruff_cache/

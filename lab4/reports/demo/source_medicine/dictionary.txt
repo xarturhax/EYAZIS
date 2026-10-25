@@ -1,0 +1,65 @@
+﻿lemma	translation	frequency	pos	pos_description	tags	tag_descriptions	wordforms	morphology	origin	status
+and	et	5	CCONJ	сочинительный союз	CC	CC: conjunction, coordinating	and: 5	ConjType=Cmp	auto	covered
+the	des	4	DET	определитель	DT	DT: determiner	The: 1; the: 3	Definite=Def|PronType=Art	auto	covered
+type	type	4	NOUN	существительное	NN	NN: noun, singular or mass	type: 4	Number=Sing	auto	review
+of	des	3	ADP	предлог/послелог	IN	IN: conjunction, subordinating or preposition	of: 3		auto	covered
+an	une	2	DET	определитель	DT	DT: determiner	an: 2	Definite=Ind|PronType=Art	auto	covered
+be	être	2	AUX	вспомогательный глагол	VBG, VBZ	VBG: verb, gerund or present participle; VBZ: verb, 3rd person singular present	being: 1; is: 1	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin; VerbForm=Ger	auto	covered
+burden	charge	2	NOUN	существительное	NN	NN: noun, singular or mass	burden: 2	Number=Sing	auto	covered
+diabete	Diabète	2	NOUN	существительное	NNS	NNS: noun, plural	diabetes: 2	Number=Plur	auto	covered
+diabetes	diabète	2	NOUN	существительное	NN	NN: noun, singular or mass	diabetes: 2	Number=Sing	auto	covered
+healthcare	soins de santé	2	NOUN	существительное	NN	NN: noun, singular or mass	healthcare: 2	Number=Sing	auto	covered
+in	dans	2	ADP	предлог/послелог	IN	IN: conjunction, subordinating or preposition	in: 2		auto	covered
+lmic	LIMITÉE	2	NOUN	существительное	NNS	NNS: noun, plural	LMICs: 2	Number=Plur	auto	covered
+mellitus	sucré	2	PROPN	имя собственное	NNP	NNP: noun, proper singular	mellitus: 2	Number=Sing	auto	covered
+treatment	traitement	2	NOUN	существительное	NN	NN: noun, singular or mass	treatment: 2	Number=Sing	auto	covered
+with	avec	2	ADP	предлог/послелог	IN	IN: conjunction, subordinating or preposition	with: 2		auto	covered
+access	accès	1	NOUN	существительное	NN	NN: noun, singular or mass	access: 1	Number=Sing	auto	covered
+accessible	accessible	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	accessible: 1	Degree=Pos	auto	review
+as	comme	1	SCONJ	подчинительный союз	IN	IN: conjunction, subordinating or preposition	As: 1		auto	covered
+associated	associés	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	associated: 1	Degree=Pos	auto	covered
+be	être	1	VERB	глагол	VBZ	VBZ: verb, 3rd person singular present	is: 1	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	auto	covered
+by	par	1	ADP	предлог/послелог	IN	IN: conjunction, subordinating or preposition	by: 1		auto	covered
+can	peut	1	AUX	вспомогательный глагол	MD	MD: verb, modal auxiliary	can: 1	VerbForm=Fin	auto	covered
+cardiometabolic	cardiométabolique	1	NOUN	существительное	NN	NN: noun, singular or mass	Cardiometabolic: 1	Number=Sing	auto	covered
+complication	complication	1	NOUN	существительное	NNS	NNS: noun, plural	complications: 1	Number=Plur	auto	review
+concern	Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels	1	NOUN	существительное	NN	NN: noun, singular or mass	concern: 1	Number=Sing	auto	covered
+consider	envisager	1	VERB	глагол	VBN	VBN: verb, past participle	considered: 1	Aspect=Perf|Tense=Past|VerbForm=Part	auto	covered
+continue	poursuivre	1	VERB	глагол	VBZ	VBZ: verb, 3rd person singular present	continues: 1	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	auto	covered
+country	Pays	1	NOUN	существительное	NNS	NNS: noun, plural	countries: 1	Number=Plur	auto	covered
+diagnostic	diagnostic	1	NOUN	существительное	NNS	NNS: noun, plural	diagnostics: 1	Number=Plur	auto	review
+disease	maladie	1	NOUN	существительное	NNS	NNS: noun, plural	diseases: 1	Number=Plur	auto	covered
+effective	efficace	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	effective: 1	Degree=Pos	auto	covered
+exacerbate	exacerber	1	VERB	глагол	VBN	VBN: verb, past participle	exacerbated: 1	Aspect=Perf|Tense=Past|VerbForm=Part	auto	covered
+for	pour	1	ADP	предлог/послелог	IN	IN: conjunction, subordinating or preposition	for: 1		auto	covered
+global	mondial	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	global: 1	Degree=Pos	auto	covered
+health	santé	1	NOUN	существительное	NN	NN: noun, singular or mass	health: 1	Number=Sing	auto	covered
+improve	améliorer	1	VERB	глагол	VB	VB: verb, base form	improve: 1	VerbForm=Inf	auto	covered
+inadequate	insuffisant	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	inadequate: 1	Degree=Pos	auto	covered
+include	inclure	1	VERB	глагол	VBG	VBG: verb, gerund or present participle	including: 1	Aspect=Prog|Tense=Pres|VerbForm=Part	auto	covered
+income	Recettes	1	NOUN	существительное	NN	NN: noun, singular or mass	income: 1	Number=Sing	auto	covered
+increase	augmentation	1	VERB	глагол	VBG	VBG: verb, gerund or present participle	increasing: 1	Aspect=Prog|Tense=Pres|VerbForm=Part	auto	covered
+infrastructure	infrastructures	1	NOUN	существительное	NN	NN: noun, singular or mass	infrastructure: 1	Number=Sing	auto	covered
+insufficient	insuffisant	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	insufficient: 1	Degree=Pos	auto	covered
+limited	limitée	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	limited: 1	Degree=Pos	auto	covered
+low-	Faible...	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	low-: 1	Degree=Pos	auto	covered
+medication	médicament	1	NOUN	существительное	NNS	NNS: noun, plural	medications: 1	Number=Plur	auto	covered
+mellitus	sucré	1	NOUN	существительное	NN	NN: noun, singular or mass	mellitus: 1	Number=Sing	auto	covered
+middle	milieu	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	middle: 1	Degree=Pos	auto	covered
+minimize	réduire au minimum	1	VERB	глагол	VB	VB: verb, base form	minimize: 1	VerbForm=Inf	auto	covered
+mitigate	atténuer les effets	1	VERB	глагол	VB	VB: verb, base form	mitigate: 1	VerbForm=Inf	auto	covered
+need	besoin	1	NOUN	существительное	NN	NN: noun, singular or mass	need: 1	Number=Sing	auto	covered
+option	option	1	NOUN	существительное	NNS	NNS: noun, plural	options: 1	Number=Plur	auto	review
+outcome	Résultat	1	NOUN	существительное	NNS	NNS: noun, plural	outcomes: 1	Number=Plur	auto	covered
+particularly	en particulier	1	ADV	наречие	RB	RB: adverb	particularly: 1		auto	covered
+patient	patient	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	patient: 1	Degree=Pos	auto	review
+people	et de la population	1	NOUN	существительное	NNS	NNS: noun, plural	people: 1	Number=Plur	auto	covered
+prevalence	prévalence	1	NOUN	существительное	NN	NN: noun, singular or mass	prevalence: 1	Number=Sing	auto	covered
+represent	représenter	1	VERB	глагол	VB	VB: verb, base form	represent: 1	VerbForm=Inf	auto	covered
+resource	des ressources	1	NOUN	существительное	NNS	NNS: noun, plural	resources: 1	Number=Plur	auto	covered
+rise	augmentation	1	VERB	глагол	VB	VB: verb, base form	rise: 1	VerbForm=Inf	auto	covered
+that	C'est-à-dire	1	PRON	местоимение	WDT	WDT: wh-determiner	that: 1	PronType=Rel	auto	covered
+there	Voilà.	1	PRON	местоимение	EX	EX: existential there	there: 1		auto	covered
+to	à l ' Assemblée générale	1	ADP	предлог/послелог	IN	IN: conjunction, subordinating or preposition	to: 1		auto	covered
+to	à l ' Assemblée générale	1	PART	частица	TO	TO: infinitival "to"	to: 1		auto	covered
+urgent	urgent	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	urgent: 1	Degree=Pos	auto	review

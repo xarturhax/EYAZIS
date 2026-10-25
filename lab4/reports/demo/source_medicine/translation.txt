@@ -1,0 +1,24 @@
+﻿Лабораторная №4 · Вариант 12 · EN→FR
+
+Исходных слов: 87
+Переведённых исходных слов (покрытие словарём): 77
+Слов во французском тексте: 119
+
+ИСХОДНЫЙ ТЕКСТ
+
+Cardiometabolic diseases, including type 2 diabetes mellitus, represent an increasing global health concern, particularly in low- and middle-income countries (LMICs) . The burden of type 2 diabetes mellitus is exacerbated by limited healthcare resources, inadequate access to medications and diagnostics, and insufficient healthcare infrastructure . As the prevalence of type 2 diabetes mellitus continues to rise (with >95% of people with diabetes in LMICs being considered type 2 ), there is an urgent need for effective and accessible treatment options that can mitigate the associated complications, minimize the treatment burden, and improve patient outcomes.
+
+ПЕРЕВОД
+
+Les maladies cardio-métaboliques, y compris le diabète sucré de type 2, représentent une préoccupation croissante pour la santé mondiale, en particulier dans les pays à faible revenu et à revenu intermédiaire. Le fardeau du diabète de type 2 est exacerbé par le manque de ressources en matière de soins de santé, l'accès insuffisant aux médicaments et aux diagnostics et l'insuffisance des infrastructures de soins de santé. À mesure que la prévalence du diabète de type 2 continue d'augmenter (plus de 95 % des personnes atteintes de diabète dans les MIC étant considérées comme de type 2 ), il est urgent d'avoir des options de traitement efficaces et accessibles qui puissent atténuer les complications associées, réduire le fardeau du traitement et améliorer les résultats pour les patients.
+
+ПРИМЕЧАНИЯ
+Автоматические словарные эквиваленты получены изолированно, требуют проверки и не являются выравниванием полного перевода.
+Число переведённых слов — число исходных словоупотреблений с эквивалентом в словаре; совпавшие с исходником автопереводы требуют ручного подтверждения и не входят в покрытие. Это не оценка качества.
+Длинные предложения делятся по 384 токена модели; возможна потеря контекста на границе. Исходный текст не обрезается.
+
+SOURCE
+Reduced insulin use and diabetes complications — excerpt
+https://doi.org/10.1371/journal.pmed.1004559
+Global Health & Population Project on Access to Care for Cardiometabolic Diseases (HPACC), PLOS Medicine 22(4), 2025
+CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/

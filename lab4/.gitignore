@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+models/
+logs/
+data/*.sqlite3
+.mypy_cache/
+.ruff_cache/

@@ -1,0 +1,2590 @@
+{
+  "analysis": {
+    "text": "Cardiometabolic diseases, including type 2 diabetes mellitus, represent an increasing global health concern, particularly in low- and middle-income countries (LMICs) . The burden of type 2 diabetes mellitus is exacerbated by limited healthcare resources, inadequate access to medications and diagnostics, and insufficient healthcare infrastructure . As the prevalence of type 2 diabetes mellitus continues to rise (with >95% of people with diabetes in LMICs being considered type 2 ), there is an urgent need for effective and accessible treatment options that can mitigate the associated complications, minimize the treatment burden, and improve patient outcomes.",
+    "sentences": [
+      {
+        "index": 0,
+        "paragraph": 0,
+        "text": "Cardiometabolic diseases, including type 2 diabetes mellitus, represent an increasing global health concern, particularly in low- and middle-income countries (LMICs) .",
+        "tokens": [
+          {
+            "index": 0,
+            "text": "Cardiometabolic",
+            "lemma": "cardiometabolic",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "compound",
+            "head": 1,
+            "start": 0,
+            "end": 15
+          },
+          {
+            "index": 1,
+            "text": "diseases",
+            "lemma": "disease",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "nsubj",
+            "head": 9,
+            "start": 16,
+            "end": 24
+          },
+          {
+            "index": 2,
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "tag": ",",
+            "morphology": "PunctType=Comm",
+            "dependency": "punct",
+            "head": 1,
+            "start": 24,
+            "end": 25
+          },
+          {
+            "index": 3,
+            "text": "including",
+            "lemma": "include",
+            "pos": "VERB",
+            "tag": "VBG",
+            "morphology": "Aspect=Prog|Tense=Pres|VerbForm=Part",
+            "dependency": "prep",
+            "head": 1,
+            "start": 26,
+            "end": 35
+          },
+          {
+            "index": 4,
+            "text": "type",
+            "lemma": "type",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "nmod",
+            "head": 7,
+            "start": 36,
+            "end": 40
+          },
+          {
+            "index": 5,
+            "text": "2",
+            "lemma": "2",
+            "pos": "NUM",
+            "tag": "CD",
+            "morphology": "NumType=Card",
+            "dependency": "nummod",
+            "head": 4,
+            "start": 41,
+            "end": 42
+          },
+          {
+            "index": 6,
+            "text": "diabetes",
+            "lemma": "diabete",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "compound",
+            "head": 7,
+            "start": 43,
+            "end": 51
+          },
+          {
+            "index": 7,
+            "text": "mellitus",
+            "lemma": "mellitus",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "pobj",
+            "head": 3,
+            "start": 52,
+            "end": 60
+          },
+          {
+            "index": 8,
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "tag": ",",
+            "morphology": "PunctType=Comm",
+            "dependency": "punct",
+            "head": 1,
+            "start": 60,
+            "end": 61
+          },
+          {
+            "index": 9,
+            "text": "represent",
+            "lemma": "represent",
+            "pos": "VERB",
+            "tag": "VB",
+            "morphology": "VerbForm=Inf",
+            "dependency": "ROOT",
+            "head": 9,
+            "start": 62,
+            "end": 71
+          },
+          {
+            "index": 10,
+            "text": "an",
+            "lemma": "an",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Ind|PronType=Art",
+            "dependency": "det",
+            "head": 14,
+            "start": 72,
+            "end": 74
+          },
+          {
+            "index": 11,
+            "text": "increasing",
+            "lemma": "increase",
+            "pos": "VERB",
+            "tag": "VBG",
+            "morphology": "Aspect=Prog|Tense=Pres|VerbForm=Part",
+            "dependency": "amod",
+            "head": 14,
+            "start": 75,
+            "end": 85
+          },
+          {
+            "index": 12,
+            "text": "global",
+            "lemma": "global",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "amod",
+            "head": 13,
+            "start": 86,
+            "end": 92
+          },
+          {
+            "index": 13,
+            "text": "health",
+            "lemma": "health",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "compound",
+            "head": 14,
+            "start": 93,
+            "end": 99
+          },
+          {
+            "index": 14,
+            "text": "concern",
+            "lemma": "concern",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "dobj",
+            "head": 9,
+            "start": 100,
+            "end": 107
+          },
+          {
+            "index": 15,
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "tag": ",",
+            "morphology": "PunctType=Comm",
+            "dependency": "punct",
+            "head": 14,
+            "start": 107,
+            "end": 108
+          },
+          {
+            "index": 16,
+            "text": "particularly",
+            "lemma": "particularly",
+            "pos": "ADV",
+            "tag": "RB",
+            "morphology": "",
+            "dependency": "advmod",
+            "head": 17,
+            "start": 109,
+            "end": 121
+          },
+          {
+            "index": 17,
+            "text": "in",
+            "lemma": "in",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 14,
+            "start": 122,
+            "end": 124
+          },
+          {
+            "index": 18,
+            "text": "low-",
+            "lemma": "low-",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "amod",
+            "head": 23,
+            "start": 125,
+            "end": 129
+          },
+          {
+            "index": 19,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "tag": "CC",
+            "morphology": "ConjType=Cmp",
+            "dependency": "cc",
+            "head": 18,
+            "start": 130,
+            "end": 133
+          },
+          {
+            "index": 20,
+            "text": "middle",
+            "lemma": "middle",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "amod",
+            "head": 22,
+            "start": 134,
+            "end": 140
+          },
+          {
+            "index": 21,
+            "text": "-",
+            "lemma": "-",
+            "pos": "PUNCT",
+            "tag": "HYPH",
+            "morphology": "PunctType=Dash",
+            "dependency": "punct",
+            "head": 22,
+            "start": 140,
+            "end": 141
+          },
+          {
+            "index": 22,
+            "text": "income",
+            "lemma": "income",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "conj",
+            "head": 18,
+            "start": 141,
+            "end": 147
+          },
+          {
+            "index": 23,
+            "text": "countries",
+            "lemma": "country",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "pobj",
+            "head": 17,
+            "start": 148,
+            "end": 157
+          },
+          {
+            "index": 24,
+            "text": "(",
+            "lemma": "(",
+            "pos": "PUNCT",
+            "tag": "-LRB-",
+            "morphology": "PunctSide=Ini|PunctType=Brck",
+            "dependency": "punct",
+            "head": 23,
+            "start": 158,
+            "end": 159
+          },
+          {
+            "index": 25,
+            "text": "LMICs",
+            "lemma": "lmic",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "appos",
+            "head": 23,
+            "start": 159,
+            "end": 164
+          },
+          {
+            "index": 26,
+            "text": ")",
+            "lemma": ")",
+            "pos": "PUNCT",
+            "tag": "-RRB-",
+            "morphology": "PunctSide=Fin|PunctType=Brck",
+            "dependency": "punct",
+            "head": 23,
+            "start": 164,
+            "end": 165
+          },
+          {
+            "index": 27,
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "tag": ".",
+            "morphology": "PunctType=Peri",
+            "dependency": "punct",
+            "head": 9,
+            "start": 166,
+            "end": 167
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "paragraph": 0,
+        "text": "The burden of type 2 diabetes mellitus is exacerbated by limited healthcare resources, inadequate access to medications and diagnostics, and insufficient healthcare infrastructure .",
+        "tokens": [
+          {
+            "index": 0,
+            "text": "The",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 1,
+            "start": 168,
+            "end": 171
+          },
+          {
+            "index": 1,
+            "text": "burden",
+            "lemma": "burden",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "nsubjpass",
+            "head": 8,
+            "start": 172,
+            "end": 178
+          },
+          {
+            "index": 2,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 1,
+            "start": 179,
+            "end": 181
+          },
+          {
+            "index": 3,
+            "text": "type",
+            "lemma": "type",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "pobj",
+            "head": 2,
+            "start": 182,
+            "end": 186
+          },
+          {
+            "index": 4,
+            "text": "2",
+            "lemma": "2",
+            "pos": "NUM",
+            "tag": "CD",
+            "morphology": "NumType=Card",
+            "dependency": "nummod",
+            "head": 3,
+            "start": 187,
+            "end": 188
+          },
+          {
+            "index": 5,
+            "text": "diabetes",
+            "lemma": "diabetes",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "compound",
+            "head": 6,
+            "start": 189,
+            "end": 197
+          },
+          {
+            "index": 6,
+            "text": "mellitus",
+            "lemma": "mellitus",
+            "pos": "PROPN",
+            "tag": "NNP",
+            "morphology": "Number=Sing",
+            "dependency": "nsubjpass",
+            "head": 8,
+            "start": 198,
+            "end": 206
+          },
+          {
+            "index": 7,
+            "text": "is",
+            "lemma": "be",
+            "pos": "AUX",
+            "tag": "VBZ",
+            "morphology": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+            "dependency": "auxpass",
+            "head": 8,
+            "start": 207,
+            "end": 209
+          },
+          {
+            "index": 8,
+            "text": "exacerbated",
+            "lemma": "exacerbate",
+            "pos": "VERB",
+            "tag": "VBN",
+            "morphology": "Aspect=Perf|Tense=Past|VerbForm=Part",
+            "dependency": "ROOT",
+            "head": 8,
+            "start": 210,
+            "end": 221
+          },
+          {
+            "index": 9,
+            "text": "by",
+            "lemma": "by",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "agent",
+            "head": 8,
+            "start": 222,
+            "end": 224
+          },
+          {
+            "index": 10,
+            "text": "limited",
+            "lemma": "limited",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "amod",
+            "head": 12,
+            "start": 225,
+            "end": 232
+          },
+          {
+            "index": 11,
+            "text": "healthcare",
+            "lemma": "healthcare",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "compound",
+            "head": 12,
+            "start": 233,
+            "end": 243
+          },
+          {
+            "index": 12,
+            "text": "resources",
+            "lemma": "resource",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "pobj",
+            "head": 9,
+            "start": 244,
+            "end": 253
+          },
+          {
+            "index": 13,
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "tag": ",",
+            "morphology": "PunctType=Comm",
+            "dependency": "punct",
+            "head": 12,
+            "start": 253,
+            "end": 254
+          },
+          {
+            "index": 14,
+            "text": "inadequate",
+            "lemma": "inadequate",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "amod",
+            "head": 15,
+            "start": 255,
+            "end": 265
+          },
+          {
+            "index": 15,
+            "text": "access",
+            "lemma": "access",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "appos",
+            "head": 12,
+            "start": 266,
+            "end": 272
+          },
+          {
+            "index": 16,
+            "text": "to",
+            "lemma": "to",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 15,
+            "start": 273,
+            "end": 275
+          },
+          {
+            "index": 17,
+            "text": "medications",
+            "lemma": "medication",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "pobj",
+            "head": 16,
+            "start": 276,
+            "end": 287
+          },
+          {
+            "index": 18,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "tag": "CC",
+            "morphology": "ConjType=Cmp",
+            "dependency": "cc",
+            "head": 17,
+            "start": 288,
+            "end": 291
+          },
+          {
+            "index": 19,
+            "text": "diagnostics",
+            "lemma": "diagnostic",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "conj",
+            "head": 17,
+            "start": 292,
+            "end": 303
+          },
+          {
+            "index": 20,
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "tag": ",",
+            "morphology": "PunctType=Comm",
+            "dependency": "punct",
+            "head": 15,
+            "start": 303,
+            "end": 304
+          },
+          {
+            "index": 21,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "tag": "CC",
+            "morphology": "ConjType=Cmp",
+            "dependency": "cc",
+            "head": 15,
+            "start": 305,
+            "end": 308
+          },
+          {
+            "index": 22,
+            "text": "insufficient",
+            "lemma": "insufficient",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "amod",
+            "head": 24,
+            "start": 309,
+            "end": 321
+          },
+          {
+            "index": 23,
+            "text": "healthcare",
+            "lemma": "healthcare",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "compound",
+            "head": 24,
+            "start": 322,
+            "end": 332
+          },
+          {
+            "index": 24,
+            "text": "infrastructure",
+            "lemma": "infrastructure",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "conj",
+            "head": 15,
+            "start": 333,
+            "end": 347
+          },
+          {
+            "index": 25,
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "tag": ".",
+            "morphology": "PunctType=Peri",
+            "dependency": "punct",
+            "head": 8,
+            "start": 348,
+            "end": 349
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "paragraph": 0,
+        "text": "As the prevalence of type 2 diabetes mellitus continues to rise (with >95% of people with diabetes in LMICs being considered type 2 ), there is an urgent need for effective and accessible treatment options that can mitigate the associated complications, minimize the treatment burden, and improve patient outcomes.",
+        "tokens": [
+          {
+            "index": 0,
+            "text": "As",
+            "lemma": "as",
+            "pos": "SCONJ",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "mark",
+            "head": 6,
+            "start": 350,
+            "end": 352
+          },
+          {
+            "index": 1,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 2,
+            "start": 353,
+            "end": 356
+          },
+          {
+            "index": 2,
+            "text": "prevalence",
+            "lemma": "prevalence",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "nsubj",
+            "head": 6,
+            "start": 357,
+            "end": 367
+          },
+          {
+            "index": 3,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 2,
+            "start": 368,
+            "end": 370
+          },
+          {
+            "index": 4,
+            "text": "type",
+            "lemma": "type",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "pobj",
+            "head": 3,
+            "start": 371,
+            "end": 375
+          },
+          {
+            "index": 5,
+            "text": "2",
+            "lemma": "2",
+            "pos": "NUM",
+            "tag": "CD",
+            "morphology": "NumType=Card",
+            "dependency": "nummod",
+            "head": 4,
+            "start": 376,
+            "end": 377
+          },
+          {
+            "index": 6,
+            "text": "diabetes",
+            "lemma": "diabetes",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "advcl",
+            "head": 8,
+            "start": 378,
+            "end": 386
+          },
+          {
+            "index": 7,
+            "text": "mellitus",
+            "lemma": "mellitus",
+            "pos": "PROPN",
+            "tag": "NNP",
+            "morphology": "Number=Sing",
+            "dependency": "nsubj",
+            "head": 8,
+            "start": 387,
+            "end": 395
+          },
+          {
+            "index": 8,
+            "text": "continues",
+            "lemma": "continue",
+            "pos": "VERB",
+            "tag": "VBZ",
+            "morphology": "Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+            "dependency": "ccomp",
+            "head": 29,
+            "start": 396,
+            "end": 405
+          },
+          {
+            "index": 9,
+            "text": "to",
+            "lemma": "to",
+            "pos": "PART",
+            "tag": "TO",
+            "morphology": "",
+            "dependency": "aux",
+            "head": 10,
+            "start": 406,
+            "end": 408
+          },
+          {
+            "index": 10,
+            "text": "rise",
+            "lemma": "rise",
+            "pos": "VERB",
+            "tag": "VB",
+            "morphology": "VerbForm=Inf",
+            "dependency": "xcomp",
+            "head": 8,
+            "start": 409,
+            "end": 413
+          },
+          {
+            "index": 11,
+            "text": "(",
+            "lemma": "(",
+            "pos": "PUNCT",
+            "tag": "-LRB-",
+            "morphology": "PunctSide=Ini|PunctType=Brck",
+            "dependency": "punct",
+            "head": 10,
+            "start": 414,
+            "end": 415
+          },
+          {
+            "index": 12,
+            "text": "with",
+            "lemma": "with",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 10,
+            "start": 415,
+            "end": 419
+          },
+          {
+            "index": 13,
+            "text": ">",
+            "lemma": ">",
+            "pos": "SYM",
+            "tag": "$",
+            "morphology": "",
+            "dependency": "quantmod",
+            "head": 14,
+            "start": 420,
+            "end": 421
+          },
+          {
+            "index": 14,
+            "text": "95",
+            "lemma": "95",
+            "pos": "NUM",
+            "tag": "CD",
+            "morphology": "NumType=Card",
+            "dependency": "nummod",
+            "head": 15,
+            "start": 421,
+            "end": 423
+          },
+          {
+            "index": 15,
+            "text": "%",
+            "lemma": "%",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "pobj",
+            "head": 12,
+            "start": 423,
+            "end": 424
+          },
+          {
+            "index": 16,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 15,
+            "start": 425,
+            "end": 427
+          },
+          {
+            "index": 17,
+            "text": "people",
+            "lemma": "people",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "pobj",
+            "head": 16,
+            "start": 428,
+            "end": 434
+          },
+          {
+            "index": 18,
+            "text": "with",
+            "lemma": "with",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 17,
+            "start": 435,
+            "end": 439
+          },
+          {
+            "index": 19,
+            "text": "diabetes",
+            "lemma": "diabete",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "pobj",
+            "head": 18,
+            "start": 440,
+            "end": 448
+          },
+          {
+            "index": 20,
+            "text": "in",
+            "lemma": "in",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 19,
+            "start": 449,
+            "end": 451
+          },
+          {
+            "index": 21,
+            "text": "LMICs",
+            "lemma": "lmic",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "pobj",
+            "head": 20,
+            "start": 452,
+            "end": 457
+          },
+          {
+            "index": 22,
+            "text": "being",
+            "lemma": "be",
+            "pos": "AUX",
+            "tag": "VBG",
+            "morphology": "VerbForm=Ger",
+            "dependency": "auxpass",
+            "head": 23,
+            "start": 458,
+            "end": 463
+          },
+          {
+            "index": 23,
+            "text": "considered",
+            "lemma": "consider",
+            "pos": "VERB",
+            "tag": "VBN",
+            "morphology": "Aspect=Perf|Tense=Past|VerbForm=Part",
+            "dependency": "acl",
+            "head": 21,
+            "start": 464,
+            "end": 474
+          },
+          {
+            "index": 24,
+            "text": "type",
+            "lemma": "type",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "oprd",
+            "head": 23,
+            "start": 475,
+            "end": 479
+          },
+          {
+            "index": 25,
+            "text": "2",
+            "lemma": "2",
+            "pos": "NUM",
+            "tag": "CD",
+            "morphology": "NumType=Card",
+            "dependency": "nummod",
+            "head": 24,
+            "start": 480,
+            "end": 481
+          },
+          {
+            "index": 26,
+            "text": ")",
+            "lemma": ")",
+            "pos": "PUNCT",
+            "tag": "-RRB-",
+            "morphology": "PunctSide=Fin|PunctType=Brck",
+            "dependency": "punct",
+            "head": 8,
+            "start": 482,
+            "end": 483
+          },
+          {
+            "index": 27,
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "tag": ",",
+            "morphology": "PunctType=Comm",
+            "dependency": "punct",
+            "head": 29,
+            "start": 483,
+            "end": 484
+          },
+          {
+            "index": 28,
+            "text": "there",
+            "lemma": "there",
+            "pos": "PRON",
+            "tag": "EX",
+            "morphology": "",
+            "dependency": "expl",
+            "head": 29,
+            "start": 485,
+            "end": 490
+          },
+          {
+            "index": 29,
+            "text": "is",
+            "lemma": "be",
+            "pos": "VERB",
+            "tag": "VBZ",
+            "morphology": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+            "dependency": "ROOT",
+            "head": 29,
+            "start": 491,
+            "end": 493
+          },
+          {
+            "index": 30,
+            "text": "an",
+            "lemma": "an",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Ind|PronType=Art",
+            "dependency": "det",
+            "head": 32,
+            "start": 494,
+            "end": 496
+          },
+          {
+            "index": 31,
+            "text": "urgent",
+            "lemma": "urgent",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "amod",
+            "head": 32,
+            "start": 497,
+            "end": 503
+          },
+          {
+            "index": 32,
+            "text": "need",
+            "lemma": "need",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "attr",
+            "head": 29,
+            "start": 504,
+            "end": 508
+          },
+          {
+            "index": 33,
+            "text": "for",
+            "lemma": "for",
+            "pos": "ADP",
+            "tag": "IN",
+            "morphology": "",
+            "dependency": "prep",
+            "head": 32,
+            "start": 509,
+            "end": 512
+          },
+          {
+            "index": 34,
+            "text": "effective",
+            "lemma": "effective",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "amod",
+            "head": 38,
+            "start": 513,
+            "end": 522
+          },
+          {
+            "index": 35,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "tag": "CC",
+            "morphology": "ConjType=Cmp",
+            "dependency": "cc",
+            "head": 34,
+            "start": 523,
+            "end": 526
+          },
+          {
+            "index": 36,
+            "text": "accessible",
+            "lemma": "accessible",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "conj",
+            "head": 34,
+            "start": 527,
+            "end": 537
+          },
+          {
+            "index": 37,
+            "text": "treatment",
+            "lemma": "treatment",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "compound",
+            "head": 38,
+            "start": 538,
+            "end": 547
+          },
+          {
+            "index": 38,
+            "text": "options",
+            "lemma": "option",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "pobj",
+            "head": 33,
+            "start": 548,
+            "end": 555
+          },
+          {
+            "index": 39,
+            "text": "that",
+            "lemma": "that",
+            "pos": "PRON",
+            "tag": "WDT",
+            "morphology": "PronType=Rel",
+            "dependency": "nsubj",
+            "head": 41,
+            "start": 556,
+            "end": 560
+          },
+          {
+            "index": 40,
+            "text": "can",
+            "lemma": "can",
+            "pos": "AUX",
+            "tag": "MD",
+            "morphology": "VerbForm=Fin",
+            "dependency": "aux",
+            "head": 41,
+            "start": 561,
+            "end": 564
+          },
+          {
+            "index": 41,
+            "text": "mitigate",
+            "lemma": "mitigate",
+            "pos": "VERB",
+            "tag": "VB",
+            "morphology": "VerbForm=Inf",
+            "dependency": "relcl",
+            "head": 38,
+            "start": 565,
+            "end": 573
+          },
+          {
+            "index": 42,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 44,
+            "start": 574,
+            "end": 577
+          },
+          {
+            "index": 43,
+            "text": "associated",
+            "lemma": "associated",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "amod",
+            "head": 44,
+            "start": 578,
+            "end": 588
+          },
+          {
+            "index": 44,
+            "text": "complications",
+            "lemma": "complication",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "dobj",
+            "head": 41,
+            "start": 589,
+            "end": 602
+          },
+          {
+            "index": 45,
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "tag": ",",
+            "morphology": "PunctType=Comm",
+            "dependency": "punct",
+            "head": 29,
+            "start": 602,
+            "end": 603
+          },
+          {
+            "index": 46,
+            "text": "minimize",
+            "lemma": "minimize",
+            "pos": "VERB",
+            "tag": "VB",
+            "morphology": "VerbForm=Inf",
+            "dependency": "conj",
+            "head": 29,
+            "start": 604,
+            "end": 612
+          },
+          {
+            "index": 47,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "tag": "DT",
+            "morphology": "Definite=Def|PronType=Art",
+            "dependency": "det",
+            "head": 49,
+            "start": 613,
+            "end": 616
+          },
+          {
+            "index": 48,
+            "text": "treatment",
+            "lemma": "treatment",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "compound",
+            "head": 49,
+            "start": 617,
+            "end": 626
+          },
+          {
+            "index": 49,
+            "text": "burden",
+            "lemma": "burden",
+            "pos": "NOUN",
+            "tag": "NN",
+            "morphology": "Number=Sing",
+            "dependency": "dobj",
+            "head": 46,
+            "start": 627,
+            "end": 633
+          },
+          {
+            "index": 50,
+            "text": ",",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "tag": ",",
+            "morphology": "PunctType=Comm",
+            "dependency": "punct",
+            "head": 46,
+            "start": 633,
+            "end": 634
+          },
+          {
+            "index": 51,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "tag": "CC",
+            "morphology": "ConjType=Cmp",
+            "dependency": "cc",
+            "head": 46,
+            "start": 635,
+            "end": 638
+          },
+          {
+            "index": 52,
+            "text": "improve",
+            "lemma": "improve",
+            "pos": "VERB",
+            "tag": "VB",
+            "morphology": "VerbForm=Inf",
+            "dependency": "conj",
+            "head": 46,
+            "start": 639,
+            "end": 646
+          },
+          {
+            "index": 53,
+            "text": "patient",
+            "lemma": "patient",
+            "pos": "ADJ",
+            "tag": "JJ",
+            "morphology": "Degree=Pos",
+            "dependency": "amod",
+            "head": 54,
+            "start": 647,
+            "end": 654
+          },
+          {
+            "index": 54,
+            "text": "outcomes",
+            "lemma": "outcome",
+            "pos": "NOUN",
+            "tag": "NNS",
+            "morphology": "Number=Plur",
+            "dependency": "dobj",
+            "head": 52,
+            "start": 655,
+            "end": 663
+          },
+          {
+            "index": 55,
+            "text": ".",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "tag": ".",
+            "morphology": "PunctType=Peri",
+            "dependency": "punct",
+            "head": 29,
+            "start": 663,
+            "end": 664
+          }
+        ]
+      }
+    ]
+  },
+  "translated_sentences": [
+    "Les maladies cardio-métaboliques, y compris le diabète sucré de type 2, représentent une préoccupation croissante pour la santé mondiale, en particulier dans les pays à faible revenu et à revenu intermédiaire.",
+    "Le fardeau du diabète de type 2 est exacerbé par le manque de ressources en matière de soins de santé, l'accès insuffisant aux médicaments et aux diagnostics et l'insuffisance des infrastructures de soins de santé.",
+    "À mesure que la prévalence du diabète de type 2 continue d'augmenter (plus de 95 % des personnes atteintes de diabète dans les MIC étant considérées comme de type 2 ), il est urgent d'avoir des options de traitement efficaces et accessibles qui puissent atténuer les complications associées, réduire le fardeau du traitement et améliorer les résultats pour les patients."
+  ],
+  "translation": "Les maladies cardio-métaboliques, y compris le diabète sucré de type 2, représentent une préoccupation croissante pour la santé mondiale, en particulier dans les pays à faible revenu et à revenu intermédiaire. Le fardeau du diabète de type 2 est exacerbé par le manque de ressources en matière de soins de santé, l'accès insuffisant aux médicaments et aux diagnostics et l'insuffisance des infrastructures de soins de santé. À mesure que la prévalence du diabète de type 2 continue d'augmenter (plus de 95 % des personnes atteintes de diabète dans les MIC étant considérées comme de type 2 ), il est urgent d'avoir des options de traitement efficaces et accessibles qui puissent atténuer les complications associées, réduire le fardeau du traitement et améliorer les résultats pour les patients.",
+  "entries": [
+    {
+      "lemma": "and",
+      "pos": "CCONJ",
+      "frequency": 5,
+      "forms": [
+        [
+          "and",
+          5
+        ]
+      ],
+      "tags": [
+        "CC"
+      ],
+      "morphology": [
+        "ConjType=Cmp"
+      ],
+      "translation": "et",
+      "origin": "auto"
+    },
+    {
+      "lemma": "the",
+      "pos": "DET",
+      "frequency": 4,
+      "forms": [
+        [
+          "The",
+          1
+        ],
+        [
+          "the",
+          3
+        ]
+      ],
+      "tags": [
+        "DT"
+      ],
+      "morphology": [
+        "Definite=Def|PronType=Art"
+      ],
+      "translation": "des",
+      "origin": "auto"
+    },
+    {
+      "lemma": "type",
+      "pos": "NOUN",
+      "frequency": 4,
+      "forms": [
+        [
+          "type",
+          4
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "type",
+      "origin": "auto"
+    },
+    {
+      "lemma": "of",
+      "pos": "ADP",
+      "frequency": 3,
+      "forms": [
+        [
+          "of",
+          3
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "des",
+      "origin": "auto"
+    },
+    {
+      "lemma": "an",
+      "pos": "DET",
+      "frequency": 2,
+      "forms": [
+        [
+          "an",
+          2
+        ]
+      ],
+      "tags": [
+        "DT"
+      ],
+      "morphology": [
+        "Definite=Ind|PronType=Art"
+      ],
+      "translation": "une",
+      "origin": "auto"
+    },
+    {
+      "lemma": "be",
+      "pos": "AUX",
+      "frequency": 2,
+      "forms": [
+        [
+          "being",
+          1
+        ],
+        [
+          "is",
+          1
+        ]
+      ],
+      "tags": [
+        "VBG",
+        "VBZ"
+      ],
+      "morphology": [
+        "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+        "VerbForm=Ger"
+      ],
+      "translation": "être",
+      "origin": "auto"
+    },
+    {
+      "lemma": "burden",
+      "pos": "NOUN",
+      "frequency": 2,
+      "forms": [
+        [
+          "burden",
+          2
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "charge",
+      "origin": "auto"
+    },
+    {
+      "lemma": "diabete",
+      "pos": "NOUN",
+      "frequency": 2,
+      "forms": [
+        [
+          "diabetes",
+          2
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "Diabète",
+      "origin": "auto"
+    },
+    {
+      "lemma": "diabetes",
+      "pos": "NOUN",
+      "frequency": 2,
+      "forms": [
+        [
+          "diabetes",
+          2
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "diabète",
+      "origin": "auto"
+    },
+    {
+      "lemma": "healthcare",
+      "pos": "NOUN",
+      "frequency": 2,
+      "forms": [
+        [
+          "healthcare",
+          2
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "soins de santé",
+      "origin": "auto"
+    },
+    {
+      "lemma": "in",
+      "pos": "ADP",
+      "frequency": 2,
+      "forms": [
+        [
+          "in",
+          2
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "dans",
+      "origin": "auto"
+    },
+    {
+      "lemma": "lmic",
+      "pos": "NOUN",
+      "frequency": 2,
+      "forms": [
+        [
+          "LMICs",
+          2
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "LIMITÉE",
+      "origin": "auto"
+    },
+    {
+      "lemma": "mellitus",
+      "pos": "PROPN",
+      "frequency": 2,
+      "forms": [
+        [
+          "mellitus",
+          2
+        ]
+      ],
+      "tags": [
+        "NNP"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "sucré",
+      "origin": "auto"
+    },
+    {
+      "lemma": "treatment",
+      "pos": "NOUN",
+      "frequency": 2,
+      "forms": [
+        [
+          "treatment",
+          2
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "traitement",
+      "origin": "auto"
+    },
+    {
+      "lemma": "with",
+      "pos": "ADP",
+      "frequency": 2,
+      "forms": [
+        [
+          "with",
+          2
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "avec",
+      "origin": "auto"
+    },
+    {
+      "lemma": "access",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "access",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "accès",
+      "origin": "auto"
+    },
+    {
+      "lemma": "accessible",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "accessible",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "accessible",
+      "origin": "auto"
+    },
+    {
+      "lemma": "as",
+      "pos": "SCONJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "As",
+          1
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "comme",
+      "origin": "auto"
+    },
+    {
+      "lemma": "associated",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "associated",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "associés",
+      "origin": "auto"
+    },
+    {
+      "lemma": "be",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "is",
+          1
+        ]
+      ],
+      "tags": [
+        "VBZ"
+      ],
+      "morphology": [
+        "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+      ],
+      "translation": "être",
+      "origin": "auto"
+    },
+    {
+      "lemma": "by",
+      "pos": "ADP",
+      "frequency": 1,
+      "forms": [
+        [
+          "by",
+          1
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "par",
+      "origin": "auto"
+    },
+    {
+      "lemma": "can",
+      "pos": "AUX",
+      "frequency": 1,
+      "forms": [
+        [
+          "can",
+          1
+        ]
+      ],
+      "tags": [
+        "MD"
+      ],
+      "morphology": [
+        "VerbForm=Fin"
+      ],
+      "translation": "peut",
+      "origin": "auto"
+    },
+    {
+      "lemma": "cardiometabolic",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "Cardiometabolic",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "cardiométabolique",
+      "origin": "auto"
+    },
+    {
+      "lemma": "complication",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "complications",
+          1
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "complication",
+      "origin": "auto"
+    },
+    {
+      "lemma": "concern",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "concern",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels Comité des droits économiques, sociaux et culturels",
+      "origin": "auto"
+    },
+    {
+      "lemma": "consider",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "considered",
+          1
+        ]
+      ],
+      "tags": [
+        "VBN"
+      ],
+      "morphology": [
+        "Aspect=Perf|Tense=Past|VerbForm=Part"
+      ],
+      "translation": "envisager",
+      "origin": "auto"
+    },
+    {
+      "lemma": "continue",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "continues",
+          1
+        ]
+      ],
+      "tags": [
+        "VBZ"
+      ],
+      "morphology": [
+        "Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+      ],
+      "translation": "poursuivre",
+      "origin": "auto"
+    },
+    {
+      "lemma": "country",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "countries",
+          1
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "Pays",
+      "origin": "auto"
+    },
+    {
+      "lemma": "diagnostic",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "diagnostics",
+          1
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "diagnostic",
+      "origin": "auto"
+    },
+    {
+      "lemma": "disease",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "diseases",
+          1
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "maladie",
+      "origin": "auto"
+    },
+    {
+      "lemma": "effective",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "effective",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "efficace",
+      "origin": "auto"
+    },
+    {
+      "lemma": "exacerbate",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "exacerbated",
+          1
+        ]
+      ],
+      "tags": [
+        "VBN"
+      ],
+      "morphology": [
+        "Aspect=Perf|Tense=Past|VerbForm=Part"
+      ],
+      "translation": "exacerber",
+      "origin": "auto"
+    },
+    {
+      "lemma": "for",
+      "pos": "ADP",
+      "frequency": 1,
+      "forms": [
+        [
+          "for",
+          1
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "pour",
+      "origin": "auto"
+    },
+    {
+      "lemma": "global",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "global",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "mondial",
+      "origin": "auto"
+    },
+    {
+      "lemma": "health",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "health",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "santé",
+      "origin": "auto"
+    },
+    {
+      "lemma": "improve",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "improve",
+          1
+        ]
+      ],
+      "tags": [
+        "VB"
+      ],
+      "morphology": [
+        "VerbForm=Inf"
+      ],
+      "translation": "améliorer",
+      "origin": "auto"
+    },
+    {
+      "lemma": "inadequate",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "inadequate",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "insuffisant",
+      "origin": "auto"
+    },
+    {
+      "lemma": "include",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "including",
+          1
+        ]
+      ],
+      "tags": [
+        "VBG"
+      ],
+      "morphology": [
+        "Aspect=Prog|Tense=Pres|VerbForm=Part"
+      ],
+      "translation": "inclure",
+      "origin": "auto"
+    },
+    {
+      "lemma": "income",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "income",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "Recettes",
+      "origin": "auto"
+    },
+    {
+      "lemma": "increase",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "increasing",
+          1
+        ]
+      ],
+      "tags": [
+        "VBG"
+      ],
+      "morphology": [
+        "Aspect=Prog|Tense=Pres|VerbForm=Part"
+      ],
+      "translation": "augmentation",
+      "origin": "auto"
+    },
+    {
+      "lemma": "infrastructure",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "infrastructure",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "infrastructures",
+      "origin": "auto"
+    },
+    {
+      "lemma": "insufficient",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "insufficient",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "insuffisant",
+      "origin": "auto"
+    },
+    {
+      "lemma": "limited",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "limited",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "limitée",
+      "origin": "auto"
+    },
+    {
+      "lemma": "low-",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "low-",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "Faible...",
+      "origin": "auto"
+    },
+    {
+      "lemma": "medication",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "medications",
+          1
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "médicament",
+      "origin": "auto"
+    },
+    {
+      "lemma": "mellitus",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "mellitus",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "sucré",
+      "origin": "auto"
+    },
+    {
+      "lemma": "middle",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "middle",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "milieu",
+      "origin": "auto"
+    },
+    {
+      "lemma": "minimize",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "minimize",
+          1
+        ]
+      ],
+      "tags": [
+        "VB"
+      ],
+      "morphology": [
+        "VerbForm=Inf"
+      ],
+      "translation": "réduire au minimum",
+      "origin": "auto"
+    },
+    {
+      "lemma": "mitigate",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "mitigate",
+          1
+        ]
+      ],
+      "tags": [
+        "VB"
+      ],
+      "morphology": [
+        "VerbForm=Inf"
+      ],
+      "translation": "atténuer les effets",
+      "origin": "auto"
+    },
+    {
+      "lemma": "need",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "need",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "besoin",
+      "origin": "auto"
+    },
+    {
+      "lemma": "option",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "options",
+          1
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "option",
+      "origin": "auto"
+    },
+    {
+      "lemma": "outcome",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "outcomes",
+          1
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "Résultat",
+      "origin": "auto"
+    },
+    {
+      "lemma": "particularly",
+      "pos": "ADV",
+      "frequency": 1,
+      "forms": [
+        [
+          "particularly",
+          1
+        ]
+      ],
+      "tags": [
+        "RB"
+      ],
+      "morphology": [],
+      "translation": "en particulier",
+      "origin": "auto"
+    },
+    {
+      "lemma": "patient",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "patient",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "patient",
+      "origin": "auto"
+    },
+    {
+      "lemma": "people",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "people",
+          1
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "et de la population",
+      "origin": "auto"
+    },
+    {
+      "lemma": "prevalence",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "prevalence",
+          1
+        ]
+      ],
+      "tags": [
+        "NN"
+      ],
+      "morphology": [
+        "Number=Sing"
+      ],
+      "translation": "prévalence",
+      "origin": "auto"
+    },
+    {
+      "lemma": "represent",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "represent",
+          1
+        ]
+      ],
+      "tags": [
+        "VB"
+      ],
+      "morphology": [
+        "VerbForm=Inf"
+      ],
+      "translation": "représenter",
+      "origin": "auto"
+    },
+    {
+      "lemma": "resource",
+      "pos": "NOUN",
+      "frequency": 1,
+      "forms": [
+        [
+          "resources",
+          1
+        ]
+      ],
+      "tags": [
+        "NNS"
+      ],
+      "morphology": [
+        "Number=Plur"
+      ],
+      "translation": "des ressources",
+      "origin": "auto"
+    },
+    {
+      "lemma": "rise",
+      "pos": "VERB",
+      "frequency": 1,
+      "forms": [
+        [
+          "rise",
+          1
+        ]
+      ],
+      "tags": [
+        "VB"
+      ],
+      "morphology": [
+        "VerbForm=Inf"
+      ],
+      "translation": "augmentation",
+      "origin": "auto"
+    },
+    {
+      "lemma": "that",
+      "pos": "PRON",
+      "frequency": 1,
+      "forms": [
+        [
+          "that",
+          1
+        ]
+      ],
+      "tags": [
+        "WDT"
+      ],
+      "morphology": [
+        "PronType=Rel"
+      ],
+      "translation": "C'est-à-dire",
+      "origin": "auto"
+    },
+    {
+      "lemma": "there",
+      "pos": "PRON",
+      "frequency": 1,
+      "forms": [
+        [
+          "there",
+          1
+        ]
+      ],
+      "tags": [
+        "EX"
+      ],
+      "morphology": [],
+      "translation": "Voilà.",
+      "origin": "auto"
+    },
+    {
+      "lemma": "to",
+      "pos": "ADP",
+      "frequency": 1,
+      "forms": [
+        [
+          "to",
+          1
+        ]
+      ],
+      "tags": [
+        "IN"
+      ],
+      "morphology": [],
+      "translation": "à l ' Assemblée générale",
+      "origin": "auto"
+    },
+    {
+      "lemma": "to",
+      "pos": "PART",
+      "frequency": 1,
+      "forms": [
+        [
+          "to",
+          1
+        ]
+      ],
+      "tags": [
+        "TO"
+      ],
+      "morphology": [],
+      "translation": "à l ' Assemblée générale",
+      "origin": "auto"
+    },
+    {
+      "lemma": "urgent",
+      "pos": "ADJ",
+      "frequency": 1,
+      "forms": [
+        [
+          "urgent",
+          1
+        ]
+      ],
+      "tags": [
+        "JJ"
+      ],
+      "morphology": [
+        "Degree=Pos"
+      ],
+      "translation": "urgent",
+      "origin": "auto"
+    }
+  ],
+  "source_words": 87,
+  "translated_source_words": 77,
+  "target_words": 119,
+  "timings": {
+    "initialization": 0.00041840001358650625,
+    "analysis": 0.018715200014412403,
+    "translation": 5.807672599999933,
+    "dictionary": 12.713075799983926
+  },
+  "versions": {
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0",
+    "model": "Helsinki-NLP/opus-mt-en-fr",
+    "revision": "dd7f6540a7a48a7f4db59e5c0b9c42c8eea67f18",
+    "torch": "2.14.1+cpu",
+    "transformers": "5.20.2",
+    "device": "cpu",
+    "beams": "4",
+    "source_title": "Reduced insulin use and diabetes complications — excerpt",
+    "source_url": "https://doi.org/10.1371/journal.pmed.1004559",
+    "source_attribution": "Global Health & Population Project on Access to Care for Cardiometabolic Diseases (HPACC), PLOS Medicine 22(4), 2025",
+    "source_license": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/"
+  },
+  "warnings": [
+    "Автоматические словарные эквиваленты получены изолированно, требуют проверки и не являются выравниванием полного перевода.",
+    "Число переведённых слов — число исходных словоупотреблений с эквивалентом в словаре; совпавшие с исходником автопереводы требуют ручного подтверждения и не входят в покрытие. Это не оценка качества.",
+    "Длинные предложения делятся по 384 токена модели; возможна потеря контекста на границе. Исходный текст не обрезается."
+  ]
+}

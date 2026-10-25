@@ -1,0 +1,16 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.pdf binary
+*.wav binary
+*.png binary
+*.jpg binary
+*.onnx binary
+
+# Preserve corpus/report bytes used by provenance and integrity checks.
+**/data/** -text
+**/reports/** -text

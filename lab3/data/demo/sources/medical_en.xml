@@ -1,0 +1,1164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "http://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article article-type="research-article" dtd-version="1.3" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<processing-meta>
+<custom-meta-group content-type="composition">
+<custom-meta specific-use="newgen" xlink:href="https://www.newgen.co/">
+<meta-name>Composition Vendor</meta-name>
+<meta-value>Newgen KnowledgeWorks (P) Ltd.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</processing-meta>
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS Med</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosmed</journal-id>
+<journal-title-group>
+<journal-title>PLOS Medicine</journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1549-1277</issn>
+<issn pub-type="epub">1549-1676</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pmed.1004559</article-id>
+<article-id pub-id-type="publisher-id">PMEDICINE-D-24-02659</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Endocrinology</subject><subj-group><subject>Diabetic endocrinology</subject><subj-group><subject>Insulin</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Hormones</subject><subj-group><subject>Insulin</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Endocrinology</subject><subj-group><subject>Endocrine disorders</subject><subj-group><subject>Diabetes mellitus</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Medical conditions</subject><subj-group><subject>Metabolic disorders</subject><subj-group><subject>Diabetes mellitus</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Social sciences</subject><subj-group><subject>Economics</subject><subj-group><subject>Economic geography</subject><subj-group><subject>Low and middle income countries</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Earth sciences</subject><subj-group><subject>Geography</subject><subj-group><subject>Economic geography</subject><subj-group><subject>Low and middle income countries</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Medical conditions</subject><subj-group><subject>Metabolic disorders</subject><subj-group><subject>Hypoglycemia</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Endocrinology</subject><subj-group><subject>Endocrine disorders</subject><subj-group><subject>Diabetes mellitus</subject><subj-group><subject>Type 2 diabetes</subject><subj-group><subject>Type 2 diabetes risk</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Medical conditions</subject><subj-group><subject>Metabolic disorders</subject><subj-group><subject>Diabetes mellitus</subject><subj-group><subject>Type 2 diabetes</subject><subj-group><subject>Type 2 diabetes risk</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Cardiology</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Endocrinology</subject><subj-group><subject>Endocrine disorders</subject><subj-group><subject>Diabetes mellitus</subject><subj-group><subject>Type 2 diabetes</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Medical conditions</subject><subj-group><subject>Metabolic disorders</subject><subj-group><subject>Diabetes mellitus</subject><subj-group><subject>Type 2 diabetes</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Medical conditions</subject><subj-group><subject>Cardiovascular diseases</subject><subj-group><subject>Cardiovascular disease risk</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Cardiology</subject><subj-group><subject>Cardiovascular medicine</subject><subj-group><subject>Cardiovascular diseases</subject><subj-group><subject>Cardiovascular disease risk</subject></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Reduced insulin use and diabetes complications upon introduction of SGLT-2 inhibitors and GLP1-receptor agonists in low- and middle-income countries: A microsimulation</article-title>
+<alt-title alt-title-type="running-head">Insulin, SGLT-2is, and GLP1-RAs in LMICs</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple">
+<collab>Global Health &amp; Population Project on Access to Care for Cardiometabolic Diseases (HPACC)</collab>
+<xref ref-type="corresp" rid="cor001">*</xref>
+<xref ref-type="fn" rid="fn001"><sup>¶</sup></xref>
+</contrib>
+</contrib-group>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Lim</surname>
+<given-names>Lee-Ling</given-names>
+</name>
+<role>Academic Editor</role>
+<xref ref-type="aff" rid="edit1"/></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Malaya: Universiti Malaya, MALAYSIA</addr-line></aff>
+<author-notes>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">sanjay.basu@waymarkcare.org</email></corresp>
+<fn fn-type="conflict" id="coi001">
+<p>I have read the journal's policy and the authors of this manuscript have the following competing interests: SB and DF are Academic Editors on PLOS Medicine's editorial board. TB is the academic Editor-in-Chief of PLOS Medicine.</p>
+</fn>
+<fn fn-type="other" id="fn001">
+<label>¶</label>
+<p>Membership of the Global Health &amp; Population Project on Access to Care for Cardiometabolic Diseases (HPACC) is listed in the Acknowledgments.</p>
+</fn>
+</author-notes>
+<pub-date pub-type="epub"><day>17</day><month>4</month><year>2025</year></pub-date>
+<pub-date pub-type="collection"><month>4</month><year>2025</year></pub-date>
+<volume>22</volume>
+<issue>4</issue>
+<elocation-id>e1004559</elocation-id>
+<history>
+<date date-type="received"><day>13</day><month>8</month><year>2024</year></date>
+<date date-type="accepted"><day>11</day><month>2</month><year>2025</year></date>
+</history>
+<permissions>
+<copyright-year>2025</copyright-year>
+<copyright-holder>Global Health &amp; Population Project on Access to Care for Cardiometabolic Diseases (HPACC)</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pmed.1004559"/>
+<abstract>
+<sec>
+<title>Background</title>
+<p>Diabetes mellitus, particularly type 2 diabetes, is a growing health concern in low- and middle-income countries (LMICs). The potential impact of newer diabetes medications, such as glucagon-like peptide 1 (GLP-1) receptor agonists and sodium-glucose co-transporter-2 (SGLT-2) inhibitors, on insulin dosage and health outcomes in these settings is not well understood.</p>
+</sec>
+<sec>
+<title>Methods and findings</title>
+<p>We developed a microsimulation model to estimate the impact of treating patients with type 2 diabetes who use insulin with GLP-1 receptor agonists or SGLT-2 inhibitors in LMICs. The model utilized data from the Global Health and Population Project on Access to Care for Cardiometabolic Diseases (HPACC) dataset, encompassing surveys from 79 countries and clinical trial data to estimate insulin dose reduction. We incorporated weight-based insulin dosing formulas and hazard ratios for severe hypoglycemia, cardiovascular and renal outcomes, side effects of new therapies, and mortality. The primary outcome was the change in insulin dosage, and secondary outcomes were disability-adjusted life years (DALYs) lost per 1,000 person-years by diabetes complication (micro- and macro-vascular).</p>
+<p>Our results indicate that the addition of GLP-1 receptor agonists or SGLT-2 inhibitors could reduce insulin dosage by 8.2 IU/day (IQR: 6.9, 9.5) and 5.3 IU/day (IQR: 4.5, 6.2), respectively. The median DALYs lost per 1,000 person-years decreased from 2.20 (IQR: 1.49, 4.02) to 1.01 (IQR: 0.61, 1.86) with GLP-1 receptor agonists and 1.25 (IQR: 0.81, 2.29) with SGLT-2 inhibitors. Primary benefits arose from weight loss, decreased cardiorenal disease, and decreased mortality, with smaller DALY benefits from the prevention of severe hypoglycemia. Key limitations include the inability to differentiate between type 1 and type 2 diabetes in some datasets and reliance on assumptions from clinical trials conducted primarily in high-income countries.</p>
+</sec>
+<sec>
+<title>Conclusions</title>
+<p>The introduction of GLP-1 receptor agonists and SGLT-2 inhibitors for managing type 2 diabetes in LMICs could significantly reduce insulin dosage and associated health risks, leading to improved outcomes and reduced disability. These findings suggest that expanding access to these newer diabetes medications in LMICs could have substantial public health benefits.</p>
+</sec>
+</abstract>
+<abstract abstract-type="summary">
+<title>Author summary</title>
+<p>Why was this study done?</p>
+<p>What did the researchers do and find?</p>
+<p>What do these findings mean?</p>
+</abstract>
+<abstract abstract-type="toc">
+<p>In this microsimulation study, Sanjay Basu and colleagues assess the potential impact of newer diabetes medications, such asGLP-1 receptor agonists and SGLT2 inhibitors, on insulin dosage and health outcomes in low- and middle-income countries.</p>
+</abstract>
+<funding-group>
+<funding-statement>The author(s) received no specific funding for this work.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="1"/>
+<table-count count="4"/>
+<page-count count="17"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All data files are available from the Harvard Dataverse: <ext-link ext-link-type="uri" xlink:href="https://dataverse.harvard.edu/dataverse/hpacc" xlink:type="simple">https://dataverse.harvard.edu/dataverse/hpacc</ext-link>
+</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<list list-type="bullet">
+<list-item>
+<p>People with diabetes in low- and middle-income countries (LMICs) often face challenges managing their condition with insulin, including difficulties with storage, monitoring blood sugar, and the risk of dangerously low blood sugar levels.</p>
+</list-item>
+<list-item>
+<p>Newer diabetes medications that have a lower risk of causing low blood sugar and further benefit cardiovascular and renal outcomes are becoming available in these countries, but their potential implications for insulin use in LMICs are not well understood.</p>
+</list-item>
+<list-item>
+<p>This study aimed to estimate how these newer medications could help reduce insulin needs and improve health outcomes for people with diabetes in LMICs.</p>
+</list-item>
+<list-item>
+<p>We used mathematical modeling with data from 79 countries to estimate how newer diabetes medications (GLP-1 receptor agonists and SGLT-2 inhibitors) could affect insulin use and health outcomes.</p>
+</list-item>
+<list-item>
+<p>We found that these medications could reduce daily insulin needs by 5–8 units per person while also reducing complications from diabetes.</p>
+</list-item>
+<list-item>
+<p>The greatest benefits came from weight loss, reduced heart and kidney disease, and lower death rates, with additional benefits from preventing severe low blood sugar episodes.</p>
+</list-item>
+<list-item>
+<p>These results suggest that making newer diabetes medications available in LMICs could substantially improve the lives of people with diabetes by reducing their reliance on insulin and lowering their risk of complications.</p>
+</list-item>
+<list-item>
+<p>Healthcare systems in these countries may want to consider increasing access to these medications as they become more affordable and available in generic forms.</p>
+</list-item>
+<list-item>
+<p>The main limitations of our study include difficulty distinguishing between different types of diabetes in some datasets and relying on assumptions from clinical trials that were mainly conducted in wealthy countries.</p>
+</list-item>
+</list>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Cardiometabolic diseases, including type 2 diabetes mellitus, represent an increasing global health concern, particularly in low- and middle-income countries (LMICs) [<xref ref-type="bibr" rid="pmed.1004559.ref001">1</xref>]. The burden of type 2 diabetes mellitus is exacerbated by limited healthcare resources, inadequate access to medications and diagnostics, and insufficient healthcare infrastructure [<xref ref-type="bibr" rid="pmed.1004559.ref002">2</xref>]. As the prevalence of type 2 diabetes mellitus continues to rise (with &gt;95% of people with diabetes in LMICs being considered type 2 [<xref ref-type="bibr" rid="pmed.1004559.ref003">3</xref>]), there is an urgent need for effective and accessible treatment options that can mitigate the associated complications, minimize the treatment burden, and improve patient outcomes.</p>
+<p>One of the critical challenges in managing diabetes in LMICs is the use of insulin therapy, particularly given the complexity of care for monitoring glucose levels, insulin dose adjustments and shortages, poor access to refrigeration and glucose self-monitoring devices and test strips, and high rates of severe hypoglycemia in the context of food insecurity in many LMICs [<xref ref-type="bibr" rid="pmed.1004559.ref004">4</xref>]. There has been a shift from the traditional glucose-centric to a cardiorenal-metabolic approach to type 2 management in high-income countries over the past few years, and similarly, there is the question of whether a parallel approach should be considered in LMICs. Cardiovascular and renal comorbidities of diabetes are increasing in LMICs [<xref ref-type="bibr" rid="pmed.1004559.ref005">5</xref>,<xref ref-type="bibr" rid="pmed.1004559.ref006">6</xref>] and newer medications—specifically, sodium-glucose co-transporter-2 (SGLT-2) inhibitors and glucagon-like peptide-1 (GLP-1) receptor agonists—help mitigate these comorbidities more effectively than insulin alone [<xref ref-type="bibr" rid="pmed.1004559.ref007">7</xref>]. A comprehensive network meta-analysis of 764 trials including 421,346 participants has confirmed the superior cardiometabolic benefits of these newer agents compared to traditional therapies [<xref ref-type="bibr" rid="pmed.1004559.ref008">8</xref>], with particularly strong effects among those with established cardiovascular disease [<xref ref-type="bibr" rid="pmed.1004559.ref009">9</xref>]. Research has also shown that SGLT-2 inhibitors and GLP-1 receptor agonists reduce the dosages of insulin needed among people with type 2 diabetes [<xref ref-type="bibr" rid="pmed.1004559.ref010">10</xref>].</p>
+<p>The prices of SGLT-2 inhibitors and GLP-1 receptor agonists could be lowered, potentially making them more accessible in LMICs [<xref ref-type="bibr" rid="pmed.1004559.ref011">11</xref>]. Recent initiatives by international organizations and pharmaceutical companies aim to reduce the cost of these medications through price negotiations and the introduction of generic versions [<xref ref-type="bibr" rid="pmed.1004559.ref012">12</xref>,<xref ref-type="bibr" rid="pmed.1004559.ref013">13</xref>]. However, despite these efforts, many ministries of health and policymakers in LMICs remain uncertain about the value of increasing the availability and use of these therapies. Concerns about cost-effectiveness, long-term benefits, and the feasibility of integrating these treatments into existing healthcare systems contribute to this uncertainty [<xref ref-type="bibr" rid="pmed.1004559.ref014">14</xref>]. In previous work, we estimated the cost thresholds needed for such therapies to be cost-effective [<xref ref-type="bibr" rid="pmed.1004559.ref015">15</xref>]. We also recognize that the pricing, refrigeration requirements, and availability of GLP-1 receptor agonists may be improved by newer GLP-1 receptor agonists that are oral small molecules [<xref ref-type="bibr" rid="pmed.1004559.ref016">16</xref>].</p>
+<p>Recent policy efforts have monitored the growing adoption of SGLT-2 inhibitors and GLP-1 receptor agonists in LMICs. However, several analysts question whether this adoption will effectively address challenges related to insulin use, such as insulin shortages, refrigeration/equipment limitations, and hypoglycemia, among other challenges in these countries. The global DISCOVER prospective observational study, encompassing 37 countries, reported a substantial increase in the use of SGLT2-is and GLP-1RAs between 2014 and 2016, with median usage reaching 19.4% of people with diabetes by 2016 [<xref ref-type="bibr" rid="pmed.1004559.ref014">14</xref>]. In China, a large-scale study revealed a 140-fold increase in SGLT2-i utilization and a 6.5-fold increase in GLP-1RA use between 2018 and 2021 [<xref ref-type="bibr" rid="pmed.1004559.ref017">17</xref>]. Médecins Sans Frontières has indicated plans to incorporate the medications into their treatment algorithms for humanitarian settings [<xref ref-type="bibr" rid="pmed.1004559.ref018">18</xref>], and several countries are adding them to national formularies, particularly as generics (e.g., for dapagliflozin and liraglutide) and compounded versions become more widely available and lower in cost in LMICs [<xref ref-type="bibr" rid="pmed.1004559.ref017">17</xref>].</p>
+<p>As access to these medicines continues to expand, questions remain around how beneficial they are for people with type 2 diabetes in LMICs. This study aimed to estimate the potential impact of SGLT-2 inhibitors and GLP-1 receptor agonists on insulin use and DALYs in LMICs. Specifically, we sought to understand how introducing these therapies could reduce insulin dosage and its associated risks and morbidities thereby improving overall health outcomes and reducing disability.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Methods</title>
+<sec id="sec003">
+<title>Study design</title>
+<p>This study aimed to estimate the potential impact of treating patients in LMICs who have type 2 diabetes and are using insulin with SGLT-2 inhibitors or GLP-1 receptor agonists. We project the change in daily dosage of insulin, associated side effect risks (including reduced severe hypoglycemia, but increased risk of gastrointestinal or urogenital side-effects on the newer medicines), and disability-adjusted life years (DALYs) across countries on data obtained from the Global Health and Population Project on Access to Care for Cardiometabolic Diseases (HPACC) survey dataset [<xref ref-type="bibr" rid="pmed.1004559.ref019">19</xref>]. The study focused on LMICs and employed a microsimulation model.</p>
+<sec id="sec004">
+<title>Microsimulation model design.</title>
+<p>We chose a microsimulation approach over traditional regression analysis for several key reasons. First, microsimulation allows us to model longitudinal aspects of competing risks between diabetes complications, non-diabetes morbidity, and mortality. Second, it enables simulation of counterfactual scenarios that cannot be directly observed in real-world data. Third, it preserves individual-level correlations between variables while incorporating multiple data sources.</p>
+<p>The model consists of four interconnected modules:</p>
+<list list-type="order">
+<list-item>
+<p><italic>Population module:</italic> Generates synthetic populations based on HPACC survey participants, preserving joint distributions of age, sex, weight, clinical parameters, and country-specific characteristics.</p>
+</list-item>
+<list-item>
+<p><italic>Insulin dosage module:</italic> Estimates baseline insulin requirements using validated weight-based algorithms, accounting for concurrent oral medications and insulin regimen intensity.</p>
+</list-item>
+<list-item>
+<p><italic>Intervention module:</italic> Simulates the introduction of GLP-1RAs and/or SGLT2is, incorporating meta-analytic data on medication effects and their interactions.</p>
+</list-item>
+<list-item>
+<p><italic>Outcomes module:</italic> Calculates health outcomes including severe hypoglycemia, cardiovascular events, kidney failure, weight changes, and mortality, translating these into DALYs.</p>
+</list-item>
+</list>
+<p>Model parameters were derived from meta-analyses and observational cohorts (detailed in <xref ref-type="supplementary-material" rid="pmed.1004559.s002">S1 Table</xref>).</p>
+</sec>
+</sec>
+<sec id="sec005">
+<title>Data sources</title>
+<p>We used the HPACC dataset, which includes nationally representative, individual-level cross-sectional surveys of diabetes and associated risk factors in LMICs conducted from 2005 onwards (see <xref ref-type="supplementary-material" rid="pmed.1004559.s004">S1 Text</xref>). The dataset encompasses a wide range of demographic and socioeconomic variables, anthropometric and biological measures of disease status, and data on health service use. We have detailed each dataset’s survey methodology, sampling strategy, and timing in the <xref ref-type="sec" rid="sec017">Supporting information</xref>. Country-specific sampling weights were calculated using survey design information detailed in the <xref ref-type="sec" rid="sec017">Supporting information</xref>. When combining data across countries, we weighted each country’s contribution proportional to its population size while maintaining the survey design-based variance estimation structure. This approach preserves both within-country representativeness and appropriate weighting of countries’ relative contributions to the overall estimates. The survey data used in our assessment includes age, sex, measured body weight, hemoglobin A1c (%), whether the person was on diabetes medications, whether the person reported taking insulin, current tobacco smoking, blood pressure values, and blood pressure medication treatment, prior cardiovascular and cerebrovascular disease history, and lipid profile. Inclusion criteria for the analysis included current use of insulin and history of diabetes defined by self-reported diagnoses from a healthcare provider, fasting blood glucose 126 mg/dL (7 mmol/L) or higher, or hemoglobin A1c 6.5% or higher.</p>
+</sec>
+<sec id="sec006">
+<title>Outcomes</title>
+<p>The primary outcome of interest was reduction in insulin use per person per day if people with diabetes taking insulin started either an SGLT-2 inhibitor or GLP1-RA. The secondary outcome was total DALYs lost per 1,000-person years, adjusted for duration of effect, due to all causes that would be affected by choice of glycemic drugs, including severe hypoglycemia, cardiovascular disease (including atherosclerotic heart disease and stroke, as well as heart failure), kidney disease, weight change (other non-cardiorenal morbidity and mortality benefits of lower weight), and total all-cause mortality. The DALY calculation accounted for the morbidity and severity of each disease outcome, the timing of onset of each outcome, all-cause mortality by age and sex in each country, and the impact of treatment regimens on the rate of each outcome. We have detailed how these were calculated and modeled in the <xref ref-type="sec" rid="sec017">Supporting information</xref>. Additional outcomes included the fraction of DALYs lost to each specific cause.</p>
+</sec>
+<sec id="sec007">
+<title>Analytic approach</title>
+<p>A microsimulation model was employed to estimate the potential reduction in insulin use with the introduction of SGLT-2 inhibitors and GLP-1 receptor agonists. A microsimulation is a model that estimates changes in outcomes for individuals, rather than using population averages, to capture inequalities and distributions of outcomes across population sub-groups [<xref ref-type="bibr" rid="pmed.1004559.ref020">20</xref>]. The model repeatedly samples from probability distributions of the input parameters (detailed below) to quantify the uncertainty and variability around the outcome metrics. The input parameters, modeling strategies, and several sensitivity analyses are detailed below, while the appendix provides a further detailed description of each step of the modeling. The complete R code implementing the microsimulation model is available at <ext-link ext-link-type="uri" xlink:href="https://github.com/sanjaybasu/hpacc-insulin-glp1-sglt2" xlink:type="simple">https://github.com/sanjaybasu/hpacc-insulin-glp1-sglt2</ext-link> and <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.14634630" xlink:type="simple">https://doi.org/10.5281/zenodo.14634630</ext-link>.</p>
+<sec id="sec008">
+<title>Insulin dosage, change in dosage, and severe hypoglycemia rates.</title>
+<p>Given that insulin dosage data were unavailable, the model used weight-based formulas to estimate a range of possible current insulin doses among individuals who reported using insulin, keeping any metformin they were currently using unchanged. Baseline insulin requirements were estimated using validated weight-based algorithms [<xref ref-type="bibr" rid="pmed.1004559.ref021">21</xref>]. For the main analysis, we used a dosing factor of 0.64 IU/kg/day, representing typical requirements for patients on basal regimens. In sensitivity analyses, we modeled lower doses (0.37 IU/kg/day) representing basal-bolus regimens or patients on concurrent sulfonylureas, and higher doses (0.84 IU/kg/day) for more insulin-resistant patients. These ranges were derived from real-world insulin utilization studies in LMICs [<xref ref-type="bibr" rid="pmed.1004559.ref022">22</xref>].</p>
+<p>We simulated the reduction in insulin use after adding a GLP1-RA or SGLT2-i using randomized controlled trial data, assuming continued use of metformin when reducing insulin use and no addition of other medications beyond the GLP1-RA or SGLT2-i for the purposes of calculating the new insulin dosage. Specifically, for adding a GLP-1 receptor agonist, we used data from the SUSTAIN 5 trial, which indicated a 17% decrease in insulin units per person per day (95% CI: 14%, 19%) [<xref ref-type="bibr" rid="pmed.1004559.ref023">23</xref>], while for adding an SGLT-2 inhibitor we used data from the EMPA-REG BASALTM, which indicated an 11% decrease in insulin units per person per day (95% CI: 6%, 16%) [<xref ref-type="bibr" rid="pmed.1004559.ref024">24</xref>].</p>
+<p>We also modeled the combined effects of simultaneous GLP-1RA and SGLT2i treatment based on recent meta-analyses [<xref ref-type="bibr" rid="pmed.1004559.ref019">19</xref>,<xref ref-type="bibr" rid="pmed.1004559.ref025">25</xref>–<xref ref-type="bibr" rid="pmed.1004559.ref027">27</xref>]. Meta-analysis of randomized trials has shown that combination therapy provides additional benefits beyond monotherapy: further reduction in HbA1c (−0.74%), additional weight loss (−1.61 kg), and incremental systolic blood pressure reduction (−3.32 mmHg) compared to SGLT2i alone [<xref ref-type="bibr" rid="pmed.1004559.ref025">25</xref>]. For our model, we incorporated these additive effects along with an incremental 20% reduction in insulin requirements beyond SGLT2i monotherapy (95% CI: 15%–25%) [<xref ref-type="bibr" rid="pmed.1004559.ref019">19</xref>]. We modeled additional cardiovascular risk reduction (15% relative risk reduction) [<xref ref-type="bibr" rid="pmed.1004559.ref026">26</xref>] while maintaining the favorable kidney outcomes profile of SGLT2i therapy. Side effect profiles were modeled as additive between the two drug classes, supported by safety data from combination therapy trials [<xref ref-type="bibr" rid="pmed.1004559.ref027">27</xref>].</p>
+<p>The microsimulation was implemented by:</p>
+<list list-type="order">
+<list-item>
+<p>Drawing parameter values from their respective distributions based on meta-analytic inputs;</p>
+</list-item>
+<list-item>
+<p>Generating individual-level outcomes for the entire study population;</p>
+</list-item>
+<list-item>
+<p>Calculating population-weighted estimates accounting for survey design; and</p>
+</list-item>
+<list-item>
+<p>Storing results for uncertainty quantification.</p>
+</list-item>
+</list>
+<p>We simulated the baseline rate of severe hypoglycemia events to be 5.2 per 100 patient-years in type 2 diabetes mellitus (T2DM, 95% CI: 4.2, 6.4) among people on insulin but not on a GLP1-RA or SGLT2-i [<xref ref-type="bibr" rid="pmed.1004559.ref028">28</xref>], with a disutility of 0.10 (95% CI: 0.09, 0.11) for severe hypoglycemia events with a 1-day duration of disutility [<xref ref-type="bibr" rid="pmed.1004559.ref029">29</xref>]. We used meta-analytic estimates to simulate the relative risk of severe hypoglycemia as 0.46 (95% CI: 0.38, 0.55) when adding a GLP1-RA [<xref ref-type="bibr" rid="pmed.1004559.ref030">30</xref>] and 1.24 (95% CI: 0.77, 2.00) when adding an SGLT2-i [<xref ref-type="bibr" rid="pmed.1004559.ref031">31</xref>].</p>
+<p>Each of our individual outcome equations has been previously validated in published studies. The severe hypoglycemia risk equations were validated in international cohort studies [<xref ref-type="bibr" rid="pmed.1004559.ref028">28</xref>], cardiovascular disease risk was validated through the Globorisk derivation datasets specific to each country [<xref ref-type="bibr" rid="pmed.1004559.ref032">32</xref>], kidney disease progression was validated in longitudinal cohorts [<xref ref-type="bibr" rid="pmed.1004559.ref033">33</xref>,<xref ref-type="bibr" rid="pmed.1004559.ref034">34</xref>], and mortality equations were validated in national diabetes registries [<xref ref-type="bibr" rid="pmed.1004559.ref035">35</xref>]. While these component equations were validated, we did not perform additional model calibration at the population level given the absence of true diabetes complication incidence data from most LMICs. We did address population-level competing risks through established mortality equations and incorporated parameter uncertainty through sampling from parameter distributions specified in <xref ref-type="supplementary-material" rid="pmed.1004559.s002">S1 Table</xref>.</p>
+</sec>
+<sec id="sec009">
+<title>Adverse events from new medications.</title>
+<p>We estimated the new major adverse event risks from GLP1-Ras and SGLT2-is. For GLP-1 receptor agonists, we included severe gastrointestinal side effects (15%–20% incidence with disutility 0.188 lasting 3–4 days [<xref ref-type="bibr" rid="pmed.1004559.ref036">36</xref>]) and pancreatitis (1.2–2.1 events per 1,000 patient-years [<xref ref-type="bibr" rid="pmed.1004559.ref037">37</xref>] with disutility 0.324 lasting 28–53 days [<xref ref-type="bibr" rid="pmed.1004559.ref036">36</xref>]). For SGLT-2 inhibitors, we estimated the rate of urogenital infections (87.4 excess risk per 1,000 person-years for women and 11.9 for men [<xref ref-type="bibr" rid="pmed.1004559.ref027">27</xref>]) and diabetic ketoacidosis (0.6–4.9 events per 1,000 person-years [<xref ref-type="bibr" rid="pmed.1004559.ref038">38</xref>]), along with their respective disutilities (0.051 lasting 3–14 days [<xref ref-type="bibr" rid="pmed.1004559.ref036">36</xref>], and 0.1–0.2 lasting 3–7 days [<xref ref-type="bibr" rid="pmed.1004559.ref036">36</xref>]). We did not include the risk of amputation or fracture for SGLT2-i’s, given evidence that these severe adverse events were specific to canagliflozin and not a class effect [<xref ref-type="bibr" rid="pmed.1004559.ref039">39</xref>,<xref ref-type="bibr" rid="pmed.1004559.ref040">40</xref>].</p>
+</sec>
+<sec id="sec010">
+<title>Benefits from new medications.</title>
+<p>We simulated the benefits of adding SGLT-2 inhibitors and GLP-1 receptor agonists, including reduced weight, cardiovascular disease, renal disease, and mortality. For GLP-1 receptor agonists, the analysis included a 3.4 kg weight loss (95% CI: 2.3–4.5 [<xref ref-type="bibr" rid="pmed.1004559.ref025">25</xref>,<xref ref-type="bibr" rid="pmed.1004559.ref041">41</xref>] with a disutility of 0.00012–0.00441 per kg [<xref ref-type="bibr" rid="pmed.1004559.ref042">42</xref>]), an 18% reduction in major cardiovascular events (hazard ratio, 0.82; 95% CI, 0.68–0.98 [<xref ref-type="bibr" rid="pmed.1004559.ref043">43</xref>], with a disutility varied from 0.041 to 0.179 [<xref ref-type="bibr" rid="pmed.1004559.ref036">36</xref>], and a baseline cardiovascular event rate given by the Globorisk laboratory equation for each surveyed country [<xref ref-type="bibr" rid="pmed.1004559.ref032">32</xref>]), a 21% reduction in kidney disease (hazard ratio, 0.79; 95% CI, 0.66–0.94 [<xref ref-type="bibr" rid="pmed.1004559.ref043">43</xref>], with a disutility of 0.104–0.571 [<xref ref-type="bibr" rid="pmed.1004559.ref036">36</xref>] from a baseline of 2.9–7.4 per 1,000 person-years from observational cohorts [<xref ref-type="bibr" rid="pmed.1004559.ref033">33</xref>,<xref ref-type="bibr" rid="pmed.1004559.ref034">34</xref>]), and a 20% reduction in all-cause mortality (hazard ratio, 0.80; 95% CI, 0.67–0.95 [<xref ref-type="bibr" rid="pmed.1004559.ref043">43</xref>], with baseline mortality for people with diabetes modeled as 1.769 *  exp^(0.0565 *  age) per observational studies [<xref ref-type="bibr" rid="pmed.1004559.ref035">35</xref>]). For SGLT-2 inhibitors, the analysis included a 1.8 kg weight loss (95% CI: 1.9–1.7) [<xref ref-type="bibr" rid="pmed.1004559.ref025">25</xref>], a 15% reduction in major cardiovascular events (relative risk 0.85; 95% CI, 0.77–0.93) [<xref ref-type="bibr" rid="pmed.1004559.ref044">44</xref>], a 37% reduction in the risk of kidney disease (relative risk 0.63; 95% CI, 0.58–0.69) [<xref ref-type="bibr" rid="pmed.1004559.ref045">45</xref>], and a 21% reduction in all-cause mortality (relative risk 0.79; 95% CI, 0.70–0.88) [<xref ref-type="bibr" rid="pmed.1004559.ref044">44</xref>], with the same disutilities for each condition.</p>
+<p>We simulated the outcomes in terms of DALYs averted, by cause and overall, for each member of the total population in each country and overall, accounting for the fraction of each surveyed population who reported having a diagnosis of diabetes and taking insulin for diabetes. As some countries had a small number of people reporting insulin use, we limited our results for the individual country analyses to those countries with at least 100 participants in the survey reporting insulin use. We also reported the total among all countries regardless of sample size. We calculated DALYs per 1,000 person-years in each population at a standard 3% annual discount rate.</p>
+</sec>
+</sec>
+<sec id="sec011">
+<title>Sensitivity and uncertainty analyses</title>
+<p>We conducted several sensitivity analysis scenarios. We estimated lower and upper bounds of benefits in terms of reduced hypoglycemia risk using the lower baseline insulin use and higher baseline insulin use, reflecting alternative scenarios of basal plus bolus insulin or insulin use with sulfonylureas. We conducted sensitivity analyses to account for heterogeneity within drug classes. For GLP-1Ras, we separately modeled oral versus injectable formulations based on clinical guidance [<xref ref-type="bibr" rid="pmed.1004559.ref046">46</xref>,<xref ref-type="bibr" rid="pmed.1004559.ref047">47</xref>]. Oral formulations achieved roughly half the insulin-sparing effect of injectables modeled in the base case [<xref ref-type="bibr" rid="pmed.1004559.ref048">48</xref>–<xref ref-type="bibr" rid="pmed.1004559.ref050">50</xref>]. We performed uncertainty analysis by sampling from normal distributions constructed from the means and 95% confidence intervals around each input parameter to capture distributional effects (see <xref ref-type="supplementary-material" rid="pmed.1004559.s002">S1 Table</xref>), generating uncertainty estimates around each outcome metric. We performed all modeling in R (version 4.4, The R Project for Statistical Computing, Vienna).</p>
+</sec>
+</sec>
+<sec id="sec012" sec-type="results">
+<title>Results</title>
+<sec id="sec013">
+<title>Descriptive statistics</title>
+<p>We included the most recent available dataset from each country in the analysis for a total of 79 countries sampling 4,837 people with diabetes using insulin across the time periods 2007–2020 (<xref ref-type="table" rid="pmed.1004559.t001">Table 1</xref>). Fourteen of the countries had &gt;100 people reporting insulin use for diabetes. The median age of the insulin users was 57.0 years (IQR: 48.0, 64.0), and 62.3% were female. The median body weight was 75.0 kg (IQR: 64.0, 87.0), and the rate of insulin use in the overall population averaged 2.0% (ranging from 1.1% in Iran to 4.5% in Tonga, among those countries with <italic>n</italic> &gt; 100 survey participants reporting insulin use).</p>
+<table-wrap id="pmed.1004559.t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pmed.1004559.t001</object-id><label>Table 1</label><caption><title>Baseline characteristics of insulin users in HPACC survey, showing overall among all countries regardless of sample size, and the subset of countries with <italic>N</italic> &gt; 100 people with diabetes reporting insulin use.</title></caption>
+<alternatives><graphic id="pmed.1004559.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pmed.1004559.t001" xlink:type="simple"/><table><colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="left">Overall</th>
+<th align="left">Algeria</th>
+<th align="left">Bangladesh</th>
+<th align="left">Brazil</th>
+<th align="left">Costa Rica</th>
+<th align="left">Egypt</th>
+<th align="left">Iran</th>
+<th align="left">Jordan</th>
+<th align="left">Libya</th>
+<th align="left">Marshall Islands</th>
+<th align="left">Mexico</th>
+<th align="left">Morocco</th>
+<th align="left">South Africa</th>
+<th align="left">Sudan</th>
+<th align="left">Tonga</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">n in HPACC survey</td>
+<td align="left">4837</td>
+<td align="left">172</td>
+<td align="left">109</td>
+<td align="left">629</td>
+<td align="left">131</td>
+<td align="left">227</td>
+<td align="left">359</td>
+<td align="left">157</td>
+<td align="left">131</td>
+<td align="left">106</td>
+<td align="left">606</td>
+<td align="left">108</td>
+<td align="left">246</td>
+<td align="left">106</td>
+<td align="left">173</td>
+</tr>
+<tr>
+<td align="left">Age, years, median [IQR]</td>
+<td align="left">57.00 [48.00, 64.00]</td>
+<td align="left">54.00 [42.75, 62.00]</td>
+<td align="left">50.00 [41.00, 58.00]</td>
+<td align="left">62.00 [52.00, 70.00]</td>
+<td align="left">61.50 [54.00, 72.00]</td>
+<td align="left">51.00 [43.50, 56.00]</td>
+<td align="left">60.00 [53.00, 67.50]</td>
+<td align="left">59.00 [51.00, 64.00]</td>
+<td align="left">52.00 [47.00, 60.00]</td>
+<td align="left">53.00 [47.00, 63.00]</td>
+<td align="left">60.00 [50.25, 69.00]</td>
+<td align="left">59.00 [51.00, 67.00]</td>
+<td align="left">57.00 [50.00, 66.00]</td>
+<td align="left">50.50 [41.00, 56.00]</td>
+<td align="left">53.00 [46.00, 61.00]</td>
+</tr>
+<tr>
+<td align="left">Female, <italic>n</italic> (%)</td>
+<td align="left">3011 (62.3)</td>
+<td align="left">110 (64.0)</td>
+<td align="left">52 (47.7)</td>
+<td align="left">395 (62.8)</td>
+<td align="left">96 (73.3)</td>
+<td align="left">153 (67.4)</td>
+<td align="left">227 (63.2)</td>
+<td align="left">98 (62.4)</td>
+<td align="left">71 (54.2)</td>
+<td align="left">60 (56.6)</td>
+<td align="left">364 (60.1)</td>
+<td align="left">78 (72.2)</td>
+<td align="left">158 (64.2)</td>
+<td align="left">68 (64.2)</td>
+<td align="left">115 (66.5)</td>
+</tr>
+<tr>
+<td align="left">Weight, kg, median [IQR]</td>
+<td align="left">75.00 [64.00, 87.40]</td>
+<td align="left">77.00 [68.10, 87.35]</td>
+<td align="left">64.00 [56.00, 70.25]</td>
+<td align="left">72.70 [63.10, 84.45]</td>
+<td align="left">73.50 [66.00, 85.00]</td>
+<td align="left">89.00 [76.00, 102.00]</td>
+<td align="left">75.00 [66.03, 83.47]</td>
+<td align="left">85.90 [74.93, 97.58]</td>
+<td align="left">83.00 [71.75, 92.80]</td>
+<td align="left">70.40 [62.30, 84.00]</td>
+<td align="left">73.35 [63.30, 83.73]</td>
+<td align="left">74.50 [65.00, 83.75]</td>
+<td align="left">76.50 [67.12, 90.62]</td>
+<td align="left">70.10 [62.85, 80.05]</td>
+<td align="left">95.35 [82.77, 106.05]</td>
+</tr>
+<tr>
+<td align="left">Estimated insulin, main case, IU/day, median [IQR]</td>
+<td align="left">48.00 [40.96, 55.94]</td>
+<td align="left">49.28 [43.58, 55.90]</td>
+<td align="left">40.96 [35.84, 44.96]</td>
+<td align="left">46.53 [40.38, 54.05]</td>
+<td align="left">47.04 [42.24, 54.40]</td>
+<td align="left">56.96 [48.64, 65.28]</td>
+<td align="left">48.00 [42.26, 53.42]</td>
+<td align="left">54.98 [47.95, 62.45]</td>
+<td align="left">53.12 [45.92, 59.39]</td>
+<td align="left">45.06 [39.87, 53.76]</td>
+<td align="left">46.94 [40.51, 53.59]</td>
+<td align="left">47.68 [41.60, 53.60]</td>
+<td align="left">48.96 [42.96, 58.00]</td>
+<td align="left">44.86 [40.22, 51.23]</td>
+<td align="left">61.02 [52.98, 67.87]</td>
+</tr>
+<tr>
+<td align="left">Estimated insulin, low case, IU/day, median [IQR]</td>
+<td align="left">27.75 [23.68, 32.34]</td>
+<td align="left">28.49 [25.20, 32.32]</td>
+<td align="left">23.68 [20.72, 25.99]</td>
+<td align="left">26.90 [23.35, 31.25]</td>
+<td align="left">27.20 [24.42, 31.45]</td>
+<td align="left">32.93 [28.12, 37.74]</td>
+<td align="left">27.75 [24.43, 30.89]</td>
+<td align="left">31.78 [27.72, 36.10]</td>
+<td align="left">30.71 [26.55, 34.34]</td>
+<td align="left">26.05 [23.05, 31.08]</td>
+<td align="left">27.14 [23.42, 30.98]</td>
+<td align="left">27.56 [24.05, 30.99]</td>
+<td align="left">28.30 [24.84, 33.53]</td>
+<td align="left">25.94 [23.25, 29.62]</td>
+<td align="left">35.28 [30.63, 39.24]</td>
+</tr>
+<tr>
+<td align="left">Estimated insulin, high case, IU/day, median [IQR]</td>
+<td align="left">63.00 [53.76, 73.42]</td>
+<td align="left">64.68 [57.20, 73.37]</td>
+<td align="left">53.76 [47.04, 59.01]</td>
+<td align="left">61.07 [53.00, 70.94]</td>
+<td align="left">61.74 [55.44, 71.40]</td>
+<td align="left">74.76 [63.84, 85.68]</td>
+<td align="left">63.00 [55.46, 70.12]</td>
+<td align="left">72.16 [62.94, 81.96]</td>
+<td align="left">69.72 [60.27, 77.95]</td>
+<td align="left">59.14 [52.33, 70.56]</td>
+<td align="left">61.61 [53.17, 70.33]</td>
+<td align="left">62.58 [54.60, 70.35]</td>
+<td align="left">64.26 [56.38, 76.12]</td>
+<td align="left">58.88 [52.79, 67.24]</td>
+<td align="left">80.09 [69.53, 89.08]</td>
+</tr>
+<tr>
+<td align="left">Percent of total population reporting both diabetes diagnosis and insulin use, %</td>
+<td align="left">1.96</td>
+<td align="left">2.47</td>
+<td align="left">1.33</td>
+<td align="left">1.08</td>
+<td align="left">3.92</td>
+<td align="left">1.49</td>
+<td align="left">1.18</td>
+<td align="left">2.80</td>
+<td align="left">3.78</td>
+<td align="left">3.55</td>
+<td align="left">3.30</td>
+<td align="left">1.99</td>
+<td align="left">3.04</td>
+<td align="left">1.37</td>
+<td align="left">4.50</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap>
+</sec>
+<sec id="sec014">
+<title>Insulin dosage, change in dosage, and severe hypoglycemia rates</title>
+<p>The median estimated insulin dose was 48.0 IU/day (IQR: 41.0, 55.9), with low and high estimates of 27.8 IU/day (IQR: 23.7, 32.3) and 63.0 IU/day (IQR: 53.8, 73.4), respectively (<xref ref-type="table" rid="pmed.1004559.t001">Table 1</xref>). The median estimated insulin dose varied from 41.0 IU/day in Bangladesh to 61.0 IU/day in Tonga, among those countries with at least 100 survey participants reporting insulin use.</p>
+<p>The median new insulin dose after adding a GLP-1 receptor agonist was 39.8 IU/day (IQR: 34.0, 46.4), with low and high estimates of 22.5 IU/day (IQR: 19.2, 26.2) and 54.2 IU/day (IQR: 46.2, 63.1), respectively (<xref ref-type="table" rid="pmed.1004559.t002">Table 2</xref>). The median reduction in insulin dose was 8.2 IU/day (IQR: 6.9, 9.5), which varied from a low of 7.0 IU/day in Bangladesh to 10.4 IU/day in Tonga.</p>
+<table-wrap id="pmed.1004559.t002" position="float"><object-id pub-id-type="doi">10.1371/journal.pmed.1004559.t002</object-id><label>Table 2</label><caption><title>Estimated changes in insulin dosing with GLP-1 receptor agonist therapy, showing overall among all countries regardless of sample size, and the subset of countries with <italic>N</italic> &gt; 100 people with diabetes reporting insulin use.</title></caption>
+<alternatives><graphic id="pmed.1004559.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pmed.1004559.t002" xlink:type="simple"/><table><colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="left">Overall</th>
+<th align="left">Algeria</th>
+<th align="left">Bangladesh</th>
+<th align="left">Brazil</th>
+<th align="left">Costa Rica</th>
+<th align="left">Egypt</th>
+<th align="left">Iran</th>
+<th align="left">Jordan</th>
+<th align="left">Libya</th>
+<th align="left">Marshall Islands</th>
+<th align="left">Mexico</th>
+<th align="left">Morocco</th>
+<th align="left">South Africa</th>
+<th align="left">Sudan</th>
+<th align="left">Tonga</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">n in HPACC survey</td>
+<td align="left">4837</td>
+<td align="left">172</td>
+<td align="left">109</td>
+<td align="left">629</td>
+<td align="left">131</td>
+<td align="left">227</td>
+<td align="left">359</td>
+<td align="left">157</td>
+<td align="left">131</td>
+<td align="left">106</td>
+<td align="left">606</td>
+<td align="left">108</td>
+<td align="left">246</td>
+<td align="left">106</td>
+<td align="left">173</td>
+</tr>
+<tr>
+<td align="left">Estimated insulin after GLP1-RA, main case, IU/day, median [IQR]</td>
+<td align="left">39.84 [34.00, 46.43]</td>
+<td align="left">40.90 [36.17, 46.40]</td>
+<td align="left">34.00 [29.75, 37.32]</td>
+<td align="left">38.62 [33.52, 44.86]</td>
+<td align="left">39.04 [35.06, 45.15]</td>
+<td align="left">47.28 [40.37, 54.18]</td>
+<td align="left">39.84 [35.07, 44.34]</td>
+<td align="left">45.63 [39.80, 51.83]</td>
+<td align="left">44.09 [38.11, 49.30]</td>
+<td align="left">37.40 [33.09, 44.62]</td>
+<td align="left">38.96 [33.62, 44.48]</td>
+<td align="left">39.57 [34.53, 44.49]</td>
+<td align="left">40.64 [35.66, 48.14]</td>
+<td align="left">37.24 [33.39, 42.52]</td>
+<td align="left">50.65 [43.97, 56.33]</td>
+</tr>
+<tr>
+<td align="left">Estimated insulin after GLP1-RA, low case, IU/day, median [IQR]</td>
+<td align="left">22.48 [19.18, 26.19]</td>
+<td align="left">23.08 [20.41, 26.18]</td>
+<td align="left">19.18 [16.78, 21.05]</td>
+<td align="left">21.79 [18.91, 25.31]</td>
+<td align="left">22.03 [19.78, 25.47]</td>
+<td align="left">26.67 [22.78, 30.57]</td>
+<td align="left">22.48 [19.79, 25.02]</td>
+<td align="left">25.74 [22.46, 29.24]</td>
+<td align="left">24.88 [21.50, 27.81]</td>
+<td align="left">21.10 [18.67, 25.17]</td>
+<td align="left">21.98 [18.97, 25.09]</td>
+<td align="left">22.33 [19.48, 25.10]</td>
+<td align="left">22.93 [20.12, 27.16]</td>
+<td align="left">21.01 [18.84, 23.99]</td>
+<td align="left">28.58 [24.81, 31.78]</td>
+</tr>
+<tr>
+<td align="left">Estimated insulin after GLP1-RA, high case, IU/day, median [IQR]</td>
+<td align="left">54.18 [46.23, 63.14]</td>
+<td align="left">55.62 [49.20, 63.10]</td>
+<td align="left">46.23 [40.45, 50.75]</td>
+<td align="left">52.52 [45.58, 61.01]</td>
+<td align="left">53.10 [47.68, 61.40]</td>
+<td align="left">64.29 [54.90, 73.68]</td>
+<td align="left">54.18 [47.70, 60.30]</td>
+<td align="left">62.05 [54.13, 70.49]</td>
+<td align="left">59.96 [51.83, 67.04]</td>
+<td align="left">50.86 [45.01, 60.68]</td>
+<td align="left">52.99 [45.73, 60.49]</td>
+<td align="left">53.82 [46.96, 60.50]</td>
+<td align="left">55.26 [48.49, 65.47]</td>
+<td align="left">50.64 [45.40, 57.83]</td>
+<td align="left">68.88 [59.80, 76.61]</td>
+</tr>
+<tr>
+<td align="left">Change in estimated insulin after GLP1-RA, main case, IU/day, median [IQR]</td>
+<td align="left">8.16 [6.96, 9.51]</td>
+<td align="left">8.38 [7.41, 9.50]</td>
+<td align="left">6.96 [6.09, 7.64]</td>
+<td align="left">7.91 [6.87, 9.19]</td>
+<td align="left">8.00 [7.18, 9.25]</td>
+<td align="left">9.68 [8.27, 11.10]</td>
+<td align="left">8.16 [7.18, 9.08]</td>
+<td align="left">9.35 [8.15, 10.62]</td>
+<td align="left">9.03 [7.81, 10.10]</td>
+<td align="left">7.66 [6.78, 9.14]</td>
+<td align="left">7.98 [6.89, 9.11]</td>
+<td align="left">8.11 [7.07, 9.11]</td>
+<td align="left">8.32 [7.30, 9.86]</td>
+<td align="left">7.63 [6.84, 8.71]</td>
+<td align="left">10.37 [9.01, 11.54]</td>
+</tr>
+<tr>
+<td align="left">Change in estimated insulin after GLP1-RA, low case, IU/day, median [IQR]</td>
+<td align="left">5.27 [4.50, 6.14]</td>
+<td align="left">5.41 [4.79, 6.14]</td>
+<td align="left">4.50 [3.94, 4.94]</td>
+<td align="left">5.11 [4.44, 5.94]</td>
+<td align="left">5.17 [4.64, 5.98]</td>
+<td align="left">6.26 [5.34, 7.17]</td>
+<td align="left">5.27 [4.64, 5.87]</td>
+<td align="left">6.04 [5.27, 6.86]</td>
+<td align="left">5.83 [5.04, 6.52]</td>
+<td align="left">4.95 [4.38, 5.91]</td>
+<td align="left">5.16 [4.45, 5.89]</td>
+<td align="left">5.24 [4.57, 5.89]</td>
+<td align="left">5.38 [4.72, 6.37]</td>
+<td align="left">4.93 [4.42, 5.63]</td>
+<td align="left">6.70 [5.82, 7.46]</td>
+</tr>
+<tr>
+<td align="left">Change in estimated insulin after GLP1-RA, high case, IU/day, median [IQR]</td>
+<td align="left">8.82 [7.53, 10.28]</td>
+<td align="left">9.06 [8.01, 10.27]</td>
+<td align="left">7.53 [6.59, 8.26]</td>
+<td align="left">8.55 [7.42, 9.93]</td>
+<td align="left">8.64 [7.76, 10.00]</td>
+<td align="left">10.47 [8.94, 12.00]</td>
+<td align="left">8.82 [7.76, 9.82]</td>
+<td align="left">10.10 [8.81, 11.47]</td>
+<td align="left">9.76 [8.44, 10.91]</td>
+<td align="left">8.28 [7.33, 9.88]</td>
+<td align="left">8.63 [7.44, 9.85]</td>
+<td align="left">8.76 [7.64, 9.85]</td>
+<td align="left">9.00 [7.89, 10.66]</td>
+<td align="left">8.24 [7.39, 9.41]</td>
+<td align="left">11.21 [9.73, 12.47]</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap>
+<p>The median new insulin dose after adding an SGLT-2 inhibitor was 42.7 IU/day (IQR: 36.5, 49.8), with low and high estimates of 23.3 IU/day (IQR: 19.9, 27.2) and 59.2 IU/day (IQR: 50.5, 69.0), respectively (<xref ref-type="table" rid="pmed.1004559.t003">Table 3</xref>). The median reduction in insulin dose was 5.3 IU/day (IQR: 4.5, 6.2), which varied from a low of 4.5 IU/day in Bangladesh to 6.7 IU/day in Tonga.</p>
+<table-wrap id="pmed.1004559.t003" position="float"><object-id pub-id-type="doi">10.1371/journal.pmed.1004559.t003</object-id><label>Table 3</label><caption><title>Estimated changes in insulin dosing with SGLT2 inhibitor therapy, showing overall among all countries regardless of sample size, and the subset of countries with <italic>N</italic> &gt; 100 people with diabetes reporting insulin use.</title></caption>
+<alternatives><graphic id="pmed.1004559.t003g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pmed.1004559.t003" xlink:type="simple"/><table><colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="left">Overall</th>
+<th align="left">Algeria</th>
+<th align="left">Bangladesh</th>
+<th align="left">Brazil</th>
+<th align="left">Costa Rica</th>
+<th align="left">Egypt</th>
+<th align="left">Iran</th>
+<th align="left">Jordan</th>
+<th align="left">Libya</th>
+<th align="left">Marshall Islands</th>
+<th align="left">Mexico</th>
+<th align="left">Morocco</th>
+<th align="left">South Africa</th>
+<th align="left">Sudan</th>
+<th align="left">Tonga</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">n in HPACC survey</td>
+<td align="left">4837</td>
+<td align="left">172</td>
+<td align="left">109</td>
+<td align="left">629</td>
+<td align="left">131</td>
+<td align="left">227</td>
+<td align="left">359</td>
+<td align="left">157</td>
+<td align="left">131</td>
+<td align="left">106</td>
+<td align="left">606</td>
+<td align="left">108</td>
+<td align="left">246</td>
+<td align="left">106</td>
+<td align="left">173</td>
+</tr>
+<tr>
+<td align="left">Estimated insulin after SGLT-2i, main case, IU/day, median [IQR]</td>
+<td align="left">42.72 [36.45, 49.78]</td>
+<td align="left">43.86 [38.79, 49.75]</td>
+<td align="left">36.45 [31.90, 40.01]</td>
+<td align="left">41.41 [35.94, 48.10]</td>
+<td align="left">41.87 [37.59, 48.42]</td>
+<td align="left">50.69 [43.29, 58.10]</td>
+<td align="left">42.72 [37.61, 47.55]</td>
+<td align="left">48.93 [42.68, 55.58]</td>
+<td align="left">47.28 [40.87, 52.86]</td>
+<td align="left">40.10 [35.49, 47.85]</td>
+<td align="left">41.78 [36.06, 47.69]</td>
+<td align="left">42.44 [37.02, 47.70]</td>
+<td align="left">43.57 [38.23, 51.62]</td>
+<td align="left">39.93 [35.80, 45.60]</td>
+<td align="left">54.31 [47.15, 60.41]</td>
+</tr>
+<tr>
+<td align="left">Estimated insulin after SGLT-2i, low case, IU/day, median [IQR]</td>
+<td align="left">23.31 [19.89, 27.16]</td>
+<td align="left">23.93 [21.17, 27.15]</td>
+<td align="left">19.89 [17.40, 21.83]</td>
+<td align="left">22.60 [19.61, 26.25]</td>
+<td align="left">22.84 [20.51, 26.42]</td>
+<td align="left">27.66 [23.62, 31.70]</td>
+<td align="left">23.31 [20.52, 25.94]</td>
+<td align="left">26.70 [23.29, 30.33]</td>
+<td align="left">25.80 [22.30, 28.84]</td>
+<td align="left">21.88 [19.36, 26.11]</td>
+<td align="left">22.80 [19.67, 26.02]</td>
+<td align="left">23.15 [20.20, 26.03]</td>
+<td align="left">23.78 [20.86, 28.17]</td>
+<td align="left">21.79 [19.53, 24.88]</td>
+<td align="left">29.63 [25.73, 32.96]</td>
+</tr>
+<tr>
+<td align="left">Estimated insulin after SGLT-2i, high case, IU/day, median [IQR]</td>
+<td align="left">59.22 [50.53, 69.01]</td>
+<td align="left">60.80 [53.77, 68.97]</td>
+<td align="left">50.53 [44.22, 55.47]</td>
+<td align="left">57.40 [49.82, 66.68]</td>
+<td align="left">58.04 [52.11, 67.12]</td>
+<td align="left">70.27 [60.01, 80.54]</td>
+<td align="left">59.22 [52.13, 65.91]</td>
+<td align="left">67.83 [59.16, 77.05]</td>
+<td align="left">65.54 [56.65, 73.27]</td>
+<td align="left">55.59 [49.19, 66.33]</td>
+<td align="left">57.92 [49.98, 66.11]</td>
+<td align="left">58.83 [51.32, 66.13]</td>
+<td align="left">60.40 [53.00, 71.56]</td>
+<td align="left">55.35 [49.63, 63.21]</td>
+<td align="left">75.29 [65.36, 83.74]</td>
+</tr>
+<tr>
+<td align="left">Change in estimated insulin after SGLT-2i, main case, IU/day, median [IQR]</td>
+<td align="left">5.28 [4.51, 6.15]</td>
+<td align="left">5.42 [4.79, 6.15]</td>
+<td align="left">4.51 [3.94, 4.95]</td>
+<td align="left">5.12 [4.44, 5.95]</td>
+<td align="left">5.17 [4.65, 5.98]</td>
+<td align="left">6.27 [5.35, 7.18]</td>
+<td align="left">5.28 [4.65, 5.88]</td>
+<td align="left">6.05 [5.27, 6.87]</td>
+<td align="left">5.84 [5.05, 6.53]</td>
+<td align="left">4.96 [4.39, 5.91]</td>
+<td align="left">5.16 [4.46, 5.89]</td>
+<td align="left">5.24 [4.58, 5.90]</td>
+<td align="left">5.39 [4.73, 6.38]</td>
+<td align="left">4.94 [4.42, 5.64]</td>
+<td align="left">6.71 [5.83, 7.47]</td>
+</tr>
+<tr>
+<td align="left">Change in estimated insulin after SGLT-2i, low case, IU/day, median [IQR]</td>
+<td align="left">4.44 [3.79, 5.17]</td>
+<td align="left">4.56 [4.03, 5.17]</td>
+<td align="left">3.79 [3.32, 4.16]</td>
+<td align="left">4.30 [3.74, 5.00]</td>
+<td align="left">4.35 [3.91, 5.03]</td>
+<td align="left">5.27 [4.50, 6.04]</td>
+<td align="left">4.44 [3.91, 4.94]</td>
+<td align="left">5.09 [4.44, 5.78]</td>
+<td align="left">4.91 [4.25, 5.49]</td>
+<td align="left">4.17 [3.69, 4.97]</td>
+<td align="left">4.34 [3.75, 4.96]</td>
+<td align="left">4.41 [3.85, 4.96]</td>
+<td align="left">4.53 [3.97, 5.36]</td>
+<td align="left">4.15 [3.72, 4.74]</td>
+<td align="left">5.64 [4.90, 6.28]</td>
+</tr>
+<tr>
+<td align="left">Change in estimated insulin after SGLT-2i, high case, IU/day, median [IQR]</td>
+<td align="left">3.78 [3.23, 4.40]</td>
+<td align="left">3.88 [3.43, 4.40]</td>
+<td align="left">3.23 [2.82, 3.54]</td>
+<td align="left">3.66 [3.18, 4.26]</td>
+<td align="left">3.70 [3.33, 4.28]</td>
+<td align="left">4.49 [3.83, 5.14]</td>
+<td align="left">3.78 [3.33, 4.21]</td>
+<td align="left">4.33 [3.78, 4.92]</td>
+<td align="left">4.18 [3.62, 4.68]</td>
+<td align="left">3.55 [3.14, 4.23]</td>
+<td align="left">3.70 [3.19, 4.22]</td>
+<td align="left">3.75 [3.28, 4.22]</td>
+<td align="left">3.86 [3.38, 4.57]</td>
+<td align="left">3.53 [3.17, 4.03]</td>
+<td align="left">4.81 [4.17, 5.34]</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap>
+</sec>
+<sec id="sec015">
+<title>Disability-adjusted life years (DALYs)</title>
+<p><xref ref-type="table" rid="pmed.1004559.t004">Table 4</xref> presents the expected changes in DALYs lost across scenarios per 1,000 person-years in the overall country population, accounting for the portion of the overall population taking insulin at the time of the survey, and the reduced frequency of severe hypoglycemia, cardiovascular disease, renal disease, and overall mortality in both GLP-1 receptor agonist and SGLT-2 inhibitor cases. We also accounted for the increased frequency of gastrointestinal side effects and pancreatitis (in the GLP-1 receptor agonist cases) and the increased frequency of urogenital infections and ketoacidosis (in the SGLT-2 inhibitor cases).</p>
+<table-wrap id="pmed.1004559.t004" position="float"><object-id pub-id-type="doi">10.1371/journal.pmed.1004559.t004</object-id><label>Table 4</label><caption><title>Estimated impact on disability-adjusted life years (DALYs) of GLP1-RA or SGLT2-i treatment among people with diabetes taking insulin across treatment scenarios, showing overall among all countries regardless of sample size, and the subset of countries with <italic>N</italic> &gt; 100 people with diabetes reporting insulin use.</title></caption>
+<alternatives><graphic id="pmed.1004559.t004g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pmed.1004559.t004" xlink:type="simple"/><table><colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="left">Overall</th>
+<th align="left">Algeria</th>
+<th align="left">Bangladesh</th>
+<th align="left">Brazil</th>
+<th align="left">Costa Rica</th>
+<th align="left">Egypt</th>
+<th align="left">Iran</th>
+<th align="left">Jordan</th>
+<th align="left">Libya</th>
+<th align="left">Marshall Islands</th>
+<th align="left">Mexico</th>
+<th align="left">Morocco</th>
+<th align="left">South Africa</th>
+<th align="left">Sudan</th>
+<th align="left">Tonga</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">n in HPACC survey</td>
+<td align="left">4837</td>
+<td align="left">172</td>
+<td align="left">109</td>
+<td align="left">629</td>
+<td align="left">131</td>
+<td align="left">227</td>
+<td align="left">359</td>
+<td align="left">157</td>
+<td align="left">131</td>
+<td align="left">106</td>
+<td align="left">606</td>
+<td align="left">108</td>
+<td align="left">246</td>
+<td align="left">106</td>
+<td align="left">173</td>
+</tr>
+<tr>
+<td align="left">DALYs, main case before GLP1-RA or SGLT2-i (median [IQR])</td>
+<td align="left">2.20 [1.49, 4.02]</td>
+<td align="left">2.70 [2.11, 3.49]</td>
+<td align="left">1.87 [1.41, 2.39]</td>
+<td align="left">1.64 [1.43, 1.93]</td>
+<td align="left">5.47 [4.33, 6.92]</td>
+<td align="left">1.97 [1.85, 2.09]</td>
+<td align="left">1.70 [1.39, 2.37]</td>
+<td align="left">3.74 [3.03, 4.43]</td>
+<td align="left">5.02 [4.44, 5.92]</td>
+<td align="left">3.94 [3.18, 5.16]</td>
+<td align="left">4.82 [4.07, 6.31]</td>
+<td align="left">2.61 [1.96, 3.43]</td>
+<td align="left">4.32 [3.99, 4.99]</td>
+<td align="left">1.92 [1.60, 2.34]</td>
+<td align="left">4.93 [3.87, 6.27]</td>
+</tr>
+<tr>
+<td align="left">DALYs, low case before GLP1-RA or SGLT2-i (median [IQR])</td>
+<td align="left">1.20 [0.76, 2.14]</td>
+<td align="left">1.40 [0.91, 1.98]</td>
+<td align="left">0.98 [0.65, 1.36]</td>
+<td align="left">0.95 [0.73, 1.22]</td>
+<td align="left">3.02 [2.25, 4.37]</td>
+<td align="left">1.00 [0.88, 1.12]</td>
+<td align="left">0.96 [0.67, 1.39]</td>
+<td align="left">2.06 [1.59, 2.60]</td>
+<td align="left">2.61 [2.14, 3.27]</td>
+<td align="left">2.03 [1.44, 2.95]</td>
+<td align="left">2.74 [2.01, 4.04]</td>
+<td align="left">1.45 [0.97, 2.07]</td>
+<td align="left">2.34 [2.01, 3.01]</td>
+<td align="left">0.97 [0.78, 1.27]</td>
+<td align="left">2.61 [1.78, 3.56]</td>
+</tr>
+<tr>
+<td align="left">DALYs, high case before GLP1-RA or SGLT2-i (median [IQR])</td>
+<td align="left">5.00 [3.55, 9.59]</td>
+<td align="left">6.24 [5.36, 7.91]</td>
+<td align="left">4.42 [3.52, 5.85]</td>
+<td align="left">3.71 [3.47, 4.01]</td>
+<td align="left">12.40 [10.12, 14.23]</td>
+<td align="left">4.81 [4.69, 4.93]</td>
+<td align="left">3.97 [3.18, 4.90]</td>
+<td align="left">8.76 [7.06, 9.70]</td>
+<td align="left">12.15 [10.71, 13.42]</td>
+<td align="left">9.40 [7.87, 11.67]</td>
+<td align="left">11.01 [10.33, 12.93]</td>
+<td align="left">6.02 [4.72, 7.31]</td>
+<td align="left">10.13 [9.81, 10.80]</td>
+<td align="left">4.63 [3.98, 5.62]</td>
+<td align="left">11.66 [9.60, 14.28]</td>
+</tr>
+<tr>
+<td align="left">DALYs, main case after GLP1-RA (median [IQR])</td>
+<td align="left">1.01 [0.61, 1.86]</td>
+<td align="left">1.01 [0.53, 1.65]</td>
+<td align="left">0.89 [0.51, 1.31]</td>
+<td align="left">0.81 [0.64, 1.05]</td>
+<td align="left">2.57 [1.63, 3.76]</td>
+<td align="left">0.90 [0.80, 0.99]</td>
+<td align="left">0.82 [0.56, 1.36]</td>
+<td align="left">1.69 [1.12, 2.25]</td>
+<td align="left">2.27 [1.81, 3.00]</td>
+<td align="left">1.49 [0.88, 2.49]</td>
+<td align="left">2.34 [1.74, 3.54]</td>
+<td align="left">1.17 [0.64, 1.83]</td>
+<td align="left">2.06 [1.80, 2.59]</td>
+<td align="left">0.90 [0.64, 1.25]</td>
+<td align="left">1.84 [0.98, 2.94]</td>
+</tr>
+<tr>
+<td align="left">DALYs, low case after GLP1-RA (median [IQR])</td>
+<td align="left">0.00 [0.00, 0.15]</td>
+<td align="left">0.00 [0.00, 0.00]</td>
+<td align="left">0.00 [0.00, 0.11]</td>
+<td align="left">0.01 [0.00, 0.27]</td>
+<td align="left">0.00 [0.00, 0.90]</td>
+<td align="left">0.00 [0.00, 0.00]</td>
+<td align="left">0.00 [0.00, 0.33]</td>
+<td align="left">0.00 [0.00, 0.15]</td>
+<td align="left">0.00 [0.00, 0.00]</td>
+<td align="left">0.00 [0.00, 0.00]</td>
+<td align="left">0.00 [0.00, 1.10]</td>
+<td align="left">0.00 [0.00, 0.31]</td>
+<td align="left">0.00 [0.00, 0.34]</td>
+<td align="left">0.00 [0.00, 0.02]</td>
+<td align="left">0.00 [0.00, 0.00]</td>
+</tr>
+<tr>
+<td align="left">DALYs, high case after GLP1-RA (median [IQR])</td>
+<td align="left">4.21 [3.02, 8.17]</td>
+<td align="left">5.35 [4.66, 6.71]</td>
+<td align="left">3.74 [3.03, 4.90]</td>
+<td align="left">3.12 [2.97, 3.32]</td>
+<td align="left">10.41 [8.58, 11.79]</td>
+<td align="left">4.10 [4.02, 4.17]</td>
+<td align="left">3.35 [2.72, 4.03]</td>
+<td align="left">7.51 [6.04, 8.12]</td>
+<td align="left">10.33 [9.18, 11.27]</td>
+<td align="left">8.03 [6.85, 9.89]</td>
+<td align="left">9.30 [8.85, 10.59]</td>
+<td align="left">5.07 [4.06, 6.13]</td>
+<td align="left">8.57 [8.35, 9.01]</td>
+<td align="left">3.91 [3.43, 4.71]</td>
+<td align="left">9.95 [8.33, 12.12]</td>
+</tr>
+<tr>
+<td align="left">DALYs, main case after SGLT-2i (median [IQR])</td>
+<td align="left">1.25 [0.81, 2.29]</td>
+<td align="left">1.35 [0.88, 2.01]</td>
+<td align="left">1.09 [0.71, 1.53]</td>
+<td align="left">0.97 [0.81, 1.21]</td>
+<td align="left">3.17 [2.20, 4.35]</td>
+<td align="left">1.12 [1.03, 1.21]</td>
+<td align="left">1.00 [0.73, 1.53]</td>
+<td align="left">2.11 [1.51, 2.67]</td>
+<td align="left">2.85 [2.38, 3.57]</td>
+<td align="left">2.01 [1.38, 3.01]</td>
+<td align="left">2.84 [2.24, 4.03]</td>
+<td align="left">1.46 [0.92, 2.13]</td>
+<td align="left">2.52 [2.26, 3.04]</td>
+<td align="left">1.11 [0.84, 1.47]</td>
+<td align="left">2.47 [1.61, 3.63]</td>
+</tr>
+<tr>
+<td align="left">DALYs, low case after SGLT-2i (median [IQR])</td>
+<td align="left">0.12 [0.00, 0.50]</td>
+<td align="left">0.00 [0.00, 0.35]</td>
+<td align="left">0.11 [0.00, 0.42]</td>
+<td align="left">0.22 [0.03, 0.46]</td>
+<td align="left">0.44 [0.00, 1.62]</td>
+<td align="left">0.04 [0.00, 0.14]</td>
+<td align="left">0.17 [0.00, 0.55]</td>
+<td align="left">0.23 [0.00, 0.70]</td>
+<td align="left">0.15 [0.00, 0.72]</td>
+<td align="left">0.00 [0.00, 0.58]</td>
+<td align="left">0.54 [0.00, 1.68]</td>
+<td align="left">0.15 [0.00, 0.69]</td>
+<td align="left">0.33 [0.05, 0.92]</td>
+<td align="left">0.08 [0.00, 0.32]</td>
+<td align="left">0.00 [0.00, 0.57]</td>
+</tr>
+<tr>
+<td align="left">DALYs, high case after SGLT-2i (median [IQR])</td>
+<td align="left">3.76 [2.67, 7.22]</td>
+<td align="left">4.54 [3.83, 5.96]</td>
+<td align="left">3.34 [2.60, 4.54]</td>
+<td align="left">2.80 [2.63, 3.00]</td>
+<td align="left">9.22 [7.32, 10.65]</td>
+<td align="left">3.64 [3.56, 3.72]</td>
+<td align="left">2.99 [2.34, 3.70]</td>
+<td align="left">6.65 [5.13, 7.29]</td>
+<td align="left">9.18 [7.99, 10.16]</td>
+<td align="left">6.89 [5.67, 8.82]</td>
+<td align="left">8.31 [7.84, 9.66]</td>
+<td align="left">4.45 [3.41, 5.55]</td>
+<td align="left">7.65 [7.43, 8.12]</td>
+<td align="left">3.50 [2.99, 4.32]</td>
+<td align="left">8.50 [6.82, 10.75]</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap>
+<p>The overall median DALYs lost per 1,000 person-years before the addition of GLP-1RAs or SGLT2-i’s was 2.20 (IQR: 1.49, 4.02). The median DALYs lost with the addition of GLP-1 receptor agonists were reduced to 1.01 (IQR: 0.61, 1.86). With SGLT-2 inhibitors, the median DALYs lost reduced to 1.25 (IQR: 0.81, 2.29).</p>
+<p>When analyzing combination therapy with both GLP-1RA and SGLT2i (<xref ref-type="supplementary-material" rid="pmed.1004559.s003">S2 Table</xref>), we found greater reductions in insulin requirements than with either therapy alone. The median insulin dose with combination therapy was 34.2 IU/day [IQR: 29.2, 39.8], representing an additional 20% reduction beyond SGLT2i monotherapy. DALYs lost were reduced to 1.1 [IQR: 0.6, 2.0] per 1,000 person-years with combination therapy. The greatest absolute benefits were seen in countries with higher baseline insulin utilization. In sensitivity analyses examining oral versus injectable GLP-1RAs, oral formulations achieved approximately half the insulin-sparing effect, with median insulin dose 43.2 IU/day [IQR: 36.9, 50.3].</p>
+<p>In decomposition analyses examining sources of uncertainty, parameter uncertainty in the efficacy of newer medications contributed 47% of total outcome uncertainty, while uncertainty in baseline event rates contributed 31%, and sampling uncertainty contributed 22%. Results were robust across multiple sensitivity analyses varying distributional assumptions for parameter sampling (<xref ref-type="table" rid="pmed.1004559.t004">Table 4</xref>).</p>
+<p><xref ref-type="fig" rid="pmed.1004559.g001">Fig 1</xref> illustrates the percentage contribution to DALYs gained per person with diabetes taking insulin of different effects from GLP-1 receptor agonist or SGLT-2 inhibitor medication use. The largest contributor to DALY improvements for both medication classes was the reduction in weight-related morbidity. For GLP-1 receptor agonists, weight reduction accounted for 50% (IQR: 43%, 57%) of the total improvement, while for SGLT-2 inhibitors, it accounted for 32% (IQR: 27%, 37%) of DALY improvements. The reduction in overall mortality was the second largest contributor, accounting for 28% (IQR: 19%, 36%) of improvement in GLP-1RA scenarios and 33% (IQR: 24%, 42%) of the total improvement in SGLT-2 inhibitor scenarios. Renal benefits contributed significantly, particularly for SGLT-2 inhibitors, accounting for 25% (IQR: 20%, 29%) of improvements, compared to 12% (IQR: 10%, 13%) for GLP-1 receptor agonists. Cardiovascular benefits contributed equally for both medication classes, accounting for 10% of improvements (IQR: 7%, 12% for GLP-1RAs; 7%, 13% for SGLT-2 inhibitors).</p>
+<fig id="pmed.1004559.g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pmed.1004559.g001</object-id><label>Fig 1</label><caption><title>Relative contribution of different effects to overall improvement in disability-adjusted life years (DALYs) with GLP-1RA and SGLT2-i therapy.</title><p>The chart shows the percentage contribution of each mechanism (hypoglycemia reduction, weight loss, cardiovascular protection, kidney protection, mortality reduction) to the total DALYs saved. Negative values for side effects indicate small quality-of-life decrements from medication adverse events. Error bars represent interquartile ranges across all countries in analysis.</p></caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pmed.1004559.g001" xlink:type="simple"/></fig>
+</sec>
+</sec>
+<sec id="sec016" sec-type="conclusions">
+<title>Discussion</title>
+<p>The results of this study highlight the potential benefits of introducing GLP-1 receptor agonists and SGLT-2 inhibitors for managing type 2 diabetes mellitus in LMICs. By reducing the burden of excess weight, cardiovascular and renal morbidity, and overall mortality, these novel therapies could significantly improve health outcomes and reduce disability among individuals with diabetes who are currently reliant on insulin—particularly in the case of GLP-1 receptor agonists. In previous work, we studied cost reductions needed for such therapies to be more widely accessible in LMICs [<xref ref-type="bibr" rid="pmed.1004559.ref015">15</xref>]. We also note that newer GLP-1 receptor agonists that are oral rather than injected will affect pricing, refrigeration, and availability in coming years [<xref ref-type="bibr" rid="pmed.1004559.ref016">16</xref>]. But access to GLP-1 receptor agonists and SGLT-2 inhibitors has been dramatically increasing in recent years, particularly given the presence of generics (e.g., for dapagliflozin and liraglutide) and compounded formulations [<xref ref-type="bibr" rid="pmed.1004559.ref014">14</xref>,<xref ref-type="bibr" rid="pmed.1004559.ref017">17</xref>]. The microsimulation model employed in this study demonstrates that the addition of GLP-1 receptor agonists in particular, but also SGLT-2 inhibitors, could lead to a substantial reduction in insulin dosage, with median reductions of 8.2 IU/day and 5.3 IU/day, respectively. This decrease in insulin use is particularly important in LMICs, where access to consistent insulin supply, refrigeration, and glucose monitoring devices and test strips remains challenging.</p>
+<p>Our analysis of combination therapy with both GLP-1RA and SGLT2i showed greater benefits than either therapy alone, consistent with recent meta-analyses showing additive effects on glycemic control, weight loss, and cardiovascular risk reduction [<xref ref-type="bibr" rid="pmed.1004559.ref019">19</xref>,<xref ref-type="bibr" rid="pmed.1004559.ref025">25</xref>–<xref ref-type="bibr" rid="pmed.1004559.ref027">27</xref>]. The additional 20% reduction in insulin requirements with combination therapy could have particular importance in settings where insulin access and storage are challenging. However, we note that cost considerations may limit widespread adoption of dual therapy in many LMICs. Our sensitivity analyses examining oral versus injectable GLP-1RAs demonstrated more modest insulin-sparing effects with oral formulations, though these agents may offer advantages in settings where injectable medication storage and administration are barriers to care.</p>
+<p>In addition to the benefits of the newer medications for reducing severe hypoglycemia, as well as cardiovascular and renal morbidity and mortality, our study also accounted for the potential side effects associated with GLP-1 receptor agonists and SGLT-2 inhibitors, such as gastrointestinal issues, pancreatitis, urogenital infections, and ketoacidosis. However, the impact of these side effects on DALYs was minimal at the population level, suggesting that the benefits of these therapies likely outweigh the risks in most cases.</p>
+<p>The results of this study provide valuable evidence for policymakers and healthcare providers in LMICs who are increasingly incorporating GLP-1 receptor agonists and SGLT-2 inhibitors into diabetes management protocols. By demonstrating the potential benefits of these therapies in reducing insulin dosage, severe hypoglycemia, cardiovascular and renal morbidity, and overall disability and mortality, this study supports the case for increasing access to these medications in LMICs, particularly GLP-1 receptor agonists, given our finding of particularly strong benefits in terms of DALYs for this medication class. Beyond the clinical implications of the shift between insulin and GLP-1 receptor agonists and SGLT-2 inhibitors, a broader market view is needed in terms of what will happen to the insulin market. As two of the biggest three insulin producers are also key players in the GLP-1 receptor agonists market, production capacity may be shifted from insulin to produce newer, more profitable medicines. Such market forces may have wider impacts on the availability and affordability of insulin for both type 1 and type 2 diabetes.</p>
+<p>While considering these uncertainties, it is important to acknowledge the limitations of our current study. The data informing our model do not differentiate between type 1 and type 2 diabetes. Although over 95% of people with diabetes in the studied age range in LMICs are considered type 2 [<xref ref-type="bibr" rid="pmed.1004559.ref003">3</xref>], the benefits of the medications under study would not extend to those with type 1. Additionally, data do not distinguish between prandial versus basal insulin, and typically most hypoglycemia with insulin will occur in association with prandial insulin. Our microsimulation model relies on assumptions and estimates derived from randomized trials and observational cohorts, which may not fully capture the real-world effectiveness of these therapies in LMICs, and not fully consider extreme outliers and rare events. Additionally, our study did not consider the cost-effectiveness of these therapies, given limited systematic data on pricing across LMICs, which is a critical factor in decision-making for resource-limited settings. Multiple small molecule oral GLP-1 agonists that seem highly effective and are in the pipeline; these drugs could arguably be made at lower cost and would not need a cold chain [<xref ref-type="bibr" rid="pmed.1004559.ref016">16</xref>]. Future research should focus on conducting real-world studies in LMICs to assess the cost-effectiveness of GLP-1 receptor agonists and SGLT-2 inhibitors in these settings; we have applied our models to theoretical cost-effectiveness analyses of these medicines previously [<xref ref-type="bibr" rid="pmed.1004559.ref017">17</xref>]. We did not evaluate the complete discontinuation of insulin therapy or possibly delaying or avoiding the need to start insulin in some individuals in the context of limited data. We also did not examine the potential for worsening retinopathy with high-dose GLP-1RAs in the first year after rapid glucose reduction in light of continued uncertainties about whether and to what degree such risk exists [<xref ref-type="bibr" rid="pmed.1004559.ref029">29</xref>,<xref ref-type="bibr" rid="pmed.1004559.ref030">30</xref>]. We also acknowledge that the effects of combination therapy may vary across populations and healthcare settings in ways not captured by our model. Additionally, while we examined differences between oral and injectable GLP-1RAs, real-world effectiveness may differ from trial-based estimates, particularly in resource-limited settings where medication adherence and monitoring may be suboptimal.</p>
+<p>In conclusion, our current study provides compelling evidence for the potential benefits of introducing GLP-1 receptor agonists and SGLT-2 inhibitors for managing type 2 diabetes mellitus in LMICs. By reducing insulin dosage and the associated risk of severe hypoglycemia, as well as cardiovascular and renal morbidity and mortality, these therapies could significantly improve health outcomes and reduce disability among individuals with diabetes. Policymakers and healthcare providers should consider these findings when making decisions about the allocation of resources and the development of diabetes management strategies in LMICs. Further research is needed to validate these results in real-world settings to assess the effectiveness of these therapies in resource-limited contexts.</p>
+</sec>
+<sec id="sec017" sec-type="supplementary-material">
+<title>Supporting information</title>
+<supplementary-material id="pmed.1004559.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pmed.1004559.s001" xlink:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>Structure of microsimulation model for evaluating impact of GLP-1 receptor agonists and SGLT2 inhibitors.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pmed.1004559.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pmed.1004559.s002" xlink:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Input parameters to the microsimulation model.</title>
+<p>Uncertainty intervals were estimated through Monte Carlo sampling with replacement from the 95% confidence intervals around each input parameter using a Gaussian distribution around the mean to generate the confidence intervals around the outcome.</p>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pmed.1004559.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pmed.1004559.s003" xlink:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Impact of combination therapy and oral GLP-1 receptor agonist formulations on insulin dosing and health outcomes.</title>
+<p>Results shown by country for combination therapy with both GLP-1 receptor agonist and SGLT2 inhibitor (“combo”) and for oral GLP-1 receptor agonist monotherapy (“oral”). Insulin doses are in international units (IU) per day. DALYs represent disability-adjusted life years lost per 1,000 person-years.</p>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pmed.1004559.s004" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pmed.1004559.s004" xlink:type="simple">
+<label>S1 Text</label>
+<caption>
+<title>Microsimulation model overview.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<glossary>
+<title>Abbreviations</title>
+<def-list><def-item><term>DALYs</term><def><p>disability-adjusted life years</p></def></def-item><def-item><term>GLP-1</term><def><p>glucagon-like peptide 1</p></def></def-item><def-item><term>HPACC</term><def><p>Global Health and Population Project on Access to Care for Cardiometabolic Diseases</p></def></def-item><def-item><term>LMICs</term><def><p>low- and middle-income countries</p></def></def-item><def-item><term>SGLT-2</term><def><p>sodium-glucose co-transporter-2</p></def></def-item></def-list>
+</glossary>
+<ack>
+<p><italic>Guarantor:</italic> Sanjay Basu</p>
+<p><bold>HPACC Author List (in alphabetical order):</bold></p>
+<p><bold>Mohammed K. Ali</bold>, Hubert Department of Global Health, Emory University, Atlanta, Georgia, USA</p>
+<p><bold>Krishna K. Aryal</bold>, Nepal Health Research Council, Kathmandu, Nepal</p>
+<p><bold>Rifat Atun</bold>, Department of Global Health and Population, Harvard TH Chan School of Public Health, Boston, Massachusetts, USA; Department of Global Health and Social Science, Harvard Medical School, Boston, Massachusetts, USA</p>
+<p><bold>Silver K. Bahendeka</bold>, Uganda Diabetes Association, Kampala, Uganda</p>
+<p><bold>Till Bärnighausen</bold>, Heidelberg Institute of Global Health (HIGH), Faculty of Medicine and University Hospital, Heidelberg University, Heidelberg, Germany; Department of Global Health and Population, Harvard T.H. Chan School of Public Health, Massachusetts, USA; Africa Health Research Institute (AHRI), Somkhele, KwaZulu-Natal, South Africa</p>
+<p><bold>Sanjay Basu</bold>, Clinical Product Development, Waymark, San Francisco, California, USA</p>
+<p><bold>David H. Beran</bold>, Geneva University Hospitals and University of Geneva, Geneva, Switzerland</p>
+<p><bold>Brice W. Bicaba</bold>, Burkina Faso Ministry of Health, Ouagadougou, Burkina Faso</p>
+<p><bold>Pascal Bovet</bold>, Institute of Social and Preventive Medicine, University of Lausanne, Lausanne, Switzerland</p>
+<p><bold>Luisa Campos Caldeira Brant</bold>, Federal University of Minas Gerais, Belo Horizonte, Brazil</p>
+<p><bold>Albertino Damasceno</bold>, Eduardo Mondlane University, Maputo, Mozambique</p>
+<p><bold>Justine Davies</bold>, Stellenbosch University, South Africa and Institute of Applied Health Sciences, University of Birmingham, Birmingham, United Kingdom</p>
+<p><bold>David Flood</bold>, Division of General Internal Medicine, University of Michigan, Ann Arbor, Michigan, USA</p>
+<p><bold>Pascal Geldsetzer</bold>, Department of Medicine, Stanford University, Palo Alto, California, USA</p>
+<p><bold>Mongal S. Gurung</bold>, Nepal Health Research Council, Kathmandu, Nepal</p>
+<p><bold>David Guwatudde</bold>, Makerere University School of Public Health, Kampala, Uganda</p>
+<p><bold>Corine Houehanou</bold>, Regional Institute of Public Health, University of Abomey-Calavi, Cotonou, Benin</p>
+<p><bold>Jutta M.A. Jorgensen</bold>, Danish Diabetes Academy, Odense University Hospital, Odense, Denmark</p>
+<p><bold>Khem B. Karki</bold>, Nepal Health Research Council, Kathmandu, Nepal</p>
+<p><bold>Sylvia Kehlenbrink Oh</bold>, Division of Endocrinology, Brigham and Women’s Hospital, Boston, Massachusetts, USA</p>
+<p><bold>Kasia Lipska</bold>, Department of Endocrinology, Yale University, New Haven, Connecticut, USA</p>
+<p><bold>Jing Luo</bold>, University of Pittsburgh, Pittsburgh, Pennsylvania, USA</p>
+<p><bold>Deborah C. Malta</bold>, Federal University of Minas Gerais, Belo Horizonte, Brazil</p>
+<p><bold>Jen Manne-Goehler</bold>, Harvard Medical School, Boston, Massachusetts, USA</p>
+<p><bold>Joao S. Martins</bold>, University of Minho, Braga, Portugal</p>
+<p><bold>Mary T. Mayige</bold>, National Institute for Medical Research, Dar es Salaam, Tanzania</p>
+<p><bold>Sahar Saeedi Moghaddam</bold>, Kiel Institute for the World Economy, Kiel, Germany</p>
+<p>Endocrinology and Metabolism Research Center, Endocrinology and Metabolism Clinical Sciences Institute, Tehran University of Medical Sciences, Tehran, Iran</p>
+<p><bold>Omar Mwalim</bold>, Muhimbili University of Health and Allied Sciences, Dar es Salaam, Tanzania</p>
+<p><bold>Kibachio Joseph Mwangi</bold>, Kenya Medical Research Institute, Nairobi, Kenya</p>
+<p><bold>Bolormaa Norov</bold>, National Center for Public Health, Ulaanbaatar, Mongolia</p>
+<p><bold>Abla Mehio Sibai</bold>, Faculty of Health Sciences, American University of Beirut, Lebanon</p>
+<p><bold>Felix Teufel</bold>, Heidelberg Institute of Global Health, Heidelberg University, Heidelberg, Germany</p>
+<p><bold>Michaela Theilmann</bold>, Division of Infectious Diseases, Brigham and Women’s Hospital, Boston, Massachusetts, USA; Harvard Medical School, Boston, Massachusetts, USA</p>
+<p><bold>Sebastian Vollmer</bold>, University of Goettingen, Goettingen, Germany</p>
+<p><bold>John S Yudkin</bold>, University College London, London, UK</p>
+<p><bold>Zhaxybay Zhumadilov</bold>, Nazarbayev University School of Medicine, Astana, Kazakhstan</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pmed.1004559.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sun</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Saeedi</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Karuranga</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Pinkepank</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ogurtsova</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Duncan</surname> <given-names>BB</given-names></name>, <etal>et al</etal>. <article-title>IDF Diabetes Atlas: global, regional and country-level diabetes prevalence estimates for 2021 and projections for 2045</article-title>. <source>Diabetes Res Clin Pract</source>. <year>2022</year>;<volume>183</volume>:<fpage>109119</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.diabres.2021.109119" xlink:type="simple">10.1016/j.diabres.2021.109119</ext-link></comment> <object-id pub-id-type="pmid">34879977</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fralick</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Jenkins</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Khunti</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Mbanya</surname> <given-names>JC</given-names></name>, <name name-style="western"><surname>Mohan</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Schmidt</surname> <given-names>MI</given-names></name>. <article-title>Global accessibility of therapeutics for diabetes mellitus</article-title>. <source>Nat Rev Endocrinol</source>. <year>2022</year>;<volume>18</volume>(<issue>4</issue>):<fpage>199</fpage>–<lpage>204</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41574-021-00621-y" xlink:type="simple">10.1038/s41574-021-00621-y</ext-link></comment> <object-id pub-id-type="pmid">35039662</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lovic</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Piperidou</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Zografou</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Grassos</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Pittaras</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Manolis</surname> <given-names>A</given-names></name>. <article-title>The growing epidemic of diabetes mellitus</article-title>. <source>Curr Vasc Pharmacol</source>. <year>2020</year>;<volume>18</volume>(<issue>2</issue>):<fpage>104</fpage>–<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2174/1570161117666190405165911" xlink:type="simple">10.2174/1570161117666190405165911</ext-link></comment> <object-id pub-id-type="pmid">30961501</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Khunti</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Alsifri</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Aronson</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Cigrovski Berković</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Enters-Weijnen</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Forsén</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Impact of hypoglycaemia on patient-reported outcomes from a global, 24-country study of 27,585 people with type 1 and insulin-treated type 2 diabetes</article-title>. <source>Diabetes Res Clin Pract</source>. <year>2017</year>;<volume>130</volume>:<fpage>121</fpage>–<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.diabres.2017.05.004" xlink:type="simple">10.1016/j.diabres.2017.05.004</ext-link></comment> <object-id pub-id-type="pmid">28602812</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Roth</surname> <given-names>GA</given-names></name>, <name name-style="western"><surname>Mensah</surname> <given-names>GA</given-names></name>, <name name-style="western"><surname>Johnson</surname> <given-names>CO</given-names></name>, <name name-style="western"><surname>Addolorato</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Ammirati</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Baddour</surname> <given-names>LM</given-names></name>, <etal>et al</etal>. <article-title>Global burden of cardiovascular diseases and risk factors, 1990-2019: update from the GBD 2019 study</article-title>. <source>J Am Coll Cardiol</source>. <year>2020</year>;<volume>76</volume>(<issue>25</issue>):<fpage>2982</fpage>–<lpage>3021</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jacc.2020.11.010" xlink:type="simple">10.1016/j.jacc.2020.11.010</ext-link></comment> <object-id pub-id-type="pmid">33309175</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bikbov</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Purcell</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>Levey</surname></name> AS, <name name-style="western"><surname>Smith</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Abdoli</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Abebe</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <collab>GBD Chronic Kidney Disease Collaboration</collab>. <article-title>Global, regional, and national burden of chronic kidney disease, 1990-2017: a systematic analysis for the Global Burden of Disease Study 2017</article-title>. <source>Lancet</source>. <year>2020</year>;<volume>395</volume>(<issue>10225</issue>):<fpage>709</fpage>–<lpage>33</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(20)30045-3" xlink:type="simple">10.1016/S0140-6736(20)30045-3</ext-link></comment> <object-id pub-id-type="pmid">32061315</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gómez-Huelgas</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Sanz-Cánovas</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Cobos-Palacios</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>López-Sampalo</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Pérez-Belmonte</surname> <given-names>LM</given-names></name>. <article-title>Glucagon-like peptide-1 receptor agonists and sodium-glucose cotransporter 2 inhibitors for cardiovascular and renal protection: a treatment approach far beyond their glucose-lowering effect</article-title>. <source>Eur J Intern Med</source>. <year>2022</year>;<volume>96</volume>:<fpage>26</fpage>–<lpage>33</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ejim.2021.11.008" xlink:type="simple">10.1016/j.ejim.2021.11.008</ext-link></comment> <object-id pub-id-type="pmid">34799233</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Palmer</surname> <given-names>SC</given-names></name>, <name name-style="western"><surname>Tendal</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Mustafa</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Vandvik</surname> <given-names>PO</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Hao</surname> <given-names>Q</given-names></name>, <etal>et al</etal>. <article-title>Sodium-glucose cotransporter protein-2 (SGLT-2) inhibitors and glucagon-like peptide-1 (GLP-1) receptor agonists for type 2 diabetes: systematic review and network meta-analysis of randomised controlled trials</article-title>. <source>BMJ</source>. <year>2021</year>;<volume>372</volume>:<fpage>m4573</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.m4573" xlink:type="simple">10.1136/bmj.m4573</ext-link></comment> <object-id pub-id-type="pmid">33441402</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Palmer</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Tendal</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Mustafa</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Vandvik</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Hao</surname> <given-names>Q</given-names></name>. <article-title>Chronic kidney disease and risk management: cardiovascular risk reduction by SGLT-2 inhibition in type 2 diabetes</article-title>. <source>Lancet Diabetes &amp; Endocrinology</source>. <year>2021</year>;<volume>9</volume>:<fpage>766</fpage>–<lpage>76</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ldem.2021.06.002" xlink:type="simple">10.1016/j.ldem.2021.06.002</ext-link></comment></mixed-citation></ref>
+<ref id="pmed.1004559.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rodbard</surname> <given-names>HW</given-names></name>, <name name-style="western"><surname>Lingvay</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Reed</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>de la Rosa</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Rose</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Sugimoto</surname> <given-names>D</given-names></name>, <etal>et al</etal>. <article-title>Semaglutide added to basal insulin in type 2 diabetes (SUSTAIN 5): a randomized, controlled trial</article-title>. <source>J Clin Endocrinol Metab</source>. <year>2018</year>;<volume>103</volume>(<issue>6</issue>):<fpage>2291</fpage>–<lpage>301</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1210/jc.2018-00070" xlink:type="simple">10.1210/jc.2018-00070</ext-link></comment> <object-id pub-id-type="pmid">29688502</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Barber</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Gotham</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Bygrave</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Cepuch</surname> <given-names>C</given-names></name>. <article-title>Estimated sustainable cost-based prices for diabetes medicines</article-title>. <source>JAMA Netw Open</source>. <year>2024</year>;<volume>7</volume>(<issue>3</issue>):<fpage>e243474</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jamanetworkopen.2024.3474" xlink:type="simple">10.1001/jamanetworkopen.2024.3474</ext-link></comment> <object-id pub-id-type="pmid">38536176</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><collab>International Diabetes Federation</collab>. <article-title>IDF and the Medicines Patent Pool welcome inclusion of SGLT2 inhibitors to the WHO Essential Medicines List</article-title> [Internet]; <year>2024</year> [cited 30 May 2024]. Available from: <ext-link ext-link-type="uri" xlink:href="https://idf.org/news/" xlink:type="simple">https://idf.org/news/</ext-link></mixed-citation></ref>
+<ref id="pmed.1004559.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><collab>Medicines Patent Pool</collab>. <article-title>MPP and International Diabetes Federation join forces to improve access to diabetes medicines</article-title> [Internet]. <year>2024</year> [cited 30 May 2024]. Available from: <ext-link ext-link-type="uri" xlink:href="https://medicinespatentpool.org/news-publications-post/" xlink:type="simple">https://medicinespatentpool.org/news-publications-post/</ext-link></mixed-citation></ref>
+<ref id="pmed.1004559.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Arnold</surname> <given-names>SV</given-names></name>, <name name-style="western"><surname>Tang</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Cooper</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Gomes</surname> <given-names>MB</given-names></name>, <name name-style="western"><surname>Rathmann</surname> <given-names>W</given-names></name>, <etal>et al</etal>. <article-title>Global use of SGLT2 inhibitors and GLP-1 receptor agonists in type 2 diabetes. Results from DISCOVER</article-title>. <source>BMC Endocr Disord</source>. <year>2022</year>;<volume>22</volume>(<issue>1</issue>):<fpage>111</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12902-022-01026-2" xlink:type="simple">10.1186/s12902-022-01026-2</ext-link></comment> <object-id pub-id-type="pmid">35473607</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><collab>Global Health &amp; Population Project on Access to Care for Cardiometabolic Diseases (HPACC)</collab>. <article-title>Expanding access to newer medicines for people with type 2 diabetes in low-income and middle-income countries: a cost-effectiveness and price target analysis</article-title>. <source>Lancet Diabetes Endocrinol</source>. <year>2021</year>;<volume>9</volume>(<issue>12</issue>):<fpage>825</fpage>–<lpage>36</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2213-8587(21)00240-0" xlink:type="simple">10.1016/S2213-8587(21)00240-0</ext-link></comment> <object-id pub-id-type="pmid">34656210</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Frias</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Hsia</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Eyde</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Ma</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Konig</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Efficacy and safety of oral orforglipron in patients with type 2 diabetes: a multicentre, randomised, dose-response, phase 2 study</article-title>. <source>Lancet</source>. <year>2023</year>;<volume>402</volume>(<issue>10400</issue>):<fpage>472</fpage>–<lpage>83</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(23)01302-8" xlink:type="simple">10.1016/S0140-6736(23)01302-8</ext-link></comment> <object-id pub-id-type="pmid">37369232</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Li</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Guo</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Huo</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Gao</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Yan</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Zhao</surname> <given-names>Z</given-names></name>. <article-title>Real-world national trends and socio-economic factors preference of sodium-glucose cotransporter-2 inhibitors and glucagon-like peptide-1 receptor agonists in China</article-title>. <source>Front Endocrinol (Lausanne)</source>. <year>2022</year>;<volume>13</volume>:<fpage>987081</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fendo.2022.987081" xlink:type="simple">10.3389/fendo.2022.987081</ext-link></comment> <object-id pub-id-type="pmid">36277697</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Garimella</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Johnson</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Grimshaw</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Luo</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kishore</surname> <given-names>S</given-names></name>. <article-title>Letter to 2023 WHO Expert Committee on the Selection &amp; Use of Essential Medicines</article-title>. <source>Geneva: WHO</source>; <year>2023</year>.</mixed-citation></ref>
+<ref id="pmed.1004559.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Castellana</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cignarelli</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Brescia</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Perrini</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Natalicchio</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Laviola</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Efficacy and safety of GLP-1 receptor agonists as add-on to SGLT2 inhibitors in type 2 diabetes mellitus: a meta-analysis</article-title>. <source>Sci Rep</source>. <year>2019</year>;<volume>9</volume>(<issue>1</issue>):<fpage>19351</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41598-019-55524-w" xlink:type="simple">10.1038/s41598-019-55524-w</ext-link></comment> <object-id pub-id-type="pmid">31852920</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mantsiou</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Karagiannis</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Kakotrichi</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Malandris</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Avgerinos</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Liakos</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Glucagon-like peptide-1 receptor agonists and sodium-glucose co-transporter-2 inhibitors as combination therapy for type 2 diabetes: a systematic review and meta-analysis</article-title>. <source>Diabetes Obes Metab</source>. <year>2020</year>;<volume>22</volume>(<issue>10</issue>):<fpage>1857</fpage>–<lpage>68</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/dom.14108" xlink:type="simple">10.1111/dom.14108</ext-link></comment> <object-id pub-id-type="pmid">32476254</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mariën</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>De Block</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Verrijken</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Van Dessel</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Peiffer</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Verhaegen</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Features of oral glucose tolerance tests in patients after Roux-en-Y gastric bypass with and without hypoglycaemia symptoms in daily life: it’s all about speed</article-title>. <source>Diabetes Obes Metab</source>. <year>2020</year>;<volume>22</volume>(<issue>11</issue>):<fpage>2107</fpage>–<lpage>19</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/dom.14130" xlink:type="simple">10.1111/dom.14130</ext-link></comment> <object-id pub-id-type="pmid">32643861</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Al-Hamdan</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Avery</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Al-Disi</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Sabico</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Al-Daghri</surname> <given-names>NM</given-names></name>, <name name-style="western"><surname>McCullough</surname> <given-names>F</given-names></name>. <article-title>Efficacy of lifestyle intervention program for Arab women with prediabetes using social media as an alternative platform of delivery</article-title>. <source>J Diabetes Investig</source>. <year>2021</year>;<volume>12</volume>(<issue>10</issue>):<fpage>1872</fpage>–<lpage>80</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/jdi.13531" xlink:type="simple">10.1111/jdi.13531</ext-link></comment> <object-id pub-id-type="pmid">33638248</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rosenstock</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Jelaska</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Zeller</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Broedl</surname> <given-names>UC</given-names></name>, <name name-style="western"><surname>Woerle</surname> <given-names>HJ</given-names></name>, <etal>et al</etal>. <article-title>Impact of empagliflozin added on to basal insulin in type 2 diabetes inadequately controlled on basal insulin: a 78-week randomized, double-blind, placebo-controlled trial</article-title>. <source>Diabetes Obes Metab</source>. <year>2015</year>;<volume>17</volume>(<issue>10</issue>):<fpage>936</fpage>–<lpage>48</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/dom.12503" xlink:type="simple">10.1111/dom.12503</ext-link></comment> <object-id pub-id-type="pmid">26040302</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Patoulias</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Stavropoulos</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Imprialos</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Katsimardou</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Kalogirou</surname> <given-names>M-S</given-names></name>, <name name-style="western"><surname>Koutsampasopoulos</surname> <given-names>K</given-names></name>, <etal>et al</etal>. <article-title>Glycemic efficacy and safety of glucagon-like peptide-1 receptor agonist on top of sodium-glucose co-transporter-2 inhibitor treatment compared to sodium-glucose co-transporter-2 inhibitor alone: a systematic review and meta-analysis of randomized controlled trials</article-title>. <source>Diabetes Res Clin Pract</source>. <year>2019</year>;<volume>158</volume><fpage>107927</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.diabres.2019.107927" xlink:type="simple">10.1016/j.diabres.2019.107927</ext-link></comment> <object-id pub-id-type="pmid">31733280</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cheong</surname> <given-names>AJY</given-names></name>, <name name-style="western"><surname>Teo</surname> <given-names>YN</given-names></name>, <name name-style="western"><surname>Teo</surname> <given-names>YH</given-names></name>, <name name-style="western"><surname>Syn</surname> <given-names>NL</given-names></name>, <name name-style="western"><surname>Ong</surname> <given-names>HT</given-names></name>, <name name-style="western"><surname>Ting</surname> <given-names>AZH</given-names></name>, <etal>et al</etal>. <article-title>SGLT inhibitors on weight and body mass: a meta-analysis of 116 randomized-controlled trials</article-title>. <source>Obesity (Silver Spring)</source>. <year>2022</year>;<volume>30</volume>(<issue>1</issue>):<fpage>117</fpage>–<lpage>28</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/oby.23331" xlink:type="simple">10.1002/oby.23331</ext-link></comment> <object-id pub-id-type="pmid">34932882</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Guo</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Gu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Teng</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Ma</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>Q</given-names></name>, <etal>et al</etal>. <article-title>The efficacy and safety of combinations of SGLT2 inhibitors and GLP-1 receptor agonists in the treatment of type 2 diabetes or obese adults: a systematic review and meta-analysis</article-title>. <source>Endocrine</source>. <year>2020</year>;<volume>67</volume>(<issue>2</issue>):<fpage>294</fpage>–<lpage>304</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s12020-019-02175-6" xlink:type="simple">10.1007/s12020-019-02175-6</ext-link></comment> <object-id pub-id-type="pmid">31900793</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dave</surname> <given-names>CV</given-names></name>, <name name-style="western"><surname>Schneeweiss</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Patorno</surname> <given-names>E</given-names></name>. <article-title>Comparative risk of genital infections associated with sodium-glucose co-transporter-2 inhibitors</article-title>. <source>Diabetes Obes Metab</source>. <year>2019</year>;<volume>21</volume>(<issue>2</issue>):<fpage>434</fpage>–<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/dom.13531" xlink:type="simple">10.1111/dom.13531</ext-link></comment> <object-id pub-id-type="pmid">30207042</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Koto</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Nakajima</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Miwa</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Sugimoto</surname> <given-names>K</given-names></name>. <article-title>Multimorbidity, polypharmacy, severe hypoglycemia, and glycemic control in patients using glucose-lowering drugs for type 2 diabetes</article-title>. <source>Diabetes Ther</source>. <year>2023;14:1175-1192</year>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s13300-023-01421-5" xlink:type="simple">10.1007/s13300-023-01421-5</ext-link></comment></mixed-citation></ref>
+<ref id="pmed.1004559.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Xie</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Guo</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Bremner</surname> <given-names>KE</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Shah</surname> <given-names>BR</given-names></name>, <name name-style="western"><surname>Volodin</surname> <given-names>A</given-names></name>. <article-title>Review and estimation of disutility for joint health states of severe and nonsevere hypoglycemic events in diabetes</article-title>. <source>J Comp Eff Res</source>. <year>2021</year>;<volume>10</volume>(<issue>13</issue>):<fpage>961</fpage>–<lpage>74</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2217/cer-2021-0059" xlink:type="simple">10.2217/cer-2021-0059</ext-link></comment> <object-id pub-id-type="pmid">34287017</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Castellana</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cignarelli</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Brescia</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Laviola</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Giorgino</surname> <given-names>F</given-names></name>. <article-title>GLP-1 receptor agonist added to insulin versus basal-plus or basal-bolus insulin therapy in type 2 diabetes: a systematic review and meta-analysis</article-title>. <source>Diabetes Metab Res Rev</source>. <year>2019</year>;<volume>35</volume>(<issue>1</issue>):<fpage>e3082</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/dmrr.3082" xlink:type="simple">10.1002/dmrr.3082</ext-link></comment> <object-id pub-id-type="pmid">30270567</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tang</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Cui</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Zhai</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Sodium-glucose co-transporter 2 inhibitors in addition to insulin therapy for management of type 2 diabetes mellitus: a meta-analysis of randomized controlled trials</article-title>. <source>Diabetes Obes Metab</source>. <year>2017</year>;<volume>19</volume>(<issue>1</issue>):<fpage>142</fpage>–<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/dom.12785" xlink:type="simple">10.1111/dom.12785</ext-link></comment> <object-id pub-id-type="pmid">27598833</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ueda</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Woodward</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Lu</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Hajifathalian</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Al-Wotayan</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Aguilar-Salinas</surname> <given-names>CA</given-names></name>, <etal>et al</etal>. <article-title>Laboratory-based and office-based risk scores and charts to predict 10-year risk of cardiovascular disease in 182 countries: a pooled analysis of prospective cohorts and health surveys</article-title>. <source>Lancet Diabetes Endocrinol</source>. <year>2017</year>;<volume>5</volume>(<issue>3</issue>):<fpage>196</fpage>–<lpage>213</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2213-8587(17)30015-3" xlink:type="simple">10.1016/S2213-8587(17)30015-3</ext-link></comment> <object-id pub-id-type="pmid">28126460</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Iwase</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ide</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Ohkuma</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Fujii</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Komorita</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Yoshinari</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Incidence of end-stage renal disease and risk factors for progression of renal dysfunction in Japanese patients with type 2 diabetes: the Fukuoka Diabetes Registry</article-title>. <source>Clin Exp Nephrol</source>. <year>2022</year>;<volume>26</volume>(<issue>2</issue>):<fpage>122</fpage>–<lpage>31</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10157-021-02136-2" xlink:type="simple">10.1007/s10157-021-02136-2</ext-link></comment> <object-id pub-id-type="pmid">34581896</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Finne</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Groop</surname> <given-names>P-H</given-names></name>, <name name-style="western"><surname>Arffman</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kervinen</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Helve</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Grönhagen-Riska</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Cumulative risk of end-stage renal disease among patients with type 2 diabetes: a nationwide inception cohort study</article-title>. <source>Diabetes Care</source>. <year>2019</year>;<volume>42</volume>(<issue>4</issue>):<fpage>539</fpage>–<lpage>44</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2337/dc18-1485" xlink:type="simple">10.2337/dc18-1485</ext-link></comment> <object-id pub-id-type="pmid">30692239</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gu</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Cowie</surname> <given-names>CC</given-names></name>, <name name-style="western"><surname>Harris</surname> <given-names>MI</given-names></name>. <article-title>Mortality in adults with and without diabetes in a national cohort of the U.S. population, 1971-1993</article-title>. <source>Diabetes Care</source>. <year>1998</year>;<volume>21</volume>(<issue>7</issue>):<fpage>1138</fpage>–<lpage>45</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2337/diacare.21.7.1138" xlink:type="simple">10.2337/diacare.21.7.1138</ext-link></comment> <object-id pub-id-type="pmid">9653609</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><collab>Center for Evaluation of Value and Risk in Health (CEVR)</collab>. <article-title>Global Health Cost Effectiveness Analysis Registry</article-title> [Internet]. <year>2019</year> [cited 30 May 2024]. Available from: <ext-link ext-link-type="uri" xlink:href="http://ghcearegistry.org/orchard/cite-the-gh-cea-registry" xlink:type="simple">http://ghcearegistry.org/orchard/cite-the-gh-cea-registry</ext-link></mixed-citation></ref>
+<ref id="pmed.1004559.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vetter</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Johnsson</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Hardy</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Iqbal</surname> <given-names>N</given-names></name>. <article-title>Pancreatitis incidence in the exenatide BID, exenatide QW, and exenatide QW suspension development programs: pooled analysis of 35 clinical trials</article-title>. <source>Diabetes Ther</source>. <year>2019</year>;<volume>10</volume>(<issue>4</issue>):<fpage>1249</fpage>–<lpage>70</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s13300-019-0627-1" xlink:type="simple">10.1007/s13300-019-0627-1</ext-link></comment> <object-id pub-id-type="pmid">31077072</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref038"><label>38</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Colacci</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Fralick</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Odutayo</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Fralick</surname> <given-names>M</given-names></name>. <article-title>Sodium-glucose cotransporter-2 inhibitors and risk of diabetic ketoacidosis among adults with type 2 diabetes: a systematic review and meta-analysis</article-title>. <source>Can J Diabetes</source>. <year>2022</year>;<volume>46</volume>(<issue>1</issue>):<fpage>10</fpage>–<lpage>15.e2</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jcjd.2021.04.006" xlink:type="simple">10.1016/j.jcjd.2021.04.006</ext-link></comment> <object-id pub-id-type="pmid">34116926</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref039"><label>39</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Arnott</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Fletcher</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Neal</surname> <given-names>B</given-names></name>. <article-title>Sodium glucose cotransporter 2 inhibitors, amputation risk, and fracture risk</article-title>. <source>Heart Fail Clin</source>. <year>2022</year>;<volume>18</volume>(<issue>4</issue>):<fpage>645</fpage>–<lpage>54</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.hfc.2022.03.008" xlink:type="simple">10.1016/j.hfc.2022.03.008</ext-link></comment> <object-id pub-id-type="pmid">36216493</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Miyashita</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kuno</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Takagi</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Sugiyama</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Ando</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Valentin</surname> <given-names>N</given-names></name>, <etal>et al</etal>. <article-title>Risk of amputation associated with sodium-glucose co-transporter 2 inhibitors: a meta-analysis of five randomized controlled trials</article-title>. <source>Diabetes Res Clin Pract</source>. <year>2020</year>;<volume>163</volume>:<fpage>108136</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.diabres.2020.108136" xlink:type="simple">10.1016/j.diabres.2020.108136</ext-link></comment> <object-id pub-id-type="pmid">32272190</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref041"><label>41</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Das</surname> <given-names>SR</given-names></name>, <name name-style="western"><surname>Everett</surname> <given-names>BM</given-names></name>, <name name-style="western"><surname>Birtcher</surname> <given-names>KK</given-names></name>, <name name-style="western"><surname>Brown</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Januzzi JL</surname> <given-names>Jr</given-names></name>, <name name-style="western"><surname>Kalyani</surname> <given-names>RR</given-names></name>, <etal>et al</etal>. <article-title>2020 Expert consensus decision pathway on novel therapies for cardiovascular risk reduction in patients with type 2 diabetes: a report of the American College of Cardiology Solution Set Oversight Committee</article-title>. <source>J Am Coll Cardiol</source>. <year>2020</year>;<volume>76</volume>(<issue>9</issue>):<fpage>1117</fpage>–<lpage>45</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jacc.2020.05.037" xlink:type="simple">10.1016/j.jacc.2020.05.037</ext-link></comment> <object-id pub-id-type="pmid">32771263</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref042"><label>42</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yan</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Hong</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Yu</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Yang</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Quan</surname> <given-names>W</given-names></name>, <etal>et al</etal>. <article-title>Prevalence of diabetes and health-related quality of life among rural-to-urban Nong Zhuan Fei migrants in an urban area of northern China, 2013</article-title>. <source>Public Health Rep</source>. <year>2016</year>;<volume>131</volume>(<issue>1</issue>):<fpage>167</fpage>–<lpage>76</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/003335491613100124" xlink:type="simple">10.1177/003335491613100124</ext-link></comment> <object-id pub-id-type="pmid">26843683</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref043"><label>43</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Perkovic</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Tuttle</surname> <given-names>KR</given-names></name>, <name name-style="western"><surname>Rossing</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Mahaffey</surname> <given-names>KW</given-names></name>, <name name-style="western"><surname>Mann</surname> <given-names>JFE</given-names></name>, <name name-style="western"><surname>Bakris</surname> <given-names>G</given-names></name>, <etal>et al</etal>. <article-title>Effects of semaglutide on chronic kidney disease in patients with type 2 diabetes</article-title>. <source>N Engl J Med</source>. <year>2024</year>;<volume>391</volume>(<issue>2</issue>):<fpage>109</fpage>–<lpage>21</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMoa2403347" xlink:type="simple">10.1056/NEJMoa2403347</ext-link></comment> <object-id pub-id-type="pmid">38785209</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref044"><label>44</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rådholm</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Wong</surname> <given-names>MG</given-names></name>, <name name-style="western"><surname>Foote</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Fulcher</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Mahaffey</surname> <given-names>KW</given-names></name>, <etal>et al</etal>. <article-title>Effects of sodium-glucose cotransporter-2 inhibitors on cardiovascular disease, death and safety outcomes in type 2 diabetes—a systematic review</article-title>. <source>Diabetes Res Clin Pract</source>. <year>2018</year>;<volume>140</volume>:<fpage>118</fpage>–<lpage>28</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.diabres.2018.03.027" xlink:type="simple">10.1016/j.diabres.2018.03.027</ext-link></comment> <object-id pub-id-type="pmid">29604389</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref045"><label>45</label><mixed-citation publication-type="journal" xlink:type="simple"><collab>Nuffield Department of Population Health Renal Studies Group, SGLT2 inhibitor Meta-Analysis Cardio-Renal Trialists’ Consortium</collab>. <article-title>Impact of diabetes on the effects of sodium glucose co-transporter-2 inhibitors on kidney outcomes: collaborative meta-analysis of large placebo-controlled trials</article-title>. <source>Lancet</source>. <year>2022</year>;<volume>400</volume>(<issue>10365</issue>):<fpage>1788</fpage>–<lpage>801</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(22)02074-8" xlink:type="simple">10.1016/S0140-6736(22)02074-8</ext-link></comment> <object-id pub-id-type="pmid">36351458</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref046"><label>46</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Alexopoulos</surname> <given-names>A-S</given-names></name>, <name name-style="western"><surname>Andersen</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Donatsky</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Gowda</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Buse</surname> <given-names>JB</given-names></name>. <article-title>Duration of type 2 diabetes does not appear to moderate hypoglycaemia rate with insulin degludec versus insulin glargine U100</article-title>. <source>Diabetes Obes Metab</source>. <year>2021</year>;<volume>23</volume>(<issue>8</issue>):<fpage>1983</fpage>–<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/dom.14397" xlink:type="simple">10.1111/dom.14397</ext-link></comment> <object-id pub-id-type="pmid">33830626</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref047"><label>47</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brown</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Amid</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Idris</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Sattar</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Singh</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Masana</surname> <given-names>L</given-names></name>. <article-title>Association between early changes in metabolic parameters and retinopathy risk: analysis from the SUSTAIN and PIONEER trials</article-title>. <source>Diabetes Care</source>. <year>2022</year>;<volume>45</volume>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2337/dc21-2265" xlink:type="simple">10.2337/dc21-2265</ext-link></comment></mixed-citation></ref>
+<ref id="pmed.1004559.ref048"><label>48</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Davies</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Pieber</surname> <given-names>TR</given-names></name>, <name name-style="western"><surname>Hartoft-Nielsen</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Hansen</surname> <given-names>OKH</given-names></name>, <name name-style="western"><surname>Jabbour</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Rosenstock</surname> <given-names>J</given-names></name>. <article-title>Oral semaglutide versus injectable GLP-1 receptor agonists: a systematic review and meta-analysis</article-title>. <source>Diabetes Ther</source>. <year>2021;12:1901-1918</year>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s13300-021-01089-9" xlink:type="simple">10.1007/s13300-021-01089-9</ext-link></comment></mixed-citation></ref>
+<ref id="pmed.1004559.ref049"><label>49</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Artigas</surname> <given-names>CF</given-names></name>, <name name-style="western"><surname>Stokes</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Tan</surname> <given-names>GD</given-names></name>, <name name-style="western"><surname>Theodorakis</surname> <given-names>MJ</given-names></name>. <article-title>Insulin dose adjustments with add-on glucagon-like peptide-1 receptor (GLP-1R) agonists in clinical practice</article-title>. <source>Expert Opin Pharmacother</source>. <year>2015</year>;<volume>16</volume>(<issue>10</issue>):<fpage>1417</fpage>–<lpage>21</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1517/14656566.2015.1052740" xlink:type="simple">10.1517/14656566.2015.1052740</ext-link></comment> <object-id pub-id-type="pmid">26077113</object-id></mixed-citation></ref>
+<ref id="pmed.1004559.ref050"><label>50</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Grunvald</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Shah</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Hernaez</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Chandar</surname> <given-names>AK</given-names></name>, <name name-style="western"><surname>Pickett-Blakely</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Teigen</surname> <given-names>LM</given-names></name>, <etal>et al</etal>. <article-title>AGA Clinical Practice Guideline on pharmacological interventions for adults with obesity</article-title>. <source>Gastroenterology</source>. <year>2022</year>;<volume>163</volume>(<issue>5</issue>):<fpage>1198</fpage>–<lpage>225</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1053/j.gastro.2022.08.045" xlink:type="simple">10.1053/j.gastro.2022.08.045</ext-link></comment> <object-id pub-id-type="pmid">36273831</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

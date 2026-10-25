@@ -1,0 +1,25 @@
+﻿lemma	translation	frequency	pos	pos_description	tags	tag_descriptions	wordforms	morphology	origin	status
+the	des	5	DET	определитель	DT	DT: determiner	The: 2; the: 3	Definite=Def|PronType=Art	auto	covered
+of	des	3	ADP	предлог/послелог	IN	IN: conjunction, subordinating or preposition	of: 3		auto	covered
+activity	activité	1	NOUN	существительное	NN	NN: noun, singular or mass	activity: 1	Number=Sing	auto	covered
+and	et	1	CCONJ	сочинительный союз	CC	CC: conjunction, coordinating	and: 1	ConjType=Cmp	auto	covered
+appropriate	approprié	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	appropriate: 1	Degree=Pos	auto	covered
+available	Montant disponible	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	available: 1	Degree=Pos	auto	covered
+can	peut	1	AUX	вспомогательный глагол	MD	MD: verb, modal auxiliary	can: 1	VerbForm=Fin	auto	covered
+diabetes	diabète	1	NOUN	существительное	NN	NN: noun, singular or mass	diabetes: 1	Number=Sing	auto	covered
+discuss	discuter	1	VERB	глагол	VBP	VBP: verb, non-3rd person singular present	discuss: 1	Tense=Pres|VerbForm=Fin	auto	covered
+evaluate	évaluer	1	VERB	глагол	VBZ	VBZ: verb, 3rd person singular present	evaluates: 1	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	auto	covered
+evidence	éléments de preuve	1	NOUN	существительное	NN	NN: noun, singular or mass	evidence: 1	Number=Sing	auto	covered
+health	santé	1	NOUN	существительное	NN	NN: noun, singular or mass	health: 1	Number=Sing	auto	covered
+improve	améliorer	1	VERB	глагол	VB	VB: verb, base form	improve: 1	VerbForm=Inf	auto	covered
+life	vie	1	NOUN	существительное	NN	NN: noun, singular or mass	life: 1	Number=Sing	auto	covered
+limitation	limitation	1	NOUN	существительное	NNS	NNS: noun, plural	limitations: 1	Number=Plur	auto	review
+outcome	Résultat	1	NOUN	существительное	NNS	NNS: noun, plural	outcomes: 1	Number=Plur	auto	covered
+patient	patient	1	NOUN	существительное	NNS	NNS: noun, plural	patients: 1	Number=Plur	auto	review
+physical	physique	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	physical: 1	Degree=Pos	auto	covered
+quality	qualité	1	NOUN	существительное	NN	NN: noun, singular or mass	quality: 1	Number=Sing	auto	covered
+regular	régulier	1	ADJ	прилагательное	JJ	JJ: adjective (English), other noun-modifier (Chinese)	Regular: 1	Degree=Pos	auto	covered
+researcher	chercheur	1	NOUN	существительное	NNS	NNS: noun, plural	researchers: 1	Number=Plur	auto	covered
+study	étude	1	NOUN	существительное	NN	NN: noun, singular or mass	study: 1	Number=Sing	auto	covered
+treatment	traitement	1	NOUN	существительное	NN	NN: noun, singular or mass	treatment: 1	Number=Sing	auto	covered
+with	avec	1	ADP	предлог/послелог	IN	IN: conjunction, subordinating or preposition	with: 1		auto	covered

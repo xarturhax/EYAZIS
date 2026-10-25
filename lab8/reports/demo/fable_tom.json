@@ -1,0 +1,29 @@
+{
+  "text": "Dans une fable, la simplicité du récit peut cacher une réflexion complexe. Les animaux parlent, discutent et se trompent comme les êtres humains. Le lecteur sourit d’abord, puis reconnaît ses propres habitudes dans celles des personnages. Cette distance rend la critique à la fois légère et précise.",
+  "settings": {
+    "voice": "tom",
+    "speed": 1.0,
+    "volume": 0.8
+  },
+  "wav_path": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab8\\reports\\demo\\fable_tom.wav",
+  "duration": 18.04190476190476,
+  "sample_rate": 44100,
+  "peak": 0.7839999794960022,
+  "rms": 0.07962550222873688,
+  "initialization_seconds": 0.0026172999932896346,
+  "synthesis_seconds": 1.1155871000082698,
+  "chunks": 1,
+  "versions": {
+    "piper-tts": "1.8.0",
+    "onnxruntime": "1.31.0",
+    "numpy": "2.5.3",
+    "model_revision": "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd",
+    "device": "CPU",
+    "voice": "tom",
+    "normalization": "Piper per sentence; output peak factor 0.98",
+    "noise_scale": "0",
+    "noise_w_scale": "0"
+  },
+  "real_time_factor": 0.0618331110118604,
+  "auditory_evaluation": "PENDING_HUMAN_LISTENING"
+}

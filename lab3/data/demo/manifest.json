@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "documents": [
+    {
+      "path": "texts/medical_en.txt",
+      "language": "en",
+      "domain": "medicine",
+      "title": "Reduced insulin use and diabetes complications — excerpt",
+      "url": "https://doi.org/10.1371/journal.pmed.1004559",
+      "attribution": "Global Health & Population Project on Access to Care for Cardiometabolic Diseases (HPACC), PLOS Medicine 22(4), 2025",
+      "license": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "path": "texts/medical_es.txt",
+      "language": "es",
+      "domain": "medicine",
+      "title": "Calidad de vida en adultos mayores con diabetes mellitus — fragmento",
+      "url": "https://doi.org/10.56294/sctconf2023501",
+      "attribution": "Leyllan Izquierdo Martínez, Gicela Díaz Pita, Iván Bustinzuriaga Marto, Aileen Leal Flores; Salud, Ciencia y Tecnología — Serie de Conferencias, 2:501, 2023",
+      "license": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "path": "texts/art_en.txt",
+      "language": "en",
+      "domain": "art",
+      "title": "The Meaning of Pictures: Truth in Painting — excerpt",
+      "url": "https://www.gutenberg.org/ebooks/72598",
+      "attribution": "John C. Van Dyke, The Meaning of Pictures, Charles Scribner's Sons, 1911 edition; Project Gutenberg #72598",
+      "license": "Public domain in USA; Gutenberg source snapshot contains its redistribution terms"
+    },
+    {
+      "path": "texts/art_es.txt",
+      "language": "es",
+      "domain": "art",
+      "title": "Las meninas: técnica e interpretación — fragmento",
+      "url": "https://es.wikipedia.org/wiki/Las_meninas",
+      "attribution": "Contributors to Spanish Wikipedia, Las meninas; history: https://es.wikipedia.org/w/index.php?title=Las_meninas&action=history",
+      "license": "CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/; extracted text and summaries retain this license"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+﻿Лабораторная №4 · Вариант 12 · EN→FR
+
+Исходных слов: 33
+Переведённых исходных слов (покрытие словарём): 28
+Слов во французском тексте: 37
+
+ИСХОДНЫЙ ТЕКСТ
+
+The painting contrasts a bright foreground with a dark background. The artist uses colour and perspective to direct the viewer's attention. This contrast gives the composition a sense of depth and movement.
+
+ПЕРЕВОД
+
+La peinture contraste avec un premier plan lumineux avec un fond sombre. L'artiste utilise la couleur et la perspective pour orienter l'attention du spectateur. Ce contraste donne à la composition un sens de profondeur et de mouvement.
+
+ПРИМЕЧАНИЯ
+Автоматические словарные эквиваленты получены изолированно, требуют проверки и не являются выравниванием полного перевода.
+Число переведённых слов — число исходных словоупотреблений с эквивалентом в словаре; совпавшие с исходником автопереводы требуют ручного подтверждения и не входят в покрытие. Это не оценка качества.
+Длинные предложения делятся по 384 токена модели; возможна потеря контекста на границе. Исходный текст не обрезается.

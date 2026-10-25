@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "threshold": 0.75,
+  "cooldown_seconds": 1.2,
+  "commands": [
+    {
+      "language": "fr",
+      "phrase": "lecteur commence",
+      "action": "read",
+      "enabled": true
+    },
+    {
+      "language": "fr",
+      "phrase": "lecteur stop",
+      "action": "stop",
+      "enabled": true
+    },
+    {
+      "language": "fr",
+      "phrase": "lecteur suivant",
+      "action": "next",
+      "enabled": true
+    },
+    {
+      "language": "fr",
+      "phrase": "lecteur précédent",
+      "action": "previous",
+      "enabled": true
+    },
+    {
+      "language": "fr",
+      "phrase": "lecteur répète",
+      "action": "repeat",
+      "enabled": true
+    },
+    {
+      "language": "fr",
+      "phrase": "lecteur plus vite",
+      "action": "faster",
+      "enabled": true
+    },
+    {
+      "language": "fr",
+      "phrase": "lecteur plus lentement",
+      "action": "slower",
+      "enabled": true
+    },
+    {
+      "language": "en",
+      "phrase": "reader read",
+      "action": "read",
+      "enabled": true
+    },
+    {
+      "language": "en",
+      "phrase": "reader stop",
+      "action": "stop",
+      "enabled": true
+    },
+    {
+      "language": "en",
+      "phrase": "reader next",
+      "action": "next",
+      "enabled": true
+    },
+    {
+      "language": "en",
+      "phrase": "reader previous",
+      "action": "previous",
+      "enabled": true
+    },
+    {
+      "language": "en",
+      "phrase": "reader repeat",
+      "action": "repeat",
+      "enabled": true
+    },
+    {
+      "language": "en",
+      "phrase": "reader faster",
+      "action": "faster",
+      "enabled": true
+    },
+    {
+      "language": "en",
+      "phrase": "reader slower",
+      "action": "slower",
+      "enabled": true
+    }
+  ]
+}

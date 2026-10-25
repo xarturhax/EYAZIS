@@ -1,0 +1,932 @@
+{
+  "summary": {
+    "command_cases": 14,
+    "correct_commands": 7,
+    "command_accuracy": 0.5,
+    "negative_cases": 9,
+    "false_activations": 0,
+    "normalized_wer": 0.0546875,
+    "word_errors": 7,
+    "reference_words": 128,
+    "source_kind": "SYNTHETIC_ONLY",
+    "human_microphone_evaluation": "PENDING",
+    "policy": {
+      "commands": [
+        {
+          "language": "fr",
+          "phrase": "lecteur commence",
+          "action": "read",
+          "enabled": true
+        },
+        {
+          "language": "fr",
+          "phrase": "lecteur stop",
+          "action": "stop",
+          "enabled": true
+        },
+        {
+          "language": "fr",
+          "phrase": "lecteur suivant",
+          "action": "next",
+          "enabled": true
+        },
+        {
+          "language": "fr",
+          "phrase": "lecteur précédent",
+          "action": "previous",
+          "enabled": true
+        },
+        {
+          "language": "fr",
+          "phrase": "lecteur répète",
+          "action": "repeat",
+          "enabled": true
+        },
+        {
+          "language": "fr",
+          "phrase": "lecteur plus vite",
+          "action": "faster",
+          "enabled": true
+        },
+        {
+          "language": "fr",
+          "phrase": "lecteur plus lentement",
+          "action": "slower",
+          "enabled": true
+        },
+        {
+          "language": "en",
+          "phrase": "reader read",
+          "action": "read",
+          "enabled": true
+        },
+        {
+          "language": "en",
+          "phrase": "reader stop",
+          "action": "stop",
+          "enabled": true
+        },
+        {
+          "language": "en",
+          "phrase": "reader next",
+          "action": "next",
+          "enabled": true
+        },
+        {
+          "language": "en",
+          "phrase": "reader previous",
+          "action": "previous",
+          "enabled": true
+        },
+        {
+          "language": "en",
+          "phrase": "reader repeat",
+          "action": "repeat",
+          "enabled": true
+        },
+        {
+          "language": "en",
+          "phrase": "reader faster",
+          "action": "faster",
+          "enabled": true
+        },
+        {
+          "language": "en",
+          "phrase": "reader slower",
+          "action": "slower",
+          "enabled": true
+        }
+      ],
+      "threshold": 0.75,
+      "cooldown_seconds": 1.2
+    }
+  },
+  "cases": [
+    {
+      "id": "siwis_read",
+      "text": "lecteur commence",
+      "voice": "siwis",
+      "expected": "read",
+      "category": "command",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\siwis_read.wav",
+        "sha256": "819281a8c330aeb2582a7b0fd6372d54a6db99ded6cae3a37c66f82b45f9a55d",
+        "original_rate": 22050,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 1.4164375
+      },
+      "hypothesis": "lecteur commence",
+      "decisions": [
+        {
+          "status": "LOW_CONFIDENCE",
+          "action": null,
+          "text": "lecteur commence",
+          "confidence": 0.6909915,
+          "reason": "Недостаточная средняя уверенность."
+        }
+      ],
+      "actions": [],
+      "correct_action": false,
+      "word_errors": {
+        "errors": 0,
+        "reference_words": 2,
+        "wer": 0.0
+      },
+      "initialization_seconds": 0.43664300002274103,
+      "recognition_seconds": 0.9701202000142075
+    },
+    {
+      "id": "siwis_stop",
+      "text": "lecteur stop",
+      "voice": "siwis",
+      "expected": "stop",
+      "category": "command",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\siwis_stop.wav",
+        "sha256": "cec43af5512c2f0ed29e54a20ec356f5388e1822473a51dd86660ba7da0370f1",
+        "original_rate": 22050,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 1.1494375
+      },
+      "hypothesis": "lecteur staps",
+      "decisions": [
+        {
+          "status": "UNKNOWN",
+          "action": null,
+          "text": "lecteur staps",
+          "confidence": 0.8202545,
+          "reason": "Фраза не совпадает с заданной командой целиком."
+        }
+      ],
+      "actions": [],
+      "correct_action": false,
+      "word_errors": {
+        "errors": 1,
+        "reference_words": 2,
+        "wer": 0.5
+      },
+      "initialization_seconds": 0.0014284999924711883,
+      "recognition_seconds": 0.8520736999926157
+    },
+    {
+      "id": "siwis_next",
+      "text": "lecteur suivant",
+      "voice": "siwis",
+      "expected": "next",
+      "category": "command",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\siwis_next.wav",
+        "sha256": "ffe5e679b28f405bfe5a3c38b3db43bf4f1ea5b06fdad3cad20bfdbb823c0abf",
+        "original_rate": 22050,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 1.2075
+      },
+      "hypothesis": "l'été suivant",
+      "decisions": [
+        {
+          "status": "UNKNOWN",
+          "action": null,
+          "text": "l'été suivant",
+          "confidence": 0.6529195,
+          "reason": "Фраза не совпадает с заданной командой целиком."
+        }
+      ],
+      "actions": [],
+      "correct_action": false,
+      "word_errors": {
+        "errors": 2,
+        "reference_words": 2,
+        "wer": 1.0
+      },
+      "initialization_seconds": 0.0009501999884378165,
+      "recognition_seconds": 1.1072318000078667
+    },
+    {
+      "id": "siwis_previous",
+      "text": "lecteur précédent",
+      "voice": "siwis",
+      "expected": "previous",
+      "category": "command",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\siwis_previous.wav",
+        "sha256": "0d68dddf636eb7ef481d3fb11dc75ecd19c922cd3628ef0c8d5bcaa758320c37",
+        "original_rate": 22050,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 1.39325
+      },
+      "hypothesis": "lecteur précédent",
+      "decisions": [
+        {
+          "status": "LOW_CONFIDENCE",
+          "action": null,
+          "text": "lecteur précédent",
+          "confidence": 0.6834445,
+          "reason": "Недостаточная средняя уверенность."
+        }
+      ],
+      "actions": [],
+      "correct_action": false,
+      "word_errors": {
+        "errors": 0,
+        "reference_words": 2,
+        "wer": 0.0
+      },
+      "initialization_seconds": 0.000675299990689382,
+      "recognition_seconds": 0.8885422000021208
+    },
+    {
+      "id": "siwis_repeat",
+      "text": "lecteur répète",
+      "voice": "siwis",
+      "expected": "repeat",
+      "category": "command",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\siwis_repeat.wav",
+        "sha256": "87892ef37b1e04689cbe45fd1399e6174ec900878c222cfc5cccd65923dee05f",
+        "original_rate": 22050,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 1.2075
+      },
+      "hypothesis": "l'etat répète",
+      "decisions": [
+        {
+          "status": "UNKNOWN",
+          "action": null,
+          "text": "l'etat répète",
+          "confidence": 0.6106145000000001,
+          "reason": "Фраза не совпадает с заданной командой целиком."
+        }
+      ],
+      "actions": [],
+      "correct_action": false,
+      "word_errors": {
+        "errors": 2,
+        "reference_words": 2,
+        "wer": 1.0
+      },
+      "initialization_seconds": 0.0007014000148046762,
+      "recognition_seconds": 0.8367720999813173
+    },
+    {
+      "id": "siwis_faster",
+      "text": "lecteur plus vite",
+      "voice": "siwis",
+      "expected": "faster",
+      "category": "command",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\siwis_faster.wav",
+        "sha256": "ce18851920b7976e2d3209d179681564aac6d382b70f52a3f2473934f52f2b7f",
+        "original_rate": 22050,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 1.3351875
+      },
+      "hypothesis": "lecteur plus vite",
+      "decisions": [
+        {
+          "status": "ACCEPTED",
+          "action": "faster",
+          "text": "lecteur plus vite",
+          "confidence": 0.9008953333333333,
+          "reason": "Команда принята."
+        }
+      ],
+      "actions": [
+        "faster"
+      ],
+      "correct_action": true,
+      "word_errors": {
+        "errors": 0,
+        "reference_words": 3,
+        "wer": 0.0
+      },
+      "initialization_seconds": 0.0008688000089023262,
+      "recognition_seconds": 0.996015599987004
+    },
+    {
+      "id": "siwis_slower",
+      "text": "lecteur plus lentement",
+      "voice": "siwis",
+      "expected": "slower",
+      "category": "command",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\siwis_slower.wav",
+        "sha256": "d089cf58d3e91f9761bd86f5f297b62c70a84da3e580828390884cbd3f2da981",
+        "original_rate": 22050,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 1.5325625
+      },
+      "hypothesis": "lecteur plus lentement",
+      "decisions": [
+        {
+          "status": "ACCEPTED",
+          "action": "slower",
+          "text": "lecteur plus lentement",
+          "confidence": 0.9007726666666667,
+          "reason": "Команда принята."
+        }
+      ],
+      "actions": [
+        "slower"
+      ],
+      "correct_action": true,
+      "word_errors": {
+        "errors": 0,
+        "reference_words": 3,
+        "wer": 0.0
+      },
+      "initialization_seconds": 0.0006852999795228243,
+      "recognition_seconds": 1.0716014000063296
+    },
+    {
+      "id": "siwis_negative1",
+      "text": "Le roman invite le lecteur à réfléchir à la justice.",
+      "voice": "siwis",
+      "expected": null,
+      "category": "negative",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\siwis_negative1.wav",
+        "sha256": "bdb7ffb32b568c13404600a66dd57d77a37b1351cbe3a11ebf9c2f5966ce12d2",
+        "original_rate": 22050,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 3.19275
+      },
+      "hypothesis": "le roman invite le lecteur à réfléchir à la justice",
+      "decisions": [
+        {
+          "status": "UNKNOWN",
+          "action": null,
+          "text": "le roman invite le lecteur à réfléchir à la justice",
+          "confidence": 0.9778607000000001,
+          "reason": "Фраза не совпадает с заданной командой целиком."
+        }
+      ],
+      "actions": [],
+      "correct_action": true,
+      "word_errors": {
+        "errors": 0,
+        "reference_words": 10,
+        "wer": 0.0
+      },
+      "initialization_seconds": 0.0006786000158172101,
+      "recognition_seconds": 1.2689192999969237
+    },
+    {
+      "id": "siwis_negative2",
+      "text": "Lecteur commence le récit de ce personnage.",
+      "voice": "siwis",
+      "expected": null,
+      "category": "negative",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\siwis_negative2.wav",
+        "sha256": "128692a0f596772b7f28f85eb071cbbbe6fce76ec74f71633f2b8ff7db75e0ae",
+        "original_rate": 22050,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 2.5078125
+      },
+      "hypothesis": "lecteur commence le récit de ce personnage",
+      "decisions": [
+        {
+          "status": "UNKNOWN",
+          "action": null,
+          "text": "lecteur commence le récit de ce personnage",
+          "confidence": 0.9404238571428571,
+          "reason": "Фраза не совпадает с заданной командой целиком."
+        }
+      ],
+      "actions": [],
+      "correct_action": true,
+      "word_errors": {
+        "errors": 0,
+        "reference_words": 7,
+        "wer": 0.0
+      },
+      "initialization_seconds": 0.0008605000039096922,
+      "recognition_seconds": 1.2446739999868441
+    },
+    {
+      "id": "siwis_negative3",
+      "text": "Ce livre décrit la vie quotidienne.",
+      "voice": "siwis",
+      "expected": null,
+      "category": "negative",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\siwis_negative3.wav",
+        "sha256": "254f82c5de402bf93bb1a69d4a774992c5a0bbad260f77b427fa1724d1205d04",
+        "original_rate": 22050,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 1.86925
+      },
+      "hypothesis": "ce livre décrit la vie quotidienne",
+      "decisions": [
+        {
+          "status": "UNKNOWN",
+          "action": null,
+          "text": "ce livre décrit la vie quotidienne",
+          "confidence": 1.0,
+          "reason": "Фраза не совпадает с заданной командой целиком."
+        }
+      ],
+      "actions": [],
+      "correct_action": true,
+      "word_errors": {
+        "errors": 0,
+        "reference_words": 6,
+        "wer": 0.0
+      },
+      "initialization_seconds": 0.0007591000176034868,
+      "recognition_seconds": 1.1272877999872435
+    },
+    {
+      "id": "tom_read",
+      "text": "lecteur commence",
+      "voice": "tom",
+      "expected": "read",
+      "category": "command",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\tom_read.wav",
+        "sha256": "8f9331a4196c9337a93b4f0c71b7580aeccfd7f9d3302d6aa487491cef6629af",
+        "original_rate": 44100,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 1.462875
+      },
+      "hypothesis": "lecteur commence",
+      "decisions": [
+        {
+          "status": "ACCEPTED",
+          "action": "read",
+          "text": "lecteur commence",
+          "confidence": 0.7680340000000001,
+          "reason": "Команда принята."
+        }
+      ],
+      "actions": [
+        "read"
+      ],
+      "correct_action": true,
+      "word_errors": {
+        "errors": 0,
+        "reference_words": 2,
+        "wer": 0.0
+      },
+      "initialization_seconds": 0.0007756000268273056,
+      "recognition_seconds": 0.8941430000122637
+    },
+    {
+      "id": "tom_stop",
+      "text": "lecteur stop",
+      "voice": "tom",
+      "expected": "stop",
+      "category": "command",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\tom_stop.wav",
+        "sha256": "b7ad444befe1604a44484a7161a324eb5f9f7624bcf1fd6f14594bbed4d1dc4d",
+        "original_rate": 44100,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 1.21325
+      },
+      "hypothesis": "lecteur stop",
+      "decisions": [
+        {
+          "status": "ACCEPTED",
+          "action": "stop",
+          "text": "lecteur stop",
+          "confidence": 0.860769,
+          "reason": "Команда принята."
+        }
+      ],
+      "actions": [
+        "stop"
+      ],
+      "correct_action": true,
+      "word_errors": {
+        "errors": 0,
+        "reference_words": 2,
+        "wer": 0.0
+      },
+      "initialization_seconds": 0.0009218000050168484,
+      "recognition_seconds": 0.9444853999884799
+    },
+    {
+      "id": "tom_next",
+      "text": "lecteur suivant",
+      "voice": "tom",
+      "expected": "next",
+      "category": "command",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\tom_next.wav",
+        "sha256": "a7b245fd9106a9314d7b425c65b912c4697f98e4c6e70d6d0fb35daa31019c8a",
+        "original_rate": 44100,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 1.195875
+      },
+      "hypothesis": "lecteur suivant",
+      "decisions": [
+        {
+          "status": "LOW_CONFIDENCE",
+          "action": null,
+          "text": "lecteur suivant",
+          "confidence": 0.6596875,
+          "reason": "Недостаточная средняя уверенность."
+        }
+      ],
+      "actions": [],
+      "correct_action": false,
+      "word_errors": {
+        "errors": 0,
+        "reference_words": 2,
+        "wer": 0.0
+      },
+      "initialization_seconds": 0.0008947000023908913,
+      "recognition_seconds": 1.057715199975064
+    },
+    {
+      "id": "tom_previous",
+      "text": "lecteur précédent",
+      "voice": "tom",
+      "expected": "previous",
+      "category": "command",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\tom_previous.wav",
+        "sha256": "b77b6885961b2251e3c249826316403b98be0b59faeae82ebcbff245c191f67a",
+        "original_rate": 44100,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 1.39325
+      },
+      "hypothesis": "lecteur précédent",
+      "decisions": [
+        {
+          "status": "LOW_CONFIDENCE",
+          "action": null,
+          "text": "lecteur précédent",
+          "confidence": 0.683492,
+          "reason": "Недостаточная средняя уверенность."
+        }
+      ],
+      "actions": [],
+      "correct_action": false,
+      "word_errors": {
+        "errors": 0,
+        "reference_words": 2,
+        "wer": 0.0
+      },
+      "initialization_seconds": 0.0009085999918170273,
+      "recognition_seconds": 0.9060305999882985
+    },
+    {
+      "id": "tom_repeat",
+      "text": "lecteur répète",
+      "voice": "tom",
+      "expected": "repeat",
+      "category": "command",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\tom_repeat.wav",
+        "sha256": "805382c4acea7470d53bc3930c3bb441993d7b48d42092fe94767dea51e042bd",
+        "original_rate": 44100,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 1.5035
+      },
+      "hypothesis": "lecteur répète",
+      "decisions": [
+        {
+          "status": "ACCEPTED",
+          "action": "repeat",
+          "text": "lecteur répète",
+          "confidence": 0.798825,
+          "reason": "Команда принята."
+        }
+      ],
+      "actions": [
+        "repeat"
+      ],
+      "correct_action": true,
+      "word_errors": {
+        "errors": 0,
+        "reference_words": 2,
+        "wer": 0.0
+      },
+      "initialization_seconds": 0.0009862000006251037,
+      "recognition_seconds": 1.0231389999971725
+    },
+    {
+      "id": "tom_faster",
+      "text": "lecteur plus vite",
+      "voice": "tom",
+      "expected": "faster",
+      "category": "command",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\tom_faster.wav",
+        "sha256": "f71b81ab7cd0d3794db8aa37b14d440f2b59a9f529586cd9c968278b12a7eb4f",
+        "original_rate": 44100,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 1.2829375
+      },
+      "hypothesis": "lecteur plus vite",
+      "decisions": [
+        {
+          "status": "ACCEPTED",
+          "action": "faster",
+          "text": "lecteur plus vite",
+          "confidence": 0.907164,
+          "reason": "Команда принята."
+        }
+      ],
+      "actions": [
+        "faster"
+      ],
+      "correct_action": true,
+      "word_errors": {
+        "errors": 0,
+        "reference_words": 3,
+        "wer": 0.0
+      },
+      "initialization_seconds": 0.0007778000144753605,
+      "recognition_seconds": 0.9487596999970265
+    },
+    {
+      "id": "tom_slower",
+      "text": "lecteur plus lentement",
+      "voice": "tom",
+      "expected": "slower",
+      "category": "command",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\tom_slower.wav",
+        "sha256": "83871085d6b2ed226a9f679842fab8bef51a0352dc81b924b2e1efdd34b336ec",
+        "original_rate": 44100,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 1.579
+      },
+      "hypothesis": "lecteur plus lentement",
+      "decisions": [
+        {
+          "status": "ACCEPTED",
+          "action": "slower",
+          "text": "lecteur plus lentement",
+          "confidence": 0.9071889999999999,
+          "reason": "Команда принята."
+        }
+      ],
+      "actions": [
+        "slower"
+      ],
+      "correct_action": true,
+      "word_errors": {
+        "errors": 0,
+        "reference_words": 3,
+        "wer": 0.0
+      },
+      "initialization_seconds": 0.0009660999930929393,
+      "recognition_seconds": 1.013642100006109
+    },
+    {
+      "id": "tom_negative1",
+      "text": "Le roman invite le lecteur à réfléchir à la justice.",
+      "voice": "tom",
+      "expected": null,
+      "category": "negative",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\tom_negative1.wav",
+        "sha256": "eb8c5ef4fc5e4f173e9becb7ae3557e4f6c37efd56196b0603a9ca585896236e",
+        "original_rate": 44100,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 3.6861875
+      },
+      "hypothesis": "le roman invite le lecteur à réfléchir à la justice",
+      "decisions": [
+        {
+          "status": "UNKNOWN",
+          "action": null,
+          "text": "le roman invite le lecteur à réfléchir à la justice",
+          "confidence": 0.9778625,
+          "reason": "Фраза не совпадает с заданной командой целиком."
+        }
+      ],
+      "actions": [],
+      "correct_action": true,
+      "word_errors": {
+        "errors": 0,
+        "reference_words": 10,
+        "wer": 0.0
+      },
+      "initialization_seconds": 0.0009275999909732491,
+      "recognition_seconds": 1.2917370999930426
+    },
+    {
+      "id": "tom_negative2",
+      "text": "Lecteur commence le récit de ce personnage.",
+      "voice": "tom",
+      "expected": null,
+      "category": "negative",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\tom_negative2.wav",
+        "sha256": "d79b12a91c637f849bbaab5dc81163f13b6ccfa33631601d8b19a558f39a8b43",
+        "original_rate": 44100,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 2.8793125
+      },
+      "hypothesis": "lecteur commence le récit de ce personnage",
+      "decisions": [
+        {
+          "status": "UNKNOWN",
+          "action": null,
+          "text": "lecteur commence le récit de ce personnage",
+          "confidence": 0.9404272857142857,
+          "reason": "Фраза не совпадает с заданной командой целиком."
+        }
+      ],
+      "actions": [],
+      "correct_action": true,
+      "word_errors": {
+        "errors": 0,
+        "reference_words": 7,
+        "wer": 0.0
+      },
+      "initialization_seconds": 0.0007523999956902117,
+      "recognition_seconds": 1.2717452000069898
+    },
+    {
+      "id": "tom_negative3",
+      "text": "Ce livre décrit la vie quotidienne.",
+      "voice": "tom",
+      "expected": null,
+      "category": "negative",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\tom_negative3.wav",
+        "sha256": "aa4fa5bd1e8e35ddd354d12d422ad19c243bdbc878b5be0bd86d22dc9edad3d6",
+        "original_rate": 44100,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 2.3975
+      },
+      "hypothesis": "ce livre décrit la vie quotidienne",
+      "decisions": [
+        {
+          "status": "UNKNOWN",
+          "action": null,
+          "text": "ce livre décrit la vie quotidienne",
+          "confidence": 1.0,
+          "reason": "Фраза не совпадает с заданной командой целиком."
+        }
+      ],
+      "actions": [],
+      "correct_action": true,
+      "word_errors": {
+        "errors": 0,
+        "reference_words": 6,
+        "wer": 0.0
+      },
+      "initialization_seconds": 0.0007817000150680542,
+      "recognition_seconds": 1.2425435000041034
+    },
+    {
+      "id": "dictation_hugo",
+      "text": "Dans Les Misérables, Victor Hugo oppose la rigueur de la loi à l’exigence de compassion. Le parcours de Jean Valjean montre qu’un personnage peut changer sans effacer son passé. Le roman invite ainsi le lecteur à réfléchir à la justice, à la responsabilité et à la dignité humaine.",
+      "voice": "siwis",
+      "expected": null,
+      "category": "dictation",
+      "source_kind": "SYNTHETIC_PIPER",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\dictation_hugo.wav",
+        "sha256": "ecb938c52aea9371e7b03c777d52d8d9cb6c172a4b0e284fc21a4ff9c1f585ad",
+        "original_rate": 22050,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 15.5458125
+      },
+      "hypothesis": "dans les misérables victor hugo oppose la rigueur de la loire l'exigence de compassion le parcours de jean valjean montre qu'un personnage peut changer sans effacer son passé le roman invite ainsi le lecteur à réfléchir à la justice a la responsabilité et à la dignité humaine",
+      "decisions": [
+        {
+          "status": "UNKNOWN",
+          "action": null,
+          "text": "dans les misérables victor hugo oppose la rigueur de la loire l'exigence de compassion le parcours de jean valjean montre qu'un personnage peut changer sans effacer son passé le roman invite ainsi le lecteur à réfléchir à la justice a la responsabilité et à la dignité humaine",
+          "confidence": 0.9266898723404254,
+          "reason": "Фраза не совпадает с заданной командой целиком."
+        }
+      ],
+      "actions": [],
+      "correct_action": true,
+      "word_errors": {
+        "errors": 2,
+        "reference_words": 50,
+        "wer": 0.04
+      },
+      "initialization_seconds": 0.0007887999818194658,
+      "recognition_seconds": 2.9233362000086345
+    },
+    {
+      "id": "silence",
+      "text": "",
+      "voice": "none",
+      "category": "technical_negative",
+      "source_kind": "SYNTHETIC_SIGNAL",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\silence.wav",
+        "sha256": "20eaebffe1816e0ffa6f7f854f5ef4ea80d5349faaf0ce1fec1b713e7fde58fa",
+        "original_rate": 16000,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 2.0
+      },
+      "hypothesis": "",
+      "decisions": [],
+      "actions": [],
+      "expected": null,
+      "correct_action": true,
+      "word_errors": {
+        "errors": 0,
+        "reference_words": 0,
+        "wer": 0.0
+      },
+      "recognition_seconds": 0.8405574999924283,
+      "initialization_seconds": 0.0011376000184100121
+    },
+    {
+      "id": "noise",
+      "text": "",
+      "voice": "none",
+      "category": "technical_negative",
+      "source_kind": "SYNTHETIC_SIGNAL",
+      "input": {
+        "source": "C:\\Users\\user\\PycharmProjects\\EYAZIS\\lab9\\reports\\demo\\audio\\noise.wav",
+        "sha256": "ea7f4f4edf5d8a48f265dd28be9d01a835aedb5fa461e43e60b34f1c5d83f0b2",
+        "original_rate": 16000,
+        "original_channels": 1,
+        "selected_channel": 1,
+        "decoder_rate": 16000,
+        "duration": 2.0
+      },
+      "hypothesis": "",
+      "decisions": [],
+      "actions": [],
+      "expected": null,
+      "correct_action": true,
+      "word_errors": {
+        "errors": 0,
+        "reference_words": 0,
+        "wer": 0.0
+      },
+      "recognition_seconds": 0.8087857999780681,
+      "initialization_seconds": 0.0006696000054944307
+    }
+  ]
+}
