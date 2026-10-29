@@ -109,7 +109,7 @@ def assemble(recipe_id: str, bank: Path, output: Path, crossfade_ms: float) -> N
                 "crossfade_ms": crossfade_ms,
                 "duration": result.duration,
                 "intelligibility": "PENDING_LISTENING",
-                "note": "Draft phonemic transcription; check against the speaker. No automatic intonation imposed.",
+                "note": "Reviewed symbolic recipe in a simplified teaching alphabet; reductions and coarticulation are not modeled. No automatic intonation imposed.",
             },
             ensure_ascii=False,
             indent=2,

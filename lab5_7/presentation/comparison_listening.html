@@ -1,0 +1,34 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Лабораторная 5 — сравнения</title>
+<style>body{font:17px system-ui;max-width:1050px;margin:25px auto;padding:0 18px;color:#17243c}article{border:1px solid #ccd;border-radius:8px;padding:16px;margin:18px 0}article.done{border-left:5px solid #26834a}p{line-height:1.5}audio,img{max-width:100%}audio{vertical-align:middle}button,select,textarea,input{font:inherit;margin:5px;padding:6px}textarea{display:block;width:95%;min-height:70px}header{position:sticky;top:0;background:white;padding:10px 0;z-index:2}</style>
+<h1>Оставшиеся сравнения №5</h1>
+<p>Новые записи не нужны. Здесь 14 карточек: четыре йотированных звука, четыре сравнения фрикативных,
+четыре сравнения б/д/м/н и две подборки дикторов. Для каждой прослушайте примеры и кратко запишите наблюдение.</p>
+<p>Изолированные единицы банка уже подтверждены. Метки целых слогов, йотированных звуков и второго диктора
+пока следуют порядку чтения, а их границы предложены автоматически. Проверьте соответствие подписей:
+ошибку можно отметить, не подтверждая её как верную. Начальные выделения из слогов — кандидаты,
+в них может оставаться гласный. Исходную разметку эта страница не меняет.</p>
+<header><label>Группа <select id="group"><option value="">Все</option><option value="iotated">Я, ё, ю, е</option><option value="fricative_context">Фрикативные в контексте</option><option value="consonant_context">Б, д, м, н</option><option value="speakers">Два диктора</option></select></label>
+<label><input type="checkbox" id="pending">Только неоценённые</label><button id="save">Скачать наблюдения JSON</button>
+<label>Восстановить <input type="file" accept=".json" id="restore"></label><div id="progress"></div><div id="notice" role="status"></div></header>
+<main id="cards"></main><p>Перед закрытием скачайте lab5_comparisons.json. Автоматического сохранения нет; частичный файл можно восстановить.</p>
+<script>
+const model=__MODEL__,rows=model.results.map(r=>({...r,completed:false,labels_match:'',comment:''}));
+const notice=s=>document.querySelector('#notice').textContent=s;
+const progress=()=>document.querySelector('#progress').textContent='Заполнено '+rows.filter(r=>r.completed).length+' из '+rows.length;
+const valid=r=>['yes','no','unclear'].includes(r.labels_match)&&typeof r.comment==='string'&&r.comment.trim().length>=2;
+function render(){const root=document.querySelector('#cards');root.replaceChildren();const group=document.querySelector('#group').value,pending=document.querySelector('#pending').checked;
+for(const r of rows.filter(r=>(!group||r.group===group)&&(!pending||!r.completed))){const card=document.createElement('article'),title=document.createElement('h2'),instruction=document.createElement('p');title.textContent=r.title;instruction.textContent=r.question;card.classList.toggle('done',r.completed);card.append(title,instruction);
+for(const clip of r.clips){const p=document.createElement('p'),audio=document.createElement('audio');audio.controls=true;audio.preload='none';audio.src=clip.wav;p.append(clip.title+' ',audio);card.append(p);}
+const image=document.createElement('img');image.src=r.plot;image.alt='Осциллограммы сравниваемых записей';card.append(image);
+const check=document.createElement('input');check.type='checkbox';check.checked=r.completed;
+function changed(){r.completed=false;check.checked=false;card.classList.remove('done');progress();}
+const select=document.createElement('select');for(const [value,caption]of [['','Подписи соответствуют звучанию?'],['yes','Да'],['no','Нет, есть ошибка'],['unclear','Не уверен']]){const option=document.createElement('option');option.value=value;option.textContent=caption;select.append(option);}select.value=r.labels_match;select.addEventListener('change',()=>{r.labels_match=select.value;changed();});card.append(select);
+const comment=document.createElement('textarea');comment.placeholder='Кратко: что слышно, чем различаются примеры. Если подпись неверна — какой пример?';comment.value=r.comment;comment.addEventListener('input',()=>{r.comment=comment.value;changed();});card.append(comment);
+check.addEventListener('change',()=>{if(check.checked&&!valid(r)){check.checked=false;notice('Выберите соответствие подписей и напишите краткое наблюдение.');return;}r.completed=check.checked;card.classList.toggle('done',r.completed);notice('');progress();});const label=document.createElement('label');label.append(check,' Примеры прослушаны, наблюдение записано');card.append(label);root.append(card);}progress();}
+for(const id of ['group','pending'])document.querySelector('#'+id).addEventListener('change',render);
+document.querySelector('#save').addEventListener('click',()=>{const data={schema:1,assessment_kind:'LAB5_COMPARISON_LISTENING',manifest_sha256:model.manifest_sha256,created_at:new Date().toISOString(),results:rows.map(r=>({id:r.id,clip_hashes:r.clips.map(c=>c.sha256),completed:r.completed,labels_match:r.labels_match,comment:r.comment}))};const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json;charset=utf-8'})),link=document.createElement('a');link.href=url;link.download='lab5_comparisons.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);notice('Наблюдения скачаны.');});
+function restoreComparisons(data){if(data.schema!==1||data.assessment_kind!=='LAB5_COMPARISON_LISTENING'||data.manifest_sha256!==model.manifest_sha256||!Array.isArray(data.results)||data.results.length!==rows.length)throw Error('Файл относится к другим примерам.');const byId=new Map(data.results.map(r=>[r.id,r]));if(byId.size!==rows.length)throw Error('Повторяющиеся записи.');const updated=rows.map(r=>{const s=byId.get(r.id);if(!s||JSON.stringify(s.clip_hashes)!==JSON.stringify(r.clips.map(c=>c.sha256))||typeof s.completed!=='boolean'||typeof s.comment!=='string'||!['','yes','no','unclear'].includes(s.labels_match))throw Error('Изменён пример '+r.id);const candidate={...r,completed:s.completed,labels_match:s.labels_match,comment:s.comment};if(candidate.completed&&!valid(candidate))throw Error('Не заполнено наблюдение '+r.id);return candidate;});updated.forEach((r,i)=>rows[i]=r);render();}
+document.querySelector('#restore').addEventListener('change',async event=>{try{const file=event.target.files[0];if(!file)return;restoreComparisons(JSON.parse(await file.text()));notice('Наблюдения восстановлены.');}catch(e){notice(e.message);}});
+render();
+</script></html>

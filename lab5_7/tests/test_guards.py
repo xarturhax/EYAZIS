@@ -1,3 +1,4 @@
+import json
 import tempfile
 import unittest
 from pathlib import Path
@@ -25,7 +26,25 @@ class GuardTests(unittest.TestCase):
     def test_draft_recipe_is_not_executed(self):
         with tempfile.TemporaryDirectory() as directory:
             base = Path(directory)
-            with self.assertRaises(ValueError):
+            (base / "data").mkdir()
+            (base / "data/recipes.json").write_text(
+                json.dumps(
+                    [
+                        {
+                            "id": "ref1_phones",
+                            "status": "DRAFT_TRANSCRIPTION_REVIEW_REQUIRED",
+                            "units": ["ph_a"],
+                        }
+                    ]
+                )
+            )
+            from lab5_7.infrastructure.wav import save
+
+            save(tone(), base / "ph_a.wav")
+            with (
+                patch("lab5_7.application.experiments.ROOT", base),
+                self.assertRaisesRegex(ValueError, "транскрипцию"),
+            ):
                 assemble("ref1_phones", base, base / "output.wav", 0)
             self.assertFalse((base / "output.wav").exists())
 

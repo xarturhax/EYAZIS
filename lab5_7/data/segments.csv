@@ -1,77 +1,77 @@
 ﻿id,file,start,end,kind,reviewed,note
-ph_a,vowels.wav,,,phone,,phoneme a
-ph_o,vowels.wav,,,phone,,phoneme o
-ph_u,vowels.wav,,,phone,,phoneme u
-ph_e,vowels.wav,,,phone,,phoneme e
-ph_y,vowels.wav,,,phone,,phoneme y
-ph_i,vowels.wav,,,phone,,phoneme i
-ph_j,iotated.wav,,,phone,,phoneme j
-ph_l,hard_syllables.wav,,,phone,,phoneme l
-ph_l_soft,soft_syllables.wav,,,phone,,phoneme l_soft
-ph_m,consonants.wav,,,phone,,phoneme m
-ph_m_soft,soft_syllables.wav,,,phone,,phoneme m_soft
-ph_n,consonants.wav,,,phone,,phoneme n
-ph_n_soft,soft_syllables.wav,,,phone,,phoneme n_soft
-ph_r,hard_syllables.wav,,,phone,,phoneme r
-ph_r_soft,soft_syllables.wav,,,phone,,phoneme r_soft
-ph_p,hard_syllables.wav,,,phone,,phoneme p
-ph_p_soft,soft_syllables.wav,,,phone,,phoneme p_soft
-ph_k,hard_syllables.wav,,,phone,,phoneme k
-ph_k_soft,soft_syllables.wav,,,phone,,phoneme k_soft
-ph_t,hard_syllables.wav,,,phone,,phoneme t
-ph_t_soft,soft_syllables.wav,,,phone,,phoneme t_soft
-ph_v,hard_syllables.wav,,,phone,,phoneme v
-ph_v_soft,soft_syllables.wav,,,phone,,phoneme v_soft
-ph_z,hard_syllables.wav,,,phone,,phoneme z
-ph_z_soft,soft_syllables.wav,,,phone,,phoneme z_soft
-ph_zh,hard_syllables.wav,,,phone,,phoneme zh
-ph_b,consonants.wav,,,phone,,phoneme b
-ph_b_soft,soft_syllables.wav,,,phone,,phoneme b_soft
-ph_d,consonants.wav,,,phone,,phoneme d
-ph_d_soft,soft_syllables.wav,,,phone,,phoneme d_soft
-ph_g,hard_syllables.wav,,,phone,,phoneme g
-ph_g_soft,soft_syllables.wav,,,phone,,phoneme g_soft
-ph_f,fricatives.wav,,,phone,,phoneme f
-ph_f_soft,soft_syllables.wav,,,phone,,phoneme f_soft
-ph_s,fricatives.wav,,,phone,,phoneme s
-ph_s_soft,soft_syllables.wav,,,phone,,phoneme s_soft
-ph_sh,fricatives.wav,,,phone,,phoneme sh
-ph_shch,hard_syllables.wav,,,phone,,phoneme shch
-ph_h,fricatives.wav,,,phone,,phoneme h
-ph_h_soft,soft_syllables.wav,,,phone,,phoneme h_soft
-ph_ts,hard_syllables.wav,,,phone,,phoneme ts
-ph_ch,hard_syllables.wav,,,phone,,phoneme ch
-sy_sa,syllable_bank.wav,,,syllable,,sa
-sy_sha,syllable_bank.wav,,,syllable,,sha
-sy_ku,syllable_bank.wav,,,syllable,,ku
-sy_shal,syllable_bank.wav,,,syllable,,shal
-sy_ka,syllable_bank.wav,,,syllable,,ka
-sy_shu,syllable_bank.wav,,,syllable,,shu
-sy_a,syllable_bank.wav,,,syllable,,a
-sy_ma,syllable_bank.wav,,,syllable,,ma
-sy_pi,syllable_bank.wav,,,syllable,,pi
-sy_la,syllable_bank.wav,,,syllable,,la
-sy_sok,syllable_bank.wav,,,syllable,,sok
-sy_pa,syllable_bank.wav,,,syllable,,pa
-sy_i,syllable_bank.wav,,,syllable,,i
-sy_li,syllable_bank.wav,,,syllable,,li
-word_sasha,words.wav,,,word,,sasha
-word_kushal,words.wav,,,word,,kushal
-word_kashu,words.wav,,,word,,kashu
-ref_1,references.wav,,,reference,,Reference 1
-ref_2,references.wav,,,reference,,Reference 2
-ref_3,references.wav,,,reference,,Reference 3
-ref_4,references.wav,,,reference,,Reference 4
-student_student,student.wav,,,word,,student
-student_pisal,student.wav,,,word,,pisal
-student_referat,student.wav,,,word,,referat
-stress1_sasha,stress.wav,,,word,,Whole phrase stress condition
-stress1_kushal,stress.wav,,,word,,Whole phrase stress condition
-stress1_kashu,stress.wav,,,word,,Whole phrase stress condition
-stress2_sasha,stress.wav,,,word,,Whole phrase stress condition
-stress2_kushal,stress.wav,,,word,,Whole phrase stress condition
-stress2_kashu,stress.wav,,,word,,Whole phrase stress condition
-stress3_sasha,stress.wav,,,word,,Whole phrase stress condition
-stress3_kushal,stress.wav,,,word,,Whole phrase stress condition
-stress3_kashu,stress.wav,,,word,,Whole phrase stress condition
-student_phrase,student.wav,,,reference,,One complete monotone reference
+ph_a,vowels.wav,3.0125,3.2525,phone,yes,Human-reviewed.
+ph_o,vowels.wav,5.905,6.145,phone,yes,Human-reviewed.
+ph_u,vowels.wav,8.8975,9.1375,phone,yes,Human-reviewed.
+ph_e,vowels.wav,11.775,12.015,phone,yes,Human-reviewed.
+ph_y,vowels.wav,14.5125,14.7525,phone,yes,Human-reviewed.
+ph_i,vowels.wav,17.3225,17.5625,phone,yes,Human-reviewed.
+ph_j,iotated.wav,2.185,2.375,phone,yes,Human-reviewed.
+ph_l,hard_syllables.wav,14.825,15.015,phone,yes,Human-reviewed.
+ph_l_soft,soft_syllables.wav,12.225,12.415,phone,yes,Human-reviewed.
+ph_m,consonants.wav,5.86,6.1,phone,yes,Human-reviewed.
+ph_m_soft,soft_syllables.wav,13.9,14.09,phone,yes,Human-reviewed.
+ph_n,consonants.wav,8.0025,8.2425,phone,yes,Human-reviewed.
+ph_n_soft,soft_syllables.wav,15.6,15.79,phone,yes,Human-reviewed.
+ph_r,hard_syllables.wav,21.778,21.879,phone,yes,Human-reviewed.
+ph_r_soft,soft_syllables.wav,19.025,19.215,phone,yes,Human-reviewed.
+ph_p,hard_syllables.wav,20.075,20.174,phone,yes,Human-reviewed.
+ph_p_soft,soft_syllables.wav,17.39,17.475,phone,yes,Human-reviewed.
+ph_k,hard_syllables.wav,13.32,13.43,phone,yes,Human-reviewed.
+ph_k_soft,soft_syllables.wav,10.605,10.735,phone,yes,Human-reviewed.
+ph_t,hard_syllables.wav,61.024,61.065,phone,yes,"Human-reviewed. Human-reviewed in conversation: second T candidate selected, 61.024-61.065 s; previous vowel-heavy candidate rejected."
+ph_t_soft,soft_syllables.wav,22.42,22.57,phone,yes,Human-reviewed.
+ph_v,hard_syllables.wav,4.105,4.295,phone,yes,Human-reviewed.
+ph_v_soft,soft_syllables.wav,4.02,4.21,phone,yes,Human-reviewed.
+ph_z,hard_syllables.wav,11.4,11.59,phone,yes,Human-reviewed.
+ph_z_soft,soft_syllables.wav,8.905,9.095,phone,yes,Human-reviewed.
+ph_zh,hard_syllables.wav,9.635,9.825,phone,yes,Human-reviewed.
+ph_b,consonants.wav,1.793,1.999,phone,yes,Human-reviewed.
+ph_b_soft,soft_syllables.wav,2.347,2.535,phone,yes,Human-reviewed.
+ph_d,consonants.wav,3.605,3.801,phone,yes,Human-reviewed.
+ph_d_soft,soft_syllables.wav,7.231,7.452,phone,yes,Human-reviewed.
+ph_g,hard_syllables.wav,5.942,6.1,phone,yes,Human-reviewed.
+ph_g_soft,soft_syllables.wav,5.64,5.83,phone,yes,Human-reviewed.
+ph_f,fricatives.wav,2.825,3.065,phone,yes,Human-reviewed.
+ph_f_soft,soft_syllables.wav,24.21,24.352,phone,yes,Human-reviewed.
+ph_s,fricatives.wav,5.72,5.96,phone,yes,Human-reviewed.
+ph_s_soft,soft_syllables.wav,20.685,20.875,phone,yes,Human-reviewed.
+ph_sh,fricatives.wav,8.52,8.76,phone,yes,Human-reviewed.
+ph_shch,hard_syllables.wav,35.475,35.665,phone,yes,Human-reviewed.
+ph_h,fricatives.wav,11.3125,11.5525,phone,yes,Human-reviewed.
+ph_h_soft,soft_syllables.wav,25.86,26.019,phone,yes,Human-reviewed.
+ph_ts,hard_syllables.wav,30.45,30.603,phone,yes,Human-reviewed.
+ph_ch,hard_syllables.wav,32.21,32.259,phone,yes,Human-reviewed.
+sy_sa,syllable_bank.wav,2.61,3.135,syllable,yes,Human-reviewed.
+sy_sha,syllable_bank.wav,3.93,4.45,syllable,yes,Human-reviewed.
+sy_ku,syllable_bank.wav,5.4,5.81,syllable,yes,Human-reviewed.
+sy_shal,syllable_bank.wav,6.635,7.165,syllable,yes,Human-reviewed.
+sy_ka,syllable_bank.wav,8.055,8.54,syllable,yes,Human-reviewed.
+sy_shu,syllable_bank.wav,9.285,9.7,syllable,yes,Human-reviewed.
+sy_a,syllable_bank.wav,10.6,11.045,syllable,yes,Human-reviewed.
+sy_ma,syllable_bank.wav,11.915,12.35,syllable,yes,Human-reviewed.
+sy_pi,syllable_bank.wav,13.28,13.64,syllable,yes,Human-reviewed.
+sy_la,syllable_bank.wav,14.475,14.925,syllable,yes,Human-reviewed.
+sy_sok,syllable_bank.wav,15.7,16.31,syllable,yes,Human-reviewed.
+sy_pa,syllable_bank.wav,17.295,17.71,syllable,yes,Human-reviewed.
+sy_i,syllable_bank.wav,18.585,18.96,syllable,yes,Human-reviewed.
+sy_li,syllable_bank.wav,19.87,20.295,syllable,yes,Human-reviewed.
+word_sasha,words.wav,1.975,3.165,word,yes,Human-reviewed.
+word_kushal,words.wav,4.425,5.435,word,yes,Human-reviewed.
+word_kashu,words.wav,6.8,7.73,word,yes,Human-reviewed.
+ref_1,references.wav,3.09,4.735,reference,yes,Human-reviewed.
+ref_2,references.wav,6.965,8.445,reference,yes,Human-reviewed.
+ref_3,references.wav,10.895,13.955,reference,yes,"Human-reviewed. я тут наверное по ошибке сказал не Маша, а Мама"
+ref_4,references.wav,16.27,19.075,reference,yes,Human-reviewed.
+student_student,student.wav,2.415,3.255,word,yes,Human-reviewed.
+student_pisal,student.wav,3.225,3.74,word,yes,"Human-reviewed. в конце слово писал сразу же переходит в слово реферат, это потому что я произнёс слитно, типо писалреферат"
+student_referat,student.wav,3.735,4.485,word,yes,Human-reviewed.
+stress1_sasha,stress.wav,1.995,2.955,word,yes,Human-reviewed.
+stress1_kushal,stress.wav,2.925,3.705,word,yes,Human-reviewed.
+stress1_kashu,stress.wav,3.675,4.485,word,yes,Human-reviewed.
+stress2_sasha,stress.wav,5.775,6.495,word,yes,Human-reviewed.
+stress2_kushal,stress.wav,6.465,7.275,word,yes,Human-reviewed.
+stress2_kashu,stress.wav,7.245,7.995,word,yes,Human-reviewed.
+stress3_sasha,stress.wav,9.165,9.885,word,yes,Human-reviewed.
+stress3_kushal,stress.wav,9.855,10.575,word,yes,Human-reviewed.
+stress3_kashu,stress.wav,10.545,11.475,word,yes,Human-reviewed.
+student_phrase,student.wav,2.41,4.49,reference,yes,Human-reviewed.

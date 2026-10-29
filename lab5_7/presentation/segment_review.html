@@ -1,0 +1,126 @@
+<!doctype html><html lang="ru"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ЕЯЗиС — проверка разметки</title>
+<style>
+body{font:16px system-ui;max-width:1100px;margin:25px auto;padding:0 16px;background:#f5f7fb;color:#17243c}
+p{line-height:1.5}header{position:sticky;top:0;background:#f5f7fb;padding:10px 0;z-index:2;border-bottom:1px solid #cbd5e1}
+button,select,input{font:inherit;padding:7px;margin:4px}button{cursor:pointer}article{background:white;border:1px solid #ccd5e3;padding:16px;margin:15px 0;border-radius:8px}
+canvas{width:100%;height:120px;border:1px solid #dde;display:block}small{color:#52617b}label{display:inline-block}
+.ok{border-left:5px solid #26834a}.attention{color:#8d380c}input[type=number]{width:110px}#notice{white-space:pre-wrap}
+</style>
+<h1>Проверка фрагментов речи</h1>
+<p>Границы предложены автоматически. Особенно важно проверить согласные из слогов и слова внутри целой фразы.
+Флажки изначально сняты: наличие предложения не означает, что оно верное.</p>
+<p>Для каждого фрагмента: послушайте контекст и выделение, поправьте начало/конец при необходимости,
+затем отметьте «Метка и границы верны». У согласного не должно остаться целого следующего гласного.
+Слова должны звучать целиком. Гласные и протяжные согласные представлены коротким устойчивым участком.</p>
+<p>В графике щелчок задаёт начало, Shift+щелчок — конец. Время также можно вводить числами.
+Подтверждение снимается после изменения границ. Точная фонетическая граница иногда условна — отметьте это в комментарии.</p>
+<header>
+<label>Группа <select id="filter"><option value="">Все</option><option value="phone">Звуки / фонемы</option><option value="syllable">Слоги</option><option value="word">Слова</option><option value="reference">Фразы-эталоны</option></select></label>
+<label><input id="onlyPending" type="checkbox"> Только непроверенные</label>
+<label>Усиление прослушивания <select id="gain"><option value="1">0 дБ</option><option value="2">+6 дБ</option><option value="4" selected>+12 дБ</option></select></label>
+<button id="save">Скачать разметку JSON</button>
+<label>Восстановить сохранённую разметку <input id="restore" type="file" accept=".json"></label>
+<div id="progress"></div><div id="notice" role="status"></div>
+</header>
+<main id="cards"></main>
+<p>Скачанный segment_review.json можно положить в корень EYAZIS и сообщить об этом.
+Частичную проверку тоже можно сохранить и потом восстановить кнопкой выше.
+Усиление действует только при прослушивании; оригинальные WAV не меняются. Сети и микрофона на этой странице нет.</p>
+<script>
+const model=__MODEL__;
+const records=model.segments;
+let ctx=null,current=null;
+const buffers=new Map();
+const labels=__LABELS__;
+function title(r){return labels[r.id]||r.id;}
+function notice(s){document.querySelector("#notice").textContent=s;}
+function progress(){document.querySelector("#progress").textContent="Подтверждено "+records.filter(r=>r.reviewed).length+" из "+records.length;}
+async function play(r,context=false){
+ try{
+  if(current){try{current.stop();}catch{}current=null;}
+  ctx=ctx||new AudioContext();await ctx.resume();
+  if(!buffers.has(r.id)){
+   const bytes=Uint8Array.from(atob(r.context_wav),c=>c.charCodeAt(0));
+   buffers.set(r.id,await ctx.decodeAudioData(bytes.buffer));
+  }
+  const buffer=buffers.get(r.id),source=ctx.createBufferSource(),gain=ctx.createGain();
+  source.buffer=buffer;gain.gain.value=Number(document.querySelector("#gain").value);
+  source.connect(gain).connect(ctx.destination);
+  const first=context?0:r.start-r.context_start;
+  const length=context?buffer.duration:r.end-r.start;
+  source.start(0,Math.max(0,first),Math.min(length,buffer.duration-Math.max(0,first)));
+  current=source;notice("Воспроизведение: "+title(r)+(context?" — контекст":" — выделение"));
+ }catch(e){notice("Не удалось воспроизвести: "+e.message);}
+}
+function draw(canvas,r){
+ const w=canvas.width,h=canvas.height,c=canvas.getContext("2d");c.clearRect(0,0,w,h);
+ const span=r.context_end-r.context_start;
+ c.fillStyle="#dbeafe";c.fillRect((r.start-r.context_start)/span*w,0,(r.end-r.start)/span*w,h);
+ c.strokeStyle="#365b96";c.beginPath();
+ const max=Math.max(...r.envelope.map(x=>Math.max(Math.abs(x[0]),Math.abs(x[1]))),.00001);
+ r.envelope.forEach((p,i)=>{const x=i/r.envelope.length*w;c.moveTo(x,h/2-p[0]/max*h*.43);c.lineTo(x,h/2-p[1]/max*h*.43);});c.stroke();
+ c.fillStyle="#243b5b";c.fillText(r.context_start.toFixed(3)+" с",5,h-5);c.fillText(r.context_end.toFixed(3)+" с",w-65,h-5);
+}
+function render(){
+ const root=document.querySelector("#cards");root.replaceChildren();
+ const group=document.querySelector("#filter").value,only=document.querySelector("#onlyPending").checked;
+ records.filter(r=>(!group||r.kind===group)&&(!only||!r.reviewed)).forEach(r=>{
+  const card=document.createElement("article");if(r.reviewed)card.classList.add("ok");
+  const heading=document.createElement("h2");heading.textContent=title(r)+" · "+r.id;card.append(heading);
+  const meta=document.createElement("small");meta.textContent=r.file+" | "+r.method;card.append(meta);
+  const canvas=document.createElement("canvas");canvas.width=1000;canvas.height=120;card.append(canvas);draw(canvas,r);
+  const start=document.createElement("input"),end=document.createElement("input"),check=document.createElement("input");
+  for(const box of [start,end]){box.type="number";box.step=".001";box.min=r.context_start;box.max=r.context_end;}
+  start.value=r.start;end.value=r.end;
+  start.setAttribute("aria-label","Начало "+r.id);end.setAttribute("aria-label","Конец "+r.id);
+  check.type="checkbox";check.checked=r.reviewed;
+  function edit(){
+   const a=Number(start.value),b=Number(end.value);
+   if(!Number.isFinite(a)||!Number.isFinite(b)||a<r.context_start-1e-6||b>r.context_end+1e-6||a>=b){r.reviewed=false;check.checked=false;card.classList.remove("ok");progress();notice("Начало должно быть меньше конца, обе границы — внутри показанного контекста.");return;}
+   r.start=a;r.end=b;r.reviewed=false;check.checked=false;card.classList.remove("ok");draw(canvas,r);progress();notice("");
+  }
+  start.addEventListener("change",edit);end.addEventListener("change",edit);
+  canvas.addEventListener("click",e=>{
+   const fraction=(e.clientX-canvas.getBoundingClientRect().left)/canvas.getBoundingClientRect().width;
+   const time=r.context_start+fraction*(r.context_end-r.context_start);
+   if(e.shiftKey)end.value=time.toFixed(3);else start.value=time.toFixed(3);edit();
+  });
+  card.append("Начало, с: ",start," Конец, с: ",end);
+  for(const [text,isContext]of [["Слушать выделение",false],["Слушать контекст",true]]){
+   const b=document.createElement("button");b.textContent=text;b.addEventListener("click",()=>play(r,isContext));card.append(b);
+  }
+  const label=document.createElement("label");label.append(check," Метка и границы верны");card.append(document.createElement("br"),label);
+  check.addEventListener("change",()=>{if(check.checked&&(Number(start.value)!==r.start||Number(end.value)!==r.end)){check.checked=false;notice("Исправьте некорректные границы перед подтверждением.");return;}r.reviewed=check.checked;card.classList.toggle("ok",r.reviewed);progress();});
+  const comment=document.createElement("input");comment.type="text";comment.placeholder="Комментарий, если граница или произношение неоднозначны";comment.style.width="95%";comment.value=r.review_comment||"";
+  comment.addEventListener("input",()=>{r.review_comment=comment.value;});card.append(document.createElement("br"),comment);
+  root.append(card);
+ });progress();
+}
+document.querySelector("#filter").addEventListener("change",render);
+document.querySelector("#onlyPending").addEventListener("change",render);
+document.querySelector("#save").addEventListener("click",()=>{
+ const payload={schema:1,assessment_kind:"BOUNDARY_AND_LABEL_REVIEW",manifest_sha256:model.manifest_sha256,created_at:new Date().toISOString(),
+ segments:records.map(r=>({id:r.id,file:r.file,start:r.start,end:r.end,reviewed:r.reviewed,source_sha256:r.source_sha256,review_comment:r.review_comment||""}))};
+ const url=URL.createObjectURL(new Blob([JSON.stringify(payload,null,2)],{type:"application/json;charset=utf-8"}));
+ const link=document.createElement("a");link.href=url;link.download="segment_review.json";link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+ notice("Разметка скачана. Подтверждено "+records.filter(r=>r.reviewed).length+" из "+records.length+".");
+});
+document.querySelector("#restore").addEventListener("change",async e=>{
+ try{
+  const file=e.target.files[0];if(!file)return;const saved=JSON.parse(await file.text());
+  if(saved.manifest_sha256!==model.manifest_sha256||saved.assessment_kind!=="BOUNDARY_AND_LABEL_REVIEW")throw Error("Этот файл относится к другой странице/записям.");
+  const byId=new Map(saved.segments.map(r=>[r.id,r]));
+  const updates=records.map(r=>{
+   const s=byId.get(r.id);if(!s||s.file!==r.file||s.source_sha256!==r.source_sha256||!Number.isFinite(s.start)||!Number.isFinite(s.end)||s.start<r.context_start-1e-6||s.end>r.context_end+1e-6||s.start>=s.end||typeof s.reviewed!=="boolean")throw Error("Некорректный сегмент "+r.id);
+   return s;
+  });
+  updates.forEach((s,i)=>{records[i].start=s.start;records[i].end=s.end;records[i].reviewed=s.reviewed;records[i].review_comment=s.review_comment||"";});
+  render();notice("Сохранённая проверка восстановлена.");
+ }catch(e){notice("Ошибка: "+e.message);}
+});
+const requestedGroup=new URL(location.href).searchParams.get('group');
+if(['phone','syllable','word','reference'].includes(requestedGroup))document.querySelector('#filter').value=requestedGroup;
+render();
+</script></html>

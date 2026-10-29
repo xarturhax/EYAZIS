@@ -1,0 +1,29 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Лабораторная 5 — короткий фрагмент и цикл</title>
+<style>body{font:17px system-ui;max-width:1000px;margin:25px auto;padding:0 18px;color:#17243c}article{border:1px solid #ccd;border-radius:8px;margin:16px 0;padding:16px}article.done{border-left:5px solid #26834a}p{line-height:1.5}button,input,select{font:inherit;padding:6px;margin:5px}input[type=text]{width:95%}audio{max-width:100%;vertical-align:middle}header{position:sticky;top:0;background:white;padding:10px 0;z-index:2}</style>
+<h1>Звук, короткий фрагмент и его повторение</h1>
+<p>У гласных автоматически оценён один период внутри подтверждённого вами фрагмента.
+Он взят из реальной записи, а не создан генератором. Сравните исходный звук,
+короткое выделение и его 200 повторений. Период пока является измеренным кандидатом.</p>
+<p>Для ф, с, ш, х взято произвольное окно шума 10 мс. Оно не называется периодом.
+Его повторение создаёт искусственную периодичность 100 Гц; это свойство операции,
+а не доказательство периодичности исходного согласного. Короткий отдельный фрагмент может звучать щелчком.</p>
+<header><button id="save">Скачать наблюдения JSON</button><label>Восстановить <input type="file" accept=".json" id="restore"></label><div id="progress"></div><div id="notice" role="status"></div></header><main id="cards"></main>
+<p>Перед закрытием скачайте lab5_phonetics_listening.json. Частичные наблюдения можно восстановить.</p>
+<script>
+const model=__MODEL__,labels={ph_a:'а',ph_o:'о',ph_u:'у',ph_e:'э',ph_y:'ы',ph_i:'и',ph_f:'ф',ph_s:'с',ph_sh:'ш',ph_h:'х'};
+const rows=model.results.map(r=>({...r,completed:false,loop_resemblance:'',comment:''}));
+const progress=()=>document.querySelector('#progress').textContent='Прослушано '+rows.filter(r=>r.completed).length+' из '+rows.length;
+const notice=s=>document.querySelector('#notice').textContent=s;
+function render(){const root=document.querySelector('#cards');root.replaceChildren();for(const r of rows){const card=document.createElement('article'),title=document.createElement('h2');title.textContent=labels[r.id]+' · '+(r.kind==='vowel_period_estimate'?'кандидат периода':'шумовое окно');card.classList.toggle('done',r.completed);card.append(title);
+for(const [caption,path]of [['Исходный звук',r.original_wav],['Короткий фрагмент',r.short_wav],['200 повторений',r.loop_wav]]){const p=document.createElement('p'),audio=document.createElement('audio');audio.controls=true;audio.preload='none';audio.src=path;p.append(caption+' ',audio);card.append(p);}
+const description=document.createElement('p');description.textContent='Длина выделения: '+(r.short_duration_s*1000).toFixed(2)+' мс; частота повторения: '+r.loop_repetition_hz.toFixed(1)+' Гц.';card.append(description);
+const link=document.createElement('a');link.href=r.id+'/analysis/report.html';link.textContent='Осциллограмма, спектрограмма, F0 и RMS исходного звука';card.append(link,document.createElement('br'));
+const check=document.createElement('input');check.type='checkbox';check.checked=r.completed;
+const select=document.createElement('select');for(const [v,t]of [['','Как цикл похож на исходный звук?'],['similar','Похож'],['partly','Частично похож'],['different','Не похож'],['unclear','Неясно']]){const o=document.createElement('option');o.value=v;o.textContent=t;select.append(o);}select.value=r.loop_resemblance;select.addEventListener('change',()=>{r.loop_resemblance=select.value;r.completed=false;check.checked=false;card.classList.remove('done');progress();});card.append(select);
+const comment=document.createElement('input');comment.type='text';comment.placeholder='Короткое выделение, цикл, щелчки, дребезг, похожесть';comment.value=r.comment;comment.addEventListener('input',()=>r.comment=comment.value);card.append(comment);
+check.addEventListener('change',()=>{if(check.checked&&!r.loop_resemblance){check.checked=false;notice('Выберите результат сравнения.');return;}r.completed=check.checked;card.classList.toggle('done',r.completed);progress();notice('');});const label=document.createElement('label');label.append(check,' Прослушал исходник, выделение и цикл');card.append(label);root.append(card);}progress();}
+document.querySelector('#save').addEventListener('click',()=>{const data={schema:1,assessment_kind:'LAB5_PHONETICS_LISTENING',manifest_sha256:model.manifest_sha256,created_at:new Date().toISOString(),results:rows.map(r=>({id:r.id,loop_sha256:r.loop_sha256,completed:r.completed,loop_resemblance:r.loop_resemblance,comment:r.comment}))};const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json;charset=utf-8'})),link=document.createElement('a');link.href=url;link.download='lab5_phonetics_listening.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);notice('Наблюдения скачаны.');});
+document.querySelector('#restore').addEventListener('change',async event=>{try{const file=event.target.files[0];if(!file)return;const d=JSON.parse(await file.text());if(d.schema!==1||d.assessment_kind!=='LAB5_PHONETICS_LISTENING'||d.manifest_sha256!==model.manifest_sha256||!Array.isArray(d.results)||d.results.length!==rows.length)throw Error('Другой эксперимент.');const saved=new Map(d.results.map(r=>[r.id,r]));if(saved.size!==rows.length)throw Error('Повторяющиеся записи.');const updated=rows.map(r=>{const s=saved.get(r.id);if(!s||s.loop_sha256!==r.loop_sha256||typeof s.completed!=='boolean'||typeof s.comment!=='string'||!['','similar','partly','different','unclear'].includes(s.loop_resemblance)||(s.completed&&!s.loop_resemblance))throw Error('Некорректная запись '+r.id);return {...r,completed:s.completed,loop_resemblance:s.loop_resemblance,comment:s.comment};});updated.forEach((r,i)=>rows[i]=r);render();notice('Наблюдения восстановлены.');}catch(e){notice(e.message);}});
+render();
+</script></html>

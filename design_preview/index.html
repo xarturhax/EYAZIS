@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>ЕЯЗиС — лаборатории языка и речи</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="#home" aria-label="ЕЯЗиС, главная"><span class="brand-mark">е.</span><span>ЕЯЗиС<small>Язык. Данные. Голос.</small></span></a>
+    <div class="nav-label">РАБОЧЕЕ ПРОСТРАНСТВО</div>
+    <a class="home-link" href="#home"><span aria-hidden="true">▦</span> Обзор лабораторных</a>
+    <div class="nav-label labs-label">ЛАБОРАТОРНЫЕ РАБОТЫ</div>
+    <nav id="navigation" aria-label="Лабораторные"></nav>
+    <div class="sidebar-bottom"><span class="status-dot"></span><div>Локальное приложение<small>Макет нового интерфейса</small></div></div>
+  </aside>
+  <div class="shell">
+    <header class="topbar"><div id="breadcrumb">Учебный практикум <span>/</span> Обзор</div><div class="top-actions"><span class="preview-pill">Дизайн-концепция</span><button class="theme-button" id="theme" aria-label="Переключить светлую и тёмную тему">◐</button></div></header>
+    <main id="content" tabindex="-1"></main>
+    <footer><span>Естественно-языковые системы</span><span>Всё для работы с текстом и речью</span></footer>
+  </div>
+  <template id="home-template">
+    <section class="hero"><div><p class="eyebrow">ВАШ УЧЕБНЫЙ ПРАКТИКУМ</p><h1>Исследуйте язык.<br><span>Экспериментируйте с речью.</span></h1><p class="hero-description">Девять лабораторных, одно рабочее пространство.<br>От поиска документов до распознавания голоса.</p><a class="button primary hero-button" href="#lab-1">Открыть первую лабораторную <span aria-hidden="true">↗</span></a></div><div class="hero-art" aria-hidden="true"><div class="art-label">TEXT → SIGNAL → MEANING</div><svg viewBox="0 0 300 180" fill="none"><path class="art-grid" d="M0 45H300M0 90H300M0 135H300M60 0V180M120 0V180M180 0V180M240 0V180"/><path class="art-wave" d="M0 90H25L30 83L35 98L40 69L45 113L50 45L55 137L60 64L65 109L70 86L75 94H95L100 74L105 109L110 48L115 131L120 22L125 154L130 57L135 120L140 76L145 99L150 87L155 90H170L175 79L180 108L185 53L190 126L195 69L200 105L205 85L210 94H235L240 80L245 104L250 66L255 114L260 80L265 96H300"/><circle cx="120" cy="22" r="5"/></svg><div class="art-footer"><span>а → слово → смысл</span><span>01 — 09</span></div></div></section>
+    <section class="catalogue" aria-labelledby="catalogue-heading"><div class="section-top"><div><p class="eyebrow">ВЫБЕРИТЕ НАПРАВЛЕНИЕ</p><h2 id="catalogue-heading">Лабораторные работы <span class="count">09</span></h2></div><label class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" aria-label="Найти лабораторную" placeholder="Найти лабораторную…"></label></div><div class="filters" role="group" aria-label="Направление"><button class="filter active" data-filter="all" aria-pressed="true">Все работы</button><button class="filter" data-filter="text" aria-pressed="false">Текст и язык <span>4</span></button><button class="filter" data-filter="speech" aria-pressed="false">Голос и звук <span>5</span></button></div><div id="cards" class="cards"></div><p id="empty" class="empty" hidden>По вашему запросу ничего не найдено.</p></section>
+    <section class="concept-note"><span class="note-icon" aria-hidden="true">↗</span><div><h3>Один привычный сценарий для каждой работы</h3><p>Открыть данные → настроить эксперимент → получить результат → сохранить отчёт.</p></div><span class="note-end">Понятно с первого запуска</span></section>
+  </template>
+</body>
+</html>

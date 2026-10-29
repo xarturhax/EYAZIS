@@ -1,0 +1,37 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Лабораторная 6 — исходная просодика</title>
+<style>body{font:17px system-ui;max-width:1050px;margin:25px auto;padding:0 18px;color:#17243c}p{line-height:1.5}article{border:1px solid #ccd;border-radius:8px;margin:18px 0;padding:16px}article.done{border-left:5px solid #26834a}audio,img{max-width:100%}audio{vertical-align:middle}select,button,input,textarea{font:inherit;margin:5px;padding:6px}textarea{width:95%;display:block;min-height:65px}header{position:sticky;top:0;background:white;padding:10px 0;z-index:2}</style>
+<h1>Исходные интонации, эмоции и акцентные группы</h1>
+<p>Здесь исходные записи, без синтеза и преобразований. Уже оценённые 60 вариантов №6 повторять не нужно.
+Названия описывают замысел произнесения, а в форме нужно указать, что действительно слышно.
+Для двух повторов оценивайте оба; если они различаются, выберите «Другое / различаются повторы» и поясните.</p>
+<p>Акцентная группа объединена главным ударением. Синтагма — смысловой и интонационный отрезок,
+который может отделяться паузой. При подсчёте учитывайте слуховое выделение, длительность и смысл;
+число пиков F0 не равно автоматически числу акцентных групп. Если определить трудно, выбирайте «Не уверен».</p>
+<p>Некоторые целые интервалы выделены автоматически и подписаны по порядку чтения.
+Проверьте подписи. В третьем эталоне возможно «Мама» вместо «Маша» — текст пока уточняется.</p>
+<header><label>Группа <select id="group"><option value="">Все</option><option value="intonation">Интонации</option><option value="emotion">Эмоции</option><option value="stress">Фразовое выделение</option><option value="reference">Акцентные группы и синтагмы</option></select></label>
+<label><input type="checkbox" id="pending">Только незаполненные</label><button id="save">Скачать наблюдения JSON</button><label>Восстановить <input type="file" id="restore" accept=".json"></label><div id="progress"></div><div id="notice" role="status"></div></header>
+<main id="cards"></main><p>Перед закрытием скачайте lab6_source_observations.json. Автоматического сохранения нет; частичный файл можно восстановить.</p>
+<script>
+const model=__MODEL__,rows=model.results.map(r=>({...r,completed:false,labels_match:'',heard_label:'',accent_groups:'',syntagms:'',comment:''}));
+const fields=['labels_match','heard_label','accent_groups','syntagms','comment'];
+const notice=s=>document.querySelector('#notice').textContent=s;
+const progress=()=>document.querySelector('#progress').textContent='Заполнено '+rows.filter(r=>r.completed).length+' из '+rows.length;
+const counts=['1','2','3','4','5','6','unclear'];
+const valid=r=>['yes','no','unclear'].includes(r.labels_match)&&r.options.some(o=>o[0]===r.heard_label)&&r.comment.trim().length>=2&&(!r.count_groups||(counts.includes(r.accent_groups)&&counts.includes(r.syntagms)));
+function render(){const root=document.querySelector('#cards');root.replaceChildren();const group=document.querySelector('#group').value,only=document.querySelector('#pending').checked;
+for(const r of rows.filter(r=>(!group||r.group===group)&&(!only||!r.completed))){const card=document.createElement('article'),title=document.createElement('h2'),question=document.createElement('p');title.textContent=r.title;question.textContent=r.question;card.classList.toggle('done',r.completed);card.append(title,question);
+for(const c of r.clips){const p=document.createElement('p'),audio=document.createElement('audio');audio.controls=true;audio.preload='none';audio.src=c.wav;p.append(c.title+' ',audio);card.append(p);}const picture=document.createElement('img');picture.src=r.plot;picture.alt='F0 и RMS исходных записей';card.append(picture);
+const check=document.createElement('input');check.type='checkbox';check.checked=r.completed;function changed(){r.completed=false;check.checked=false;card.classList.remove('done');progress();}
+function selection(key,caption,options){const label=document.createElement('label'),select=document.createElement('select');for(const [value,text]of [['','Выберите'],...options]){const o=document.createElement('option');o.value=value;o.textContent=text;select.append(o);}select.value=r[key];select.addEventListener('change',()=>{r[key]=select.value;changed();});label.append(caption+' ',select);card.append(label);}
+selection('labels_match','Подписи соответствуют фрагментам?', [['yes','Да'],['no','Нет'],['unclear','Не уверен']]);selection('heard_label','Что слышно?',r.options);
+if(r.count_groups){const choices=counts.map(v=>[v,v==='unclear'?'Не уверен':v]);selection('accent_groups','Акцентных групп',choices);selection('syntagms','Синтагм',choices);}
+const comment=document.createElement('textarea');comment.placeholder='Где выделение, подъём/спад, паузы, различия повторов; для синтагм можно записать фразу с разделителем |';comment.value=r.comment;comment.addEventListener('input',()=>{r.comment=comment.value;changed();});card.append(comment);
+check.addEventListener('change',()=>{if(check.checked&&!valid(r)){check.checked=false;notice('Заполните выборы и краткий комментарий; при сомнении используйте «Не уверен».');return;}r.completed=check.checked;card.classList.toggle('done',r.completed);notice('');progress();});const label=document.createElement('label');label.append(check,' Прослушано, наблюдение записано');card.append(label);root.append(card);}progress();}
+for(const id of ['group','pending'])document.querySelector('#'+id).addEventListener('change',render);
+document.querySelector('#save').addEventListener('click',()=>{const data={schema:1,assessment_kind:'LAB6_SOURCE_OBSERVATIONS',manifest_sha256:model.manifest_sha256,created_at:new Date().toISOString(),results:rows.map(r=>({id:r.id,clip_hashes:r.clips.map(c=>c.sha256),completed:r.completed,...Object.fromEntries(fields.map(k=>[k,r[k]]))}))};const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json;charset=utf-8'})),link=document.createElement('a');link.href=url;link.download='lab6_source_observations.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);notice('Наблюдения скачаны.');});
+function restoreSourceObservations(data){if(data.schema!==1||data.assessment_kind!=='LAB6_SOURCE_OBSERVATIONS'||data.manifest_sha256!==model.manifest_sha256||!Array.isArray(data.results)||data.results.length!==rows.length)throw Error('Файл относится к другим записям.');const saved=new Map(data.results.map(r=>[r.id,r]));if(saved.size!==rows.length)throw Error('Повторяющиеся записи.');const updated=rows.map(r=>{const s=saved.get(r.id);if(!s||JSON.stringify(s.clip_hashes)!==JSON.stringify(r.clips.map(c=>c.sha256))||typeof s.completed!=='boolean'||fields.some(k=>typeof s[k]!=='string'))throw Error('Некорректная запись '+r.id);const candidate={...r,completed:s.completed,...Object.fromEntries(fields.map(k=>[k,s[k]]))};if(candidate.completed&&!valid(candidate))throw Error('Незаполненная запись '+r.id);return candidate;});updated.forEach((r,i)=>rows[i]=r);render();}
+document.querySelector('#restore').addEventListener('change',async event=>{try{const file=event.target.files[0];if(!file)return;restoreSourceObservations(JSON.parse(await file.text()));notice('Наблюдения восстановлены.');}catch(e){notice(e.message);}});
+render();
+</script></html>

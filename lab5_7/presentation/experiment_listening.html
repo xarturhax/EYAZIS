@@ -1,0 +1,92 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Лабораторная 6 — эксперименты</title>
+<style>
+body{font:16px system-ui;max-width:1100px;margin:25px auto;padding:0 16px;color:#17243c;background:#f6f8fc}
+header{position:sticky;top:0;padding:12px 0;background:#f6f8fc;z-index:2;border-bottom:1px solid #ccd}
+article{background:white;border:1px solid #ccd;border-radius:8px;padding:15px;margin:15px 0}
+article.done{border-left:5px solid #26834a}button,select,input{font:inherit;padding:7px;margin:4px}
+button{cursor:pointer}p{line-height:1.5}label{display:inline-block}audio{max-width:100%}
+input[type=number]{width:60px}#notice{white-space:pre-wrap}small{color:#52627c}
+</style>
+<h1>Перестановки слов и управление просодикой</h1>
+<p>Здесь 24 перестановки проверенных слов и 36 преобразований фразы «Студент писал реферат».
+Для просодического опыта исходник взят непрерывно от начала проверенного первого слова до конца третьего.
+Границы между слитными словами для управления разделены посередине перекрывающихся интервалов.</p>
+<p>Варианты: 1 — только F0; 2 — F0 и +3 дБ на выбранном слове; 3 — дополнительно растяжение выбранного слова в 1.25 раза.
+PSOLA управляет тоном и длительностью раздельно; изменение скорости связывает оба параметра.
+Названия описывают замысел опыта, а воспринимаемый эффект нужно оценить на слух.</p>
+<p>Исходная фраза: <audio controls preload="none" src="student_original.wav"></audio></p>
+<header>
+<label>Группа <select id="category"><option value="prosody">Просодика: 36 вариантов</option><option value="permutation">Перестановки: 24 варианта</option></select></label>
+<label>Метод <select id="method"><option value="">Оба</option><option value="psola">PSOLA</option><option value="coupled_contour">Связанная скорость</option></select></label>
+<label><input type="checkbox" id="pending"> Только неоценённые</label>
+<button id="save">Скачать оценки JSON</button>
+<label>Восстановить оценки <input type="file" accept=".json" id="restore"></label>
+<div id="progress"></div><div id="notice" role="status"></div>
+</header>
+<main id="cards"></main>
+<p>Шкалы: 1 — почти неразборчиво / неестественно; 5 — полностью разборчиво / естественно.
+Громкость воспроизведения держите одинаковой. Поля неоценённых вариантов пустые.
+Частичные оценки можно сохранить и восстановить. Скачанный lab6_listening.json положите в корень EYAZIS либо сообщите путь.</p>
+<script>
+const model=__MODEL__;
+const fields=["intelligibility_1_5","naturalness_1_5","heard_focus","heard_intonation","comment"];
+const labels={student:"Студент",pisal:"писал",referat:"реферат",sasha:"Саша",kushal:"кушал",kashu:"кашу"};
+const savedRatings=new Map((model.saved_assessment?.results||[]).map(r=>[r.id,r]));
+const rows=model.results.map(r=>{const saved=savedRatings.get(r.id);const ratings={};if(saved)fields.forEach(k=>{if(saved[k]!==undefined)ratings[k]=saved[k];});return {...r,completed:saved?.completed||false,ratings};});
+const notice=s=>document.querySelector("#notice").textContent=s;
+function progress(){document.querySelector("#progress").textContent="Оценено "+rows.filter(r=>r.completed).length+" из "+rows.length;}
+function valid(r){return [r.ratings.intelligibility_1_5,r.ratings.naturalness_1_5].every(v=>Number.isInteger(v)&&v>=1&&v<=5)&&!!r.ratings.heard_focus&&!!r.ratings.heard_intonation;}
+function render(){
+ const main=document.querySelector("#cards");main.replaceChildren();
+ const category=document.querySelector("#category").value,method=document.querySelector("#method").value,only=document.querySelector("#pending").checked;
+ rows.filter(r=>r.category===category&&(!method||r.category!=="prosody"||r.method===method)&&(!only||!r.completed)).forEach(r=>{
+  const card=document.createElement("article");card.classList.toggle("done",r.completed);
+  const title=document.createElement("h2");title.textContent=r.title;card.append(title);
+  const audio=document.createElement("audio");audio.controls=true;audio.preload="none";audio.src=r.wav;card.append(audio);
+  if(r.baseline_wav){const comparison=document.createElement('p'),baseline=document.createElement('audio');baseline.controls=true;baseline.preload='none';baseline.src=r.baseline_wav;comparison.append('Прежний вариант для сравнения: ',baseline);card.append(comparison);}
+  const m=document.createElement("p");m.textContent="Длительность "+r.measurements.duration.toFixed(3)+" с; медиана F0 "+(r.measurements.f0_median_hz===null?"не определена":r.measurements.f0_median_hz.toFixed(1)+" Гц");card.append(m);
+  const check=document.createElement("input");check.type="checkbox";check.checked=r.completed;
+  function changed(){r.completed=false;check.checked=false;card.classList.remove("done");progress();}
+  for(const [key,text]of [["intelligibility_1_5","Разборчивость 1–5"],["naturalness_1_5","Естественность 1–5"]]){
+   const input=document.createElement("input");input.type="number";input.min=1;input.max=5;input.step=1;input.value=r.ratings[key]||"";input.setAttribute("aria-label",text+" "+r.id);
+   input.addEventListener("input",()=>{r.ratings[key]=input.value===""?null:Number(input.value);changed();});
+   const label=document.createElement("label");label.append(text+" ",input);card.append(label);
+  }
+  const focuses=r.category==="prosody"?["student","pisal","referat"]:["sasha","kushal","kashu"];
+  for(const [key,text,options]of [
+   ["heard_focus","Какое слово выделено?",focuses.map(w=>[w,labels[w]]).concat([["none","Нет явного выделения"],["unclear","Неясно"]])],
+   ["heard_intonation","Как звучит фраза?",[["statement","Утверждение"],["question","Вопрос"],["other","Другое"],["unclear","Неясно"]]]
+  ]){
+   const select=document.createElement("select");select.setAttribute("aria-label",text+" "+r.id);
+   for(const [value,caption]of [["","Выберите"],...options]){const o=document.createElement("option");o.value=value;o.textContent=caption;select.append(o);}
+   select.value=r.ratings[key]||"";select.addEventListener("change",()=>{r.ratings[key]=select.value;changed();});
+   const label=document.createElement("label");label.append(text+" ",select);card.append(label);
+  }
+  const comment=document.createElement("input");comment.type="text";comment.style.width="95%";comment.placeholder="Щелчки, роботизация, странное ударение или другие наблюдения";comment.value=r.ratings.comment||"";comment.addEventListener("input",()=>{r.ratings.comment=comment.value;});
+  card.append(document.createElement("br"),comment,document.createElement("br"));
+  check.addEventListener("change",()=>{if(check.checked&&!valid(r)){check.checked=false;notice("Заполните две оценки 1–5 и оба выбора для этого варианта.");return;}r.completed=check.checked;card.classList.toggle("done",r.completed);progress();notice("");});
+  const confirmation=document.createElement("label");confirmation.append(check," Этот вариант прослушан и оценён");card.append(confirmation);
+  main.append(card);
+ });progress();
+}
+for(const id of ["category","method","pending"])document.querySelector("#"+id).addEventListener("change",render);
+document.querySelector("#save").addEventListener("click",()=>{
+ const data={schema:1,assessment_kind:"LAB6_EXPERIMENT_LISTENING",manifest_sha256:model.manifest_sha256,created_at:new Date().toISOString(),
+ results:rows.map(r=>({id:r.id,sha256:r.sha256,completed:r.completed,...r.ratings}))};
+ const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:"application/json;charset=utf-8"}));
+ const link=document.createElement("a");link.href=url;link.download="lab6_listening.json";link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);notice("Оценки сохранены в скачанный JSON.");
+});
+document.querySelector("#restore").addEventListener("change",async event=>{
+ try{
+  const file=event.target.files[0];if(!file)return;const data=JSON.parse(await file.text());
+  if(data.manifest_sha256!==model.manifest_sha256||data.assessment_kind!=="LAB6_EXPERIMENT_LISTENING"||data.results.length!==rows.length)throw Error("Файл относится к другим результатам.");
+  const byId=new Map(data.results.map(r=>[r.id,r]));
+  const updated=rows.map(r=>{const saved=byId.get(r.id);if(!saved||saved.sha256!==r.sha256||typeof saved.completed!=="boolean")throw Error("Результат изменён: "+r.id);const ratings={};fields.forEach(k=>{if(saved[k]!==undefined)ratings[k]=saved[k];});const candidate={...r,ratings,completed:saved.completed};if(candidate.completed&&!valid(candidate))throw Error("Некорректные оценки "+r.id);return candidate;});
+  updated.forEach((r,i)=>{rows[i]=r;});render();notice("Оценки восстановлены.");
+ }catch(error){notice(error.message);}
+});
+if(model.resume_category)document.querySelector('#category').value=model.resume_category;
+if(model.saved_assessment)document.querySelector('#pending').checked=true;
+render();
+</script></html>

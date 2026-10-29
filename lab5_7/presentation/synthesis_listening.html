@@ -1,0 +1,58 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Лабораторная 7 — сравнение синтеза</title>
+<style>body{font:16px system-ui;max-width:1050px;margin:25px auto;padding:0 16px;background:#f6f8fc;color:#17243c}article{background:white;border:1px solid #ccd;border-radius:8px;padding:16px;margin:16px 0}article.done{border-left:5px solid #26834a}header{position:sticky;top:0;background:#f6f8fc;padding:10px 0;z-index:2}button,input,select{font:inherit;margin:5px;padding:6px}input[type=number]{width:65px}input[type=text]{width:95%}audio{vertical-align:middle;max-width:100%}p{line-height:1.5}#notice{white-space:pre-wrap}.warning{color:#8b3a18}</style>
+<h1>Сравнение эталона и компиляционного синтеза</h1>
+<p>Прослушайте эталон и собранный вариант. Оцените разборчивость и естественность по шкале 1–5.
+Для обработки стыков сравните сглаженный вариант с прямой склейкой первой фразы.
+Сглаживание может смазать согласный; улучшение заранее не предполагается.</p>
+<p>Утверждение и вопрос собраны из одинаковых единиц: их базовые WAV одинаковы, а эталоны различаются.
+Интонация и редукции автоматически не восстанавливаются. Это учебная сборка по проверенным фрагментам.</p>
+<p class="warning" id="referenceNote"></p>
+<header><label>Тип <select id="category"><option value="">Все</option><option value="phones">Фонемы</option><option value="syllables">Слоги</option><option value="smoothed">Сглаживание</option></select></label>
+<label><input type="checkbox" id="pending">Только неоценённые</label><button id="save">Скачать оценки JSON</button>
+<label>Восстановить оценки <input type="file" accept=".json" id="restore"></label><div id="progress"></div><div id="notice" role="status"></div></header>
+<main id="cards"></main>
+<p>Перед закрытием страницы скачайте lab7_listening.json. Автоматического сохранения нет; частичный файл можно восстановить.</p>
+<p id="priorNotice">Если вы уже оценили прежнюю версию с пятью вариантами, загрузите её JSON через «Восстановить оценки».
+Оценки тех же аудиофайлов перенесутся; четыре новых слоговых варианта останутся пустыми.</p>
+<script>
+const model=__MODEL__;
+document.querySelector('#referenceNote').hidden=!model.reference_note;
+if(model.reference_note)document.querySelector('#referenceNote').textContent=model.reference_note;
+document.querySelector('#priorNotice').hidden=!model.previous_assessment;
+const fields=['intelligibility_1_5','naturalness_1_5','comment'];
+const rows=model.results.map(r=>({...r,completed:false,ratings:{}}));
+const notice=s=>document.querySelector('#notice').textContent=s;
+const valid=r=>['intelligibility_1_5','naturalness_1_5'].every(k=>Number.isInteger(r.ratings[k])&&r.ratings[k]>=1&&r.ratings[k]<=5);
+function progress(){document.querySelector('#progress').textContent='Оценено '+rows.filter(r=>r.completed).length+' из '+rows.length;}
+function player(caption,path){const p=document.createElement('p'),audio=document.createElement('audio');audio.controls=true;audio.preload='none';audio.src=path;p.append(caption+' ',audio);return p;}
+function render(){const root=document.querySelector('#cards');root.replaceChildren();const category=document.querySelector('#category').value,only=document.querySelector('#pending').checked;
+ for(const r of rows.filter(r=>(!category||r.category===category)&&(!only||!r.completed))){
+  const card=document.createElement('article');card.classList.toggle('done',r.completed);const title=document.createElement('h2');title.textContent=r.title;card.append(title,player('Эталон:',r.reference_wav),player('Синтез:',r.wav));
+  if(r.baseline_wav)card.append(player('Прямая склейка для сравнения:',r.baseline_wav));
+  const check=document.createElement('input');check.type='checkbox';check.checked=r.completed;
+  for(const [key,caption]of [['intelligibility_1_5','Разборчивость 1–5'],['naturalness_1_5','Естественность 1–5']]){const label=document.createElement('label'),input=document.createElement('input');input.type='number';input.min=1;input.max=5;input.step=1;input.value=r.ratings[key]||'';input.setAttribute('aria-label',caption+' '+r.id);input.addEventListener('input',()=>{r.ratings[key]=input.value===''?null:Number(input.value);r.completed=false;check.checked=false;card.classList.remove('done');progress();});label.append(caption+' ',input);card.append(label);}
+  const comment=document.createElement('input');comment.type='text';comment.placeholder='Что разобралось, щелчки, паузы, похожесть на эталон, изменения после сглаживания';comment.value=r.ratings.comment||'';comment.addEventListener('input',()=>r.ratings.comment=comment.value);card.append(document.createElement('br'),comment,document.createElement('br'));
+  check.addEventListener('change',()=>{if(check.checked&&!valid(r)){check.checked=false;notice('Заполните обе оценки целыми числами от 1 до 5.');return;}r.completed=check.checked;card.classList.toggle('done',r.completed);progress();notice('');});const label=document.createElement('label');label.append(check,' Вариант прослушан и оценён');card.append(label);root.append(card);
+ }progress();}
+for(const id of ['category','pending'])document.querySelector('#'+id).addEventListener('change',render);
+document.querySelector('#save').addEventListener('click',()=>{const data={schema:1,assessment_kind:'LAB7_SYNTHESIS_LISTENING',manifest_sha256:model.manifest_sha256,created_at:new Date().toISOString(),results:rows.map(r=>({id:r.id,sha256:r.sha256,reference_sha256:r.reference_sha256,completed:r.completed,...r.ratings}))};const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json;charset=utf-8'})),link=document.createElement('a');link.href=url;link.download='lab7_listening.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);notice('Оценки скачаны.');});
+function restoreAssessment(data){
+ const previous=model.previous_assessment;
+ const fromPrevious=previous&&data.manifest_sha256===previous.manifest_sha256;
+ const expected=data.manifest_sha256===model.manifest_sha256?model.results:(fromPrevious?previous.results:null);
+ if(data.schema!==1||data.assessment_kind!=='LAB7_SYNTHESIS_LISTENING'||!expected||!Array.isArray(data.results)||data.results.length!==expected.length)throw Error('Файл относится к другим результатам.');
+ const saved=new Map(data.results.map(r=>[r.id,r]));
+ if(saved.size!==expected.length)throw Error('Повторяющиеся варианты.');
+ for(const binding of expected){const s=saved.get(binding.id);if(!s||s.sha256!==binding.sha256||s.reference_sha256!==binding.reference_sha256)throw Error('Изменён результат '+binding.id);}
+ const updated=rows.map(r=>{
+  const s=saved.get(r.id);if(!s&&fromPrevious)return r;
+  if(!s||s.sha256!==r.sha256||s.reference_sha256!==r.reference_sha256||typeof s.completed!=='boolean'||(s.comment!==undefined&&typeof s.comment!=='string'))throw Error('Изменён результат '+r.id);
+  const ratings={};fields.forEach(k=>{if(s[k]!==undefined)ratings[k]=s[k];});
+  const candidate={...r,completed:s.completed,ratings};if(candidate.completed&&!valid(candidate))throw Error('Некорректные оценки '+r.id);return candidate;
+ });
+ updated.forEach((r,i)=>rows[i]=r);render();
+}
+document.querySelector('#restore').addEventListener('change',async event=>{try{const file=event.target.files[0];if(!file)return;restoreAssessment(JSON.parse(await file.text()));notice('Оценки восстановлены.');}catch(error){notice(error.message);}});
+render();
+</script></html>
