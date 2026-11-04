@@ -48,7 +48,8 @@
 .venv\Scripts\python.exe -B -m lab5_7 record vowels --seconds 40
 ```
 
-Первая команда обновляет reports/status/index.html.
+Первая команда открывает веб-страницу №5. Для локальной сводки записей:
+`python -B -m lab5_7 status`. Для страниц №6/7: `python -B -m webapp --lab 6` / `--lab 7`.
 Вторая **явно включает микрофон** после отсчёта.
 Зависимости и переносимый Praat в текущем окружении уже подготовлены.
 Для новой установки: pip install -r lab5_7/requirements.txt,

@@ -25,13 +25,14 @@ def main() -> int:
         "--sentence", type=int, default=1, help="Номер предложения для дерева (от 1)"
     )
     args = parser.parse_args()
+    if args.command is None:
+        from webapp.__main__ import main as launch_web
+
+        launch_web(["--lab", "4"])
+        return 0
     try:
         configure_logging()
-        if args.command is None:
-            from lab4.presentation.gui import launch
-
-            launch()
-        else:
+        if args.command == "translate":
             if args.input.stat().st_size > 1024 * 1024:
                 raise ValueError("Входной TXT больше 1 МиБ.")
             service, _ = build_service(args.database)

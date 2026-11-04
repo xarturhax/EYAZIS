@@ -29,6 +29,11 @@ def main() -> int:
     command.add_argument("--output", type=Path, required=True)
     sub.add_parser("devices")
     args = parser.parse_args()
+    if args.command is None:
+        from webapp.__main__ import main as launch_web
+
+        launch_web(["--lab", "9"])
+        return 0
     try:
         configure_logging()
         if args.command == "recognize":
@@ -69,10 +74,6 @@ def main() -> int:
             import sounddevice as sd
 
             print(sd.query_devices())
-        else:
-            from lab9.presentation.gui import launch
-
-            launch()
     except (OSError, ValueError, RuntimeError) as error:
         logging.getLogger("lab9").exception("Application error")
         parser.exit(1, f"Ошибка: {error}\n")

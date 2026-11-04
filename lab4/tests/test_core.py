@@ -154,12 +154,11 @@ class LexiconTests(unittest.TestCase):
             self.lexicon.store_auto([("a", "DET", "un"), ("b", "NOUN", "")], "art", "m")
         self.assertEqual(self.lexicon.get("a", "DET", "art", "m"), ("", "missing"))
 
-    def test_reset_and_invalid_manual_correction(self):
+    def test_invalid_manual_correction_preserves_previous_value(self):
         self.lexicon.correct("a", "DET", "art", "m", "un")
-        self.lexicon.reset("a", "DET", "art", "m")
-        self.assertEqual(self.lexicon.get("a", "DET", "art", "m"), ("", "missing"))
         with self.assertRaises(ValueError):
             self.lexicon.correct("a", "DET", "art", "m", "")
+        self.assertEqual(self.lexicon.get("a", "DET", "art", "m"), ("un", "manual"))
 
     def test_service_counts_source_coverage_instead_of_target_length(self):
         translator = FakeTranslator()
@@ -180,7 +179,7 @@ class LexiconTests(unittest.TestCase):
         translator = FakeTranslator()
         service = TranslationService(FakeAnalyzer(), translator, self.lexicon)
         with self.assertRaises(CancelledError):
-            service.populate(analysis(), "art", "m", False, lambda _: None, lambda: True)
+            service.populate(analysis(), "art", "m", lambda _: None, lambda: True)
         self.assertEqual(self.lexicon.get("record", "NOUN", "art", "m"), ("", "missing"))
 
     def test_empty_model_response_and_bad_domain_are_errors(self):

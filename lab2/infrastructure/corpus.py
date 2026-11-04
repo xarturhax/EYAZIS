@@ -30,23 +30,3 @@ def load_manifest(path: Path) -> list[CorpusEntry]:
         raise
     except (OSError, ValueError, KeyError, TypeError, AttributeError) as exc:
         raise LabError(f"Неверный манифест {path}: {exc}") from exc
-
-
-def save_manifest(entries: list[CorpusEntry], path: Path) -> None:
-    import os
-
-    data = {
-        "schema": 1,
-        "documents": [
-            {
-                "path": os.path.relpath(entry.path, path.parent),
-                "split": entry.split,
-                "language": entry.language,
-                "source_id": entry.source_id,
-                "source_url": entry.source_url,
-                "title": entry.title,
-            }
-            for entry in entries
-        ],
-    }
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")

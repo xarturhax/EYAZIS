@@ -1,4 +1,4 @@
-"""Общие для CLI и GUI сценарии; управление предметными правилами и транзакциями."""
+"""Общие для CLI и веб-интерфейса сценарии; предметные правила и транзакции."""
 
 from collections.abc import Callable, Sequence
 from dataclasses import dataclass
@@ -65,7 +65,7 @@ class CollectionService:
         return self._reader.get_document(document_id)
 
     def fetch(self, url: str) -> DocumentDraft:
-        """Сетевой этап; не обращается к хранилищу, допустим в GUI-worker."""
+        """Сетевой этап; не обращается к хранилищу, допустим в фоновом worker."""
         return self._fetcher.fetch(url)
 
     def add(self, draft: DocumentDraft) -> int:

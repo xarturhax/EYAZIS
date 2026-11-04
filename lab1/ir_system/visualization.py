@@ -1,4 +1,4 @@
-"""Общие построители Figure для Tkinter и файлового экспорта; без pyplot."""
+"""Построители Figure для файлового экспорта и веб-отчётов; без pyplot."""
 
 from textwrap import fill
 

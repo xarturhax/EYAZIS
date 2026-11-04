@@ -65,10 +65,3 @@ class SqliteLexicon:
             """,
                 (lemma, pos, domain, model, translation.strip()),
             )
-
-    def reset(self, lemma: str, pos: str, domain: str, model: str) -> None:
-        with self.connect() as connection:
-            connection.execute(
-                "DELETE FROM entries WHERE lemma=? AND pos=? AND domain=? AND model=?",
-                (lemma, pos, domain, model),
-            )

@@ -1,4 +1,4 @@
-from dataclasses import dataclass, replace
+from dataclasses import dataclass
 
 
 @dataclass(frozen=True)
@@ -64,14 +64,6 @@ class Result:
     timings: dict[str, float]
     versions: dict[str, str]
     warnings: tuple[str, ...]
-
-
-def with_entries(result: Result, entries: tuple[Entry, ...]) -> Result:
-    return replace(
-        result,
-        entries=entries,
-        translated_source_words=sum(e.frequency for e in entries if e.covered),
-    )
 
 
 def dictionary(analysis: Analysis) -> tuple[Entry, ...]:

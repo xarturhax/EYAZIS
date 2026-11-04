@@ -19,15 +19,14 @@ class TranslationService:
         analysis: Analysis,
         domain: str,
         model: str,
-        refresh: bool,
         progress: Callable[[str], None],
         cancelled: Callable[[], bool],
     ) -> tuple[Entry, ...]:
         entries = dictionary(analysis)
         pending = []
         for entry in entries:
-            value, origin = self.lexicon.get(entry.lemma, entry.pos, domain, model)
-            if not value or (refresh and origin != "manual"):
+            value, _ = self.lexicon.get(entry.lemma, entry.pos, domain, model)
+            if not value:
                 pending.append(entry)
         # Small groups permit cancellation and preserve all-or-nothing DB updates.
         rows: list[tuple[str, str, str]] = []
@@ -80,7 +79,7 @@ class TranslationService:
         timings["translation"] = perf_counter() - start
         start = perf_counter()
         model = versions["model"] + "@" + versions["revision"]
-        entries = self.populate(analysis, domain, model, False, progress, cancelled)
+        entries = self.populate(analysis, domain, model, progress, cancelled)
         timings["dictionary"] = perf_counter() - start
         paragraphs: dict[int, list[str]] = {}
         for sentence, translated in zip(analysis.sentences, translations, strict=True):

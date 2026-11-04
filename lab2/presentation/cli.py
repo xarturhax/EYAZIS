@@ -16,7 +16,7 @@ def run(argv: list[str] | None = None) -> int:
             stream.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser(description="Лаба 2, вариант 36: EN/ES, PDF, три метода")
     sub = parser.add_subparsers(dest="command")
-    sub.add_parser("gui", help="Открыть окно (по умолчанию)")
+    sub.add_parser("web", help="Открыть лабораторную в браузере (по умолчанию)")
     check = sub.add_parser("evaluate", help="Обучить и сравнить методы")
     check.add_argument("--manifest", type=Path, default=DEMO_MANIFEST)
     check.add_argument("--output", type=Path, default=ROOT / "reports" / "local")
@@ -26,6 +26,11 @@ def run(argv: list[str] | None = None) -> int:
         "--pdf", type=Path, nargs="*", help="Неразмеченные PDF вместо test манифеста"
     )
     args = parser.parse_args(argv)
+    if args.command in (None, "web"):
+        from webapp.__main__ import main
+
+        main(["--lab", "2"])
+        return 0
     try:
         logs = ROOT / "logs"
         logs.mkdir(exist_ok=True)
@@ -38,11 +43,6 @@ def run(argv: list[str] | None = None) -> int:
                 )
             ],
         )
-        if args.command in (None, "gui"):
-            from .gui import launch
-
-            launch()
-            return 0
         entries = load_manifest(args.manifest)
         if args.pdf is not None:
             entries = [e for e in entries if e.split == "train"] + [

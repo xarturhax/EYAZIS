@@ -8,7 +8,7 @@ import numpy as np
 
 from lab8.application.service import SpeechService
 from lab8.domain.models import Audio, CancelledError, Settings, normalize, split_text
-from lab8.infrastructure.export import export
+from lab8.infrastructure.export import report
 
 
 class FakeEngine:
@@ -76,7 +76,9 @@ class CoreTests(unittest.TestCase):
             protected = Path(directory) / "original.txt"
             protected.write_text("Keep original source", encoding="utf-8")
             with self.assertRaises(FileExistsError):
-                export(result, Path(directory) / "original.wav")
+                SpeechService(engine).render(
+                    "Bonjour.", Settings(), Path(directory) / "original.wav"
+                )
             self.assertEqual(protected.read_text(encoding="utf-8"), "Keep original source")
             with self.assertRaises(FileExistsError):
                 SpeechService(engine).render("Bonjour.", Settings(), path)
@@ -111,15 +113,14 @@ class CoreTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             base = Path(directory)
             result = SpeechService(FakeEngine()).render(
-                "Un <script>héros</script>.", Settings(), base / "source.wav"
+                "Un <script>héros</script>.", Settings(), base / "français.wav"
             )
-            saved = export(result, base / "export" / "français.wav")
-            self.assertEqual(saved.wav_path.read_bytes(), result.wav_path.read_bytes())
-            html = saved.wav_path.with_suffix(".html").read_text(encoding="utf-8")
+            report(result)
+            html = result.wav_path.with_suffix(".html").read_text(encoding="utf-8")
             self.assertNotIn("<script>héros</script>", html)
             self.assertIn("&lt;script&gt;", html)
             self.assertIn('src="fran%C3%A7ais.wav"', html)
-            meta = json.loads(saved.wav_path.with_suffix(".json").read_text(encoding="utf-8"))
+            meta = json.loads(result.wav_path.with_suffix(".json").read_text(encoding="utf-8"))
             self.assertEqual(meta["auditory_evaluation"], "PENDING_HUMAN_LISTENING")
 
     def test_zero_volume_is_valid_silence(self):

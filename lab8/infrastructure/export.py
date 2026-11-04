@@ -1,8 +1,6 @@
 import json
-import shutil
-from dataclasses import asdict, replace
+from dataclasses import asdict
 from html import escape
-from pathlib import Path
 from urllib.parse import quote
 
 from lab8.domain.models import Result, output_paths
@@ -39,14 +37,3 @@ def report(result: Result) -> None:
         "требуют прослушивания; автоматической оценки MOS нет.</p></html>",
         encoding="utf-8",
     )
-
-
-def export(result: Result, target: Path) -> Result:
-    if any(path.exists() for path in output_paths(target)):
-        raise FileExistsError("Файл уже существует. Выберите новое имя.")
-    target.parent.mkdir(parents=True, exist_ok=True)
-    with result.wav_path.open("rb") as source, target.open("xb") as output:
-        shutil.copyfileobj(source, output)
-    saved = replace(result, wav_path=target)
-    report(saved)
-    return saved

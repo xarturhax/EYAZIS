@@ -11,12 +11,6 @@ from lab1.ir_system.reporting import metric_values, search_result_values
 CommandHandler = Callable[[Namespace, Services, TextIO], None]
 
 
-def gui_command(args: Namespace, services: Services, output: TextIO) -> None:
-    from .gui import run
-
-    run(services)
-
-
 def demo_command(args: Namespace, services: Services, output: TextIO) -> None:
     result = services.collection.import_demo()
     print(
@@ -57,7 +51,6 @@ def evaluate_command(args: Namespace, services: Services, output: TextIO) -> Non
 
 
 HANDLERS: dict[str, CommandHandler] = {
-    "gui": gui_command,
     "demo": demo_command,
     "fetch": fetch_command,
     "search": search_command,

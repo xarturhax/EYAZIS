@@ -61,7 +61,7 @@ class Workspace:
             ("lexicon.sqlite3", ROOT / "lab4/data/lexicon.sqlite3"),
         ]:
             if source.exists() and not (self.folder / target).exists():
-                # SQLite backup includes committed data even when the old GUI uses WAL.
+                # SQLite backup includes committed data even when the source database uses WAL.
                 import sqlite3
 
                 with (

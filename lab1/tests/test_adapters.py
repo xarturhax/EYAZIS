@@ -186,7 +186,7 @@ class ExportTests(unittest.TestCase):
             path = Path(directory) / "report.html"
             path.write_text("previous", encoding="utf-8")
             with patch(
-                "ir_system.infrastructure.reporting.exporter.render_html",
+                "lab1.ir_system.infrastructure.reporting.exporter.render_html",
                 side_effect=OSError("disk"),
             ):
                 with self.assertRaises(ExportError):

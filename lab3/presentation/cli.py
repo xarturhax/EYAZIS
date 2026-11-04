@@ -21,6 +21,11 @@ def main() -> int:
     evaluate.add_argument("--sentences", type=int, default=10)
     evaluate.add_argument("--keywords", type=int, default=10)
     args = parser.parse_args()
+    if args.command is None:
+        from webapp.__main__ import main as launch_web
+
+        launch_web(["--lab", "3"])
+        return 0
     try:
         configure_logging()
         if args.command == "evaluate":
@@ -31,10 +36,6 @@ def main() -> int:
                 progress=print,
             )
             print(export_report(experiment, args.output))
-        else:
-            from lab3.presentation.gui import launch
-
-            launch()
     except (OSError, ValueError) as error:
         logging.getLogger("lab3").exception("Application error")
         parser.exit(1, f"Ошибка: {error}\n")

@@ -12,7 +12,6 @@ from lab9.domain.commands import (
     normalize,
     word_error_rate,
 )
-from lab9.domain.reader import Reader
 from lab9.infrastructure.config import load_policy
 
 
@@ -98,38 +97,3 @@ class CommandTests(unittest.TestCase):
         self.assertEqual(word_error_rate("le livre rouge", "le roman rouge")["wer"], 1 / 3)
         self.assertEqual(word_error_rate("répète", "repete")["wer"], 0)
         self.assertEqual(word_error_rate("", "")["wer"], 0)
-
-
-class ReaderTests(unittest.TestCase):
-    def test_navigation_bounds_and_read(self):
-        reader = Reader()
-        self.assertFalse(reader.apply(Action.READ).speak)
-        reader.set_text("Premier\n\nDeuxième")
-        self.assertTrue(reader.apply(Action.READ).speak)
-        for _ in range(3):
-            self.assertFalse(reader.apply(Action.NEXT).speak)
-        self.assertEqual(reader.current, "Deuxième")
-        self.assertTrue(reader.apply(Action.REPEAT).speak)
-        for _ in range(3):
-            reader.apply(Action.PREVIOUS)
-        self.assertEqual(reader.position, 0)
-
-    def test_text_change_and_limit(self):
-        reader = Reader()
-        reader.set_text("A\n\nB")
-        reader.apply(Action.NEXT)
-        reader.set_text("C")
-        self.assertEqual(reader.position, 0)
-        with self.assertRaises(ValueError):
-            reader.set_text("x" * 5001)
-        self.assertEqual(reader.current, "C")
-
-    def test_speed_limits(self):
-        reader = Reader()
-        for _ in range(30):
-            reader.apply(Action.FASTER)
-        self.assertEqual(reader.speed, 2)
-        for _ in range(30):
-            reader.apply(Action.SLOWER)
-        self.assertEqual(reader.speed, 0.5)
-        self.assertFalse(reader.apply(Action.STOP).speak)

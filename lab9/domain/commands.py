@@ -5,7 +5,7 @@ from dataclasses import dataclass
 from enum import StrEnum
 from statistics import fmean
 
-LANGUAGES = {"fr": "Français · основной", "en": "English · дополнительный"}
+LANGUAGES = ("fr", "en")
 WAKE_WORDS = {"fr": "lecteur", "en": "reader"}
 
 
@@ -17,17 +17,6 @@ class Action(StrEnum):
     REPEAT = "repeat"
     FASTER = "faster"
     SLOWER = "slower"
-
-
-LABELS = {
-    Action.READ: "Читать",
-    Action.STOP: "Остановить",
-    Action.NEXT: "Следующий абзац",
-    Action.PREVIOUS: "Предыдущий абзац",
-    Action.REPEAT: "Повторить",
-    Action.FASTER: "Быстрее",
-    Action.SLOWER: "Медленнее",
-}
 
 
 def normalize(text: str) -> str:

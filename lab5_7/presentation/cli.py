@@ -63,8 +63,13 @@ def main() -> int:
     grid.add_argument("input", type=Path)
     grid.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
+    if args.command is None:
+        from webapp.__main__ import main as launch_web
+
+        launch_web(["--lab", "5"])
+        return 0
     try:
-        if args.command in (None, "status"):
+        if args.command == "status":
             for row in status():
                 print(f"{row['id']:24} {row['state']}")
             export_status(ROOT / "reports/status")

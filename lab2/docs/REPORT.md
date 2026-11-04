@@ -37,7 +37,7 @@ EN — 39 466 байт, ES — 39 355 байт, всего 78 821 байт.
 
 ```mermaid
 flowchart TD
-  GUI[GUI Tkinter] --> Service[Experiment]
+  Web[React / FastAPI] --> Service[Experiment]
   CLI[CLI argparse] --> Service
   Bootstrap[Сборка зависимостей] --> Service
   Service --> Reader[Порт DocumentReader]
@@ -161,8 +161,8 @@ Precision/Recall/F1 по каждому языку доступны в JSON, с�
 - pypdf — извлечение текста и числа страниц; OCR не выполняет.
 - scikit-learn — TfidfVectorizer и MLPClassifier.
 - NumPy/SciPy — численные операции ML; threadpoolctl — воспроизводимое ограничение потоков.
-- Matplotlib — графики, SVG/PNG, встраивание в Tkinter.
-- Tkinter/ttk — GUI, стандартная библиотека Python.
+- Matplotlib — графики, SVG/PNG для веб-отчётов.
+- React/FastAPI — общий веб-интерфейс и фоновая очередь.
 - ReportLab — только подготовка одностраничных учебных PDF.
 - truststore — HTTPS через системное хранилище доверенных сертификатов.
 - pathlib/json/csv/logging/unittest/threading/queue — стандартная библиотека.

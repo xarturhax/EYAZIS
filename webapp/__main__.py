@@ -8,14 +8,17 @@ import urllib.request
 import webbrowser
 
 
-def main() -> None:
+def main(argv: list[str] | None = None) -> None:
     for stream in (sys.stdout, sys.stderr):
         if stream is not None and hasattr(stream, "reconfigure"):
             stream.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser(description="ЕЯЗиС: лабораторные в браузере")
     parser.add_argument("--port", type=int, default=8765)
     parser.add_argument("--no-browser", action="store_true")
-    args = parser.parse_args()
+    parser.add_argument(
+        "--lab", type=int, choices=range(1, 10), help="Открыть выбранную лабораторную"
+    )
+    args = parser.parse_args(argv)
     if not 1024 <= args.port <= 65535:
         parser.error("Порт должен быть от 1024 до 65535")
     import uvicorn
@@ -23,12 +26,13 @@ def main() -> None:
     from webapp.server import create_app
 
     url = f"http://127.0.0.1:{args.port}"
+    page = url + (f"/#lab-{args.lab}" if args.lab else "")
     try:
         with urllib.request.urlopen(url + "/api/health", timeout=1) as response:
             if json.load(response).get("app") == "eyazis-web":
                 print("Приложение уже запущено:", url)
                 if not args.no_browser:
-                    webbrowser.open(url)
+                    webbrowser.open(page)
                 return
     except (OSError, ValueError):
         pass
@@ -41,7 +45,7 @@ def main() -> None:
 
         for _ in range(100):
             if server.started:
-                webbrowser.open(url)
+                webbrowser.open(page)
                 return
             if server.should_exit:
                 return

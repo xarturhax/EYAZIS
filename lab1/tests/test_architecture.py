@@ -19,25 +19,25 @@ class ArchitectureTests(unittest.TestCase):
     def test_core_has_no_adapter_dependencies(self):
         rules = {
             "domain": (
-                "ir_system.application",
-                "ir_system.infrastructure",
-                "ir_system.presentation",
+                "lab1.ir_system.application",
+                "lab1.ir_system.infrastructure",
+                "lab1.ir_system.presentation",
                 "sqlite3",
                 "tkinter",
                 "urllib.request",
                 "matplotlib",
                 "numpy",
-                "ir_system.visualization",
+                "lab1.ir_system.visualization",
             ),
             "application": (
-                "ir_system.infrastructure",
-                "ir_system.presentation",
+                "lab1.ir_system.infrastructure",
+                "lab1.ir_system.presentation",
                 "sqlite3",
                 "tkinter",
                 "urllib.request",
                 "matplotlib",
                 "numpy",
-                "ir_system.visualization",
+                "lab1.ir_system.visualization",
             ),
         }
         for layer, forbidden in rules.items():
@@ -55,7 +55,7 @@ class ArchitectureTests(unittest.TestCase):
         for path in (PROJECT_ROOT / "ir_system/presentation").rglob("*.py"):
             for module in imports(path):
                 with self.subTest(path=path.name, module=module):
-                    self.assertFalse(module.startswith("ir_system.infrastructure"))
+                    self.assertFalse(module.startswith("lab1.ir_system.infrastructure"))
                     self.assertNotIn(module, ("sqlite3", "urllib.request"))
 
     def test_main_only_delegates_startup(self):
@@ -63,4 +63,7 @@ class ArchitectureTests(unittest.TestCase):
         self.assertFalse(
             any(isinstance(node, (ast.FunctionDef, ast.ClassDef)) for node in tree.body)
         )
-        self.assertEqual(set(imports(PROJECT_ROOT / "main.py")), {"ir_system.presentation.cli"})
+        self.assertEqual(
+            set(imports(PROJECT_ROOT / "main.py")),
+            {"sys", "pathlib", "lab1.ir_system.presentation.cli"},
+        )

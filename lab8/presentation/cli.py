@@ -1,13 +1,11 @@
 import argparse
 import logging
 import sys
-import time
 from pathlib import Path
 
 from lab8.bootstrap import build_service, configure_logging
 from lab8.domain.models import Settings
 from lab8.infrastructure.export import report
-from lab8.infrastructure.player import WindowsPlayer
 from lab8.tools.download_voices import MODELS, VOICES
 
 
@@ -26,9 +24,12 @@ def main() -> int:
     speak.add_argument("--speed", type=float, default=1)
     speak.add_argument("--volume", type=float, default=0.8)
     speak.add_argument("--output", type=Path, required=True)
-    speak.add_argument("--play", action="store_true")
     args = parser.parse_args()
-    player = WindowsPlayer()
+    if args.command is None:
+        from webapp.__main__ import main as launch_web
+
+        launch_web(["--lab", "8"])
+        return 0
     try:
         configure_logging()
         if args.command == "voices":
@@ -47,20 +48,9 @@ def main() -> int:
             )
             report(result)
             print(result.wav_path)
-            if args.play:
-                player.play(str(result.wav_path.resolve()))
-                end = time.monotonic() + result.duration
-                while time.monotonic() < end:
-                    time.sleep(0.1)
-                player.stop()
-        else:
-            from lab8.presentation.gui import launch
-
-            launch()
     except (OSError, ValueError, RuntimeError) as error:
         logging.getLogger("lab8").exception("Application error")
         parser.exit(1, f"Ошибка: {error}\n")
     except KeyboardInterrupt:
-        player.stop()
-        parser.exit(130, "Воспроизведение остановлено.\n")
+        parser.exit(130, "Синтез остановлен.\n")
     return 0

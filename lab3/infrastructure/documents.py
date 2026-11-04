@@ -4,7 +4,6 @@ import hashlib
 import json
 import re
 import unicodedata
-from dataclasses import asdict
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -100,22 +99,6 @@ def read_manifest(path: Path) -> list[Source]:
     if not 1 <= len(sources) <= 100:
         raise ValueError("В корпусе должно быть от 1 до 100 документов.")
     return sources
-
-
-def save_manifest(path: Path, sources: list[Source]) -> None:
-    rows = []
-    for source in sources:
-        row = asdict(source)
-        row["path"] = str(source.path.resolve())
-        rows.append(row)
-    path.write_text(
-        json.dumps(
-            {"schema": 1, "documents": rows},
-            ensure_ascii=False,
-            indent=2,
-        ),
-        encoding="utf-8",
-    )
 
 
 def load_corpus(sources: list[Source]) -> list[Document]:

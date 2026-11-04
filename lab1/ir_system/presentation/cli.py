@@ -22,7 +22,7 @@ def create_parser(config: AppConfig) -> argparse.ArgumentParser:
     )
     parser.add_argument("--db", default=config.database, help="Путь к базе SQLite")
     commands = parser.add_subparsers(dest="command")
-    commands.add_parser("gui", help="Графический интерфейс (по умолчанию)")
+    commands.add_parser("web", help="Открыть лабораторную в браузере (по умолчанию)")
     commands.add_parser("demo", help="Добавить учебную коллекцию и разметку")
     search = commands.add_parser("search", help="Поиск в текущей коллекции")
     search.add_argument("query")
@@ -48,7 +48,12 @@ def run(
             stream.reconfigure(encoding="utf-8")
     config = AppConfig()
     args = create_parser(config).parse_args(argv)
-    command = args.command or "gui"
+    command = args.command or "web"
+    if command == "web":
+        from webapp.__main__ import main
+
+        main(["--lab", "1"])
+        return 0
     database = ":memory:" if command == "evaluate" and args.demo else args.db
     try:
         with application_runtime(replace(config, database=database)) as services:

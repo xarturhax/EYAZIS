@@ -7,7 +7,7 @@ from pypdf import PdfWriter
 
 from lab2.bootstrap import DEMO_MANIFEST, build_experiment
 from lab2.domain.models import Cancelled, CorpusEntry, LabError, Settings
-from lab2.infrastructure.corpus import load_manifest, save_manifest
+from lab2.infrastructure.corpus import load_manifest
 from lab2.infrastructure.export import export_report, render_html
 from lab2.infrastructure.neural import NeuralClassifier
 from lab2.infrastructure.pdf import PdfDocumentReader
@@ -32,12 +32,6 @@ class IntegrationTests(unittest.TestCase):
         for metrics in self.report.metrics.values():
             self.assertGreaterEqual(metrics["accuracy"], 0.75)
         self.assertEqual(len(self.report.training), 32)
-
-    def test_manifest_roundtrip(self):
-        with tempfile.TemporaryDirectory() as directory:
-            target = Path(directory) / "manifest.json"
-            save_manifest(self.entries, target)
-            self.assertEqual(load_manifest(target), self.entries)
 
     def test_pdf_unicode_and_scan_and_password(self):
         with tempfile.TemporaryDirectory() as directory:
