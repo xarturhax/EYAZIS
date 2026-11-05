@@ -7,9 +7,8 @@ import shutil
 import sys
 from pathlib import Path
 
-from lab8.bootstrap import ROOT, build_service
-from lab8.domain.models import Settings
-from lab8.infrastructure.export import metadata, report
+from lab8.logic import ROOT, Settings, build_service
+from lab8.report import metadata, report
 from lab8.tools.download_voices import MODELS
 
 CASES = (

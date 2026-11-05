@@ -12,13 +12,6 @@ htmlcov/
 .idea/
 .vscode/
 
-# Frontend dependencies and build products
-node_modules/
-.npm-cache/
-dist/
-build/
-*.tsbuildinfo
-
 # Local credentials and configuration
 .env
 .env.*
@@ -44,9 +37,12 @@ work/
 **/reports/probe/
 **/reports/cli_check/
 
-# Downloaded model weights/tools are excluded by each lab's .gitignore.
+# Downloaded model weights and tools
+models/
+vendor/
 # Personal recordings stay local.
-/lab5_7/data/raw/*.wav
+/lab5/data/raw/*.wav
+/lab5/data/raw/*.json
 
 # Operating-system files
 .DS_Store

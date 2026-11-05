@@ -3,8 +3,7 @@
 import hashlib
 import json
 
-from lab4.bootstrap import ROOT
-from lab4.infrastructure.nlp import EnglishAnalyzer
+from lab4.logic import ROOT, EnglishAnalyzer
 
 
 def main() -> None:

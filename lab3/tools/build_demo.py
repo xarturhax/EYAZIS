@@ -7,8 +7,8 @@ import ssl
 import xml.etree.ElementTree as ET
 from urllib.request import Request, urlopen
 
-from lab3.bootstrap import ROOT
-from lab3.infrastructure.documents import normalize
+from lab3.files import normalize
+from lab3.logic import ROOT
 
 BASE = ROOT / "data" / "demo"
 SOURCES = [

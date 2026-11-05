@@ -5,12 +5,17 @@ from pathlib import Path
 
 from pypdf import PdfWriter
 
-from lab2.bootstrap import DEMO_MANIFEST, build_experiment
-from lab2.domain.models import Cancelled, CorpusEntry, LabError, Settings
-from lab2.infrastructure.corpus import load_manifest
-from lab2.infrastructure.export import export_report, render_html
-from lab2.infrastructure.neural import NeuralClassifier
-from lab2.infrastructure.pdf import PdfDocumentReader
+from lab2.files import PdfDocumentReader, load_manifest
+from lab2.logic import (
+    DEMO_MANIFEST,
+    Cancelled,
+    CorpusEntry,
+    LabError,
+    NeuralClassifier,
+    Settings,
+    build_experiment,
+)
+from lab2.report import export_report, render_html
 from lab2.tests.test_domain import document
 from lab2.tools.build_demo import write_pdf
 

@@ -5,9 +5,17 @@ from unittest.mock import patch
 
 import networkx as nx
 
-from lab3.application.experiment import CancelledError, Summarizer
-from lab3.domain.ranking import CorpusStatistics, PositionalRanker, keywords, position, select
-from lab3.infrastructure.textrank import TextRank, similarity
+from lab3.logic import (
+    CancelledError,
+    CorpusStatistics,
+    PositionalRanker,
+    Summarizer,
+    TextRank,
+    keywords,
+    position,
+    select,
+    similarity,
+)
 from lab3.tests.helpers import analyzed, fixture
 
 

@@ -3,12 +3,15 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from lab4.application.translation import TranslationService
-from lab4.bootstrap import ROOT
-from lab4.domain.models import children, dictionary
-from lab4.infrastructure.export import export_report
-from lab4.infrastructure.lexicon import SqliteLexicon
-from lab4.infrastructure.nlp import EnglishAnalyzer
+from lab4.logic import (
+    ROOT,
+    EnglishAnalyzer,
+    SqliteLexicon,
+    TranslationService,
+    children,
+    dictionary,
+)
+from lab4.report import export_report
 from lab4.tests.test_core import FakeTranslator
 
 

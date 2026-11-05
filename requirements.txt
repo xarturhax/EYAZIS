@@ -1,0 +1,23 @@
+matplotlib>=3.10,<3.12
+numpy>=2,<3
+scipy>=1.14,<2
+pypdf>=6,<7
+scikit-learn>=1.5,<2
+reportlab>=4,<5
+spacy>=3.8,<3.9
+networkx>=3.4,<4
+pymupdf>=1.24,<3
+torch>=2.6,<3
+transformers>=5.20,<6
+sentencepiece>=0.2,<0.3
+sacremoses>=0.2,<0.3
+truststore>=0.10,<1
+soundfile>=0.14,<1
+sounddevice>=0.5,<1
+praat-parselmouth>=0.4.7,<0.5
+Pillow>=11,<13
+piper-tts>=1.8,<1.9
+vosk>=0.3.45,<0.4
+ruff==0.16.10
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+es_core_news_sm @ https://github.com/explosion/spacy-models/releases/download/es_core_news_sm-3.8.0/es_core_news_sm-3.8.0-py3-none-any.whl

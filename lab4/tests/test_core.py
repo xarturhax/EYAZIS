@@ -3,10 +3,18 @@ import unittest
 from dataclasses import replace
 from pathlib import Path
 
-from lab4.application.translation import CancelledError, TranslationService
-from lab4.domain.models import Analysis, Sentence, Token, children, dictionary
-from lab4.infrastructure.lexicon import SqliteLexicon
-from lab4.infrastructure.marian import MarianTranslator, split_ranges
+from lab4.logic import (
+    Analysis,
+    CancelledError,
+    MarianTranslator,
+    Sentence,
+    SqliteLexicon,
+    Token,
+    TranslationService,
+    children,
+    dictionary,
+    split_ranges,
+)
 
 
 def token(index, text, lemma, pos, head=0):
@@ -115,7 +123,7 @@ class DomainTests(unittest.TestCase):
 
 class CoverageTests(unittest.TestCase):
     def test_identical_auto_form_requires_confirmation_but_manual_can_match(self):
-        from lab4.domain.models import Entry
+        from lab4.logic import Entry
 
         entry = Entry("patient", "NOUN", 3, (("patient", 3),), ("NN",), (), "patient", "auto")
         self.assertFalse(entry.covered)

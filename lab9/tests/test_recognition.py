@@ -2,12 +2,16 @@
 
 import unittest
 
-from lab9.application.recognition import RecognitionService
-from lab9.bootstrap import DEFAULT_COMMANDS, ROOT
-from lab9.domain.commands import Action, Router
-from lab9.infrastructure.audio import load_pcm
-from lab9.infrastructure.config import load_policy
-from lab9.infrastructure.recognizer import VoskEngine
+from lab9.logic import (
+    DEFAULT_COMMANDS,
+    ROOT,
+    Action,
+    RecognitionService,
+    Router,
+    VoskEngine,
+    load_pcm,
+    load_policy,
+)
 
 
 class RealRecognitionTests(unittest.TestCase):

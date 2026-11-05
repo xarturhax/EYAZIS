@@ -3,11 +3,20 @@ import math
 import unittest
 from pathlib import Path
 
-from lab2.application.experiment import validate_corpus
-from lab2.domain.classifiers import AlphabetClassifier, ShortWordClassifier
-from lab2.domain.metrics import evaluate
-from lab2.domain.models import CorpusEntry, Document, LabError, Prediction, ResultRow, Settings
-from lab2.domain.text import normalize, words
+from lab2.logic import (
+    AlphabetClassifier,
+    CorpusEntry,
+    Document,
+    LabError,
+    Prediction,
+    ResultRow,
+    Settings,
+    ShortWordClassifier,
+    evaluate,
+    normalize,
+    validate_corpus,
+    words,
+)
 
 
 def document(text, language, split="train", source=""):

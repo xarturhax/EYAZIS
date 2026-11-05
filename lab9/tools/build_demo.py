@@ -9,15 +9,19 @@ from typing import Any
 
 import numpy as np
 import soundfile as sf
-from lab8.bootstrap import build_service as build_tts
-from lab8.domain.models import Settings
 
-from lab9.application.recognition import RecognitionService
-from lab9.bootstrap import DEFAULT_COMMANDS, ROOT
-from lab9.domain.commands import Router, word_error_rate
-from lab9.infrastructure.audio import load_pcm
-from lab9.infrastructure.config import load_policy
-from lab9.infrastructure.recognizer import VoskEngine
+from lab8.logic import Settings
+from lab8.logic import build_service as build_tts
+from lab9.logic import (
+    DEFAULT_COMMANDS,
+    ROOT,
+    RecognitionService,
+    Router,
+    VoskEngine,
+    load_pcm,
+    load_policy,
+    word_error_rate,
+)
 
 
 def main() -> None:

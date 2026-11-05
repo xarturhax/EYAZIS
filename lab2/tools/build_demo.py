@@ -17,8 +17,7 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import Paragraph, SimpleDocTemplate
 
-from lab2.bootstrap import ROOT
-from lab2.domain.text import normalize
+from lab2.logic import ROOT, normalize
 
 # Каждое произведение принадлежит только одному split; тестовые авторы также не обучающие.
 BOOKS = (

@@ -2,8 +2,7 @@ import unittest
 
 import numpy as np
 
-from lab8.domain.models import Settings
-from lab8.infrastructure.piper import PiperSynthesizer
+from lab8.logic import PiperSynthesizer, Settings
 
 
 class RealEngineTests(unittest.TestCase):

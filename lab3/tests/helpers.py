@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from lab3.domain.models import Analyzed, Document, Sentence, Source
+from lab3.logic import Analyzed, Document, Sentence, Source
 
 
 def analyzed(paragraphs: list[tuple[str, tuple[str, ...]]], language: str = "en") -> Analyzed:

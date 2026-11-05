@@ -1,18 +1,18 @@
 import unittest
 from dataclasses import replace
 
-from lab9.bootstrap import DEFAULT_COMMANDS
-from lab9.domain.commands import (
+from lab9.logic import (
+    DEFAULT_COMMANDS,
     Action,
     Command,
     Policy,
     Router,
     Utterance,
     Word,
+    load_policy,
     normalize,
     word_error_rate,
 )
-from lab9.infrastructure.config import load_policy
 
 
 def phrase(text, confidence=0.95, final=True):

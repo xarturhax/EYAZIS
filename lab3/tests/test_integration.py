@@ -8,13 +8,9 @@ from pathlib import Path
 
 import pymupdf
 
-from lab3.application.experiment import Summarizer
-from lab3.bootstrap import DEMO, ROOT
-from lab3.domain.ranking import PositionalRanker
-from lab3.infrastructure.documents import load_corpus, normalize, read_document, read_manifest
-from lab3.infrastructure.export import export_report, render
-from lab3.infrastructure.nlp import SpacyAnalyzer
-from lab3.infrastructure.textrank import TextRank
+from lab3.files import load_corpus, normalize, read_document, read_manifest
+from lab3.logic import DEMO, ROOT, PositionalRanker, SpacyAnalyzer, Summarizer, TextRank
+from lab3.report import export_report, render
 from lab3.tests.helpers import fixture
 from lab3.tests.test_ranking import FakeAnalyzer
 

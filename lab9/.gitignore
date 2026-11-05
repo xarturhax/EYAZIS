@@ -1,7 +1,0 @@
-__pycache__/
-*.pyc
-models/
-work/
-logs/
-.mypy_cache/
-.ruff_cache/

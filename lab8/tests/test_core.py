@@ -6,9 +6,8 @@ from pathlib import Path
 
 import numpy as np
 
-from lab8.application.service import SpeechService
-from lab8.domain.models import Audio, CancelledError, Settings, normalize, split_text
-from lab8.infrastructure.export import report
+from lab8.logic import Audio, CancelledError, Settings, SpeechService, normalize, split_text
+from lab8.report import report
 
 
 class FakeEngine:

@@ -8,12 +8,17 @@ from unittest.mock import patch
 import numpy as np
 import soundfile as sf
 
-from lab9.application.recognition import RecognitionService
-from lab9.bootstrap import DEFAULT_COMMANDS
-from lab9.infrastructure.audio import load_pcm
-from lab9.infrastructure.config import load_policy, save_policy
-from lab9.infrastructure.export import export_journal
-from lab9.infrastructure.recognizer import CancelledError, VoskEngine, parse_result
+from lab9.logic import (
+    DEFAULT_COMMANDS,
+    CancelledError,
+    RecognitionService,
+    VoskEngine,
+    load_pcm,
+    load_policy,
+    parse_result,
+    save_policy,
+)
+from lab9.report import export_journal
 
 
 class InfrastructureTests(unittest.TestCase):

@@ -1,1 +1,0 @@
-Deux courts essais pédagogiques originaux en français, rédigés pour tester la synthèse vocale. Ils ne sont pas des extraits des œuvres mentionnées et ne constituent pas un corpus de référence pour évaluer la prononciation.

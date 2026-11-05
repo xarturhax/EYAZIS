@@ -6,8 +6,8 @@ import tempfile
 from dataclasses import replace
 from pathlib import Path
 
-from lab4.bootstrap import ROOT, build_service
-from lab4.infrastructure.export import export_report
+from lab4.logic import ROOT, build_service
+from lab4.report import export_report
 
 
 def main() -> None:
